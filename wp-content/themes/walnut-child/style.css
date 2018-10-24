@@ -1,0 +1,61 @@
+/*
+ Theme Name:   Walnut Child
+ Theme URI:    http://ajency.in
+ Description:  A Flexible, Powerful & Beautiful WordPress Theme
+ Author:       Ajency
+ Author URI:   http://www.ajency.in
+ Template:     walnut
+ Version:      1.0.0
+ Tags:		   Responsive, Page-Builder, Drag&Drop, Clean, Modern, Corporate, Multi-Purpose, Multi-Color
+*/
+
+/*@import url("../walnut/style.css");*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+#main-wrapper.hb-stretched-layout{
+
+	background: #fff !important;
+}
+
+#main-wrapper .hb-second-light, #main-wrapper .hb-third-light {
+	background:transparent!important;
+	border:solid 2px #FFF;
+	border-color:rgba(255,255,255,0.6);
+	color:#FFF!important;
+	box-shadow:none!important;
+	padding:13px 40px!important;}
+#main-wrapper .hb-second-light:hover, #main-wrapper .hb-third-light {
+	background: #cdcdcd !important; 
+	color: #000 !important;
+	border-color:rgba(205,205,205,0.6);}
+hb-text-head {
+    font-size: 54px;
+    line-height: 1.3em;
+    margin-bottom: 0;
+    text-align: center;
+}
+body .hb-white p{ 
+	color: #fff !important;
+}
+body .box-cnt .hb-box-cont{
+	background: rgba(0, 0, 0, 0.31) !important;
+	border: 0px !important;
+	color: #fff;
+	text-align: center;
+}
+.home #main-content{
+	padding-top:0px;
+}
+
+/*@media screen and (max-width: 720px) {
+   html #logo img.retina {
+        display: inline-block!important;
+        width: auto;
+        }
+    #show-nav-menu {
+        font-size: 32px;
+        float: right;
+        display: block;
+    }
+}*/

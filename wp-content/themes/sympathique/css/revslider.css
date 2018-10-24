@@ -1,0 +1,65 @@
+/** navbar NAVIGATION VERSION **/
+
+html .tp-bullets.gyges {    
+    border: none; 
+    border-bottom: none; 
+    background: #ccc;
+    height: 6px; 
+    padding: 0; 
+    -webkit-border-radius: 0px; 
+    -moz-border-radius: 0px; 
+    border-radius: 0px; 
+    z-index: 1001;
+    position: absolute;
+    bottom: 0;
+    width: 940px !important;
+    margin-left: -470px;
+    transform: none !important;
+    height: 6px !important;
+    left: 50% !important;
+    margin-top: -6px !important;
+}
+
+html .tp-bullets.gyges:before { 
+    content: none;
+}
+
+html .tp-bullets.gyges .tp-bullet    {  
+    cursor: pointer;
+    position: relative;
+    background: #fff;
+    width: 188px;
+    height: 6px;
+    float: left;
+    -moz-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    left: auto !important;
+}
+
+.fullwidthbanner-container .tp-bullets.simplebullets.navbar .bullet.first       {   margin-left:0px !important;}
+.fullwidthbanner-container .tp-bullets.simplebullets.navbar .bullet.last        {   margin-right:0px !important;}
+
+
+html .tp-leftarrow.default {
+
+    cursor: pointer;
+    background: #393939 url(../images/slider-left-arrow.png) no-repeat 0 0;
+    width: 42px;
+    height: 43px;
+  
+}
+
+html .tp-rightarrow.default {
+
+    cursor: pointer;
+    background: #393939 url(../images/slider-right-arrow.png) no-repeat 0 0;
+    width: 42px;
+    height: 43px;
+
+}
+

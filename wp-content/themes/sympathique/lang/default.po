@@ -1,0 +1,1224 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sympathique\n"
+"POT-Creation-Date: 2013-10-09 00:57+0200\n"
+"PO-Revision-Date: 2013-10-09 00:57+0200\n"
+"Last-Translator: Madalin Tudose <deliciousthemes.com>\n"
+"Language-Team: DeliciousThemes <deliciousthemes@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../sympathique/404.php:8
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: ../sympathique/404.php:9
+msgid ""
+"Sorry, but the requested resource was not found on this site. Please try "
+"again or contact the administrator for assistance."
+msgstr ""
+
+#: ../sympathique/404.php:11
+msgid "Are you looking for something?"
+msgstr ""
+
+#: ../sympathique/archives.php:18
+msgid "Latest 15 Posts"
+msgstr ""
+
+#: ../sympathique/archives.php:34
+msgid "Posts by Category"
+msgstr ""
+
+#: ../sympathique/archives.php:41
+msgid "Posts by Month"
+msgstr ""
+
+#: ../sympathique/comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../sympathique/comments.php:17
+msgid "This post has no comments"
+msgstr ""
+
+#: ../sympathique/comments.php:17
+msgid "This post has 1 Comment"
+msgstr ""
+
+#: ../sympathique/comments.php:17
+msgid "This post has % Comments"
+msgstr ""
+
+#: ../sympathique/comments.php:36
+msgid "Comments are closed."
+msgstr ""
+
+#: ../sympathique/comments.php:53
+msgid "Name"
+msgstr ""
+
+#: ../sympathique/comments.php:54
+msgid "Email(will not be published)"
+msgstr ""
+
+#: ../sympathique/comments.php:55
+msgid "Website"
+msgstr ""
+
+#: ../sympathique/comments.php:60
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../sympathique/comments.php:61
+msgid "Leave a  Comment"
+msgstr ""
+
+#: ../sympathique/comments.php:62
+msgid "Cancel Comment"
+msgstr ""
+
+#: ../sympathique/comments.php:63
+msgid "Your Comment"
+msgstr ""
+
+#: ../sympathique/comments.php:64
+msgid "Submit Comment"
+msgstr ""
+
+#: ../sympathique/footer.php:37 ../sympathique/footer.php:79
+msgid "COPYRIGHT &copy; 2013 - SYMPATHIQUE | ALL RIGHTS RESERVED"
+msgstr ""
+
+#: ../sympathique/format-audio.php:29 ../sympathique/format-gallery.php:23
+#: ../sympathique/format-video.php:23 ../sympathique/format.php:42
+#: ../sympathique/framework/shortcodes.php:877
+msgid "No Comments &raquo;"
+msgstr ""
+
+#: ../sympathique/format-audio.php:29 ../sympathique/format-gallery.php:23
+#: ../sympathique/format-video.php:23 ../sympathique/format.php:42
+#: ../sympathique/framework/shortcodes.php:877
+msgid "1 Comment &raquo;"
+msgstr ""
+
+#: ../sympathique/format-audio.php:29 ../sympathique/format-gallery.php:23
+#: ../sympathique/format-video.php:23 ../sympathique/format.php:42
+#: ../sympathique/framework/shortcodes.php:877
+msgid "% Comments &raquo;"
+msgstr ""
+
+#: ../sympathique/format-audio.php:45 ../sympathique/format-gallery.php:35
+#: ../sympathique/format-video.php:38 ../sympathique/format.php:55
+#: ../sympathique/functions.php:1366
+msgid "Read More"
+msgstr ""
+
+#: ../sympathique/functions.php:85
+msgid "Invalid sidebar ID"
+msgstr ""
+
+#: ../sympathique/functions.php:121
+msgid "Main Menu"
+msgstr ""
+
+#: ../sympathique/functions.php:122
+msgid "Top Header Menu"
+msgstr ""
+
+#: ../sympathique/functions.php:590 ../sympathique/functions.php:657
+msgid "Update required"
+msgstr ""
+
+#: ../sympathique/functions.php:591 ../sympathique/functions.php:658
+msgid ""
+"To play the media you will need to either update your browser to a recent "
+"version or change it with a better one like Google Chrome."
+msgstr ""
+
+#: ../sympathique/functions.php:714
+#, php-format
+msgid "on %1$s at %2$s"
+msgstr ""
+
+#: ../sympathique/functions.php:714
+msgid "Edit"
+msgstr ""
+
+#: ../sympathique/functions.php:720
+msgid "<em>Your comment is awaiting moderation.</em>"
+msgstr ""
+
+#: ../sympathique/functions.php:742
+msgid "Portfolio Items"
+msgstr ""
+
+#: ../sympathique/functions.php:743
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../sympathique/functions.php:744 ../sympathique/functions.php:775
+#: ../sympathique/functions.php:804 ../sympathique/functions.php:833
+msgid "Add New"
+msgstr ""
+
+#: ../sympathique/functions.php:745
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../sympathique/functions.php:746
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../sympathique/functions.php:747
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../sympathique/functions.php:748
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ../sympathique/functions.php:749
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: ../sympathique/functions.php:750
+msgid "No projects found"
+msgstr ""
+
+#: ../sympathique/functions.php:751
+msgid "No projects found in Trash"
+msgstr ""
+
+#: ../sympathique/functions.php:752
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: ../sympathique/functions.php:753
+msgid "Portfolio"
+msgstr ""
+
+#: ../sympathique/functions.php:773
+msgid "Services Items"
+msgstr ""
+
+#: ../sympathique/functions.php:774
+msgid "Services Item"
+msgstr ""
+
+#: ../sympathique/functions.php:776
+msgid "Add New Services Item"
+msgstr ""
+
+#: ../sympathique/functions.php:777
+msgid "Edit Services Item"
+msgstr ""
+
+#: ../sympathique/functions.php:778
+msgid "New Services Item"
+msgstr ""
+
+#: ../sympathique/functions.php:779
+msgid "View Services Item"
+msgstr ""
+
+#: ../sympathique/functions.php:780
+msgid "Search Services Items"
+msgstr ""
+
+#: ../sympathique/functions.php:781
+msgid "No service found"
+msgstr ""
+
+#: ../sympathique/functions.php:782
+msgid "No service found in Trash"
+msgstr ""
+
+#: ../sympathique/functions.php:783
+msgid "Parent Service:"
+msgstr ""
+
+#: ../sympathique/functions.php:784 ../sympathique/functions.php:966
+msgid "Services"
+msgstr ""
+
+#: ../sympathique/functions.php:788
+msgid "Add Your Services Items"
+msgstr ""
+
+#: ../sympathique/functions.php:802 ../sympathique/functions.php:998
+msgid "Team Members"
+msgstr ""
+
+#: ../sympathique/functions.php:803
+msgid "Team Member"
+msgstr ""
+
+#: ../sympathique/functions.php:805
+msgid "Add New Team Member"
+msgstr ""
+
+#: ../sympathique/functions.php:806
+msgid "Edit Team Member"
+msgstr ""
+
+#: ../sympathique/functions.php:807
+msgid "New Team Member"
+msgstr ""
+
+#: ../sympathique/functions.php:808
+msgid "View Team Member"
+msgstr ""
+
+#: ../sympathique/functions.php:809
+msgid "Search Through Team Members"
+msgstr ""
+
+#: ../sympathique/functions.php:810
+msgid "No members found"
+msgstr ""
+
+#: ../sympathique/functions.php:811
+msgid "No members found in Trash"
+msgstr ""
+
+#: ../sympathique/functions.php:812
+msgid "Parent Team Member:"
+msgstr ""
+
+#: ../sympathique/functions.php:813
+msgid "Team"
+msgstr ""
+
+#: ../sympathique/functions.php:817
+msgid "Add a team member"
+msgstr ""
+
+#: ../sympathique/functions.php:831 ../sympathique/functions.php:842
+msgid "Testimonials"
+msgstr ""
+
+#: ../sympathique/functions.php:832
+msgid "Testimonial"
+msgstr ""
+
+#: ../sympathique/functions.php:834
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../sympathique/functions.php:835
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../sympathique/functions.php:836
+msgid "New Testimonial"
+msgstr ""
+
+#: ../sympathique/functions.php:837
+msgid "View Testimonial"
+msgstr ""
+
+#: ../sympathique/functions.php:838
+msgid "Search Through Testimonials"
+msgstr ""
+
+#: ../sympathique/functions.php:839
+msgid "No testimonials found"
+msgstr ""
+
+#: ../sympathique/functions.php:840
+msgid "No testimonials found in Trash"
+msgstr ""
+
+#: ../sympathique/functions.php:841
+msgid "Parent Testimonial:"
+msgstr ""
+
+#: ../sympathique/functions.php:846
+msgid "Add a Testimonial"
+msgstr ""
+
+#: ../sympathique/functions.php:868
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../sympathique/functions.php:869
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../sympathique/functions.php:870
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: ../sympathique/functions.php:871
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: ../sympathique/functions.php:872
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: ../sympathique/functions.php:873
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: ../sympathique/functions.php:874
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: ../sympathique/functions.php:875
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: ../sympathique/functions.php:876
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: ../sympathique/functions.php:877
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: ../sympathique/functions.php:878
+msgid "Choose from the most used portfolio categories"
+msgstr ""
+
+#: ../sympathique/functions.php:916
+msgid "Service Item ID!"
+msgstr ""
+
+#: ../sympathique/functions.php:920
+msgid "Team Member ID!"
+msgstr ""
+
+#: ../sympathique/functions.php:924
+msgid "Testimonial ID!"
+msgstr ""
+
+#: ../sympathique/functions.php:940
+msgid "Get the shortcode code to display the service item on another page!"
+msgstr ""
+
+#: ../sympathique/functions.php:947
+msgid "Get the shortcode code to display the team member on another page!"
+msgstr ""
+
+#: ../sympathique/functions.php:954
+msgid "Get the shortcode code to display the testimonial on another page!"
+msgstr ""
+
+#: ../sympathique/functions.php:967 ../sympathique/functions.php:999
+#: ../sympathique/functions.php:1031
+msgid "Embed Code"
+msgstr ""
+
+#: ../sympathique/functions.php:968 ../sympathique/functions.php:1000
+#: ../sympathique/functions.php:1032
+msgid "Date"
+msgstr ""
+
+#: ../sympathique/functions.php:1030
+msgid "testimonials"
+msgstr ""
+
+#: ../sympathique/functions.php:1166 ../sympathique/single-portfolio.php:60
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../sympathique/functions.php:1197 ../sympathique/functions.php:1258
+#: ../sympathique/framework/widgets/widget-recent-posts.php:24
+msgid "No Comments"
+msgstr ""
+
+#: ../sympathique/functions.php:1198 ../sympathique/functions.php:1260
+#: ../sympathique/framework/widgets/widget-recent-posts.php:24
+msgid "1 Comment"
+msgstr ""
+
+#: ../sympathique/functions.php:1199 ../sympathique/functions.php:1256
+#: ../sympathique/framework/widgets/widget-recent-posts.php:24
+msgid "% Comments"
+msgstr ""
+
+#: ../sympathique/functions.php:1200
+msgid "Comments Off"
+msgstr ""
+
+#: ../sympathique/functions.php:1212
+msgid "Enter your password to view comments."
+msgstr ""
+
+#: ../sympathique/functions.php:1239
+#, php-format
+msgid "Comment on %s"
+msgstr ""
+
+#: ../sympathique/functions.php:1326
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:164
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../sympathique/functions.php:1327
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:165
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr ""
+
+#: ../sympathique/functions.php:1328
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:166
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../sympathique/functions.php:1329
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../sympathique/functions.php:1340
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:178
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:490
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:178
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../sympathique/functions.php:1341
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:179
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1846
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:179
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../sympathique/functions.php:1342
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../sympathique/search.php:47
+msgid ""
+"Sorry, but the requested resource was not found on this site. Try another "
+"search:"
+msgstr ""
+
+#: ../sympathique/search.php:74
+msgid ""
+"Sorry, but the requested resource was not found on this site. Try another "
+"search."
+msgstr ""
+
+#: ../sympathique/searchform.php:2
+msgid "Search..."
+msgstr ""
+
+#: ../sympathique/single-portfolio.php:76
+msgid "PROJECT PHOTOS"
+msgstr ""
+
+#: ../sympathique/single.php:20
+msgid "Tags: "
+msgstr ""
+
+#: ../sympathique/single.php:27
+msgid "Share this post: "
+msgstr ""
+
+#: ../sympathique/single.php:48
+msgid "Author: "
+msgstr ""
+
+#: ../sympathique/single.php:65
+msgid "Sorry, no posts matched your criteria. "
+msgstr ""
+
+#: ../sympathique/template-blog.php:88
+msgid "Not Found"
+msgstr ""
+
+#: ../sympathique/template-blog.php:89
+msgid "Sorry, but the requested resource was not found on this site."
+msgstr ""
+
+#: ../sympathique/framework/breadcrumbs.php:12
+msgid "Home"
+msgstr ""
+
+#: ../sympathique/framework/breadcrumbs.php:107
+msgid " Page"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:6
+msgid "Row"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:11
+#: ../sympathique/framework/extend-composer.php:35
+#: ../sympathique/framework/extend-composer.php:58
+#: ../sympathique/framework/extend-composer.php:80
+#: ../sympathique/framework/extend-composer.php:103
+#: ../sympathique/framework/extend-composer.php:144
+#: ../sympathique/framework/extend-composer.php:175
+#: ../sympathique/framework/extend-composer.php:206
+#: ../sympathique/framework/extend-composer.php:238
+#: ../sympathique/framework/extend-composer.php:269
+#: ../sympathique/framework/extend-composer.php:355
+#: ../sympathique/framework/extend-composer.php:377
+#: ../sympathique/framework/extend-composer.php:411
+msgid "Content"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:15
+msgid "Extra class name"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:17
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:21
+msgid "Extra ID name"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:23
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add an ID name and then refer to it in your css file."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:31
+msgid "Space"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:42
+msgid "Set the height of the space."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:45
+msgid "You can add white space between elements to separate them beautifully."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:54
+msgid "Social Block"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:65
+msgid "Title before the social block (optional)"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:67
+msgid ""
+"If you want to set a title for the social block, add it above. Something "
+"like 'Share this post' will work very well. Icons included in the social "
+"block: twitter, facebook, pinterest, google+, delicious and linkedin."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:76
+msgid "Blog Grid"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:87
+msgid "Number of Blog Posts to Display"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:90
+msgid ""
+"Set how many blog items would you like to include in the grid. The grid is "
+"built using the masonry style."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:99
+msgid "Portfolio Grid"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:109
+msgid "Grid Title"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:112
+msgid "Set a title for the grid."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:119
+#: ../sympathique/framework/extend-composer.php:160
+#: ../sympathique/framework/extend-composer.php:191
+msgid "Number of Items to Display"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:122
+msgid "Set how many portfolio items would you like to include in the grid."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:129
+msgid "Categories"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:132
+msgid ""
+"Add on each line portfolio categories. Posts will be displayed only from "
+"within categories you choose. If empty, all will be included."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:140
+msgid "Portfolio Carousel"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:150
+#: ../sympathique/framework/extend-composer.php:181
+msgid "Carousel Title"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:153
+#: ../sympathique/framework/extend-composer.php:184
+msgid "Set a title for the carousel."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:163
+msgid "Set how many portfolio items would you like to include in the carousel."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:171
+msgid "Blog Posts Carousel"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:194
+msgid "Set how many blog items would you like to include in the carousel."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:202
+msgid "List"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:212
+msgid "Icon Name"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:215
+msgid ""
+"Please set an icon for the custom list. The entire list of icons can be "
+"found at <a href='http://fortawesome.github.io/Font-Awesome/icons/' "
+"target='_blank'>FontAwesome project page</a>. For example, if an icon is "
+"named 'icon-angle-right', the value you have to add inside the field is "
+"'angle-right'."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:222
+msgid "List Rows"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:225
+msgid "Create your list using the WordPress default functionality."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:234
+msgid "Clients"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:244
+msgid "Title"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:247
+msgid "Set a title for the clients block."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:254
+msgid "Upload Images"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:257
+msgid "Upload the images for your clients."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:265
+#: ../sympathique/framework/extend-composer.php:275
+msgid "Shortcode Carousel"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:278
+msgid ""
+"Add your shortcodes, one on each line, to generate a carousel. This widget "
+"is perfect for creating carousels based on testimonials, services or team "
+"members. "
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:282
+msgid "Time between slides(in milliseconds)"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:285
+msgid ""
+"Set the time for which a carousel item is visible. To set a time to 7 "
+"seconds, the value you need to use is 7000. "
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:351
+msgid "Pricing Table"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:361
+msgid "Pricing Table Example"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:364
+msgid ""
+"This is an example of a pricing table with 4 columns. Edit it and make it "
+"your own."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:373
+msgid "Tagline"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:383
+msgid "Tagline First Line"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:386
+msgid ""
+"Add your tagline first line. Usually, it says who you are and what you do."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:392
+msgid "Tagline Second Line(s)"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:395
+msgid "More about who you are and what you do."
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:407
+msgid "Countdown"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:417
+msgid "Countdown Date"
+msgstr ""
+
+#: ../sympathique/framework/extend-composer.php:420
+msgid ""
+"Add a future date so that the countdown can start. The format should be like "
+"'January 1, 2014 00:00:00'"
+msgstr ""
+
+#: ../sympathique/framework/navigation.php:27
+msgid "First"
+msgstr ""
+
+#: ../sympathique/framework/navigation.php:28
+msgid "Previous"
+msgstr ""
+
+#: ../sympathique/framework/navigation.php:38
+msgid "Next"
+msgstr ""
+
+#: ../sympathique/framework/navigation.php:39
+msgid "Last"
+msgstr ""
+
+#: ../sympathique/framework/shortcodes.php:554
+#: ../sympathique/includes/page-title.php:66
+msgid "All"
+msgstr ""
+
+#: ../sympathique/framework/admin/classes/class.options_machine.php:725
+msgid "Last Backup : "
+msgstr ""
+
+#: ../sympathique/framework/admin/front-end/options.php:43
+#: ../sympathique/framework/admin/front-end/options.php:67
+msgid "Save All Changes"
+msgstr ""
+
+#: ../sympathique/framework/admin/front-end/options.php:68
+msgid "Options Reset"
+msgstr ""
+
+#: ../sympathique/framework/meta/my-meta-box-class.php:424
+#: ../sympathique/framework/meta/my-meta-box-class.php:463
+#: ../sympathique/framework/meta/my-meta-box-class.php:1960
+msgid "Remove"
+msgstr ""
+
+#: ../sympathique/framework/meta/my-meta-box-class.php:436
+msgid "Add"
+msgstr ""
+
+#: ../sympathique/framework/meta/my-meta-box-class.php:790
+msgid "Select a color"
+msgstr ""
+
+#: ../sympathique/framework/meta/my-meta-box-class.php:1823
+#: ../sympathique/framework/meta/my-meta-box-class.php:1831
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr ""
+
+#: ../sympathique/framework/meta/my-meta-box-class.php:1995
+msgid "Remove me"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:167
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:180
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:517
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:2058
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:517
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:545
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:704
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1091
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1096
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1099
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1103
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1106
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1106
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1109
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1111
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1281
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1297
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1298
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1299
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1300
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1318
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1319
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1829
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1830
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1831
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1832
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1833
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1834
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1845
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1955
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1956
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1956
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1965
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1956
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1956
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1965
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1956
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1957
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1958
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1962
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1963
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1964
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1965
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1966
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../sympathique/framework/plugins/class-tgm-plugin-activation.php:1967
+#: ../sympathique-child/framework/plugins/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-contact.php:24
+msgid "Address: "
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-contact.php:25
+msgid "Phone: "
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-contact.php:26
+msgid "E-mail: "
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-contact.php:52
+#: ../sympathique/framework/widgets/widget-recent-posts.php:47
+msgid "Title: "
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-contact.php:56
+msgid "Address:"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-contact.php:60
+msgid "Phone:"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-contact.php:64
+msgid "Email:"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-flickr.php:65
+#: ../sympathique/framework/widgets/widget-twitter.php:214
+msgid "Title:"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-flickr.php:69
+msgid "Number of Pics to Show:"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-flickr.php:73
+msgid "Your Flickr ID:"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-flickr.php:78
+msgid "Optional - Display only pictures under a tag(name a tag):"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-recent-posts.php:51
+msgid "Number of Posts to Show:"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-twitter.php:34
+msgid "A widget that displays your latest tweets."
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-twitter.php:144
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-twitter.php:146
+msgid "Y/m/d"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-twitter.php:148
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-twitter.php:148
+msgid "Y/m/d H:i:s"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-twitter.php:220
+msgid "Twitter Username"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-twitter.php:226
+msgid "Number of tweets"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-twitter.php:232
+msgid "Consumer Key"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-twitter.php:238
+msgid "Consumer Secret"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-twitter.php:244
+msgid "Access Token"
+msgstr ""
+
+#: ../sympathique/framework/widgets/widget-twitter.php:250
+msgid "Access Token Secret"
+msgstr ""
+
+#: ../sympathique/includes/page-title.php:4
+msgid "Blog"
+msgstr ""
+
+#: ../sympathique/includes/page-title.php:85
+msgid "Category: "
+msgstr ""
+
+#: ../sympathique/includes/page-title.php:88
+msgid "Tag: "
+msgstr ""
+
+#: ../sympathique/includes/page-title.php:91
+#: ../sympathique/includes/page-title.php:94
+#: ../sympathique/includes/page-title.php:97
+msgid "Archive: "
+msgstr ""
+
+#: ../sympathique/includes/page-title.php:100
+msgid "Author Archive: "
+msgstr ""
+
+#: ../sympathique/includes/page-title.php:103
+msgid "Projects: "
+msgstr ""
+
+#: ../sympathique/includes/page-title.php:106
+msgid "Blog Archives: "
+msgstr ""
+
+#: ../sympathique/includes/page-title.php:113
+msgid "Search Results for: "
+msgstr ""
+
+#: ../sympathique/includes/related-portfolio-posts.php:18
+msgid "RELATED PROJECTS"
+msgstr ""
+
+#: ../sympathique/includes/subheader-page.php:70
+#: ../sympathique/includes/subheader.php:85
+msgid "You are here: "
+msgstr ""

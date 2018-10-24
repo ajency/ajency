@@ -1,0 +1,26 @@
+.textdata {
+	padding: 8px 0;
+	position: relative;
+	&--br:before, &--bl:before {
+		content: '';
+		background: @line-grey-2;
+		position: absolute;
+		right: -25px;
+		top: 20px;
+		bottom: 10px;
+		width: 1px;
+	}
+	&--bl {
+		// border-left: 1px solid @line-grey-2;
+		right: auto;
+		left: -25px;
+	}
+	&__row {
+		padding: 10px 6px;
+		border-bottom: 1px solid @line-grey-2;
+		line-height: 1.7;
+		&--min64 {
+			min-height: 64px;
+		}
+	}
+}

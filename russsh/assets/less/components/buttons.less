@@ -1,0 +1,53 @@
+.rubtn {
+	display: inline-block;
+	text-transform: uppercase;
+	border-radius: 3px;
+	padding: 10px;
+	text-align: center;
+	background: @gray1;
+	color: #fff;
+	font-weight: 500;
+	&--link {
+		background: transparent;
+		color: @titletext;
+		&:hover {
+			background: @line-grey-3;
+		}
+	}
+	&--orange {
+		background: @orange;
+		&:hover {
+			background: desaturate(darken(@orange, 5%), 3%);
+		}
+	}
+	&--default {
+		background: @label-grey;
+		&:hover {
+			background: desaturate(darken(@label-grey, 5%), 3%);
+		}
+	}
+	&--dark-orange {
+		background: @dark-orange;
+		&:hover {
+			background: desaturate(darken(@dark-orange, 5%), 3%);
+		}
+	}
+	&--red {
+		background: @red;
+		&:hover {
+			background: desaturate(darken(@red, 5%), 3%);
+		}
+	}
+	&--blue {
+		background: @blue;
+		&:hover {
+			background: desaturate(darken(@blue, 5%), 3%);
+		}
+	}
+	&--green {
+		background: @green;
+		&:hover {
+			background: desaturate(darken(@green, 5%), 3%);
+		}
+	}
+}

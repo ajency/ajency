@@ -1,0 +1,79 @@
+@gray1: #E9ECF3;
+@gray-text: #B5B5B5;
+@gray-dark: #615d5d;
+@gray-light: #e0e0e0;
+
+@white: #ffffff;
+@black: #000000;
+
+// main colors
+@brand-primary: #5899d0;
+
+// text colors
+@bodytext: #797979;
+@titletext: #424242;
+@placeholder: #a9a9a9;
+
+// line colors
+@line-grey-1: #cccccc;
+@line-grey-2: #eaeaea; // lighter than @line-grey-1
+@line-grey-3: #d6dce4;
+
+// status colors
+@blue: #5899d0;
+@green: #7dd321;
+@red: #e84a4a;
+@orange: #faa300;
+@dark-orange: #ed846a;
+
+//filters
+@filter-purple: #A488D6;
+@filter-orange: #FC855F;
+@filter-green: #76C7AC;
+
+// backgrounds
+@label-grey: #999999;
+@mainbg: #e9ecf3;
+
+// fonts
+@fontmain: 'Ubuntu', sans-serif;
+// @fontmain: 'Roboto', sans-serif;
+// @fontmain: 'Helvetica', sans-serif;
+@font-bold: 500;
+
+@base-font-size: 13px;
+@h1: 48px;
+@h2: 32px;
+@h3: 28px;
+@h4: 22px;
+@h5: 16px;
+@h6: 14px;
+
+
+// dimesion setters
+@common-p: 16px;
+@base-margin: 4px;
+
+// card - .rucard
+@rucard-padding: 18px;
+
+// locations with circle
+@location-padding-left: 28px;
+
+
+// mixins
+.font-16() {
+	// font-size: @h5;
+	// line-height: 20px;
+	// @media screen and (max-width: 1440px) {
+		font-size: @h5 - 2;
+		line-height: 18px;
+	// }
+}
+
+.posall(@top, @rt, @btm, @lt) {
+	top: @top;
+	left: @lt;
+	right: @rt;
+	bottom: @btm;
+}

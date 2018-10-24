@@ -1,0 +1,341 @@
+/* Home Page */
+@import "../../../bower_components/bootstrap/less/bootstrap.less";
+@import "./components/my_site/bootstrap_overrides.less";
+@import "./components/my_site/content.less";
+@import "./components/my_site/sprite.less";
+@import "../../bower_components/jquery.tagsinput/src/jquery.tagsinput.css";
+@import "../../bower_components/nouislider/distribute/nouislider.min.css";
+@import "../../bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css";
+@import "./components/my_site/form.less";
+@import "./components/my_site/profile-meter.less";
+@import "./components/my_site/tags.less";
+.button__container{
+      display: inline-table;
+      text-align: center;
+      .button__group--radio {
+        display: block;
+        margin-top: 10px;
+        text-align: left;
+    }
+    h5{
+      .m-0;
+    }
+}
+
+.tips-icon{
+    float: left;
+    font-size: 30px !important;
+    margin-right: 12px;
+    @media (max-width: @screen-xs-min) {
+      float: none;
+    }
+}
+
+.event-icon{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+.main-title{
+  margin-bottom: 30px;
+}
+
+.form-group{
+    margin-bottom:40px;
+}
+#create-project{
+  hr {
+    border-top: 2px solid #eeeeee;
+
+  }
+}
+
+
+.control {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  line-height: 27px;
+   input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  @media (max-width: @screen-xs-min) {
+    text-align: left;
+  }
+}
+
+.control__indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #e6e6e6;
+}
+.control--radio .control__indicator {
+  border-radius: 50%;
+}
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+  background: #ccc;
+}
+.control input:checked ~ .control__indicator {
+  background: @brand-primary;
+}
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+  background:  @brand-primary;
+}
+.control input:disabled ~ .control__indicator {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control__indicator:after {
+  display: block;
+}
+.control--checkbox .control__indicator:after {
+  left: 8px;
+  top: 4px;
+  width: 3px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.control--radio .control__indicator:after {
+  left: 7px;
+  top: 7px;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #fff;
+}
+.control--radio input:disabled ~ .control__indicator:after {
+  background: #7b7b7b;
+}
+
+/* Range Slider */
+.noUi-connect {
+    background: @brand-primary;
+  }
+
+
+.noUi-horizontal {
+    height: 11px;
+  .noUi-handle {
+        border-radius: 100%;
+        width: 30px !important;
+        height: 30px !important; 
+        top: -12px;
+
+  }
+  .noUi-handle:before {
+      left: 11px;
+  }
+  .noUi-handle:after {
+      left: 15px;
+  }
+}
+.noUi-handle-count{
+  padding: 20px 0px;
+  input{
+        border-bottom: 1px solid @brand-primary !important;
+        border: 0px;
+        width: 10%;
+        @media (max-width: @screen-xs-min) {
+          width:30%;
+        }
+  }
+}
+
+/* Tabs */
+.create-tab{
+      .nav-tabs{
+        border: 0px;
+        @media (max-width: @screen-xs-min) {
+              white-space: nowrap;
+              overflow-x: auto;
+              overflow-y: hidden;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              height: 60px;
+
+          }
+        li{
+              margin-right: 20px;
+          a{
+            border-radius: 5px;
+            padding: 15px 20px; 
+            color: @gray;
+            .medium;
+          }
+
+        }
+         .active {
+          a{
+            border: 1px solid @brand-primary !important;
+            color: @brand-primary!important;
+          }
+          .arrow_box {
+            position: relative;
+          }
+          .arrow_box:after, .arrow_box:before {
+            top: 100%;
+            left: 65%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+          }
+
+          .arrow_box:after {
+            border-color: rgba(136, 183, 213, 0);
+            border-top-color: #f5f5f5;
+            border-width: 7px;
+            margin-left: -30px;
+          }
+          .arrow_box:before {
+            border-color: rgb(255, 255, 255);
+            border-top-color: @brand-primary;
+            border-width: 9px;
+            margin-left: -32px;
+          }
+        }
+      }
+}
+
+
+/* Button-group */
+.btn-group{
+      @media (max-width: @screen-xs-min) {
+            white-space: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            margin: 15px 0;
+      }
+     .btn {
+          box-shadow: none;
+           .normal;
+
+     }
+    .bg{
+      background: lighten(@gray-light, 30%);
+      width: 60px;
+      height: 60px;
+      border-radius: 100%;
+      padding: 9px;
+      margin: 10px auto;
+      }
+    .active{
+      .bg{
+        background: @brand-primary;
+      }
+      color: @brand-primary;
+    }
+}
+
+/* Mobile */
+@media (max-width: @screen-xs-min) {
+  .form-group{
+    text-align: left;
+  }
+  .mm-slideout {
+    z-index: inherit;
+  }
+}
+
+
+/* Right Menu */
+.right-menu{
+      background: inherit;
+      .list-group-item{
+        padding: 10px 3px;
+        background: @body-bg;
+        border: 0px;
+        border-bottom: 1px solid #ccc !important;
+        margin-bottom:0px;
+      }
+      .activited.list-group-item:after{
+        content: "\f058";
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        color: green;
+        padding: 0 6px 0 0;
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        font-size: 20px;
+      }
+      .well{
+        border: 0px;
+        padding: 20px 0px;
+        li{
+              margin: 15px 0px;
+        }
+        .active{
+         h4{
+            color: @brand-primary;
+          }
+        }
+      }
+}
+
+/* Square button */
+.square-group{
+    .btn{
+          margin: 7px;
+          width: 100px;
+          height: 100px;
+          border: 1px solid #ccc;
+          background: #c4c4c4;
+          color: white;
+          transition: all 0.5s ease;
+          border-radius: 3% !important;
+          i{
+            margin: auto;
+          }
+    }
+    .active{
+          background: @brand-primary
+         
+        }
+}
+
+/* Band Member */
+.list-member{
+  .btn{
+        border: 1px solid #ccc;
+        border-radius: 5px !important;
+        padding: 20px;
+        margin: 5px 10px;
+       
+
+  }
+}
+
+table{
+  th{
+       border-bottom: 1px solid #ddd!important;
+  }
+}

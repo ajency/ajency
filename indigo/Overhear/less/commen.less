@@ -1,0 +1,80 @@
+// Include all of bootstrap
+@import "../../../bower_components/bootstrap/less/bootstrap.less";
+
+@import "../../bower_components/jQuery.mmenu/dist/css/jquery.mmenu.all.css";
+
+//  overrides to bootstrap
+@import "./components/my_site/bootstrap_overrides.less";
+@import "./components/my_site/home-header.less";
+@import "./components/my_site/testimonials.less";
+@import "./components/my_site/footer.less";
+@import "./components/my_site/social-icon.less";
+@import "./components/my_site/mmenu.less";
+
+/* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
+
+
+.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+
+
+
+/*# sourceMappingURL=home-market.css.map */
+
+ @media(max-width:768px) {
+
+
+.header,
+.content
+{
+  text-align: center;
+}
+.header
+{
+  background: @brand-secondry;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 40px;
+
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  width: 100%;
+  height: 40px;
+  padding: 0 50px;
+}
+.header.fixed
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.footer.fixed
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.header .menu-icon
+{
+  background: center center no-repeat transparent;
+  background-image: url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi/P//PwOtARMDHQBdLGFBYtMq3BiHT3DRPU4YR4NrNAmPJuHRJDyahEeT8Ii3BCDAAF0WBj5Er5idAAAAAElFTkSuQmCC );
+
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.content
+{
+  padding: 40px 0px 50px 0px;
+  background: @body-bg;
+}
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: --> 
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="960pt" height="540pt" viewBox="0 0 960 540" enable-background="new 0 0 960 540" xml:space="preserve">
+<style type="text/css">
+		path:hover{
+			fill:#373737 !important;
+			opacity:0.7;
+			transform: scale(.99, .99);
+			cursor:pointer;
+		}
+			path{
+			-webkit-transition:1s ease-in-out ;
+			opacity:0;
+
+		}
+		.unit_filter {
+	opacity: .5;
+	-webkit-animation: unit_filter 0.6s;
+}
+
+@-webkit-keyframes unit_filter {
+	0% {
+		-webkit-transform: translateX(100px) translateY(100px) scale(0);
+	}
+	100% {
+		-webkit-transform: translateX(0) translateY(0) scale(1);
+	}
+}
+		<!-- .filter{
+			fill:#28bead;
+			 animation: ufo-big .3s ease infinite;
+		}
+		@keyframes ufo-big {
+			  0%        {opacity: 0}
+			  15%, 70%  {opacity: .6}
+			  85%, 100% {opacity: 0}
+			} -->
+
+</style>
+<image overflow="visible" width="960" height="540" xlink:href="Slide_1.jpg"  >
+	</image>
+
+
+	<g  id="FRAME_0"  fill-rule="evenodd">
+		<animate id="A_0" attributeName="visibility" attributeType="CSS" values="visible" dur="0.083333s" begin="0.0s;A_9.end"/>
+		<path 
+		 d="M481.250000,243.350006 L367.250000,212.250000 L364.500000,138.000000 L364.500000,134.600006 L481.350006,156.250000 L612.599976,132.250000 L609.349976,208.750000 L481.250000,243.350006 M520.099976,249.350006 Q517.250000,249.250000 518.849976,246.350006 Q523.250000,245.750000 520.099976,249.350006 "/>
+	</g>
+
+	<g  id="FRAME_0"  fill-rule="evenodd">
+		<animate id="A_0" attributeName="visibility" attributeType="CSS" values="visible" dur="0.083333s" begin="0.0s;A_9.end"/>
+		<path class="unit_filter"
+		 d="M481.250000,326.000000 L370.250000,286.250000 L367.250000,215.750000 L367.250000,212.250000 L481.250000,243.500000 L609.500000,208.750000 L606.250000,281.750000 L481.250000,326.000000 "/>
+	</g>
+
+
+		<g  id="FRAME_9" fill-rule="evenodd">
+		<animate id="A_9" attributeName="visibility" attributeType="CSS" values="visible" dur="0.083333s" begin="A_8.end"/>
+		<path 
+		 d="M520.099976,249.350006 Q517.250000,249.250000 518.849976,246.350006 Q523.250000,245.750000 520.099976,249.350006 M481.100006,403.850006 L372.750000,356.350006 L370.000000,286.350006 L370.250000,286.000000 L481.100006,325.850006 L606.250000,281.600006 L603.250000,351.000000 L481.100006,403.850006 "/>
+	</g>
+	<!-- 	<g  id="FRAME_1"  fill-rule="evenodd">
+		<animate id="A_1" attributeName="visibility" attributeType="CSS" values="visible" dur="0.083333s" begin="A_0.end"/>
+		<path style="fill:rgb(255,255,255);opacity:1;stroke-width:0"
+		 d="M360.600006,130.350006 L494.750000,111.599998 L496.600006,111.599998 L620.349976,128.600006 L610.349976,353.500000 L484.600006,408.600006 L369.000000,357.500000 L360.600006,130.350006 "/>
+	</g> -->
+
+</svg>

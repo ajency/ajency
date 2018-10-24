@@ -1,0 +1,1657 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jquery.pep demo - constrained objects</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- Load local jQuery.  -->
+    <script src="../libs/jquery/jquery.js"></script>
+
+    <!-- Load local lib and tests. -->
+    <script src="../src/jquery.pep.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.peppable').pep({  constrainTo: 'parent' });
+        $('.peppable2').pep({ constrainTo: 'window' });
+        $('.peppable3').pep({ constrainTo: 'window' });
+        $('.peppable4').pep({ constrainTo: 'parent' });
+        $('#z').on('input change', function(){
+          var z = $('#z').val();
+          
+          $('.scene').css({'transform':'rotateX(78deg) rotateZ('+z+'deg) rotateY(-180deg)'});
+
+          $('label[for="z"]').html('36O View: '+z+'&deg;'); 
+});
+
+        $("#sub").click(function() {
+            var input = $("#t2").val(); 
+            $('svg').attr('width', input);
+            
+              
+            var input1 = $("#z2").val(); 
+            $('svg').attr('height', input1);
+           
+   $('#tridiv').css({'top':'-70px'});
+   $('.peppable').css({'top': '60px'});
+
+//    var mySecondDiv=$('<div id="mySecondDiv">' + input1 + '</div>');
+// $('.box').append(mySecondDiv);
+         });
+});
+    </script>
+
+  <script type="text/javascript">
+ function round_it1(c){
+    if( c==0 )
+       return parseFloat(String(c));
+    if( !c || c=="")
+          return "";
+    x1=6;
+    x_max1=Math.pow(10,x1);   
+    if( Math.abs(parseFloat(c)) < parseFloat(1/x_max1) ){  
+      var c=new Number(c);
+      return c.toExponential(x1);
+      } 
+    if( c > 100000 ){ 
+      var c=new Number(c); 
+      return c.toExponential(c); 
+      } 
+    num=Math.round(c*x_max1); 
+    return parseFloat(num/x_max1); 
+ } 
+
+
+ var active_obj1=false;
+ function convert1(ut1){  
+    if( ut1 ) 
+      active_obj1=ut1; 
+    else 
+      ut1=active_obj1; 
+
+    str=String(ut1.id) 
+    ix=str.substring(1,3); 
+
+    ut_base1=ut1.getAttribute("data-base-unit"); 
+    for( i=1; i<=2; i++ ){ 
+      obj1=document.getElementById( "z"+i ); 
+      if( !obj1 )break; 
+      if( ix!=i ){ 
+          tolerance=0; 
+          obj_base1=obj1.getAttribute("data-base-unit"); 
+          obj1.value=round_it1(((ut1.value*ut_base1))/obj_base1); 
+       }  
+    } // for
+ }  // function
+</script>
+
+<script type="text/javascript">
+ function round_it(v){
+    if( v==0 )
+       return parseFloat(String(v));
+    if( !v || v=="")
+          return "";
+    x=6;
+    x_max=Math.pow(10,x);   
+    if( Math.abs(parseFloat(v)) < parseFloat(1/x_max) ){  
+      var v=new Number(v);
+      return v.toExponential(x);
+      } 
+    if( v > 100000 ){ 
+      var v=new Number(v); 
+      return v.toExponential(x); 
+      } 
+    num=Math.round(v*x_max); 
+    return parseFloat(num/x_max); 
+ } 
+
+
+ var active_obj=false;
+ function convert(ut){  
+    if( ut ) 
+      active_obj=ut; 
+    else 
+      ut=active_obj; 
+
+    str=String(ut.id) 
+    ix=str.substring(1,3); 
+
+    ut_base=ut.getAttribute("data-base-unit"); 
+    for( i=1; i<=2; i++ ){ 
+      obj=document.getElementById( "t"+i ); 
+      if( !obj )break; 
+      if( ix!=i ){ 
+          tolerance=0; 
+          obj_base=obj.getAttribute("data-base-unit"); 
+          obj.value=round_it(((ut.value*ut_base))/obj_base); 
+       }  
+    } // for
+ }  // function
+</script>
+
+    <style type="text/css">
+    body{
+      font-family: 'Open Sans', sans-serif;
+      color:#ba5a02;
+    }
+    .scroll{
+      text-align: center;
+    }
+      body{ padding: 0; margin: 0; }
+#parent{
+    height: 680px;
+}
+svg{
+  overflow: visible !important;
+}
+.container{
+  position: relative;
+  z-index: 99999;
+}
+      .pep        { width: 250px; height: 200px; }
+      .peppable   { margin: 10px; bottom:0px;   }
+      .peppable2  { position: absolute; top: 40px; left: 300px; }
+      .peppable3  { position: absolute; top: 40px; left: 600px; }
+      .peppable4  { position: absolute; top: 40px; left: 600px;  }
+      /* /!\ You need to add vendor prefixes in order to render the CSS properly (or simply use http://leaverou.github.io/prefixfree/) /!\ */ #tridiv {
+
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  font-size: 70%; 
+}
+.face {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.4);
+}
+.scene, .shape, .face, .face-wrapper, .cr {
+  position: absolute;
+  transform-style: preserve-3d;
+}
+.scene {
+  width: 94em;
+  height: 80em;
+  top: 50%;
+  margin: -40em 0 0 -40em;
+}
+.shape {
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform-origin: 50%;
+}
+.face, .face-wrapper {
+  overflow: hidden;
+  transform-origin: 0 0;
+  backface-visibility: hidden;
+  /* hidden by default, prevent blinking and other weird rendering glitchs */
+}
+.face {
+  background-size: 100% 100%!important;
+  background-position: center;
+}
+.face-wrapper .face {
+  left: 100%;
+  width: 100%;
+  height: 100%
+}
+.photon-shader {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%
+}
+.side {
+  left: 50%;
+}
+.cr, .cr .side {
+  height: 100%;
+}
+[class*="cuboid"] .ft, [class*="cuboid"] .bk {
+  width: 100%;
+  height: 100%;
+}
+[class*="cuboid"] .bk {
+  left: 100%;
+}
+[class*="cuboid"] .rt {
+  transform: rotateY(-90deg) translateX(-50%);
+}
+[class*="cuboid"] .lt {
+  transform: rotateY(90deg) translateX(-50%);
+}
+[class*="cuboid"] .tp {
+  transform: rotateX(90deg) translateY(-50%);
+}
+[class*="cuboid"] .bm {
+  transform: rotateX(-90deg) translateY(-50%);
+}
+[class*="cuboid"] .lt {
+  left: 100%;
+}
+[class*="cuboid"] .bm {
+  top: 100%;
+}
+/* .cub-1 styles */
+.cub-1 {
+  transform:translate3D(0.021739130434782608em, 0.15217391304347827em, -0.0625em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  opacity:1;
+  width:7.875em;
+  height:1.0692691371454046em;
+  margin:-0.5346345685727023em 0 0 -3.9375em;
+}
+.cub-1 .ft {
+  transform:translateZ(1.9375em);
+}
+.cub-1 .bk {
+  transform:translateZ(-1.9375em) rotateY(180deg);
+}
+.cub-1 .rt, .cub-1 .lt {
+  width:3.875em;
+  height:1.0692691371454046em;
+}
+.cub-1 .tp, .cub-1 .bm {
+  width:7.875em;
+  height:3.875em;
+}
+.cub-1 .face {
+  background-color:#FFFFFF;
+}
+.cub-1 .ft {
+  width:6.125em;
+  margin-left:0.875em;
+}
+.cub-1 .bk {
+  width:6.125em;
+  margin-left:-0.875em;
+}
+.cub-1 .rt, .cub-1 .lt {
+  width:2.125em;
+}
+.cub-1 .tp, .cub-1 .bm, .cub-1 .tp .photon-shader, .cub-1 .bm .photon-shader {
+  border-radius:0.875em;
+}
+.cub-1 .cr {
+  width:0.875em;
+  left:0.4375em;
+}
+.cub-1 .cr-0 {
+  transform: translate3D(6.125em, 0, 1.0625em);
+}
+.cub-1 .cr-1 {
+  transform: translate3D(6.125em, 0, -1.0625em);
+}
+.cub-1 .cr-2 {
+  transform: translate3D(0, 0, -1.0625em);
+}
+.cub-1 .cr-3 {
+  transform: translate3D(0, 0, 1.0625em);
+}
+.cub-1 .cr-0 .s0 {
+  transform: rotateY(15deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-1 .cr-0 .s1 {
+  transform: rotateY(45deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-1 .cr-0 .s2 {
+  transform: rotateY(75deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-1 .cr-1 .s0 {
+  transform: rotateY(105deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-1 .cr-1 .s1 {
+  transform: rotateY(135deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-1 .cr-1 .s2 {
+  transform: rotateY(165deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-1 .cr-2 .s0 {
+  transform: rotateY(195deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-1 .cr-2 .s1 {
+  transform: rotateY(225deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-1 .cr-2 .s2 {
+  transform: rotateY(255deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-1 .cr-3 .s0 {
+  transform: rotateY(285deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-1 .cr-3 .s1 {
+  transform: rotateY(315deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-1 .cr-3 .s2 {
+  transform: rotateY(345deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-1 .side {
+  width:0.4939110867544647em;
+}
+/* .cub-2 styles */
+.cub-2 {
+  transform:translate3D(0em, -5.1875em, -0.0625em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  opacity:1;
+  width:7.875em;
+  height:1.0692691371454046em;
+  margin:-0.5346345685727023em 0 0 -3.9375em;
+}
+.cub-2 .ft {
+  transform:translateZ(1.9375em);
+}
+.cub-2 .bk {
+  transform:translateZ(-1.9375em) rotateY(180deg);
+}
+.cub-2 .rt, .cub-2 .lt {
+  width:3.875em;
+  height:1.0692691371454046em;
+}
+.cub-2 .tp, .cub-2 .bm {
+  width:7.875em;
+  height:3.875em;
+}
+.cub-2 .face {
+  background-color:#FFFFFF;
+}
+.cub-2 .ft {
+  width:6.125em;
+  margin-left:0.875em;
+}
+.cub-2 .bk {
+  width:6.125em;
+  margin-left:-0.875em;
+}
+.cub-2 .rt, .cub-2 .lt {
+  width:2.125em;
+}
+.cub-2 .tp, .cub-2 .bm, .cub-2 .tp .photon-shader, .cub-2 .bm .photon-shader {
+  border-radius:0.875em;
+}
+.cub-2 .cr {
+  width:0.875em;
+  left:0.4375em;
+}
+.cub-2 .cr-0 {
+  transform: translate3D(6.125em, 0, 1.0625em);
+}
+.cub-2 .cr-1 {
+  transform: translate3D(6.125em, 0, -1.0625em);
+}
+.cub-2 .cr-2 {
+  transform: translate3D(0, 0, -1.0625em);
+}
+.cub-2 .cr-3 {
+  transform: translate3D(0, 0, 1.0625em);
+}
+.cub-2 .cr-0 .s0 {
+  transform: rotateY(15deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-2 .cr-0 .s1 {
+  transform: rotateY(45deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-2 .cr-0 .s2 {
+  transform: rotateY(75deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-2 .cr-1 .s0 {
+  transform: rotateY(105deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-2 .cr-1 .s1 {
+  transform: rotateY(135deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-2 .cr-1 .s2 {
+  transform: rotateY(165deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-2 .cr-2 .s0 {
+  transform: rotateY(195deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-2 .cr-2 .s1 {
+  transform: rotateY(225deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-2 .cr-2 .s2 {
+  transform: rotateY(255deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-2 .cr-3 .s0 {
+  transform: rotateY(285deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-2 .cr-3 .s1 {
+  transform: rotateY(315deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-2 .cr-3 .s2 {
+  transform: rotateY(345deg) translate3D(-50%, 0, 0.85em);
+}
+.cub-2 .side {
+  width:0.4939110867544647em;
+}
+/* .cub-3 styles */
+.cub-3 {
+  transform:translate3D(-0.1875em, -2.5em, 0.8125em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  opacity:1;
+  width:6.125em;
+  height:4.25em;
+  margin:-2.125em 0 0 -3.0625em;
+}
+.cub-3 .ft {
+  transform:translateZ(1em);
+}
+.cub-3 .bk {
+  transform:translateZ(-1em) rotateY(180deg);
+}
+.cub-3 .rt, .cub-3 .lt {
+  width:2em;
+  height:4.25em;
+}
+.cub-3 .tp, .cub-3 .bm {
+  width:6.125em;
+  height:2em;
+}
+.cub-3 .face {
+  background-color:#FFFFFF;
+}
+.cub-3 .ft {
+  width:4.625em;
+  margin-left:0.75em;
+}
+.cub-3 .bk {
+  width:4.625em;
+  margin-left:-0.75em;
+}
+.cub-3 .rt, .cub-3 .lt {
+  width:0.5em;
+}
+.cub-3 .tp, .cub-3 .bm, .cub-3 .tp .photon-shader, .cub-3 .bm .photon-shader {
+  border-radius:0.75em;
+}
+.cub-3 .cr {
+  width:0.75em;
+  left:0.375em;
+}
+.cub-3 .cr-0 {
+  transform: translate3D(4.625em, 0, 0.25em);
+}
+.cub-3 .cr-1 {
+  transform: translate3D(4.625em, 0, -0.25em);
+}
+.cub-3 .cr-2 {
+  transform: translate3D(0, 0, -0.25em);
+}
+.cub-3 .cr-3 {
+  transform: translate3D(0, 0, 0.25em);
+}
+.cub-3 .cr-0 .s0 {
+  transform: rotateY(15deg) translate3D(-50%, 0, 0.725em);
+}
+.cub-3 .cr-0 .s1 {
+  transform: rotateY(45deg) translate3D(-50%, 0, 0.725em);
+}
+.cub-3 .cr-0 .s2 {
+  transform: rotateY(75deg) translate3D(-50%, 0, 0.725em);
+}
+.cub-3 .cr-1 .s0 {
+  transform: rotateY(105deg) translate3D(-50%, 0, 0.725em);
+}
+.cub-3 .cr-1 .s1 {
+  transform: rotateY(135deg) translate3D(-50%, 0, 0.725em);
+}
+.cub-3 .cr-1 .s2 {
+  transform: rotateY(165deg) translate3D(-50%, 0, 0.725em);
+}
+.cub-3 .cr-2 .s0 {
+  transform: rotateY(195deg) translate3D(-50%, 0, 0.725em);
+}
+.cub-3 .cr-2 .s1 {
+  transform: rotateY(225deg) translate3D(-50%, 0, 0.725em);
+}
+.cub-3 .cr-2 .s2 {
+  transform: rotateY(255deg) translate3D(-50%, 0, 0.725em);
+}
+.cub-3 .cr-3 .s0 {
+  transform: rotateY(285deg) translate3D(-50%, 0, 0.725em);
+}
+.cub-3 .cr-3 .s1 {
+  transform: rotateY(315deg) translate3D(-50%, 0, 0.725em);
+}
+.cub-3 .cr-3 .s2 {
+  transform: rotateY(345deg) translate3D(-50%, 0, 0.725em);
+}
+.cub-3 .side {
+  width:0.42692378864668407em;
+}
+/* .cub-4 styles */
+.cub-4 {
+  transform:translate3D(-0.1875em, -2.5217391304347823em, -0.546195652173913em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  opacity:1;
+  width:6.125em;
+  height:4.25em;
+  margin:-2.125em 0 0 -3.0625em;
+}
+.cub-4 .ft {
+  transform:translateZ(0.42663043478260865em);
+}
+.cub-4 .bk {
+  transform:translateZ(-0.42663043478260865em) rotateY(180deg);
+}
+.cub-4 .rt, .cub-4 .lt {
+  width:0.8532608695652173em;
+  height:4.25em;
+}
+.cub-4 .tp, .cub-4 .bm {
+  width:6.125em;
+  height:0.8532608695652173em;
+}
+.cub-4 .face {
+  background-color:#FFFFFF;
+}
+.cub-4 .ft {
+  width:5.271739130434783em;
+  margin-left:0.42663043478260865em;
+}
+.cub-4 .bk {
+  width:5.271739130434783em;
+  margin-left:-0.42663043478260865em;
+}
+.cub-4 .rt, .cub-4 .lt {
+  width:0em;
+}
+.cub-4 .tp, .cub-4 .bm, .cub-4 .tp .photon-shader, .cub-4 .bm .photon-shader {
+  border-radius:0.42663043478260865em;
+}
+.cub-4 .cr {
+  width:0.42663043478260865em;
+  left:0.21331521739130432em;
+}
+.cub-4 .cr-0 {
+  transform: translate3D(5.271739130434783em, 0, 0em);
+}
+.cub-4 .cr-1 {
+  transform: translate3D(5.271739130434783em, 0, 0em);
+}
+.cub-4 .cr-2 {
+  transform: translate3D(0, 0, 0em);
+}
+.cub-4 .cr-3 {
+  transform: translate3D(0, 0, 0em);
+}
+.cub-4 .cr-0 .s0 {
+  transform: rotateY(15deg) translate3D(-50%, 0, 0.4016304347826086em);
+}
+.cub-4 .cr-0 .s1 {
+  transform: rotateY(45deg) translate3D(-50%, 0, 0.4016304347826086em);
+}
+.cub-4 .cr-0 .s2 {
+  transform: rotateY(75deg) translate3D(-50%, 0, 0.4016304347826086em);
+}
+.cub-4 .cr-1 .s0 {
+  transform: rotateY(105deg) translate3D(-50%, 0, 0.4016304347826086em);
+}
+.cub-4 .cr-1 .s1 {
+  transform: rotateY(135deg) translate3D(-50%, 0, 0.4016304347826086em);
+}
+.cub-4 .cr-1 .s2 {
+  transform: rotateY(165deg) translate3D(-50%, 0, 0.4016304347826086em);
+}
+.cub-4 .cr-2 .s0 {
+  transform: rotateY(195deg) translate3D(-50%, 0, 0.4016304347826086em);
+}
+.cub-4 .cr-2 .s1 {
+  transform: rotateY(225deg) translate3D(-50%, 0, 0.4016304347826086em);
+}
+.cub-4 .cr-2 .s2 {
+  transform: rotateY(255deg) translate3D(-50%, 0, 0.4016304347826086em);
+}
+.cub-4 .cr-3 .s0 {
+  transform: rotateY(285deg) translate3D(-50%, 0, 0.4016304347826086em);
+}
+.cub-4 .cr-3 .s1 {
+  transform: rotateY(315deg) translate3D(-50%, 0, 0.4016304347826086em);
+}
+.cub-4 .cr-3 .s2 {
+  transform: rotateY(345deg) translate3D(-50%, 0, 0.4016304347826086em);
+}
+.cub-4 .side {
+  width:0.2536305609330775em;
+}
+/* .cub-5 styles */
+.cub-5 {
+  transform:translate3D(2.75em, -2.5625em, -1.25em) rotateX(0deg) rotateY(175deg) rotateZ(0deg);
+  opacity:1;
+  width:1.5em;
+  height:4.25em;
+  margin:-2.125em 0 0 -0.75em;
+}
+.cub-5 .ft {
+  transform:translateZ(3.0625em);
+}
+.cub-5 .bk {
+  transform:translateZ(-3.0625em) rotateY(180deg);
+}
+.cub-5 .rt, .cub-5 .lt {
+  width:6.125em;
+  height:4.25em;
+}
+.cub-5 .tp, .cub-5 .bm {
+  width:1.5em;
+  height:6.125em;
+}
+.cub-5 .face {
+  background-color:#FFFFFF;
+}
+/* .cub-6 styles */
+.cub-6 {
+  transform:translate3D(-2.5652173913043477em, 0.15760869565217409em, 2.22554347826087em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  opacity:1;
+  width:1.5em;
+  height:0.9456521739130437em;
+  margin:-0.47282608695652184em 0 0 -0.75em;
+}
+.cub-6 .ft {
+  transform:translateZ(0.375em);
+}
+.cub-6 .bk {
+  transform:translateZ(-0.375em) rotateY(180deg);
+}
+.cub-6 .rt, .cub-6 .lt {
+  width:0.75em;
+  height:0.9456521739130437em;
+}
+.cub-6 .tp, .cub-6 .bm {
+  width:1.5em;
+  height:0.75em;
+}
+.cub-6 .face {
+  background-color:#FFFFFF;
+}
+.cub-6 .ft {
+  width:0.75em;
+  margin-left:0.375em;
+}
+.cub-6 .bk {
+  width:0.75em;
+  margin-left:-0.375em;
+}
+.cub-6 .rt, .cub-6 .lt {
+  width:0em;
+}
+.cub-6 .tp, .cub-6 .bm, .cub-6 .tp .photon-shader, .cub-6 .bm .photon-shader {
+  border-radius:0.375em;
+}
+.cub-6 .cr {
+  width:0.375em;
+  left:0.1875em;
+}
+.cub-6 .cr-0 {
+  transform: translate3D(0.75em, 0, 0em);
+}
+.cub-6 .cr-1 {
+  transform: translate3D(0.75em, 0, 0em);
+}
+.cub-6 .cr-2 {
+  transform: translate3D(0, 0, 0em);
+}
+.cub-6 .cr-3 {
+  transform: translate3D(0, 0, 0em);
+}
+.cub-6 .cr-0 .s0 {
+  transform: rotateY(15deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-6 .cr-0 .s1 {
+  transform: rotateY(45deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-6 .cr-0 .s2 {
+  transform: rotateY(75deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-6 .cr-1 .s0 {
+  transform: rotateY(105deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-6 .cr-1 .s1 {
+  transform: rotateY(135deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-6 .cr-1 .s2 {
+  transform: rotateY(165deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-6 .cr-2 .s0 {
+  transform: rotateY(195deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-6 .cr-2 .s1 {
+  transform: rotateY(225deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-6 .cr-2 .s2 {
+  transform: rotateY(255deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-6 .cr-3 .s0 {
+  transform: rotateY(285deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-6 .cr-3 .s1 {
+  transform: rotateY(315deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-6 .cr-3 .s2 {
+  transform: rotateY(345deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-6 .side {
+  width:0.22596189432334202em;
+}
+/* .cub-7 styles */
+.cub-7 {
+  transform:translate3D(2.391304347826088em, 0.15760869565217417em, 2.269021739130435em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  opacity:1;
+  width:1.5em;
+  height:0.9456521739130437em;
+  margin:-0.47282608695652184em 0 0 -0.75em;
+}
+.cub-7 .ft {
+  transform:translateZ(0.375em);
+}
+.cub-7 .bk {
+  transform:translateZ(-0.375em) rotateY(180deg);
+}
+.cub-7 .rt, .cub-7 .lt {
+  width:0.75em;
+  height:0.9456521739130437em;
+}
+.cub-7 .tp, .cub-7 .bm {
+  width:1.5em;
+  height:0.75em;
+}
+.cub-7 .face {
+  background-color:#FFFFFF;
+}
+.cub-7 .ft {
+  width:0.75em;
+  margin-left:0.375em;
+}
+.cub-7 .bk {
+  width:0.75em;
+  margin-left:-0.375em;
+}
+.cub-7 .rt, .cub-7 .lt {
+  width:0em;
+}
+.cub-7 .tp, .cub-7 .bm, .cub-7 .tp .photon-shader, .cub-7 .bm .photon-shader {
+  border-radius:0.375em;
+}
+.cub-7 .cr {
+  width:0.375em;
+  left:0.1875em;
+}
+.cub-7 .cr-0 {
+  transform: translate3D(0.75em, 0, 0em);
+}
+.cub-7 .cr-1 {
+  transform: translate3D(0.75em, 0, 0em);
+}
+.cub-7 .cr-2 {
+  transform: translate3D(0, 0, 0em);
+}
+.cub-7 .cr-3 {
+  transform: translate3D(0, 0, 0em);
+}
+.cub-7 .cr-0 .s0 {
+  transform: rotateY(15deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-7 .cr-0 .s1 {
+  transform: rotateY(45deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-7 .cr-0 .s2 {
+  transform: rotateY(75deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-7 .cr-1 .s0 {
+  transform: rotateY(105deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-7 .cr-1 .s1 {
+  transform: rotateY(135deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-7 .cr-1 .s2 {
+  transform: rotateY(165deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-7 .cr-2 .s0 {
+  transform: rotateY(195deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-7 .cr-2 .s1 {
+  transform: rotateY(225deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-7 .cr-2 .s2 {
+  transform: rotateY(255deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-7 .cr-3 .s0 {
+  transform: rotateY(285deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-7 .cr-3 .s1 {
+  transform: rotateY(315deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-7 .cr-3 .s2 {
+  transform: rotateY(345deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-7 .side {
+  width:0.22596189432334202em;
+}
+/* .cub-8 styles */
+.cub-8 {
+  transform:translate3D(2.391304347826088em, -5.190217391304347em, 2.2690217391304355em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  opacity:1;
+  width:1.5em;
+  height:0.9456521739130437em;
+  margin:-0.47282608695652184em 0 0 -0.75em;
+}
+.cub-8 .ft {
+  transform:translateZ(0.375em);
+}
+.cub-8 .bk {
+  transform:translateZ(-0.375em) rotateY(180deg);
+}
+.cub-8 .rt, .cub-8 .lt {
+  width:0.75em;
+  height:0.9456521739130437em;
+}
+.cub-8 .tp, .cub-8 .bm {
+  width:1.5em;
+  height:0.75em;
+}
+.cub-8 .face {
+  background-color:#FFFFFF;
+}
+.cub-8 .ft {
+  width:0.75em;
+  margin-left:0.375em;
+}
+.cub-8 .bk {
+  width:0.75em;
+  margin-left:-0.375em;
+}
+.cub-8 .rt, .cub-8 .lt {
+  width:0em;
+}
+.cub-8 .tp, .cub-8 .bm, .cub-8 .tp .photon-shader, .cub-8 .bm .photon-shader {
+  border-radius:0.375em;
+}
+.cub-8 .cr {
+  width:0.375em;
+  left:0.1875em;
+}
+.cub-8 .cr-0 {
+  transform: translate3D(0.75em, 0, 0em);
+}
+.cub-8 .cr-1 {
+  transform: translate3D(0.75em, 0, 0em);
+}
+.cub-8 .cr-2 {
+  transform: translate3D(0, 0, 0em);
+}
+.cub-8 .cr-3 {
+  transform: translate3D(0, 0, 0em);
+}
+.cub-8 .cr-0 .s0 {
+  transform: rotateY(15deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-8 .cr-0 .s1 {
+  transform: rotateY(45deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-8 .cr-0 .s2 {
+  transform: rotateY(75deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-8 .cr-1 .s0 {
+  transform: rotateY(105deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-8 .cr-1 .s1 {
+  transform: rotateY(135deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-8 .cr-1 .s2 {
+  transform: rotateY(165deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-8 .cr-2 .s0 {
+  transform: rotateY(195deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-8 .cr-2 .s1 {
+  transform: rotateY(225deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-8 .cr-2 .s2 {
+  transform: rotateY(255deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-8 .cr-3 .s0 {
+  transform: rotateY(285deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-8 .cr-3 .s1 {
+  transform: rotateY(315deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-8 .cr-3 .s2 {
+  transform: rotateY(345deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-8 .side {
+  width:0.22596189432334202em;
+}
+/* .cub-9 styles */
+.cub-9 {
+  transform:translate3D(-2.5434782608695645em, -5.124999999999998em, 2.2472826086956528em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  opacity:1;
+  width:1.5em;
+  height:0.9456521739130437em;
+  margin:-0.47282608695652184em 0 0 -0.75em;
+}
+.cub-9 .ft {
+  transform:translateZ(0.375em);
+}
+.cub-9 .bk {
+  transform:translateZ(-0.375em) rotateY(180deg);
+}
+.cub-9 .rt, .cub-9 .lt {
+  width:0.75em;
+  height:0.9456521739130437em;
+}
+.cub-9 .tp, .cub-9 .bm {
+  width:1.5em;
+  height:0.75em;
+}
+.cub-9 .face {
+  background-color:#FFFFFF;
+}
+.cub-9 .ft {
+  width:0.75em;
+  margin-left:0.375em;
+}
+.cub-9 .bk {
+  width:0.75em;
+  margin-left:-0.375em;
+}
+.cub-9 .rt, .cub-9 .lt {
+  width:0em;
+}
+.cub-9 .tp, .cub-9 .bm, .cub-9 .tp .photon-shader, .cub-9 .bm .photon-shader {
+  border-radius:0.375em;
+}
+.cub-9 .cr {
+  width:0.375em;
+  left:0.1875em;
+}
+.cub-9 .cr-0 {
+  transform: translate3D(0.75em, 0, 0em);
+}
+.cub-9 .cr-1 {
+  transform: translate3D(0.75em, 0, 0em);
+}
+.cub-9 .cr-2 {
+  transform: translate3D(0, 0, 0em);
+}
+.cub-9 .cr-3 {
+  transform: translate3D(0, 0, 0em);
+}
+.cub-9 .cr-0 .s0 {
+  transform: rotateY(15deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-9 .cr-0 .s1 {
+  transform: rotateY(45deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-9 .cr-0 .s2 {
+  transform: rotateY(75deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-9 .cr-1 .s0 {
+  transform: rotateY(105deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-9 .cr-1 .s1 {
+  transform: rotateY(135deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-9 .cr-1 .s2 {
+  transform: rotateY(165deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-9 .cr-2 .s0 {
+  transform: rotateY(195deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-9 .cr-2 .s1 {
+  transform: rotateY(225deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-9 .cr-2 .s2 {
+  transform: rotateY(255deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-9 .cr-3 .s0 {
+  transform: rotateY(285deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-9 .cr-3 .s1 {
+  transform: rotateY(315deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-9 .cr-3 .s2 {
+  transform: rotateY(345deg) translate3D(-50%, 0, 0.35em);
+}
+.cub-9 .side {
+  width:0.22596189432334202em;
+}
+
+H2{
+  text-align: CENTER;
+}
+
+.box{
+   border-top: 4px solid #FF5C5C;
+  border-bottom: 4px solid #FF5C5C;
+  border-right: 2px solid #000;
+  border-left: 2px solid #000;
+  width:100px;
+  height:100px;
+  transform-origin: 160% 40%;
+  webkit-transform: rotateX( 75deg ) rotatez(40deg) rotatey(0deg);
+  -moz-transform: rotateX( 75deg ) rotatez(40deg) rotatey(0deg);
+  -o-transform: rotateX( 75deg ) rotatez(40deg) rotatey(0deg);
+  transform: rotateX( 75deg ) rotatez(40deg) rotatey(0deg);
+  margin: AUTO;
+}
+    </style>
+
+
+  </head>
+
+
+  <body>
+    <div class="container">
+      <h2 > APOLLO SOFA (MIST)</h2>
+      <br>
+      <hr>
+    <form role="form">
+          <div class="row">
+          <div class="col-4 col-lg-4 col-md-4 col-xs-4">
+            <div class="form-group">
+               <label for="t1">Room Width (1 feet = 40.818898px)</label>
+               <input type="text" onkeyup="convert(this)" class="form-control" name="ft" id="t1" placeholder="ft" data-base-unit="10.8">
+            </div> 
+             
+              <div class="form-group hidden">
+                 <label for="t2">Pixel</label>
+                 <input type="text" onkeyup="convert(this)" class="form-control" name="px" id="t2" placeholder="px" data-base-unit="0.26458333333719">
+              </div> 
+           </div>
+             <div class="col-4 col-lg-4 col-md-4 col-xs-4">
+              <div class="form-group">
+                 <label for="z1">Room Length (1 feet = 40.818898px)</label>
+                 <input type="text" onkeyup="convert1(this)" class="form-control" name="ft1" id="z1" placeholder="ft" data-base-unit="10.8">
+              </div> 
+                <div class="form-group hidden">
+                 <label for="z2">Pixel</label>
+                 <input type="text" onkeyup="convert1(this)" class="form-control" name="px1" id="z2" placeholder="px" data-base-unit="0.26458333333719">
+              </div> 
+             </div>
+                <div class="col-4 col-lg-4 col-md-4 col-xs-4">
+                  <div class="scroll">
+                      <label for="z">360 VIEW: -160&deg;</label><br/>
+
+                      <input type="range" name="z" id="z" value="-160" min="-360" max="360"/>
+                    </div>
+             </div>
+           </div><!--row-->
+      
+
+             </form>
+ <button id="sub" > SUBMIT</button>
+  </div>
+           
+<hr>
+<br><br>
+
+  <div id="parent">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="500" height="320px" style="margin:auto;display:block">
+
+<rect class="main" width="100%" height="100%" stroke-miterlimit="10" fill="#FFFFFF" stroke="#000000" style="transform-origin: bottom; transform:rotateY(10deg) rotateX(-75deg) rotateZ(0deg);" />
+<rect x="174.5" y="54.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="118" height="66"/>
+<rect x="178.5" y="59.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="108" height="56"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="302.5" y1="91" x2="312.5" y2="91">
+  <stop  offset="0" style="stop-color:#231F20;stop-opacity:0"/>
+  <stop  offset="0.5" style="stop-color:#231F20"/>
+  <stop  offset="1" style="stop-color:#231F20;stop-opacity:0"/>
+</linearGradient>
+<rect x="302.5" y="74.5" fill="url(#SVGID_1_)" stroke="#000000" stroke-miterlimit="10" width="10" height="33"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="235.665" y1="72.333" x2="204.332" y2="92.333"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="237.106" y1="77.246" x2="222.891" y2="85.419"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="265.665" y1="88.333" x2="234.332" y2="108.333"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="267.106" y1="93.246" x2="252.891" y2="101.419"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="154.5" y1="91" x2="164.5" y2="91">
+  <stop  offset="0" style="stop-color:#231F20;stop-opacity:0"/>
+  <stop  offset="0.5" style="stop-color:#231F20"/>
+  <stop  offset="1" style="stop-color:#231F20;stop-opacity:0"/>
+</linearGradient>
+<rect x="154.5" y="74.5" fill="url(#SVGID_2_)" stroke="#000000" stroke-miterlimit="10" width="10" height="33"/>
+
+</svg>
+
+      <div class="pep peppable">
+        
+        <div id="tridiv">
+  <div class="scene" style="-webkit-transform:rotateX(78deg) rotateY(-180deg) rotateZ(240deg); -moz-transform:rotateX(78deg) rotateY(-180deg) rotateZ(240deg); -ms-transform:rotateX(78deg) rotateY(-180deg) rotateZ(240deg); rotateX(78deg) rotateY(-180deg) rotateZ(240deg); ">
+    <div class="shape cuboid-1 cub-1">
+      <div class="face ft">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bk">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face rt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face lt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bm">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face tp">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="cr cr-0">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+      </div>
+      <div class="cr cr-1">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+      </div>
+      <div class="cr cr-2">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+      </div>
+      <div class="cr cr-3">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+      </div>
+    </div>
+    <div class="shape cuboid-2 cub-2">
+      <div class="face ft">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bk">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face rt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face lt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bm">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face tp">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="cr cr-0">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+      </div>
+      <div class="cr cr-1">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+      </div>
+      <div class="cr cr-2">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+      </div>
+      <div class="cr cr-3">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+      </div>
+    </div>
+    <div class="shape cuboid-3 cub-3">
+      <div class="face ft">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bk">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face rt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face lt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bm">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face tp">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="cr cr-0">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+      </div>
+      <div class="cr cr-1">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+      </div>
+      <div class="cr cr-2">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+      </div>
+      <div class="cr cr-3">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+      </div>
+    </div>
+    <div class="shape cuboid-4 cub-4">
+      <div class="face ft">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bk">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face rt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face lt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bm">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face tp">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="cr cr-0">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+      </div>
+      <div class="cr cr-1">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+      </div>
+      <div class="cr cr-2">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+      </div>
+      <div class="cr cr-3">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+      </div>
+    </div>
+    <div class="shape cuboid-5 cub-5">
+      <div class="face ft">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+      </div>
+      <div class="face bk">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+      </div>
+      <div class="face rt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+      </div>
+      <div class="face lt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+      </div>
+      <div class="face bm">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+      </div>
+      <div class="face tp">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+      </div>
+    </div>
+    <div class="shape cuboid-6 cub-6">
+      <div class="face ft">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bk">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face rt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face lt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bm">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face tp">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="cr cr-0">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+      </div>
+      <div class="cr cr-1">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+      </div>
+      <div class="cr cr-2">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+      </div>
+      <div class="cr cr-3">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+      </div>
+    </div>
+    <div class="shape cuboid-7 cub-7">
+      <div class="face ft">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bk">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face rt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face lt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bm">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face tp">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="cr cr-0">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+      </div>
+      <div class="cr cr-1">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+      </div>
+      <div class="cr cr-2">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+      </div>
+      <div class="cr cr-3">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+      </div>
+    </div>
+    <div class="shape cuboid-8 cub-8">
+      <div class="face ft">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bk">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face rt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face lt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bm">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face tp">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="cr cr-0">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+      </div>
+      <div class="cr cr-1">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+      </div>
+      <div class="cr cr-2">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+      </div>
+      <div class="cr cr-3">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+      </div>
+    </div>
+    <div class="shape cuboid-9 cub-9">
+      <div class="face ft">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bk">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face rt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face lt">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face bm">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="face tp">
+        <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+      </div>
+      <div class="cr cr-0">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+      </div>
+      <div class="cr cr-1">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+      </div>
+      <div class="cr cr-2">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.329412);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.321569);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.305882);"></div>
+        </div>
+      </div>
+      <div class="cr cr-3">
+        <div class="face side s0">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.290196);"></div>
+        </div>
+        <div class="face side s1">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.278431);"></div>
+        </div>
+        <div class="face side s2">
+          <div class="photon-shader" style="background-color: rgba(0, 0, 0, 0.270588);"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+
+    </div> 
+ 
+  </body>
+
+
+</html>

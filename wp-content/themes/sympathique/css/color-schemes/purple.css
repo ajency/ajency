@@ -1,0 +1,332 @@
+/* visual composer */
+
+html .wpb_accordion .wpb_accordion_wrapper .ui-state-active a {
+	color:#a34670;
+}
+
+html .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a:hover {
+	color:#a34670;
+}
+
+html .wpb_tour  .wpb_tabs_nav li.ui-tabs-active a {
+	border-left:1px solid #a34670;
+}
+
+html .wpb_content_element .wpb_tabs_nav li.ui-tabs-active a {
+	border-top:1px solid #a34670;
+}
+
+html .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+	background:#a34670 url(../../images/minus.png) no-repeat scroll 0 0;
+}
+
+html .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1; background-color:#a34670;}
+
+html .flex-control-paging li a.flex-active { background: #a34670; cursor: default; }
+
+html .wpb_teaser_grid h2 a:hover {
+	color:#a34670;
+}
+
+
+
+a {
+	color:#a34670;
+}
+
+.share-options a:hover {
+	color:#a34670;
+}
+
+.intro a {
+	color:#a34670;
+}
+
+.team-text h6  {
+	color:#a34670;
+}
+
+ul#mainnav > li.current-menu-item > a, ul#mainnav > li.current-item > a, .page-template-template-onepage-php ul#mainnav li.active a  {
+	background:#a34670;
+}
+
+ul#mainnav li a.sf-with-ul:hover, ul#mainnav li a.sf-with-ul:active {
+	background:#a34670;
+}
+
+ul#mainnav li a:hover, ul#mainnav li a:active, ul#mainnav li a.current {
+	background:#a34670;
+}
+
+.sticky i.icon-pencil, .sticky i.icon-quote-left, .sticky i.icon-facetime-video, .sticky i.icon-link, .sticky i.icon-camera-retro, .sticky i.icon-music {
+	color:#a34670 !important;
+}
+
+.service-item i {
+	color:#a34670;
+}
+
+.scrollup i:hover {
+	background:#a34670;
+}
+
+#skills p {
+    background: #a34670;
+}
+
+.one-page ul#mainnav li.active a {
+	background:#a34670;	
+}	
+
+#homeblog-carousel a:hover {
+	color:#a34670;
+}
+
+.post-format i {
+	background:#a34670;
+}
+
+.jcarousel-control-prev:hover,
+.jcarousel-control-prev:focus {
+	background-color:#a34670;
+}
+
+.jcarousel-control-next:hover, 
+.jcarousel-control-next:focus {
+	background-color:#a34670;	
+}
+
+.grid-item-on-hover {
+	background:#a34670;
+}
+
+span.hover-link {
+	background:#a34670;	
+}
+
+span.hover-image {
+	background: #a34670;
+}
+
+span.hover-video {
+	background:#a34670;
+}
+
+.tagcloud a:hover {
+	background:#a34670;
+	color:#fff;
+}
+
+.testimonial-meta h5 {
+	color:#a34670;
+}
+
+span.caption a:hover {
+	color:#a34670;
+}
+
+.sidebar-post span a {
+	color:#a34670;
+}
+
+ul#filters li a.selected, #formal-subheader ul#filters li a.selected, #formal-subheader ul#filters li a:hover {
+	background:#a34670;
+}
+
+ul#home-filters li a.selected, ul#home-filters li a:hover {
+	background:#a34670;
+}
+
+.portfolio-nav  a:hover {
+	background:#a34670 url(../../images/portfolio-arrows.png) no-repeat 0 0;
+}
+
+.masonry-page-content h1 a:hover,  .post-content h1 a:hover {
+	color:#a34670;
+}
+
+.next-prev-posts a:hover {
+	color:#a34670;
+}
+
+a.comment-reply-link:hover {
+	background:#a34670;
+	color:#fff !important;
+}
+
+#contactform input[type=submit] {
+	background: #a34670;
+}
+
+#footer {
+	border-top:5px solid #a34670;
+}
+
+.blog-slides .next:hover, .blog-slides .prev:hover, #slides .next:hover, #slides .prev:hover,  .post .next:hover, .post .prev:hover {
+	background:#a34670;
+}
+
+.pagination li.current a {
+	background:#a34670;
+}
+
+ul.tabs li.active {
+    border-top: 1px solid #a34670;
+}
+
+.featured-column .column-shadow {
+	background:#a34670;
+}
+
+.customlist li i {
+	color:#a34670;
+}
+
+html .tp-bullets.gyges .tp-bullet:hover,
+html .tp-bullets.gyges .tp-bullet.selected,
+html .tp-bullets.gyges .tp-bullet:hover,
+html .tp-bullets.gyges .tp-bullet.selected {	
+	background:#a34670; 
+}
+
+.tp-leftarrow:hover,
+.tp-rightarrow:hover {	
+	background-color:#a34670 !important;
+ }
+
+.widget a:hover {
+	color:#a34670;
+}
+
+ul.tags a:hover {
+	color:#a34670;
+}
+
+.authorp h2 a:hover {
+	color:#a34670;
+}
+
+.comment a:hover {
+	color:#a34670;
+}
+
+#toggle-view li.activated h3 {
+	color:#a34670;
+}
+
+
+ul#filters li a:hover {
+	color:#fff;
+	background:#a34670;
+}
+
+ul#filters li.selected a {
+	color:#fff;
+	background:#a34670;	
+}
+
+.portfolio h3 a:hover {
+	color:#a34670;
+}
+
+h2.post-title a:hover, .meta a:hover {
+	color:#a34670;
+}
+
+.pagenav a:hover {
+    background:#a34670;
+    color:#fff;
+}
+
+span.current {
+    background:#a34670; 
+}
+
+#footer a:hover {
+	color:#a34670;
+}
+
+.featured-column .package-title {
+	border-bottom: 3px solid #C2240B;
+	background: #a34670;	
+}
+
+.nav-first-item {
+	border-top:1px solid #444;
+}
+
+.toggle-plus {
+	background:#7b7b7b url(../../images/plus.png) no-repeat scroll 0 0;
+	width:21px;
+	height:21px;
+}
+
+.toggle-minus {
+	background:#a34670 url(../../images/minus.png) no-repeat scroll 0 0;
+	width:21px;
+	height:21px;
+}
+
+h6.check i {
+	color:#a34670;
+	font-size: 14px;
+	margin-right: 8px;	
+}
+div.jp-play-bar {
+	background: #a34670;
+}
+div.jp-volume-bar-value {
+	background: #a34670;
+}
+
+ul#mainnav > li.sfHover > a {
+	background:#a34670;
+	color:#fff;
+}
+
+#submit_my_comment, .wpcf7-submit, .more-link {
+	background: #a34670;
+	color: #fff;	
+}
+
+#submit_my_comment:hover, .wpcf7-submit:hover, .more-link:hover {
+    color: #fff;
+	background:#a34670;
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5) {		
+		.portfolio-nav  a:hover {
+			background:#a34670 url(../../images/portfolio-arrows@2x.png) no-repeat 0 0;
+		}	 
+
+	.toggle-plus {
+		background:#7b7b7b url(../../images/plus@2x.png) no-repeat scroll 0 0;
+		-moz-background-size:21px 21px;
+		-ie-background-size:21px 21px;
+		-o-background-size:21px 21px;
+		-webkit-background-size:21px 21px;
+		background-size:21px 21px;
+	}
+
+	html .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+		background:#a34670 url(../../images/minus@2x.png) no-repeat scroll 0 0;
+		-moz-background-size:21px 21px;
+		-ie-background-size:21px 21px;
+		-o-background-size:21px 21px;
+		-webkit-background-size:21px 21px;
+		background-size:21px 21px;		
+	}	
+
+	.toggle-minus {
+		background:#a34670 url(../../images/minus@2x.png) no-repeat scroll 0 0;
+		-moz-background-size:21px 21px;
+		-ie-background-size:21px 21px;
+		-o-background-size:21px 21px;
+		-webkit-background-size:21px 21px;
+		background-size:21px 21px;
+	}	
+}

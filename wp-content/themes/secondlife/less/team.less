@@ -1,0 +1,340 @@
+
+
+// ---------------------------
+// MEET TEAM -----------
+// ---------------------------
+
+ .team{
+ 	text-align: center;
+    padding: 3em 0;
+    &__title{
+    	font-size: 3.5em;
+    	margin-bottom: 0.5em;
+    }
+    &__subtitle{
+    	width: 60%;
+	    margin: 0 auto;
+	    font-family: @caption-font;
+	    color: @caption-color;
+	    font-size: 1.5em;
+	    line-height: 1.3;
+    }
+ }
+
+
+
+// ---------------------------
+// TEAM INFO -----------
+// ---------------------------
+.wpb_column .wpb_wrapper .team-details{
+	// margin-bottom: 6em;
+	// &.ajency-details{
+	// 	margin-bottom: 0;
+	// }
+}
+.team-details{
+	display: flex;
+	width: 85%;
+    margin: 0 auto 2em auto;
+    align-items: flex-start;
+	// .cover{
+	// 	flex: 1 0 50%;
+	// 	background-image: url('../../uploads/2017/02/rohit.png');
+	//     background-repeat: no-repeat;
+	//     background-size: cover;
+	//     background-position: 30% 100%;
+	//     height: 550px;
+	// }
+	.main-cover{
+		flex: 1 0 50%;
+    	max-width: 50%;
+    	display: block;
+    	margin: 0 auto;
+	}
+	.quote{
+		width: 85%;
+	    margin-left: auto;
+	    border-left: 3px solid #08415C;
+	    padding-left: 1.5em;
+	    margin-bottom: 1em;
+	    visibility: hidden;
+	    i{
+	    	font-weight: 500;
+			font-size: 1.3em;
+			letter-spacing: 1px;
+	    }
+	}
+	&.ajency-details{
+		.cover{
+			background-image: none;
+			&-img{
+				background-image: url('../../uploads/2017/02/the-team.png');
+				background-size: 100%;
+			    height: 240px;
+			    background-repeat: no-repeat;
+			    background-position: center;
+			}
+		}
+		.founder{
+			&__details{
+				padding-left: 0;
+				padding-right: 26px;
+				left: inherit;
+				margin-top: 4em;
+				.f-name{
+					margin-top: -2em;
+					margin-bottom: 0.5em;
+				}
+			}
+		}
+		.quote{
+			margin-right: 0;
+		    width: calc(~'100% - 8em');
+		    margin-left: 4em;
+		    margin-top: 1.5em;
+		}
+	}
+	&.lay-2{
+		position: relative;
+    	margin-bottom: 18em !important;
+    	justify-content: space-between;
+    	.pic-detail{
+    		.f-name{
+    			font-weight: 600;
+    			font-size: 1.35em;
+    			margin: 0;
+    		}
+    		.f-desg{
+    			color: #8E8E8E;
+    			font-size: 1.15em;
+    			font-family: lato;
+    			a{
+    				color: @brand-secondary-text;
+    				text-decoration: underline;
+    			}
+    		}
+    		&.right{
+    			text-align: right;
+    		}
+    	}
+    	.founder{
+    		position: absolute;
+    		width: 420px;
+    		left: 0;
+    		right: 0;
+    		margin: 0 auto 5em auto;
+    		top: 4em;
+    		z-index: 1;
+    		&__details{
+    			padding: 28px;
+    			left: 0;
+    			width: auto;
+    			box-shadow: 0px 0px 10px 0px rgba(4, 4, 4, 0.12);
+    		}
+    	}
+    	.mirror-image{
+    		// transform: scaleX(-1);
+    	}
+	}
+}
+
+.founder{
+	flex: 1 0 50%;
+	&__details{
+		padding: 40px;
+		position: relative;
+		left: -50px;
+		background-color: #fff;
+		width: calc(~'100% + 20px');
+		padding-right: 0;
+		.f-name{
+			font-weight: 600;
+		    font-size: 1.35em;
+		    margin: 0;
+		}
+		.f-desg{
+			color: #8E8E8E;
+			font-size: 1.15em;
+    		font-family: @caption-font;
+		}
+		.f-detail{
+			& > p{
+				font-size: 1.15em;
+				color: @caption-color;
+				font-family: @caption-font;
+				line-height: 1.5;
+				margin-bottom: 2em;
+				@media screen and (min-width: 1300px){
+					font-size: 1.2em;
+				}
+			}
+		}
+	}
+}
+
+
+
+.row.team-up{
+	margin: 0;
+}
+
+
+@media screen and (max-width: 1000px){
+	 .team{
+	    &__title{
+	    	font-size: 3em;
+	    }
+	    &__subtitle{
+	    	width: 100%;
+	    }
+	 }
+
+	.team-details{
+		width: 100%;
+		.cover{
+		    height: auto;
+		}
+	}
+}
+
+
+@media screen and (max-width: 767px){
+	.wpb_column .wpb_wrapper .team-details{
+		margin-bottom: 0;
+	}
+	.team{
+		padding: 2em 0;
+		&__title{
+			font-size: 2em;
+		}
+		&__subtitle{
+		    font-size: 1.25em;
+		}
+	}
+	.team-details{
+		flex-direction: column;
+		align-items: center;
+		.cover{
+		    // height: 350px;
+		    background-size: contain;
+		}
+		.founder{
+	    	&__details{
+	    		padding: 1em;
+			    position: static;
+			    width: calc(~'100% - 2em');
+	    	}
+		}
+		.quote{
+			margin: 2em auto;
+			display: none;
+		}
+		&.ajency-details{
+			.founder{
+				order: 2;
+				&__details{
+					padding: 1em;
+			    	position: static;
+			    	width: calc(~'100% - 2em');
+				}
+			}
+			.cover{
+				.cover-img{
+					height: 260px;
+		    		background-size: contain;
+				}
+			}
+			.quote{
+				margin: 2em auto;
+			    width: 85%;
+			    display: block;
+			    margin-top: -7em;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+	.team-details{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 650px) and (max-width: 900px){
+	.team-details{
+		.main-cover{
+			max-width: 80% !important;
+		}
+		&.lay-2{
+			.pic-detail{
+				.f-name{
+					font-size: 1em;
+				}
+				.f-desg{
+					font-size: 0.9em;
+				}
+			}
+			.left{
+				img{
+					margin-left: 0;
+				}
+			}
+			.right{
+				img{
+					margin-left: auto;
+    				margin-right: 0;
+				}
+			}
+			.founder{
+				width: 280px;
+				top: -5em;
+				&__details{
+					padding: 15px;
+					.f-detail > p{
+						font-size: 1.05em;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 600px){
+	.team-details{
+		&.lay-2{
+			margin-bottom: 3em !important;
+			.founder{
+				position: static;
+				width: 100%;
+				margin: 2em auto;
+				&__details{
+					padding: 1.5em;
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 460px){
+	.team-details{
+		.cover{
+			background-size: cover;
+		}
+		&.ajency-details{
+			.founder{
+				&__details{
+					margin-top: 1em;
+				}
+			}
+			.cover{
+				.cover-img{
+					height: 180px;
+					background-size: cover;
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,403 @@
+/*
+Theme Name: Kocka Child
+Theme URI: http://code9rs.com/
+Author: CODE9RS Team
+Author URI: http://code9rs.com/
+Description: Powerful theme with focus in agency and creative websites, but can be used as shop. Flexible style system with primary colors and font changes avaliable.
+Version: 1.0
+License: ThemeForest Standard License
+License URI: http://themeforest.net/licenses/standard
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: ivan_domain
+Domain Path: /languages/
+Template: ivan-kocka
+
+Use this theme to make a good looking and polished website with minimal effort.
+*/
+
+
+
+.dark-hr{ border: 2px solid #000;}
+
+.background_overlay{
+display: none;
+position: fixed;
+top: 0%;
+left: 0%;
+width: 100%;
+height: 100%;
+background-color: black;
+z-index:1001;
+-moz-opacity: 0.95;
+opacity:.95;
+filter: alpha(opacity=95);
+}
+#pincodepop {
+display: none;
+position: absolute;
+top: 35%;
+left: 35%;
+padding: 10px;
+border: 10px solid grey;
+background-color: #FFFFFF;
+z-index:1002;
+overflow: auto;
+font-size: 14px;
+max-width: 425px;
+}
+
+#pre-loader{
+background: url(images/loader.GIF) no-repeat center center;
+width: 100%;
+height: 100px;
+}
+.header{
+        background:#ff8402 !important;
+            height: 130px;
+}
+.simple-logo-centered .mega_main_menu .mega_main_menu_ul>li {
+float: right !important;
+}
+.simple-logo-centered .mega_main_menu .mega_main_menu_ul>li{
+background: url(images/bow-icon.png)no-repeat right ;
+}
+ .simple-logo-centered .mega_main_menu .mega_main_menu_ul li:first-child{
+background: none !important;
+}
+.header .mega_main_menu .mega_main_menu_ul>li>.item_link {
+	padding: 0px 40px 0px 26px !important;
+}
+.iv-layout.header .woo-cart .basket-wrapper .top {
+	border: 2px solid #fff;margin-top: -1px;
+
+}
+.iv-layout.header .woo-cart .basket-wrapper .basket {
+	border: 2px solid #fff;
+}
+.menu-item  a {
+color: #FFF !important;
+}
+.fa-user{
+	color: #fff !important;
+}
+.header .container{
+    padding-top: 1%;
+}
+.header.stuck .container:before{
+	background: none !important;
+	position: relative !important;
+	height: auto !important;
+}
+.header.stuck .container{
+    padding-top: 0%;
+}
+.header.stuck {
+	height: auto !important;
+}
+.header .container:before{
+	background: url(images/background-bg.png) no-repeat center !important;
+	height: 148px;
+	position: absolute;
+	background-size: contain;
+	width: 100%;
+	left: 0%;
+	right: 0%;
+	top: 35%;
+}
+.simple-logo-centered .iv-module {
+    float: left !important;
+}
+body .cart{ margin-left: 30px !important;}
+.cart span{
+    border: 1px dashed #fff;
+    color: #fff;
+    padding: 6px;
+}
+.cart .amount{
+	border: 0px;
+}
+.title-heading-header{
+	text-align: center;
+	border-top: 3px solid #7a7483;
+	border-bottom: 3px solid #7a7483;
+	text-transform: uppercase;
+	font-size: 17px !important;
+	display: table;
+	margin: auto !important;
+	padding: 10px;
+	line-height: 1.65;
+	color: #000;
+	font-weight: 600!important;
+    letter-spacing: 3px;
+}
+.iv-layout.title-wrapper {
+	padding: 30px 0!important;
+}
+.iv-layout.footer{
+	background: #ff8402;
+	color:#fff;
+}
+@media (max-width:767px){
+.header {
+	height: auto !important;
+}
+body .simple-logo-centered .iv-module.cart{
+	display: none !important;
+}
+body .simple-logo-centered .iv-module {
+float: right !important;
+}
+}
+/** Widget **/
+.widget_newsletterwidget input{
+	width: 35% !important;
+	margin: auto;
+	color:#fff!important;
+	border-left: 1px solid #fff!important;
+	border-top: 1px solid #ff8402!important;
+	border-bottom: 1px solid #fff!important;
+	border-right: 1px solid #ff8402!important;
+}
+.widget_newsletterwidget input[type="submit"]{
+	display: none !important;
+}
+
+
+/** Footer Widget **/
+.footer-normal .container:before{
+	background: url(images/background-bottom.png) no-repeat center !important;
+	height: 247px;
+	position: absolute;
+	background-size: contain;
+	width: 100%;
+	left: 0%;
+	right: 0%;
+	top: -14%;
+}
+.iv-layout.footer .widget ul {
+margin: 5px auto;
+display: block;
+text-align: center;
+}
+.iv-layout.footer .widget li {
+display: inline-block;
+line-height: 117px;
+}
+.iv-layout.footer .widget li a{
+color: #fff;
+}
+.footer-tree{
+background: url(images/tree-trans.png) no-repeat center !important;
+width: 130px;
+height: 137px;
+
+}
+.footer-tree a{
+	padding: 0px 49px 0px 80px !important;
+}
+#menu-footer-menu li a{
+	padding: 0px 49px 0px 35px ;
+	background: url(images/bow-icon.png)no-repeat right ;
+}
+#menu-footer-menu li:last-child a{
+	background: none !important;
+}
+@media (max-width:767px){
+.footer-tree {
+	display: none !important;
+}
+#menu-footer-menu li a {
+	padding: 0px 31px 0px 15px !important;
+}
+#menu-footer-menu li  {
+	line-height: 12px !important;
+}
+.widget_newsletterwidget input {
+ width: 100% !important; 
+}
+}
+/** Product **/
+.woocommerce ul.products li.product .product-thumbnail, .woocommerce-page ul.products li.product .product-thumbnail {
+	height: 220px;
+}
+.product-info{
+	text-align: center;
+}
+.product-info .price .amount{
+	font-size: 17px;
+	color: #ff8402;
+}
+.product-info hr{
+	width: 50%;
+	border: 2px solid #000;
+	margin: 9px auto;
+}
+.product-title{
+	font-size: 1.3em;
+}
+.product-thumbnail:hover{
+	background: #000;
+	width: 100%;
+	height: 100%;
+}
+#overlay    {  background:rgba(0,0,0,.75);
+              z-index: 9999;
+                width: 100%;
+                height: 220px;
+                position: absolute;
+                top: 0;
+                color: #fff;
+                padding: 20px;
+                font-weight: 100;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+                -moz-transition: opacity .25s ease;
+}
+.product-info:hover #overlay{
+	opacity: 1;
+	cursor: pointer;
+}
+ #overlay .shipby a{
+ 	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.cart-icon{
+	background: url(images/cart-icon.png) 17px no-repeat #ff8402;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border: 3px solid #fff;
+	margin: auto;
+}
+
+/** Footer **/
+.navigation{
+	float: right;
+}
+.sales{
+	background: url(images/sprite.png) -225px no-repeat;
+	width: 96px;
+	height: 63px;
+}
+.free{
+	background: url(images/sprite.png) 0px no-repeat;
+	width: 96px;
+	height: 63px;
+}
+.shipping-track{
+	background: url(images/sprite.png) -134px no-repeat;
+	width: 96px;
+	height: 63px;
+}
+.facility hr{
+	width: 70px;
+	border: 2px solid #ff8402;
+	margin: 7px auto;
+}
+.shake:hover,
+.shake:focus {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+/** Single Product **/
+.product .images{
+	border: 4px solid #000;
+	padding: 9px;
+}
+.content-wrapper.no-title-wrapper {
+	padding-top: 45px;
+}
+
+
+
+#pincode-city{
+	background-repeat:no-repeat;
+	background-position:right center;
+}
+
+
+#pincode_city_list{
+	padding-left:05px;
+	background: #ff8402;
+}
+
+#pincode_city_list li{
+	list-style:none;
+	color:#FFF;
+	cursor:pointer;
+}
+
+#pincode_city_list li:hover{
+	background:#fb9222;
+}
+
+
+#pincodelistwrap{
+	margin-top:10px;
+}
+
+#pinlist_loader{
+	text-align:center;
+	margin-top:20px;
+}
+
+#pincodelistwrap .pin_code{
+	display:inline-block;
+	margin:05px;
+	background: #ff8402;
+	color: #FFF;
+	padding: 03px;
+	cursor: pointer;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+#pincodelistwrap .pin_code:hover{
+background:#fb9222;
+}
+
+#pin_options{
+	width:100%;
+	padding-bottom: 05px;
+margin-bottom: 10px;
+border-bottom: 1px solid #dddddd;
+}
+
+#pin_options .mypin{
+	float:left;
+	width:50%;
+}
+
+#pin_options .allpin{
+float:right;
+width:50%;
+text-align:right;
+}
+
+#set_all_seller{
+	cursor:pointer;
+	padding:03px;
+}
+
+#set_all_seller:hover{
+	background:#dddddd;
+}

@@ -1,0 +1,392 @@
+/*
+Theme Name:     Ajency
+Theme URI:      http://www.Ajency.in/
+Description:    Theme for Ajency
+Author:         Amit for Ajency.in
+Author URI:     http://ajency.in/
+Template:       Ajency
+Version:        0.1.0
+*/
+/****Webfonts****/
+/****Sitewide Variables****/
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
+@media only screen and (min-width: 1420px) {
+.home-page{
+	width: 5625px !important;
+}
+body .aj-live-tile h1 {
+font-weight: 100;
+font-size: 2.4em;
+margin: 0px;
+margin-bottom: 8%;
+}
+body .double-vertical-tile  .slide-back h1 {
+font-size: 1.5em;
+margin-top: -10px;
+margin-bottom: 4%;
+}
+body .double-vertical-tile  .slide-back   p{
+font-size: 1.1em !important;
+}
+body .square-tile .slide-back  p {
+display: block;
+font-size: 1.2em !important;
+margin-bottom: 7%;
+}
+body .double-vertical-tile .slide-back .tile-title h1 {
+margin-top: 4px;
+font-size: 1.6em;
+background: url(../images/view.png)no-repeat;
+padding-left: 28px;
+background-size: 8%;
+height: 40px;
+}
+body .outer-nav.vertical {
+	width: 43%;
+}
+
+.live-tile p {
+display: block;
+font-size: 1.4em !important;
+line-height: 1.2em;
+margin: 0;
+font-weight: 100;
+}
+.hire-page{
+	width: 6800px!important;
+}
+  body {
+    font-size: 95%;
+    -webkit-text-size-adjust: 95%;
+    -ms-text-size-adjust: 95%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif !important;
+  
+  }
+    body .blog{
+  -webkit-column-width: 24em;
+-moz-column-width: 24em;
+column-width: 24em;
+-webkit-column-gap: 5rem;
+-moz-column-gap: 5rem;
+column-gap: 5em;
+}
+  .brown {
+    background: #603913 !important;
+  }
+  .category-box .post-item-avatar b {
+	margin-top:10px;
+  }
+  .category-box {
+margin-bottom: 35px;
+}
+  .category-box .excerpt {
+font-weight: 400;
+margin: -4px 0 3px 
+}
+.category-box .tags{
+	margin-top:25px;
+}
+  .yellow {
+    background: #f0c60a !important;
+  }
+  .grid-title {
+    font-size: 2em;
+    margin: 0.2%;
+    font-weight: 300;
+  
+    color: #000;
+  }
+    body .blog{
+	
+	}
+  .is-reponsive {
+    width: 100%;
+  }
+  .float-right {
+    float: right !important;
+  }
+  .float-left {
+    float: left!important;
+  }
+  body .Center-Block{
+	height: 600px;
+  }
+  body .column-1{
+	 width: 395px;
+	  float: left;
+	  overflow: hidden;
+	  position: relative;
+}
+[class*="column-"]:first-child {
+margin-left: 0px !important;
+}
+
+body .column-2{
+		
+		  width: 480px;
+		  float: left;
+		  margin-left: 60px;
+		  overflow: hidden;
+	  position: relative;
+}
+body .column-3{
+		
+		width: 760px;
+		float: left;
+		margin-left: 60px;
+		overflow: hidden;
+}
+body .column-4{
+			
+			width: 1113px;
+			float: left;
+			margin-left: 60px;
+			overflow: hidden;
+}
+body .column-5{
+		  
+		 width: 950px;
+		  float: left;
+		  margin-left: 60px;
+		  overflow: hidden;
+}
+body .column-6{
+		
+		width: 380px;
+		  float: left;
+		  margin-left: 60px;
+		  overflow: hidden;
+}
+  .scroll-content {
+height: 480px;
+
+}
+.bullet-pt {
+margin-bottom: 40px;
+}
+  
+  .full-container {
+    left: 4%;
+   right: 0;
+    position: absolute;
+    width: 4830px;
+  }
+ 
+  
+  
+  .group1 {
+    height: 600px;
+    width: 345px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+  }
+  .group2 {
+    height: 600px;
+    width: 1113px;
+    float: left;
+    margin-left: 60px;
+    overflow: hidden;
+  }
+  .group3 {
+    height: 600px;
+    width: 760px;
+    float: left;
+    margin-left: 60px;
+    overflow: hidden;
+  }
+  .group4 {
+    height: 600px;
+    width: 950px;
+    float: left;
+    margin-left: 60px;
+    overflow: hidden;
+  }
+  .group5 {
+    height: 600px;
+    width: 380px;
+    float: left;
+    margin-left: 60px;
+    overflow: hidden;
+  }
+  /*Tiles*/
+  .aj-live-tile {
+    color: #FFF;
+    overflow: hidden;
+    position: relative;
+    z-index: 20;
+    margin: 5px;
+    padding: 0;
+  }
+  .full-tile {
+    width: 370px;
+    height: 600px;
+    float: left;
+  }
+  .double-tile {
+    width: 370px;
+    height: 370px;
+    float: left;
+    background: #f0c60a;
+  }
+  .double-vertical-tile {
+    width: 370px;
+    height: 180px;
+    float: left;
+    background: #f0c60a;
+  }
+  .square-tile {
+    width: 180px;
+    height: 180px;
+    float: left;
+    background: #f0c60a;
+  }
+  .tile-strip {
+    width: 175px;
+    height: 175px;
+    float: left;
+  }
+  .small-square-tile {
+    width: 75px;
+    height: 75px;
+    float: left;
+  }
+body .column-7 {
+width: 1140px !important;
+}
+body .column-8{
+width: 1520px !important;
+}
+  .col-1 {
+width: 380px;
+float: left;
+}
+  .col-2 {
+width: 353px;
+float: left;
+overflow: hidden;
+}
+.col-3 {
+width: 190px;
+
+}
+  .no-margin {
+    margin: 0px;
+  }
+  .Center-Block {
+    color: #FFF;
+  }
+  /* Home Grid */
+  .aj-scroll-arrow {
+    position: fixed;
+    right: 0%;
+    top: 6.8%;
+    width: 9%;
+    z-index: 999;
+  }
+  .aj-scroll-arrow img {
+    margin-left: 9%;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  .aj-scroll-arrow img:hover {
+    opacity: 0.9;
+  }
+  .main-content {
+    overflow: auto;
+  
+    width: 100%;
+    height: 650px;
+   overflow-x: scroll;
+  }
+  .aj-group .page-title {
+    font-size: 2.2em;
+    margin: 0px;
+    font-weight: 300;
+    display: block;
+  }
+  .aj-group h1 {
+    font-weight: 500;
+    font-size: 1.7em;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #252525;
+    margin: 0 0 4% 0;
+  }
+  .aj-group h1 .highlight {
+    color: #f0c60a;
+  }
+  .aj-group hr {
+    border-top: 1px solid #DAD7D7;
+  }
+  .aj-group .intro {
+    font-size: 1.3em;
+    color: #252525;
+    opacity: 0.8;
+    margin-bottom: 6%;
+  }
+  .aj-group .related-link {
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 7%;
+  }
+  .aj-group .related-link li {
+    border-bottom: 1px solid #CCC;
+    padding: 6px 6px 6px 0px;
+    width: 80%;
+  }
+  .aj-group .related-link li a {
+    font-size: 1.1em;
+    color: #603913;
+  }
+  .aj-group .ajency-detail {
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+  }
+  .aj-group .ajency-detail img {
+    float: left;
+    max-width: 100%;
+    width: 45%;
+    margin-top: 10px;
+  }
+  .aj-group .ajency-detail .contact-us {
+    float: right;
+    text-align: right;
+    margin-top: 6px;
+    font-size: 1.1em;
+    color: #603913;
+  }
+  .aj-group .aj-meta {
+    font-size: 15px;
+    color: #603913;
+    line-height: 21px;
+  }
+  .aj-group .aj-meta i {
+    color: #f0c60a;
+  }
+
+  .casestudy-content .testimonials {
+color: #413A3A;
+}
+.reading-canvas {
+color: #252525;
+-webkit-column-width: 22em;
+-moz-column-width: 22em;
+column-width: 22em;
+-webkit-column-gap: 3rem;
+-moz-column-gap: 3rem;
+column-gap: 3em;
+max-width: none;
+height: 66vh;
+line-height: 23px;
+}
+
+}

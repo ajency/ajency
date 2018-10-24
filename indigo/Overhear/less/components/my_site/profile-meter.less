@@ -1,0 +1,44 @@
+// Profile Meter
+.profile-meter{
+	position: relative;
+	margin-top: 30px;
+.vertical {
+	  display: inline-block;
+	  width: 100px;
+	  height: 100px;
+	  border-radius: 100%;
+	  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+	  transform: rotate(-90deg);
+	  
+	  .progress-bar-warning {
+		    background-color:@brand-primary;
+		}
+	}
+	.stage1{
+	  position: absolute;
+	  bottom: 12px;
+	  z-index: 999;
+	  right: 0px;
+	  text-align: right;
+	  line-height: 16px;
+	}
+	.stage2{
+		position: absolute;
+	    right: 0px;
+	    top: 35%;
+	    text-align: right;
+		line-height: 16px;
+	}
+	.stage3{
+	  position: absolute;
+	  z-index: 99;
+	  top: -5px;
+	  text-align: right;
+	  right: 0px;
+	  line-height: 16px;
+	}
+	sm{
+		    color: #e1e1e1;
+	}
+}
+

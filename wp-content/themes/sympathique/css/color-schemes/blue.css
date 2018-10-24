@@ -1,0 +1,331 @@
+/* visual composer */
+
+html .wpb_accordion .wpb_accordion_wrapper .ui-state-active a {
+	color:#21748C;
+}
+
+html .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a:hover {
+	color:#21748C;
+}
+
+html .wpb_tour  .wpb_tabs_nav li.ui-tabs-active a {
+	border-left:1px solid #21748C;
+}
+
+html .wpb_content_element .wpb_tabs_nav li.ui-tabs-active a {
+	border-top:1px solid #21748C;
+}
+
+html .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+	background:#21748C url(../../images/minus.png) no-repeat scroll 0 0;
+}
+
+html .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1; background-color:#21748C;}
+
+html .flex-control-paging li a.flex-active { background: #21748C; cursor: default; }
+
+html .wpb_teaser_grid h2 a:hover {
+	color:#21748C;
+}
+
+
+
+a {
+	color:#21748C;
+}
+
+.share-options a:hover {
+	color:#21748C;
+}
+
+.intro a {
+	color:#21748C;
+}
+
+.team-text h6  {
+	color:#21748C;
+}
+
+ul#mainnav > li.current-menu-item > a, ul#mainnav > li.current-item > a, .page-template-template-onepage-php ul#mainnav li.active a  {
+	background:#21748C;
+}
+
+ul#mainnav li a.sf-with-ul:hover, ul#mainnav li a.sf-with-ul:active {
+	background:#21748C;
+}
+
+ul#mainnav li a:hover, ul#mainnav li a:active, ul#mainnav li a.current {
+	background:#21748C;
+}
+
+.sticky i.icon-pencil, .sticky i.icon-quote-left, .sticky i.icon-facetime-video, .sticky i.icon-link, .sticky i.icon-camera-retro, .sticky i.icon-music {
+	color:#21748C !important;
+}
+
+.service-item i {
+	color:#21748C;
+}
+
+.scrollup i:hover {
+	background:#21748C;
+}
+
+#skills p {
+    background: #21748C;
+}
+
+.one-page ul#mainnav li.active a {
+	background:#21748C;	
+}	
+
+#homeblog-carousel a:hover {
+	color:#21748C;
+}
+
+.post-format i {
+	background:#21748C;
+}
+
+.jcarousel-control-prev:hover,
+.jcarousel-control-prev:focus {
+	background-color:#21748C;
+}
+
+.jcarousel-control-next:hover, 
+.jcarousel-control-next:focus {
+	background-color:#21748C;	
+}
+
+.grid-item-on-hover {
+	background:#21748C;
+}
+
+span.hover-link {
+	background:#21748C;	
+}
+
+span.hover-image {
+	background: #21748C;
+}
+
+span.hover-video {
+	background:#21748C;
+}
+
+.tagcloud a:hover {
+	background:#21748C;
+	color:#fff;
+}
+
+.testimonial-meta h5 {
+	color:#21748C;
+}
+
+span.caption a:hover {
+	color:#21748C;
+}
+
+.sidebar-post span a {
+	color:#21748C;
+}
+
+ul#filters li a.selected, #formal-subheader ul#filters li a.selected, #formal-subheader ul#filters li a:hover {
+	background:#21748C;
+}
+
+ul#home-filters li a.selected, ul#home-filters li a:hover {
+	background:#21748C;
+}
+
+.portfolio-nav  a:hover {
+	background:#21748C url(../../images/portfolio-arrows.png) no-repeat 0 0;
+}
+
+.masonry-page-content h1 a:hover,  .post-content h1 a:hover {
+	color:#21748C;
+}
+
+.next-prev-posts a:hover {
+	color:#21748C;
+}
+
+a.comment-reply-link:hover {
+	background:#21748C;
+	color:#fff !important;
+}
+
+#contactform input[type=submit] {
+	background: #21748C;
+}
+
+#footer {
+	border-top:5px solid #21748C;
+}
+
+.blog-slides .next:hover, .blog-slides .prev:hover, #slides .next:hover, #slides .prev:hover,  .post .next:hover, .post .prev:hover {
+	background:#21748C;
+}
+
+.pagination li.current a {
+	background:#21748C;
+}
+
+ul.tabs li.active {
+    border-top: 1px solid #21748C;
+}
+
+.featured-column .column-shadow {
+	background:#21748C;
+}
+
+.customlist li i {
+	color:#21748C;
+}
+
+html .tp-bullets.gyges .tp-bullet:hover,
+html .tp-bullets.gyges .tp-bullet.selected,
+html .tp-bullets.gyges .tp-bullet:hover,
+html .tp-bullets.gyges .tp-bullet.selected {	
+	background:#21748C; 
+}
+
+.tp-leftarrow:hover,
+.tp-rightarrow:hover {	
+	background-color:#21748C !important;
+ }
+
+.widget a:hover {
+	color:#21748C;
+}
+
+ul.tags a:hover {
+	color:#21748C;
+}
+
+.authorp h2 a:hover {
+	color:#21748C;
+}
+
+.comment a:hover {
+	color:#21748C;
+}
+
+#toggle-view li.activated h3 {
+	color:#21748C;
+}
+
+
+ul#filters li a:hover {
+	color:#fff;
+	background:#21748C;
+}
+
+ul#filters li.selected a {
+	color:#fff;
+	background:#21748C;	
+}
+
+.portfolio h3 a:hover {
+	color:#21748C;
+}
+
+h2.post-title a:hover, .meta a:hover {
+	color:#21748C;
+}
+
+.pagenav a:hover {
+    background:#21748C;
+    color:#fff;
+}
+
+span.current {
+    background:#21748C; 
+}
+
+#footer a:hover {
+	color:#21748C;
+}
+
+.featured-column .package-title {
+	border-bottom: 3px solid #C2240B;
+	background: #21748C;	
+}
+
+.nav-first-item {
+	border-top:1px solid #444;
+}
+
+.toggle-plus {
+	background:#7b7b7b url(../../images/plus.png) no-repeat scroll 0 0;
+	width:21px;
+	height:21px;
+}
+
+.toggle-minus {
+	background:#21748C url(../../images/minus.png) no-repeat scroll 0 0;
+	width:21px;
+	height:21px;
+}
+
+h6.check i {
+	color:#21748C;
+	font-size: 14px;
+	margin-right: 8px;	
+}
+div.jp-play-bar {
+	background: #21748C;
+}
+div.jp-volume-bar-value {
+	background: #21748C;
+}
+
+ul#mainnav > li.sfHover > a {
+	background:#21748C;
+	color:#fff;
+}
+
+#submit_my_comment, .wpcf7-submit, .more-link {
+	background: #21748C;
+	color: #fff;	
+}
+
+#submit_my_comment:hover, .wpcf7-submit:hover, .more-link:hover {
+    color: #fff;
+	background:#21748C;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5) {		
+		.portfolio-nav  a:hover {
+			background:#21748C url(../../images/portfolio-arrows@2x.png) no-repeat 0 0;
+		}	 
+
+	.toggle-plus {
+		background:#7b7b7b url(../../images/plus@2x.png) no-repeat scroll 0 0;
+		-moz-background-size:21px 21px;
+		-ie-background-size:21px 21px;
+		-o-background-size:21px 21px;
+		-webkit-background-size:21px 21px;
+		background-size:21px 21px;
+	}
+
+	html .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+		background:#21748C url(../../images/minus@2x.png) no-repeat scroll 0 0;
+		-moz-background-size:21px 21px;
+		-ie-background-size:21px 21px;
+		-o-background-size:21px 21px;
+		-webkit-background-size:21px 21px;
+		background-size:21px 21px;		
+	}	
+
+	.toggle-minus {
+		background:#21748C url(../../images/minus@2x.png) no-repeat scroll 0 0;
+		-moz-background-size:21px 21px;
+		-ie-background-size:21px 21px;
+		-o-background-size:21px 21px;
+		-webkit-background-size:21px 21px;
+		background-size:21px 21px;
+	}	
+}

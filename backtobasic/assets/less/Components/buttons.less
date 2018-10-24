@@ -1,0 +1,18 @@
+.btn 
+{
+    border-radius: 2px;   
+    padding: 10px 20px;    
+}
+.btn-primary
+{
+    background: @color-primary;
+    color: @color-white;
+    border:1px solid @color-primary;
+    transition:all 1s ease;
+    &:hover, &:focus
+    {
+        background: darken(@color-primary, 10%);
+        color: @color-white;
+        border:1px solid darken(@color-primary, 10%);
+    }
+}

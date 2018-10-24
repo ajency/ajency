@@ -1,0 +1,126 @@
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid fade(white, 30%);
+    text-transform: uppercase;
+    font-family: "DINNextW01";
+    @media (max-width: @screen-xs-min) {
+        border: 0px;
+     }
+    .navbar-toggle {
+        color: white;
+        background-color: fade(white, 20%);
+        font-size: 12px;
+        &:focus,
+        &:active {
+            outline: none;
+        }
+    }
+    .navbar-brand {
+        font-weight: 700;
+        padding:0px;
+        &:focus {
+            outline: none;
+        }
+        @media (max-width: @screen-xs-min) {
+        float: none;
+            img{
+                margin:auto;
+            }
+        }
+    }
+    a {
+        color: white;
+        font-family: "DINNextW02";
+
+    }
+    .nav {
+        li {
+            padding: 15px;
+            .btn{
+                    line-height: 1.5em;
+                }
+            a {
+                padding: 0px;
+                -webkit-transition: background .3s ease-in-out;
+                -moz-transition: background .3s ease-in-out;
+                transition: background .3s ease-in-out;
+                &:hover {
+                    color: lighten(@brand-secondry, 50%);
+                    outline: none;
+                    background-color: transparent;
+                }
+                &:focus,
+                &:active {
+                    outline: none;
+                    background-color: transparent;
+                }
+            }
+            &.active {
+                outline: none;
+                a {
+                    background-color: fade(white, 30%);
+                    &:hover {
+                        color: lighten(@brand-secondry, 50%);
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width:768px) {
+        padding: 10px 0;
+        border-bottom: none;
+        letter-spacing: 1px;
+        background: transparent;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        &.top-nav-collapse {
+            padding: 0;
+            background: @brand-secondry;
+            border-bottom: 1px solid fade(white, 30%);
+        }
+    }
+}
+
+.navbar-custom{
+    .drop-menu{
+            padding: 0px;
+            min-width: 230px;
+        .city-name{
+            li{
+                padding: 7px !important;
+                a{
+                    color: @brand-secondry;
+                }
+            }
+        }
+        .divider{
+                padding: 7px 17px;
+                height: 35px;
+        }
+    }
+}
+.banner-logo{
+            position: absolute;
+            z-index: 999;
+            right: 0px;
+            bottom: 0px;
+            padding: 20px;
+    }
+
+  @media (max-width: @screen-xs-min) {
+        // .top-nav-collapse{
+        //     top:26px;
+        // }
+     }
+
+// Inside Page Header
+.navbar-default-page{
+    background-color: @brand-secondry;
+
+        @media (max-width: @screen-xs-min) {
+          background: none;
+      }
+}
+
+

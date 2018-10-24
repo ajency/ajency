@@ -1,0 +1,70 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">dt_all_sidebars</custom-field>
+		<custom-field action="copy">dt_bg_color</custom-field>
+		<custom-field action="copy">dt_bg_full</custom-field>
+		<custom-field action="copy">dt_bg_type</custom-field>
+		<custom-field action="copy">dt_blog_layout</custom-field>
+		<custom-field action="ignore">dt_cats_field</custom-field>
+		<custom-field action="copy">dt_external_video_block</custom-field>
+		<custom-field action="copy">dt_footer_opt</custom-field>
+		<custom-field action="copy">dt_gallery_block</custom-field>
+		<custom-field action="copy">dt_link_block</custom-field>
+		<custom-field action="copy">dt_link_radio</custom-field>
+		<custom-field action="copy">dt_member_facebook</custom-field>
+		<custom-field action="copy">dt_member_google</custom-field>
+		<custom-field action="copy">dt_member_linkedin</custom-field>
+		<custom-field action="copy">dt_member_mail</custom-field>
+		<custom-field action="translate">dt_member_position</custom-field>
+		<custom-field action="translate">dt_member_text</custom-field>
+		<custom-field action="copy">dt_member_twitter</custom-field>
+		<custom-field action="copy">dt_menu_select</custom-field>
+		<custom-field action="copy">dt_more_images_block</custom-field>
+		<custom-field action="copy">dt_mp3_audio_block</custom-field>
+		<custom-field action="copy">dt_mp4_video_block</custom-field>
+		<custom-field action="copy">dt_nav_number</custom-field>
+		<custom-field action="copy">dt_ogg_audio_block</custom-field>
+		<custom-field action="copy">dt_ogv_video_block</custom-field>
+		<custom-field action="copy">dt_onepage_header_color</custom-field>
+		<custom-field action="copy">dt_page_img</custom-field>
+		<custom-field action="copy">dt_portfolio_columns</custom-field>
+		<custom-field action="copy">dt_portfolio_navigation</custom-field>
+		<custom-field action="copy">dt_portf_icon</custom-field>
+		<custom-field action="copy">dt_portf_thumbnail</custom-field>
+		<custom-field action="translate">dt_quote_author</custom-field>
+		<custom-field action="translate">dt_quote_block</custom-field>
+		<custom-field action="copy">dt_service_icon</custom-field>
+		<custom-field action="copy">dt_service_style</custom-field>
+		<custom-field action="translate">dt_service_text</custom-field>
+		<custom-field action="copy">dt_sidebar_position</custom-field>
+		<custom-field action="copy">dt_slider_repeat</custom-field>
+		<custom-field action="copy">dt_standard_select</custom-field>
+		<custom-field action="copy">dt_subheader_color</custom-field>
+		<custom-field action="copy">dt_subheader_img</custom-field>
+		<custom-field action="copy">dt_subheader_select</custom-field>
+		<custom-field action="translate">dt_testimonial_desc</custom-field>
+		<custom-field action="translate">dt_testimonial_details</custom-field>
+		<custom-field action="translate">dt_testimonial_name</custom-field>
+	</custom-fields>
+	
+<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">services</custom-type>
+		<custom-type translate="1">team</custom-type>
+		<custom-type translate="1">testimonials</custom-type>
+</custom-types>	
+
+<taxonomies>
+	<taxonomy translate="0">portfolio_cats</taxonomy>
+</taxonomies>
+
+
+	<admin-texts>
+		<key name="theme_mods_sympathique">
+			<key name="copyright_textarea" />
+			<key name="left_area_option_2" />
+		</key>
+	</admin-texts>
+</wpml-config>
+
+

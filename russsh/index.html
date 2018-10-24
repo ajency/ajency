@@ -1,0 +1,907 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Russsh</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<!-- Place favicon.ico in the root directory -->
+		<link rel="icon" type="image/png" href="favicon.png"/>
+
+		<!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet"> -->
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	<body>
+		<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<header class="header">
+			<div class="header__logo">
+				<img src="assets/img/logo.png" width="100" alt="Russsh">
+			</div>
+			<div class="header__actions">
+				<img src="assets/img/header-right.png" width="240" alt="Russsh">
+			</div>
+		</header>
+
+		<div class="left-sidebar"> 
+			<div class="menu">
+				<ul>
+					<li><a href="#" class="menu__link menu__link--active"><svg class="lnr menu__icon lnr-home"><use xlink:href="#lnr-home"></use></svg> Home</a></li>
+					<li><a href="#" class="menu__link"><svg class="lnr menu__icon lnr-briefcase"><use xlink:href="#lnr-briefcase"></use></svg>  Book a Task</a></li>
+					<li><a href="#" class="menu__link"><svg class="lnr menu__icon lnr-file-empty"><use xlink:href="#lnr-file-empty"></use></svg> Report</a></li>
+					<li><a href="#" class="menu__link"><svg class="lnr menu__icon lnr-book"><use xlink:href="#lnr-book"></use></svg> Wallet</a></li>
+					<li><a href="#" class="menu__link"><svg class="lnr menu__icon lnr-user"><use xlink:href="#lnr-user"></use></svg> Manager</a></li>
+					<li><a href="#" class="menu__link"><svg class="lnr menu__icon lnr-user"><use xlink:href="#lnr-user"></use></svg> Executive</a></li>
+				</ul>
+			</div>
+			<div class="chat">
+				<img src="assets/img/chat.png" width="180" alt="Russsh">
+			</div>
+		</div>
+
+		<div class="main-content">
+			<div class="flex-row">
+				<div class="flex-column text-left">
+					<img src="assets/img/radio-btns.png" width="397" alt="Russsh">
+				</div>
+				<div class="flex-column text-right">
+					<img src="assets/img/calendar.png" width="298" alt="Russsh">
+				</div>
+			</div>
+			<div class="spacer-20"></div>
+			<div class="flex-row">
+				<div class="flex-column text-center">
+					<div class="rutabs" data-parent=".main-content">
+						<a href=".rutabs__panel1" class="rutabs__tab rutabs__tab--active">Time Request</a>
+						<a href=".rutabs__panel2" class="rutabs__tab">In Process</a>
+						<a href=".rutabs__panel3" class="rutabs__tab">Mylineups</a>
+					</div>
+				</div>
+			</div>
+			<div class="spacer-20"></div>
+			<div class="flex-row filter-holder is__rutabs__panel rutabs__panel1">
+				<div class="flex-column flex-column--4">
+					<div class="rufilter rufilter--purple">
+						+ Time Request
+					</div>
+				</div>
+				<div class="flex-column flex-column--4">
+					<div class="rufilter rufilter--orange">
+						+ Client Queue
+					</div>
+				</div>
+				<div class="flex-column flex-column--4">
+					<div class="rufilter rufilter--select rufilter--green loading">
+						+ <span class="loading__text">Manager Queue</span>
+						<select id="cd-dropdown" class="cd-select">
+							<option value="-1" selected>Manager Queue</option>
+							<option value="1">Sufiyan</option>
+							<option value="2">Kalpesh</option>
+							<option value="3">Laxman</option>
+							<option value="4">Raj</option>
+							<option value="5">Deepak</option>
+						</select>
+					</div>
+				</div>
+			</div>
+
+			<div class="card-holder is__rutabs__panel rutabs__panel1">
+				<div class="flex-column flex-column--4">
+					<!-- single card -->
+					<div class="rucard rucard--red">
+						<div class="rucard__header">
+							<ul class="breadcrumb rucard__flexwide">
+								<li class="breadcrumb__single">Fresh</li>
+							</ul>
+							<span class="label label--withbg">Task id: 40048</span>
+						</div>
+						<div class="rucard__body">
+							<h5 class="type">Food <span class="type__date">19 Jul, 16, 17:01</span></h5>
+							<div class="flex-row">
+								<div class="locations">
+									<div class="locations__circle locations--from">Grant Road West <br>at 9:00AM - 9:15AM</div>
+									<div class="locations__circle locations--to">Khar Road West <br>at 11:30AM - 11:45AM</div>
+								</div>
+								<div class="right-col text-right">
+									<a href="#" class="rucard__email normal-link small">
+										<span class="small__name">Wasim Mansuri</span><br>
+										<span class="small__email">mansuri.wasim@gmail.com</span>
+									</a>
+									<div class="price m-t-3xbase">
+										<div class="label label--plain">Single</div>
+										<div class="price__value m-t-base">
+											<i class="rupee small">&#8377;</i> 200
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rucard__footer">
+							<div class="flex-row">
+								<div class="rucard__meta rucard__meta--date">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy">19 Jul, 16</span>
+								</div>
+								<div class="rucard__meta rucard__meta--duration text-center">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">1:00 Min</span>
+								</div>
+								<div class="rucard__meta rucard__meta--payment text-right">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">Cash</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- single card -->
+					<div class="rucard rucard--green">
+						<div class="rucard__header">
+							<ul class="breadcrumb rucard__flexwide">
+								<li class="breadcrumb__single">Fresh</li>
+							</ul>
+							<span class="label label--withbg">Task id: 40048</span>
+						</div>
+						<div class="rucard__body">
+							<h5 class="type">Food <span class="type__date">19 Jul, 16, 17:01</span></h5>
+							<div class="flex-row">
+								<div class="locations">
+									<div class="locations__circle locations--from">Grant Road West <br>at 9:00AM - 9:15AM</div>
+									<div class="locations__circle locations--to">Khar Road West <br>at 11:30AM - 11:45AM</div>
+								</div>
+								<div class="right-col text-right">
+									<a href="#" class="rucard__email normal-link small">
+										<span class="small__name">Wasim Mansuri</span><br>
+										<span class="small__email">mansuri.wasim@gmail.com</span>
+									</a>
+									<div class="price m-t-3xbase">
+										<div class="label label--plain">Single</div>
+										<div class="price__value m-t-base">
+											<i class="rupee small">&#8377;</i> 200
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rucard__footer">
+							<div class="flex-row">
+								<div class="rucard__meta rucard__meta--date">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy">19 Jul, 16</span>
+								</div>
+								<div class="rucard__meta rucard__meta--duration text-center">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">1:00 Min</span>
+								</div>
+								<div class="rucard__meta rucard__meta--payment text-right">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">Cash</span>
+								</div>
+							</div>
+						</div>
+					</div>	
+					
+					<!-- single card -->
+					<div class="rucard rucard--red">
+						<div class="rucard__header">
+							<ul class="breadcrumb rucard__flexwide">
+								<li class="breadcrumb__single">Fresh</li>
+							</ul>
+							<span class="label label--withbg">Task id: 40048</span>
+						</div>
+						<div class="rucard__body">
+							<h5 class="type">Food <span class="type__date">19 Jul, 16, 17:01</span></h5>
+							<div class="flex-row">
+								<div class="locations">
+									<div class="locations__circle locations--from">Grant Road West <br>at 9:00AM - 9:15AM</div>
+									<div class="locations__circle locations--to">Khar Road West <br>at 11:30AM - 11:45AM</div>
+								</div>
+								<div class="right-col text-right">
+									<a href="#" class="rucard__email normal-link small">
+										<span class="small__name">Wasim Mansuri</span><br>
+										<span class="small__email">mansuri.wasim@gmail.com</span>
+									</a>
+									<div class="price m-t-3xbase">
+										<div class="label label--plain">Single</div>
+										<div class="price__value m-t-base">
+											<i class="rupee small">&#8377;</i> 200
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rucard__footer">
+							<div class="flex-row">
+								<div class="rucard__meta rucard__meta--date">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy">19 Jul, 16</span>
+								</div>
+								<div class="rucard__meta rucard__meta--duration text-center">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">1:00 Min</span>
+								</div>
+								<div class="rucard__meta rucard__meta--payment text-right">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">Cash</span>
+								</div>
+							</div>
+						</div>
+					</div>	
+
+					<!-- single card -->
+					<div class="rucard rucard--red">
+						<div class="rucard__header">
+							<ul class="breadcrumb rucard__flexwide">
+								<li class="breadcrumb__single">Fresh</li>
+							</ul>
+							<span class="label label--withbg">Task id: 40048</span>
+						</div>
+						<div class="rucard__body">
+							<h5 class="type">Food <span class="type__date">19 Jul, 16, 17:01</span></h5>
+							<div class="flex-row">
+								<div class="locations">
+									<div class="locations__circle locations--from">Grant Road West <br>at 9:00AM - 9:15AM</div>
+									<div class="locations__circle locations--to">Khar Road West <br>at 11:30AM - 11:45AM</div>
+								</div>
+								<div class="right-col text-right">
+									<a href="#" class="rucard__email normal-link small">
+										<span class="small__name">Wasim Mansuri</span><br>
+										<span class="small__email">mansuri.wasim@gmail.com</span>
+									</a>
+									<div class="price m-t-3xbase">
+										<div class="label label--plain">Single</div>
+										<div class="price__value m-t-base">
+											<i class="rupee small">&#8377;</i> 200
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rucard__footer">
+							<div class="flex-row">
+								<div class="rucard__meta rucard__meta--date">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy">19 Jul, 16</span>
+								</div>
+								<div class="rucard__meta rucard__meta--duration text-center">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">1:00 Min</span>
+								</div>
+								<div class="rucard__meta rucard__meta--payment text-right">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">Cash</span>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>
+				
+				<div class="flex-column flex-column--4">
+					<!-- single card -->
+					<div class="rucard rucard--orange">
+						<div class="rucard__header">
+							<ul class="breadcrumb rucard__flexwide">
+								<li class="breadcrumb__single">Sufiyan</li>
+								<li class="breadcrumb__single">Wasim</li>
+							</ul>
+							<span class="label label--withbg">Task id: 40048</span>
+						</div>
+						<div class="rucard__body">
+							<h5 class="type">Food <span class="type__date">19 Jul, 16, 17:01</span></h5>
+							<div class="flex-row">
+								<div class="locations">
+									<div class="locations__circle locations--from">Grant Road West <br>at 9:00AM - 9:15AM</div>
+									<div class="locations__circle locations--to">Khar Road West <br>at 11:30AM - 11:45AM</div>
+								</div>
+								<div class="right-col text-right">
+									<a href="#" class="rucard__email normal-link small">
+										<span class="small__name">Wasim Mansuri</span><br>
+										<span class="small__email">mansuri.wasim@gmail.com</span>
+									</a>
+									<div class="price m-t-3xbase">
+										<div class="label label--plain">Single</div>
+										<div class="price__value m-t-base">
+											<i class="rupee small">&#8377;</i> 200
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rucard__footer">
+							<div class="flex-row">
+								<div class="rucard__meta rucard__meta--date">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy">19 Jul, 16</span>
+								</div>
+								<div class="rucard__meta rucard__meta--duration text-center">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">1:00 Min</span>
+								</div>
+								<div class="rucard__meta rucard__meta--payment text-right">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">Cash</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- single card -->
+					<div class="rucard rucard--red">
+						<div class="rucard__header">
+							<ul class="breadcrumb rucard__flexwide">
+								<li class="breadcrumb__single">Kalpesh</li>
+								<li class="breadcrumb__single">Wasim</li>
+							</ul>
+							<span class="label label--withbg">Task id: 40048</span>
+						</div>
+						<div class="rucard__body">
+							<h5 class="type">Food <span class="type__date">19 Jul, 16, 17:01</span></h5>
+							<div class="flex-row">
+								<div class="locations">
+									<div class="locations__circle locations--from">Grant Road West <br>at 9:00AM - 9:15AM</div>
+									<div class="locations__circle locations--to">Khar Road West <br>at 11:30AM - 11:45AM</div>
+								</div>
+								<div class="right-col text-right">
+									<a href="#" class="rucard__email normal-link small">
+										<span class="small__name">Wasim Mansuri</span><br>
+										<span class="small__email">mansuri.wasim@gmail.com</span>
+									</a>
+									<div class="price m-t-3xbase">
+										<div class="label label--plain">Single</div>
+										<div class="price__value m-t-base">
+											<i class="rupee small">&#8377;</i> 200
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rucard__footer">
+							<div class="flex-row">
+								<div class="rucard__meta rucard__meta--date">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy">19 Jul, 16</span>
+								</div>
+								<div class="rucard__meta rucard__meta--duration text-center">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">1:00 Min</span>
+								</div>
+								<div class="rucard__meta rucard__meta--payment text-right">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">Cash</span>
+								</div>
+							</div>
+						</div>
+					</div>	
+					
+					<!-- single card -->
+					<div class="rucard rucard--green">
+						<div class="rucard__header">
+							<ul class="breadcrumb rucard__flexwide">
+								<li class="breadcrumb__single">Laxman</li>
+								<li class="breadcrumb__single">Wasim</li>
+							</ul>
+							<span class="label label--withbg">Task id: 40048</span>
+						</div>
+						<div class="rucard__body">
+							<h5 class="type">Food <span class="type__date">19 Jul, 16, 17:01</span></h5>
+							<div class="flex-row">
+								<div class="locations">
+									<div class="locations__circle locations--from">Grant Road West <br>at 9:00AM - 9:15AM</div>
+									<div class="locations__circle locations--to">Khar Road West <br>at 11:30AM - 11:45AM</div>
+								</div>
+								<div class="right-col text-right">
+									<a href="#" class="rucard__email normal-link small">
+										<span class="small__name">Wasim Mansuri</span><br>
+										<span class="small__email">mansuri.wasim@gmail.com</span>
+									</a>
+									<div class="price m-t-3xbase">
+										<div class="label label--plain">Single</div>
+										<div class="price__value m-t-base">
+											<i class="rupee small">&#8377;</i> 200
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rucard__footer">
+							<div class="flex-row">
+								<div class="rucard__meta rucard__meta--date">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy">19 Jul, 16</span>
+								</div>
+								<div class="rucard__meta rucard__meta--duration text-center">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">1:00 Min</span>
+								</div>
+								<div class="rucard__meta rucard__meta--payment text-right">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">Cash</span>
+								</div>
+							</div>
+						</div>
+					</div>	
+
+					<!-- single card -->
+					<div class="rucard rucard--red">
+						<div class="rucard__header">
+							<ul class="breadcrumb rucard__flexwide">
+								<li class="breadcrumb__single">Bharat</li>
+								<li class="breadcrumb__single">Wasim</li>
+							</ul>
+							<span class="label label--withbg">Task id: 40048</span>
+						</div>
+						<div class="rucard__body">
+							<h5 class="type">Food <span class="type__date">19 Jul, 16, 17:01</span></h5>
+							<div class="flex-row">
+								<div class="locations">
+									<div class="locations__circle locations--from">Grant Road West <br>at 9:00AM - 9:15AM</div>
+									<div class="locations__circle locations--to">Khar Road West <br>at 11:30AM - 11:45AM</div>
+								</div>
+								<div class="right-col text-right">
+									<a href="#" class="rucard__email normal-link small">
+										<span class="small__name">Wasim Mansuri</span><br>
+										<span class="small__email">mansuri.wasim@gmail.com</span>
+									</a>
+									<div class="price m-t-3xbase">
+										<div class="label label--plain">Single</div>
+										<div class="price__value m-t-base">
+											<i class="rupee small">&#8377;</i> 200
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rucard__footer">
+							<div class="flex-row">
+								<div class="rucard__meta rucard__meta--date">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy">19 Jul, 16</span>
+								</div>
+								<div class="rucard__meta rucard__meta--duration text-center">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">1:00 Min</span>
+								</div>
+								<div class="rucard__meta rucard__meta--payment text-right">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">Cash</span>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>
+
+				<div class="flex-column flex-column--4">
+					<!-- single card -->
+					<div class="rucard rucard--red">
+						<div class="rucard__header">
+							<ul class="breadcrumb rucard__flexwide">
+								<li class="breadcrumb__single">Sufiyan</li>
+								<li class="breadcrumb__single">Sanaa</li>
+								<li class="breadcrumb__single">Sufiyan</li>
+								<li class="breadcrumb__single">Karan</li>
+							</ul>
+							<span class="label label--withbg">Task id: 40048</span>
+						</div>
+						<div class="rucard__body">
+							<h5 class="type">Food <span class="type__date">19 Jul, 16, 17:01</span></h5>
+							<div class="flex-row">
+								<div class="locations">
+									<div class="locations__circle locations--from">Grant Road West <br>at 9:00AM - 9:15AM</div>
+									<div class="locations__circle locations--to">Khar Road West <br>at 11:30AM - 11:45AM</div>
+								</div>
+								<div class="right-col text-right">
+									<a href="#" class="rucard__email normal-link small">
+										<span class="small__name">Wasim Mansuri</span><br>
+										<span class="small__email">mansuri.wasim@gmail.com</span>
+									</a>
+									<div class="price m-t-3xbase">
+										<div class="label label--plain">Single</div>
+										<div class="price__value m-t-base">
+											<i class="rupee small">&#8377;</i> 200
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rucard__footer">
+							<div class="flex-row">
+								<div class="rucard__meta rucard__meta--date">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy">19 Jul, 16</span>
+								</div>
+								<div class="rucard__meta rucard__meta--duration text-center">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">1:00 Min</span>
+								</div>
+								<div class="rucard__meta rucard__meta--payment text-right">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">Cash</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- single card -->
+					<div class="rucard rucard--red">
+						<div class="rucard__header">
+							<ul class="breadcrumb rucard__flexwide">
+								<li class="breadcrumb__single">Laxman</li>
+								<li class="breadcrumb__single">Sanjay</li>
+							</ul>
+							<span class="label label--withbg">Task id: 40048</span>
+						</div>
+						<div class="rucard__body">
+							<h5 class="type">Food <span class="type__date">19 Jul, 16, 17:01</span></h5>
+							<div class="flex-row">
+								<div class="locations">
+									<div class="locations__circle locations--from">Grant Road West <br>at 9:00AM - 9:15AM</div>
+									<div class="locations__circle locations--to">Khar Road West <br>at 11:30AM - 11:45AM</div>
+								</div>
+								<div class="right-col text-right">
+									<a href="#" class="rucard__email normal-link small">
+										<span class="small__name">Wasim Mansuri</span><br>
+										<span class="small__email">mansuri.wasim@gmail.com</span>
+									</a>
+									<div class="price m-t-3xbase">
+										<div class="label label--plain">Single</div>
+										<div class="price__value m-t-base">
+											<i class="rupee small">&#8377;</i> 200
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rucard__footer">
+							<div class="flex-row">
+								<div class="rucard__meta rucard__meta--date">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy">19 Jul, 16</span>
+								</div>
+								<div class="rucard__meta rucard__meta--duration text-center">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">1:00 Min</span>
+								</div>
+								<div class="rucard__meta rucard__meta--payment text-right">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">Cash</span>
+								</div>
+							</div>
+						</div>
+					</div>	
+					
+					<!-- single card -->
+					<div class="rucard rucard--orange">
+						<div class="rucard__header">
+							<ul class="breadcrumb rucard__flexwide">
+								<li class="breadcrumb__single">Kalpesh</li>
+								<li class="breadcrumb__single">Manoj</li>
+							</ul>
+							<span class="label label--withbg">Task id: 40048</span>
+						</div>
+						<div class="rucard__body">
+							<h5 class="type">Food <span class="type__date">19 Jul, 16, 17:01</span></h5>
+							<div class="flex-row">
+								<div class="locations">
+									<div class="locations__circle locations--from">Grant Road West <br>at 9:00AM - 9:15AM</div>
+									<div class="locations__circle locations--to">Khar Road West <br>at 11:30AM - 11:45AM</div>
+								</div>
+								<div class="right-col text-right">
+									<a href="#" class="rucard__email normal-link small">
+										<span class="small__name">Wasim Mansuri</span><br>
+										<span class="small__email">mansuri.wasim@gmail.com</span>
+									</a>
+									<div class="price m-t-3xbase">
+										<div class="label label--plain">Single</div>
+										<div class="price__value m-t-base">
+											<i class="rupee small">&#8377;</i> 200
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rucard__footer">
+							<div class="flex-row">
+								<div class="rucard__meta rucard__meta--date">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy">19 Jul, 16</span>
+								</div>
+								<div class="rucard__meta rucard__meta--duration text-center">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">1:00 Min</span>
+								</div>
+								<div class="rucard__meta rucard__meta--payment text-right">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">Cash</span>
+								</div>
+							</div>
+						</div>
+					</div>	
+
+					<!-- single card -->
+					<div class="rucard rucard--red">
+						<div class="rucard__header">
+							<ul class="breadcrumb rucard__flexwide">
+								<li class="breadcrumb__single">Kalpesh</li>
+								<li class="breadcrumb__single">Jacob</li>
+							</ul>
+							<span class="label label--withbg">Task id: 40048</span>
+						</div>
+						<div class="rucard__body">
+							<h5 class="type">Food <span class="type__date">19 Jul, 16, 17:01</span></h5>
+							<div class="flex-row">
+								<div class="locations">
+									<div class="locations__circle locations--from">Grant Road West <br>at 9:00AM - 9:15AM</div>
+									<div class="locations__circle locations--to">Khar Road West <br>at 11:30AM - 11:45AM</div>
+								</div>
+								<div class="right-col text-right">
+									<a href="#" class="rucard__email normal-link small">
+										<span class="small__name">Wasim Mansuri</span><br>
+										<span class="small__email">mansuri.wasim@gmail.com</span>
+									</a>
+									<div class="price m-t-3xbase">
+										<div class="label label--plain">Single</div>
+										<div class="price__value m-t-base">
+											<i class="rupee small">&#8377;</i> 200
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="rucard__footer">
+							<div class="flex-row">
+								<div class="rucard__meta rucard__meta--date">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy">19 Jul, 16</span>
+								</div>
+								<div class="rucard__meta rucard__meta--duration text-center">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">1:00 Min</span>
+								</div>
+								<div class="rucard__meta rucard__meta--payment text-right">
+									<i class="rucard__meta-icon"></i>
+									<span class="rucard__meta-copy uppercase">Cash</span>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>
+			</div>
+
+			<div class="is__rutabs__panel rutabs__panel2 hidefirst">
+				<h5 class="coming-soon">Coming Soon</h5>
+			</div>
+
+			<div class="is__rutabs__panel rutabs__panel3 hidefirst">
+				<h5 class="coming-soon">Coming Soon</h5>
+			</div>
+		</div>
+
+		<footer class="footer">
+			Copyrights 2016 &copy; Russsh Pvt. Ltd. All Rights Reserved
+		</footer>
+		
+		<div class="flyout flyout--right">
+			<div class="flyout__backdrop"></div>
+			<div class="flyout__content flyout__content--hidden">
+				<div class="flyout__body">
+					<div class="flyout__header">
+						<div class="rutabs" data-parent=".flyout__content">
+							<a href=".rutabs__panel1" class="rutabs__tab rutabs__tab--active">Task Information</a>
+							<a href=".rutabs__panel2" class="rutabs__tab">Chat</a>
+						</div>
+						<div class="linetabs is__rutabs__panel linetabs--sticky rutabs__panel1">
+							<div class="linetabs__header">
+								<a href="#panel1" data-target="#panel1" class="linetabs__tab linetabs--active">Pick up &amp; Drop Point</a>
+								<a href="#panel2" data-target="#panel2" class="linetabs__tab">Task &amp; Payment Information</a>
+							</div>
+						</div>
+					</div>
+					<div class="flyout__body__inner">
+						<div class="linetabs is__rutabs__panel rutabs__panel1">
+							<!-- <div class="linetabs__header">
+								<a href="#panel1" class="linetabs__tab linetabs--active">Pick up &amp; Drop Point</a>
+								<a href="#panel2" class="linetabs__tab">Task &amp; Payment Information</a>
+							</div> -->
+							<div class="linetabs__panels">
+								<div class="flex-row flex-row--neg-8" id="panel1">
+									<div class="flex-column flex-column--pr24">
+										<div class="label label--withbg label--primary-bg uppercase">Pick up point</div>
+										<div class="textdata textdata--br">
+											<div class="textdata__row">Meghna</div>
+											<div class="textdata__row">Landmark: Versova</div>
+											<div class="textdata__row">Bungalow no. 49, Aaram Nagar-I, Seven Bungalows, Versova</div>
+											<div class="textdata__row">Andheri East</div>
+											<div class="flex-row flex-row--neg-8">
+												<div class="flex-column">
+													<div class="textdata__row">Mumbai</div>
+												</div>
+												<div class="flex-column">
+													<div class="textdata__row">400072</div>
+												</div>
+											</div>
+											<div class="flex-row flex-row--neg-8">
+												<div class="flex-column">
+													<div class="textdata__row">9876543210</div>
+												</div>
+												<div class="flex-column">
+													<div class="textdata__row">9:00AM - 9:15AM</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="flex-column flex-column--pl24">
+										<div class="label label--withbg label--primary-bg uppercase">Drop point</div>
+										<div class="textdata">
+											<div class="textdata__row">Anushka Mukchandani</div>
+											<div class="textdata__row">Landmark: Opposite SIWS High School</div>
+											<div class="textdata__row">155, Tulsi Villa, Opposite SIWS High School, Opp. S B Road Wadala.</div>
+											<div class="textdata__row">Wadala Rd. (East)</div>
+											<div class="flex-row flex-row--neg-8">
+												<div class="flex-column">
+													<div class="textdata__row">Mumbai</div>
+												</div>
+												<div class="flex-column">
+													<div class="textdata__row">400031</div>
+												</div>
+											</div>
+											<div class="flex-row flex-row--neg-8">
+												<div class="flex-column">
+													<div class="textdata__row">9876543210</div>
+												</div>
+												<div class="flex-column">
+													<div class="textdata__row">1:00AM - 1:15AM</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="maprow maprow--neg42">
+									<img src="assets/img/map-russsh.png" alt="Russsh" class="resp-img" width="748">
+								</div>
+								<div class="flex-row flex-row--neg-8" id="panel2">
+									<div class="flex-column flex-column--pr24">
+										<div class="label label--withbg label--primary-bg uppercase">Task Information</div>
+										<div class="textdata textdata--br">
+											<div class="flex-row flex-row--neg-8">
+												<div class="flex-column">
+													<div class="textdata__row">Food Items</div>
+												</div>
+												<div class="flex-column">
+													<div class="textdata__row">19 Jul, 2016</div>
+												</div>
+											</div>
+											<div class="textdata__row">Meghna</div>
+											<div class="textdata__row textdata__row--min64">Completely initiate e-business convergence through end-to-end leadership.</div>
+											<div class="textdata__row">9876543210</div>
+											<div class="textdata__row">mansuri.wasim@gmail.com</div>
+										</div>
+									</div>
+									<div class="flex-column flex-column--pl24">
+										<div class="label label--withbg label--primary-bg uppercase">Payment Information</div>
+										<div class="textdata">
+											<div class="textdata__row">From pick-up point</div>
+											<div class="flex-row flex-row--neg-8">
+												<div class="flex-column">
+													<div class="textdata__row"><strong>Same Day</strong></div>
+												</div>
+												<div class="flex-column">
+													<div class="textdata__row"><strong>Single</strong></div>
+												</div>
+											</div>
+											<div class="textdata__row">
+												<div class="flex-row flex-row--neg-8">
+													<div class="flex-column flex-column--flexwide4">
+														Service Fee
+													</div>
+													<div class="flex-column">
+														<i class="rupee small">&#8377;</i> 200
+													</div>
+												</div>
+												<div class="flex-row flex-row--neg-8">
+													<div class="flex-column flex-column--flexwide4">
+														Excess Baggage Fee
+													</div>
+													<div class="flex-column">
+														<i class="rupee small">&#8377;</i> 10
+													</div>
+												</div>
+												<div class="flex-row flex-row--neg-8">
+													<div class="flex-column flex-column--flexwide4">
+														Addition Transport
+													</div>
+													<div class="flex-column">
+														N
+													</div>
+												</div>
+												<div class="flex-row flex-row--neg-8">
+													<div class="flex-column flex-column--flexwide4">
+														Weight
+													</div>
+													<div class="flex-column">
+														10 KGS
+													</div>
+												</div>
+											</div>
+											<div class="textdata__row">
+												<div class="flex-row flex-row--neg-8">
+													<div class="flex-column flex-column--flexwide4">
+														<strong class="big">Total Amount</strong>
+													</div>
+													<div class="flex-column">
+														<strong class="big"><i class="rupee">&#8377;</i> 210</strong>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="is__rutabs__panel rutabs__panel2 hidefirst">
+							<h5 class="coming-soon">Coming Soon</h5>
+						</div>
+					</div>
+				</div>
+				<div class="flyout__footer">
+					<div class="flyout__pricetag">
+						<div class="price text-center">
+							<div class="price__value"><i class="rupee">&#8377;</i> 210</div>
+							<span class="label">Total Amount</span>
+						</div>
+					</div>
+					<form class="form">
+						<label for="" class="form__label posrel">
+							<input name="comments" id="" rows="1" class="form__input form--input nospecial-chars" placeholder="Comment by Operation Manager" required>
+							<span class="label label--helper hide-before-expand">No special characters allowed</span>
+						</label>
+						<div class="spacer-20"></div>
+						<div class="flex-row flex-row--neg-8">
+							<div class="flex-column">
+								<label for="" class="form__label">
+									<select name="" id="" class="form__input form--select" required>
+										<option value="">Select Manager</option>
+										<option value="">Tony Stark</option>
+										<option value="">Stephen Strange</option>
+										<option value="">Stan Lee</option>
+									</select>
+								</label>
+							</div>
+							<div class="flex-column">
+								<label for="" class="form__label">
+									<select name="" id="" class="form__input form--select" required>
+										<option value="">Select Employee</option>
+										<option value="">Steve Rogers</option>
+										<option value="">Bruce Banner</option>
+										<option value="">Natasha Romanoff</option>
+									</select>
+								</label>
+							</div>
+							<div class="flex-column flex-column--flexwide2">
+								<button class="rubtn rubtn--link">Rescheduled</button>
+								<button class="rubtn rubtn--dark-orange">Confirm</button>
+								<button class="rubtn rubtn--green">Save</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<script src="assets/js/jquery-3.1.1.min.js"></script>
+		<script src="assets/js/plugins/jquery.mCustomScrollbar.min.js"></script>
+		<script src="assets/js/plugins/modernizr.custom.63321.js"></script>
+		<script src="assets/js/plugins/jquery.dropdown.js"></script>
+		<script src="assets/js/plugins/jquery.alphanum.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+
+	</body>
+</html>

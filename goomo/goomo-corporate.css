@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+.bg-white{
+	background-image: none !important;
+	background-color: #005572 !important;
+}
+.opacity-background{
+	background: #fff;
+	padding: 40px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 10px 5px rgba(0,0,0,.14), 0 3px 1px 0px rgba(0,0,0,.2), 0 1px 5px 0px rgba(0,0,0,.12);
+}
+body, h3, label{
+	color: #005572 !important;
+	/* font-family: 'Roboto', sans-serif; */
+	font-family: 'Open Sans', sans-serif;
+}
+span, label {
+	color: #555 !important;
+}
+h3{
+	font-weight: 400;
+	margin-left: 15px;
+}
+h3 span{
+	color: #005572 !important;
+}
+br {
+	display: none;
+}
+
+.navbar-white .navbar-nav > li > a{
+	text-transform: capitalize;
+	color: #005572;
+}
+
+.admbtn, .admbtn:visited, .admbtn.focus, .btn-primary{
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+	background: #FF8500;
+	font-weight: 500;
+	border:  none;
+}
+#ctl00_QuickLogin1_btLogoutCorporate{
+	background: transparent;
+	color: #ff8500;
+	box-shadow: none;
+}
+
+.HeaderStyle{
+	background: #ececec !important;
+	color: #808080 !important;
+}
+
+.TextBoxStyle{
+	border: none;
+	border-bottom: 1px solid #dedede;
+	box-shadow: none;
+}
+
+#ctl00_cphMain_ucFlightSearchOptionAdvance_ucTMSPaxAndCategorySelection_pnlTravelPolicyOption{
+	width: 60% !important;
+	float: left;
+}
+
+#ctl00_cphMain_ucFlightSearchOptionAdvance_ucTMSPaxAndCategorySelection_pnlTravelPolicyOption .col-md-12{
+	/* width: 50%; */
+}
+#ctl00_cphMain_ucFlightSearchOptionAdvance_ucTMSPaxAndCategorySelection_pnlApprovers .col-md-12{
+	/* width: 50%; */
+}
+#ctl00_cphMain_ucFlightSearchOptionAdvance_ucTMSPaxAndCategorySelection_pnlApprovers{
+	float: right;
+}
+
+#ctl00_cphMain_ucFlightSearchOptionAdvance_ucTMSPaxAndCategorySelection_gvwCustomerBookingApprovers{
+	/* box-shadow: 0 4px 5px rgba(0,0,0,.1); */
+	width: 250px !important;
+	float: right;
+	border: 1px solid #e4e4e4;
+}
+#ctl00_cphMain_ucFlightSearchOptionAdvance_ucTMSPaxAndCategorySelection_gvwCustomerBookingApprovers{
+	color: #5f5a5a !important;
+}
+#ctl00_cphMain_ucFlightSearchOptionAdvance_ucTMSPaxAndCategorySelection_updPanel{
+	margin-top: 20px;
+}
+#ctl00_cphMain_ucFlightSearchOptionAdvance_ucTMSPaxAndCategorySelection_updPanel .col-md-12{
+	width: 75%;
+}
+#ctl00_cphMain_ucFlightSearchOptionAdvance_ucTMSPaxAndCategorySelection_updPanel .clearfix{
+	display: none;
+}
+#ctl00_cphMain_ucFlightSearchOptionAdvance_ucTMSPaxAndCategorySelection_updPanel br{
+	display: none;
+}
+#ctl00_cphMain_ucFlightSearchOptionAdvance_pnlSearchCriteria br{
+	display: none;
+}
+#ctl00_cphMain_ucFlightSearchOptionAdvance_pnlSearchCriteria a{
+	/* margin: 10px 0; */
+}
+.navbar-static-top{
+	border: 0;
+}
+.footer-bottom{
+	border: 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	background: #ecf0f1;
+}
+.footer-bottom .box{
+	color: #555;
+}
+.footer-bottom ul li a{
+	color: #555;
+}
+
+#ctl00_cphMain_ucFlightSearchOptionAdvance_ucTMSPaxAndCategorySelection_hlnkAddGuest{
+	background: transparent;
+	color: #ff8500;
+	box-shadow: none;
+}
+
+.checkbox, .radio{
+	margin-bottom: 25px;
+}
+
+html{
+	height: 100%;
+	background: #005572;
+}
+
+.btn-primary.dropdown-toggle{
+	background: transparent;
+	color: #005572;
+	box-shadow: none;
+}
+
+.TextBoxStyle-admin-add-quotation-item{
+	border: none;
+	border-bottom: 1px solid #dedede;
+	box-shadow: none;
+}
+.TextBoxStyle-admin-add-quotation-item:focus{
+	box-shadow: none;
+}
+
+#ctl00_cphMain_ucFlightSearchOptionAdvance_btSearchFlights{
+	padding: 10px 15px;
+	border-radius: 0;
+	font-size: 16px;
+}
+
+#ctl00_cphMain_ucFlightSearchOptionAdvance_tblSearchCriteria{
+	margin-top: 20px;
+}
+
+.form-group.form-group-lg{
+	margin-bottom: 20px;
+}
+
+.ui-widget-overlay{
+	background: #000;
+	opacity: .3;
+}
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-dialog-buttons{
+	border-radius: 0;
+}
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-dialog-buttons .ui-dialog-buttonset button{
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+	background: #FF8500;
+	font-weight: 500;
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	margin: 6px 0 0;
+}
+.ui-widget-header{
+	background: #ffffff;
+	border: 0;
+}
+.ui-dialog .ui-dialog-titlebar-close{
+	display: none;
+}

@@ -1,0 +1,21 @@
+@brand-primary: #0671b5;
+@brand-sec: #ff9f08;
+@brand-greydark: #424242;
+@brand-greynorm: #676767;
+@brand-greylight: #b1b1b1;
+@brand-primarylt: #7bc2ef;
+
+.fonthead() {
+	font-family: 'Montserrat', 'Open Sans', 'Helvetica', 'Verdana', sans-serif;
+}
+.fontbody() {
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.transition(@which: all, @when: 0.5s) {
+	-webkit-transition: @which @when;
+	-moz-transition: @which @when;
+	-o-transition: @which @when;
+	-ms-transition: @which @when;
+	transition: @which @when;
+}

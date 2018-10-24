@@ -1,0 +1,31 @@
+#top-header ul.social li a i {
+	margin-top: 10px;
+}
+
+#footer ul.social li a i {
+	margin-top: 14px;
+}
+
+#image-subheader .theme-breadcrumbs { 
+	padding-right: 50px;
+}
+#image-subheader ul#filters {
+	float:left;
+	padding-right:50px;
+}
+
+#image-subheader .block-title {
+	background: rgb(255, 255, 255); /* The Fallback */
+}
+
+#slides .caption {
+	background: rgb(0, 0, 0); /* The Fallback */
+}
+
+.blog-slides .caption {
+	background: rgb(0, 0, 0); /* The Fallback */
+}
+.flags_language_selector li {
+	*display: inline;
+	zoom: 1;
+}

@@ -1,0 +1,160 @@
+@import "variables.less";
+@import "fonts.less";
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "DINNextW02";
+    color: @gray;
+      @media (max-width: @screen-xs-min) {
+        font-size: 130%;
+       }
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:@gray;
+}
+
+h1 {
+   font-size: 2em;
+   line-height: 1.25}
+@media (min-width: 43.75em) {
+   h1 {
+   font-size: 2.5em;
+   line-height: 1.125 }
+}
+@media (min-width: 56.25em) {
+   h1 {
+   font-size: 3em;
+   line-height: 1.05 }
+}
+h2 {
+   font-size: 1.625em;
+   line-height: 1.15384615}
+@media (min-width: 43.75em) {
+   h2 {
+   font-size: 2em;
+   line-height: 1.25 }
+}
+@media (min-width: 56.25em) {
+   h2 {
+   font-size: 2.25em;
+   line-height: 1.25 }
+}
+h3 {
+   font-size: 1.375em;
+   line-height: 1.13636364}
+@media (min-width: 43.75em) {
+   h3 {
+   font-size: 1.5em;
+   line-height: 1.25 }
+}
+@media (min-width: 56.25em) {
+   h3 {
+   font-size: 1.75em;
+   line-height: 1.25 }
+}
+h4 {
+   font-size: 1.125em;
+   line-height: 1.11111111}
+@media (min-width: 43.75em) {
+   h4 {
+   line-height: 1.22222222 }
+}
+.btn{
+	font-family: "DINNextW03" !important;
+	font-size: .9em;
+
+}
+.btn-lg{
+    padding: 10px 30px;
+
+}
+.btn-blue{
+    background-color: #425f9f !important;
+    border-color: #425f9f;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    line-height: 1.5;
+   
+}
+
+a {
+    color: @brand-primary;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: darken(@brand-primary,20%);
+    }
+}
+.icon-left{
+    float: left;
+    margin-right: 10px;
+    @media (max-width: @screen-xs-min) {
+    float: none;
+    margin: auto;
+    display: block;
+  }
+}
+
+.bold{
+	font-family: "DINNextW01" !important;
+}
+.normal{
+	font-family: "DINNextW02" !important;
+}
+.medium{
+	font-family: "DINNextW03" !important;
+}
+.b-l{
+	border-left: 1px solid #ccc;
+}
+.b-r{
+	border-right: 1px solid #ccc;
+}
+.m-t-0{
+	margin-top:0px !important;
+}
+.p-0{
+    padding: 0px;
+}
+.m-0{
+    margin: 0px;
+}
+.p-t-10{
+    padding-top:10px !important;
+}
+.p-t-100{
+    padding-top:100px !important;
+}
+.light {
+    font-weight: 400;
+}
+.text-warning {
+    color:@brand-primary;
+}
+.spacer{
+	height: 40px;
+}
+.container-fluid{
+	padding-left: 25px;
+	padding-right: 25px;
+	@media (max-width: @screen-xs) {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}

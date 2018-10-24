@@ -1,0 +1,82 @@
+.ivypro #main-wrapper #logo h1 {
+  display: none;
+}
+ #main-wrapper #main-nav > li a {
+  text-transform: uppercase;
+  color: #007fb8;
+}
+.ivypro #main-wrapper #header-dropdown .close-map:hover,
+.ivypro #main-wrapper #sticky-shop-button:hover,
+.ivypro #main-wrapper #sticky-shop-button span,
+.ivypro #main-wrapper .quote-post-format .quote-post-wrapper a,
+.ivypro #main-wrapper .link-post-format .quote-post-wrapper a,
+.ivypro #main-wrapper .status-post-format .quote-post-wrapper a,
+.ivypro #main-wrapper span.highlight,
+.ivypro #main-wrapper mark,
+.ivypro #main-wrapper .feature-box:hover:not(.standard-icon-box) .hb-small-break,
+.ivypro #main-wrapper .content-box i.box-icon,
+.ivypro #main-wrapper .hb-button,
+.ivypro #main-wrapper input[type=submit],
+.ivypro #main-wrapper a.read-more,
+.ivypro #main-wrapper .hb-effect-2 #main-nav > li > a > span::after,
+.ivypro #main-wrapper .hb-effect-3 #main-nav > li > a::before,
+.ivypro #main-wrapper .hb-effect-4 #main-nav > li > a::before,
+.ivypro #main-wrapper .hb-effect-6 #main-nav > li > a::before,
+.ivypro #main-wrapper .hb-effect-7 #main-nav > li > a span::after,
+.ivypro #main-wrapper .hb-effect-8 #main-nav > li > a:hover span::before,
+.ivypro #main-wrapper .hb-effect-9 #main-nav > li > a > span::before,
+.ivypro #main-wrapper .hb-effect-9 #main-nav > li > a > span::after,
+.ivypro #main-wrapper .hb-effect-10 #main-nav > li > a:hover span::before,
+.ivypro #main-wrapper .hb-effect-10 #main-nav > li.current-menu-item > a span::before,
+.ivypro #main-wrapper #main-nav > li.sfHover > a span::before,
+.ivypro #main-wrapper #main-nav > li.current-menu-ancestor > a span::before,
+.ivypro #main-wrapper .pace .pace-progress,
+.ivypro #main-wrapper #main-wrapper .hb-bag-buttons a.checkout-button {
+  background: #007fb8;
+}
+.ivypro #main-wrapper .col-12.hb-main-content {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.ivypro #main-wrapper #main-content .wpb_content_element {
+  margin-bottom: 0 !important;
+}
+.ivypro #main-wrapper h3.hb-heading {
+  font-size: 32px;
+}
+.ivypro #main-wrapper .hb-button.hb-large-button {
+  padding: 15px 40px 15px;
+  font-size: 18px;
+}
+.ivypro #main-wrapper .hb-button.hb-large-button.hb-carrot {
+  background-color: #f7921e;
+}
+.ivypro #main-wrapper .hb-button.hb-large-button.hb-carrot:hover {
+  background-color: #da7808;
+}
+.ivypro #main-wrapper h5.hb-heading span:not(.special-amp):before,
+.ivypro #main-wrapper h4.hb-heading span:not(.special-amp):before,
+.ivypro #main-wrapper h4.hb-heading span:not(.special-amp):after,
+.ivypro #main-wrapper h5.hb-heading span:not(.special-amp):after,
+.ivypro #main-wrapper h3.hb-heading span:not(.special-amp):before,
+.ivypro #main-wrapper h3.hb-heading span:not(.special-amp):after,
+.ivypro #main-wrapper h4.lined-heading span:not(.special-amp):before,
+.ivypro #main-wrapper h4.lined-heading span:not(.special-amp):after {
+  border-top: 1px solid #000000;
+}
+.ivypro #main-wrapper .hb-counter .count-separator span {
+  background: #000000;
+}
+.ivypro #main-wrapper .hb-counter .count-subject,
+.ivypro #main-wrapper .hb-counter .hb-chart-desc {
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 16px;
+}
+.ivypro #main-wrapper #footer .widget-column .widget-item {
+  margin-bottom: 0;
+}
+.ivypro #main-wrapper #footer .widget-item h4 {
+  font-size: 18px;
+}

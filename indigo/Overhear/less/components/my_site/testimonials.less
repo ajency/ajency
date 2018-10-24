@@ -1,0 +1,61 @@
+/* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align:center;
+  height: auto !important;
+  .item-container{
+            background:url(../img/quote.png)no-repeat white right bottom;
+            padding: 50px;
+            width: 70%;
+            margin: auto;
+            .item-profile{
+                    margin-top: -10px;
+                    width: 100%;
+                    text-align: left;
+                    margin-bottom: 10px;
+
+                img{
+                    border-radius: 100%;
+                    width: 70px;
+                    height: 70px;
+                    border: 5px solid white;
+                    float: left;
+                    margin-right: 20px;
+              }
+              .item-user{
+                    color:@brand-primary;
+                    font-size: 1.4em;
+                    display: inline-block;
+                    margin-top: 10px;
+
+              }
+            }
+       @media (max-width: @screen-xs-min) {
+              padding: 10px;
+              width: 100%;
+       }
+    }
+    p{
+        font-style: italic;
+    }
+        .carousel-indicators {
+          right: 50%;
+          top: auto;
+          bottom: -10px;
+          margin-right: -19px;
+          li {
+              background: none;
+              border: 2px solid #ccc;
+            }
+        }
+}
+
+
+#quote-carousel .carousel-indicators .active {
+  background: @brand-primary;
+  height:10px;
+  width:10px;
+  margin-bottom:1px;
+  border: 0px !important;
+}

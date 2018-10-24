@@ -1,0 +1,11 @@
+@media only screen and (min-width: 480px) and (max-width: 768px){
+	/* generated in /www/sites/cozy.edge-themes.com/files/html/wp-content/themes/cozy/assets/custom-styles/general-custom-styles-responsive.php cozy_edge_design_responsive_styles function */
+.edgtf-section.edgtf-parallax-section-holder { height: auto !important;min-height: 400px;}
+
+}
+
+@media only screen and (max-width: 480px){
+	/* generated in /www/sites/cozy.edge-themes.com/files/html/wp-content/themes/cozy/assets/custom-styles/general-custom-styles-responsive.php cozy_edge_design_responsive_styles function */
+.edgtf-section.edgtf-parallax-section-holder { height: auto !important;min-height: 400px;}
+
+}

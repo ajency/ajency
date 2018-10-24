@@ -1,0 +1,348 @@
+
+
+// ---------------------------
+// SIGNUP -----------
+// ---------------------------  
+
+
+#copyright-wrapper .hb-box-cont-body{
+	p{
+		margin: 2em 0 0 0 !important;
+	}
+}
+
+.sign-head.sign-head{
+	z-index: 99999999;
+}
+
+.signup-modal{
+	width: 550px;
+    // top: 1em;
+    .hb-box-cont-header{
+    	width: 100%;
+	    background-color: @brand-primary-text;
+	    padding: 12px 15px;
+	    color: #fff;
+	    text-transform: uppercase;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    font-family: ubuntu;
+	    font-size: 1.35em;
+	    .close-modal{
+	    	padding: 0;
+	    }
+    }
+    .hb-box-cont-body{
+    	margin-top: 1em;
+    	form{
+    		& > p{
+    			label{
+    				color: #736c6c;
+    				font-size: 1.3em;
+    				font-family: ubuntu;
+    				position: relative;
+    				input{
+    					background-color: transparent;
+    					border: 0;
+    					font-size: 0.95em;
+    					border-bottom: 1px solid #eee;
+    					font-family: lato;
+    					padding-left: 1em !important;
+    					&.wpcf7-not-valid{
+    						border: 0 !important;
+    						border-bottom: 1px solid red !important;
+    						box-shadow: none;
+    					}
+    				}
+    				.wpcf7-not-valid-tip{
+    					text-align: left;
+					    font-size: 0.85em;
+					    font-family: lato;
+					    padding: 0.5em;
+    				}
+    				.fa{
+    					position: absolute;
+    					top: 30px;
+    					left: 1.5em;
+    					opacity: 0.6;
+    				}
+    				.input-number,.input-textarea{
+    					width: 100%;
+    					padding: 12px 15px !important;
+    				}
+    				.input-textarea{
+					    height: 100px;
+					    background-color: transparent;
+					    border: 0;
+					    border-bottom: 1px solid #eee;
+    				}
+    			}
+    			.signup{
+    				display: flex;
+    				justify-content: center;
+				    width: 30%;
+				    margin: 1em auto 0 auto;
+				    background-color: @brand-primary-text;
+				    box-shadow: none;
+    			}
+    			&:last-child{
+    				text-align: center;
+    			}
+    		}
+    		.wpcf7-validation-errors{
+    			background-color: @brand-primary-text;
+    			font-size: 1.2em;
+    		}
+    	}
+    }
+}
+
+
+@media screen and (max-width: 600px){
+	.hb-modal-window.signup-modal{
+		width: 90%;
+	    margin-left: 5%;
+	    left: 0px;
+	    margin: 0 auto !important;
+	    left: 0 !important;
+	    right: 0;
+	}
+}
+
+
+
+// ---------------------------
+// CONTACT -----------
+// ---------------------------  
+
+
+
+.contactForm{
+	input[type="submit"]{
+		background-color: #eb5757;
+	    box-shadow: none;
+	    display: flex;
+	    justify-content: center;
+	    margin: 0 auto;
+		width: 40%;
+	}
+}
+
+
+@media screen and (max-width: 767px){
+	.feature-box.feature-box{
+		margin-bottom: 2em !important;
+	}
+	.addressbox.addressbox .feature-box.left-icon-box{
+		text-align: center;
+		.feature-box-content{
+			text-align: center;
+		}
+	}
+}
+
+
+
+
+// ---------------------------
+// PRIVACY POLICY -----------
+// --------------------------- 
+
+#main-content .privacy li{
+	list-style-type: none;
+}
+
+#main-content .privacy li ul li{
+  list-style-type: disc;
+}
+
+.privacy{
+	margin: 1em 0;
+	&__title{
+		font-size: 1.65em;
+    	color: @brand-secondary-text;
+    	font-weight: 600;
+    	margin-bottom: 1em;
+    	@media screen and (max-width: 500px){
+    		text-align: center;
+    	}
+	}
+  .sub-caption{
+    font-size: 1.2em;
+  }
+	&__data{
+		& > li{
+			margin-bottom: 2.5em;
+			& > h5{
+				border-bottom: 1px solid #e0e0e0;
+    			padding-bottom: 0.5em;
+    			margin-bottom: 0.5em;
+          font-size: 1.35em;
+			}
+			& > p{
+				margin: 0 0 0.5em 1.5em;
+    			font-size: 1.2em;
+			}
+      ul{
+        li{
+            font-size: 1.2em;
+            margin-bottom: 0.5em;
+            margin-left: 0.3em;
+          p{
+            margin-bottom: 0.5em;
+            margin-left: 0.3em;
+          }
+        }
+      }
+		}
+	}
+}
+
+.term-privacy{
+  margin-top: 2em;
+}
+
+.term-privacy.vc_tta.vc_general .vc_tta-tab{
+  & > a{
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+  &.vc_active>a{
+    color: @brand-secondary-text;
+  }
+}
+
+
+
+// ---------------------------
+// CONTACT STICKY -----------
+// --------------------------- 
+
+
+#contact-panel{
+	@media screen and (max-width: 767px) and (orientation : landscape){
+		top: 0;
+    	bottom: 0;
+    	overflow-y: scroll;
+    	overflow-x: hidden;
+	}
+}
+
+
+
+
+#main-content .row.how-works + .without-border .signup-link .vc_align_left.arrow-image{
+  margin-bottom: 8px !important;
+}
+#header-bar {
+  border-bottom-color: rgba(255, 255, 255, 0.16);
+}
+#header-bar.style-1 .top-widget {
+  border-right-color: rgba(255, 255, 255, 0.16);
+  border-left-color: rgba(255, 255, 255, 0.16);
+}
+#header-bar.style-1 .top-widget,
+#header-bar.style-1 .top-widget a {
+  color: #fff;
+}
+.svg-tooltip-text {
+  font-size: 18px;
+}
+.hover-anim {
+  animation: scaler 1s linear infinite;
+}
+@keyframes scaler {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.hover-anim-lt {
+  animation: scaler-lt 1s linear infinite;
+}
+@keyframes scaler-lt {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#marker-2 .hover-anim,
+#marker-2 .hover-anim-lt {
+  animation-delay: 0.5s;
+}
+#marker-3 .hover-anim,
+#marker-3 .hover-anim-lt {
+  animation-delay: 1s;
+}
+#marker-4 .hover-anim,
+#marker-4 .hover-anim-lt {
+  animation-delay: 1.5s;
+}
+#marker-5 .hover-anim,
+#marker-5 .hover-anim-lt {
+  animation-delay: 2s;
+}
+@media (min-width: 768px) {
+  .svg svg {
+    margin-top: -50px;
+  }
+}
+@media (max-width: 1300px) {
+  .home-banner .svg svg {
+    width: 80%;
+    height: auto;
+  }
+  .svg svg #Canvas {
+    transform: translateX(0) !important;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .home-banner {
+    height: auto;
+    flex-direction: column;
+    padding-top: 0;
+    margin-bottom: 10em;
+  }
+  .home-banner .svg {
+    order: 2;
+  }
+  .home-banner svg {
+    max-width: 450px;
+    top: 0;
+    margin-bottom: -140px !important;
+    margin-top: 50px;
+  }
+  #home-banner:before {
+    // background-size: 150%;
+  }
+}
+@media screen and (min-width: 680px) {
+  .main-title {
+    margin-top: 1em;
+  }
+}
+
+
+#top-info-widget{
+  .hb-moon-arrow-right-5{
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) and (orientation : landscape){
+  #to-top{
+    z-index: 1;
+  }
+}
+
+
+

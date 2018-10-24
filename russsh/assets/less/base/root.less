@@ -1,0 +1,168 @@
+html, body, * {
+	box-sizing: border-box;
+}
+body{
+	background-color: @gray1;
+	padding: 52px 0 0 180px; /* Header height and sidebar width */
+	font-family: @fontmain;
+	// font-size: @base-font-size;
+	color: @bodytext;
+	// @media screen and (max-width: 1440px) {
+		font-size: @base-font-size - 1;
+	// }
+	min-width: 1285px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: @font-bold;
+	color: @titletext;
+}
+
+h1 {
+	font-size: @h1;
+}
+h2 {
+	font-size: @h2;
+}
+h3 {
+	font-size: @h3;
+}
+h4 {
+	font-size: @h4;
+}
+h5 {
+	font-size: @h5;
+}
+h6 {
+	font-size: @h6;
+}
+
+a {
+	text-decoration: none;
+	color: @brand-primary;
+}
+
+b, strong {
+	font-weight: 500;
+}
+
+.flex-row {
+	display: flex;
+	flex: 0 1 auto;
+	&--neg-8 {
+		margin-left: -8px;
+		margin-right: -8px;
+	}
+}
+.flex-column {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-right: 8px;
+    padding-left: 8px;
+    &--pr24 {
+    	padding-right: 24px;
+    }
+    &--pl24 {
+    	padding-left: 24px;
+    }
+    &--flexwide2 {
+		flex-grow: 2;
+	}
+	&--flexwide3 {
+		flex-grow: 3;
+	}
+	&--flexwide4 {
+		flex-grow: 4;
+	}
+    &--full{
+    	display: flex;
+    	padding: 0;
+    }
+    &--4 {
+    	width: 33.3%;
+    }
+}
+
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+
+.small {
+	font-size: 85%;
+	&__email {
+		// @media (max-width: 1440px) { 
+			display: block;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		// }
+	}
+}
+.big {
+	font-size: 115%;
+}
+
+.normal-link {
+	color: @bodytext;
+}
+
+.m-t-base {
+	margin-top: @base-margin;
+}
+.m-t-2xbase {
+	margin-top: 2 * @base-margin;
+}
+.m-t-3xbase {
+	margin-top: 3 * @base-margin;
+}
+
+.rupee {
+	font-style: normal;
+}
+
+.resp-img {
+	height: auto;
+	max-width: 100%;
+}
+
+.posrel {
+	position: relative;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.spacer-20 {
+	height: 20px;
+	transition: all 0.5s;
+}
+
+.main-content{
+	height: 100%;
+	overflow: auto;
+	padding: 28px 20px;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.card-holder{
+	max-height: 65vh;
+	overflow: auto;
+	opacity: 0;
+	transition: all 0.4s ease-in;
+	@media(max-width:1366px){
+		max-height: 55vh;
+	}
+}
+
+.mCSB_container{
+	display: flex;
+	margin-right: 0;
+}

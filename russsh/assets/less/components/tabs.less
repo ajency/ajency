@@ -1,0 +1,32 @@
+.rutabs {
+	text-align: center;
+	margin: 10px 0 15px;
+	&__tab {
+		display: inline-block;
+		margin-right: -4px;
+		border: 1px solid @line-grey-1;
+		border-right: 0;
+		// padding: 12px 20px;
+		padding: 15px 30px;
+		width: 180px;
+		text-transform: uppercase;
+		background: @mainbg;
+		color: @bodytext;
+		&:first-child {
+			border-radius: 4px 0 0 4px;
+		}
+		&:last-child {
+			border-radius: 0 4px 4px 0;
+			border-right: 1px solid @line-grey-1;
+		}
+		&--active {
+			background: #fff;
+			color: @titletext;
+			font-weight: 500;
+		}
+	}
+}
+
+.hidefirst {
+	display: none;
+}

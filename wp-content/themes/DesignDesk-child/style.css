@@ -1,0 +1,15 @@
+/*
+ Theme Name: DesignDesk Child
+ Theme URI: http://designdesk.in
+ Description:  A Flexible, Powerful & Beautiful WordPress Theme by HB-Themes. Mobile ready and optimized for best performance. With the powerful engine and user friendly interface it will allow you to build outstanding websites quick and easy... It comes with Premium Plugins integrated into the theme.
+ Template:     DesignDesk
+ Version:      1.0.0
+ Tags:		   Responsive, Page-Builder, Drag&Drop, Clean, Modern, Corporate, Multi-Purpose, Multi-Color
+ Text Domain:  hbthemes
+*/
+
+@import url("../DesignDesk/style.css");
+@import url("all.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */

@@ -1,0 +1,18 @@
+
+@brand-primary-text: #EB5757;
+@brand-secondary-text: #08415C;
+@caption-color : #4c4c4c;
+@caption-font : lato;
+
+
+.keyframes(@name; @arguments) {
+	@-moz-keyframes @name { @arguments(); }
+	@-webkit-keyframes @name { @arguments(); }
+	@keyframes @name { @arguments(); }
+}
+
+.animation(@arguments) {
+	-webkit-animation: @arguments;
+	-moz-animation: @arguments;
+	animation: @arguments;
+}

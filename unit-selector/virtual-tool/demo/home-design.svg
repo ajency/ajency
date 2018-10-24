@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="640px" height="320px" viewBox="0 0 640 320" enable-background="new 0 0 640 320" xml:space="preserve">
+	 <style type="text/css">
+text{
+	font-family:arial;
+}
+.mouseover:hover .markarea{
+opacity:.3;
+}
+.mouseover{
+-webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  cursor:pointer;
+}
+.mouseover:hover image{
+	opacity:0.6;
+}
+.mouseover g{
+	opacity:0;
+	-webkit-transition: all .6s ease-in-out;
+  -moz-transition: all .6s ease-in-out;
+  -o-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+.mouseover:hover .marker{
+	opacity:0.3;
+}
+.mouseover:hover g{
+	opacity:1;
+	-webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.sofa:hover .varient{
+   -webkit-animation: mymove 7s infinite; /* Chrome, Safari, Opera */ 
+    animation: mymove 7s infinite;
+	
+}
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove {
+    0%   {FILL: #FF8C8C;}
+    25%  {FILL: #FFDB8C;}
+    50%  {FILL: #B1F5DB;}
+    75%  {FILL: #FFBF9E;;}
+    100% {  FILL: #ffffff;}
+} 
+
+/* Standard syntax */ 
+@keyframes mymove {
+     0%   {FILL: #FF8C8C;}
+    25%  {FILL: #FFDB8C;}
+    50%  {FILL: #B1F5DB;}
+    75%  {FILL: #FFBF9E;;}
+    100% {  FILL: #ffffff;}
+}
+</style>	
+<image overflow="visible" width="640" height="320" xlink:href="http://ajency.in/virtual-tool/demo/home-design2.jpg" >
+</image>
+<g class="mouseover">
+<image opacity="0" overflow="visible" width="101" height="91" xlink:href="http://ajency.in/virtual-tool/demo/263E80A2.png"  transform="matrix(1 0 0 1 427.5 -19.5)">
+	</image>
+	<g>
+		<rect x="515" y="13.5" fill="#BB5D1D" width="115" height="38.844"/>
+		<text transform="matrix(1 0 0 1 520 28.5)" fill="#FFFFFF" font-family="'OpenSans-Light'" font-size="12">Corbin Table Lamb</text>
+		<text transform="matrix(1 0 0 1 521 44)" fill="#FFFFFF" font-family="'OpenSans-Semibold'" font-size="14">500 Rs</text>
+		<polygon fill="#BB5D1D" points="516.2,25.269 509.243,31.594 515.889,36.926 "/>
+	</g>
+<polygon fill="#FFFFFF" opacity="0" points="456,11.75 455.875,33 457.875,36.5 474.625,36.625 473.625,86.75 476.5,86.75 476.334,36.667 
+	496.25,37 496.25,14.875 493.625,12 "/>
+</g>
+<g class="sofa mouseover">
+<polygon class="varient" opacity="0.55" fill="#FFFFFF" points="449.501,88.5 448.334,161.667 490.501,292.333 496.501,292 496.668,295 505.834,295.5 
+	506.168,290.833 610.667,291.166 611.334,294.333 620.501,294.166 622.501,289.5 632.001,288.833 635.834,191.666 551.334,86.333 
+	547.834,86 534.668,73.833 522.668,85.333 "/>
+<polygon class="varient" opacity="0.55" fill="#FFFFFF" points="332.25,61 352.75,61 352.25,50.75 412.75,49.5 413,60.5 433.25,60.5 442,87.75 441.25,158.75 
+	434.25,159.5 433.5,162.5 424.5,162.75 424.5,159.75 327.75,159.25 326.75,88.75 "/>
+<polygon class="varient" opacity="0.55" fill="#FFFFFF" points="241.25,49.5 301.25,50 299.75,61.25 324.75,61.25 324.75,125.5 320.5,159.25 314.75,159.25 
+	314,163.25 306.75,162.75 305.25,159.75 222.75,159 221.75,163.75 214.25,163.25 212.25,160 207.25,159.5 206.25,90.5 223.75,62 
+	241.5,62 "/>
+<polygon class="varient" opacity="0.55" fill="#FFFFFF" points="112.75,80.25 66.5,129.25 36,162.5 36.25,206.25 43,199.5 46,199.5 50.75,164.5 
+	61,157.5 81.5,157.5 89.5,187.5 79.25,199 116.75,198.75 117.5,239.5 133.75,214.25 138,214.5 138.75,222.5 143,222 142.75,224.5 
+	140.25,230 143.75,232.25 142.25,238.5 148.25,243.25 148.75,251.25 149.75,254.25 157.5,253.75 157.25,250.5 163,250 
+	203.75,162.25 200.75,93 124.75,92.75 "/>
+<g>
+	<rect x="361" y="274.166" fill="#BB5D1D" width="115" height="38.844"/>
+	<text transform="matrix(1 0 0 1 366 289.166)" fill="#FFFFFF" font-family="'OpenSans-Light'" font-size="12">Sofa 4 Colors</text>
+	<text transform="matrix(1 0 0 1 367 304.666)" fill="#FFFFFF" font-family="'OpenSans-Semibold'" font-size="14">100000 Rs</text>
+	<polygon fill="#BB5D1D" points="474.888,302.26 481.533,296.928 474.576,290.603 "/>
+</g>
+</g>
+
+<g class=" mouseover">
+<polygon class="markarea" opacity="0" fill="#FFCE00" points="43,199.5 12.5,234.5 15.833,305.5 25.5,305.167 31.167,299.5 28.833,247.167 
+	81.167,247.167 85.833,304.167 96.167,303.834 100.833,297.834 97.833,239.5 102.833,232.167 105.167,269.5 119.167,269.5 
+	116.75,198.75 "/>
+	<g>
+		<rect x="112.333" y="233.832" fill="#BB5D1D" width="115" height="38.844"/>
+		<text transform="matrix(1 0 0 1 117.333 248.832)" fill="#FFFFFF" font-family="'OpenSans-Light'" font-size="12">Epsilon Side Table</text>
+		<text transform="matrix(1 0 0 1 118.333 264.332)" fill="#FFFFFF" font-family="'OpenSans-Semibold'" font-size="14">3,999 Rs</text>
+		<polyline fill="#BB5D1D" points="106.909,253.594 113.555,258.926 113.866,247.27 106.909,253.594 "/>
+	</g>
+</g>	
+</svg>

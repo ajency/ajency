@@ -1,0 +1,43 @@
+// Login popup
+
+.login{
+	 z-index: 9999;
+	.modal-dialog{
+			width: 400px;
+			@media (max-width: @screen-xs) {
+				width: 100%;
+			}
+	.modal-header{
+			border: 0px;
+		}
+		.modal-body{
+			padding: 0px 55px;
+			.social-button{
+				button{
+					width: 100%;
+    				margin: 5px;
+				}
+			}
+			.signup-or-separator {
+				    background: none;
+				    height: 55px;
+				    position: relative;
+				    text-align: center;
+			    .signup-or-separator--text {
+				    background-color: #fff;
+				    display: inline-block;
+				    padding: 8px;
+				}
+				 hr {
+				    margin: -27px auto 10px;
+				    width: 100%;
+				}
+			}
+		}
+	}
+	.modal-footer{
+		    padding: 15px 0px;
+    		margin: 15px 0px 0px 0px;
+		
+	}
+}
