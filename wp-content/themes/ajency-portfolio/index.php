@@ -106,7 +106,7 @@
                                 </div>
                             </a>
                             and
-                            <a class="text-black text-link" href="https://ajency.in/product-user-interface-design%20%20/">
+                            <a class="text-black text-link" href="https://ajency.in/product-user-interface-design/">
                                 <div class="clutch">
                                     Interface design
                                     <div class="clutch-open">
