@@ -50,161 +50,99 @@
     </head>
     <body>
         <nav>
-            <div class="container mt5 p5">
+              <div class="container mt5  p5">
                 <div class="row ">
                     <div class="col-6 col-xl-2 col-sm-3">
-                        <a href="https://ajency.in/">
-                            <img class="float-right logo" src="https://ajency.in/img/ajency-logo.png" width="157px"/>
-                        </a>
+                      <a href="https://ajency.in/">
+                      <img src="https://ajency.in/img/ajency-logo.png" width="157px" class="float-right logo"/>
+                    </a>
                     </div>
-                    <div class=" offset-sm-5 col-sm-4 offset-xl-8 col-xl-2 col-6">
-                        <a class="h4 menu float-left m-0" href="mailto:talktous@ajency.in">
-                            talktous@ajency.in
-                        </a>
+                    <div class="  offset-sm-5 col-sm-4 offset-xl-8 col-xl-2 col-6">
+                      <a href="mailto:talktous@ajency.in" class="h4 menu float-left m-0">talktous@ajency.in </a>
                     </div>
                 </div>
-            </div>
-        </nav>
+              </div>
+            </nav>
+
         <div class="container p5">
-            <div class="row">
-                <div class="col offset-xl-2 col-xl-8 col12">
-                    <div class="headerfix ">
-                        <div class="bread-crumb">
-                            <h1 class="ft6 pt-6">
-                                <span>
-                                    /
-                                </span>
-                                <a class="text-link text-black" href="#">
-                                    Home
-                                </a>
-                            </h1>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col  offset-xl-2 col-xl-8 col12">
+               <div class="headerfix ">
+                 <div class="bread-crumb"><h1 class="ft6 pt-6"><span>/</span> <a href="#" class="text-link text-black">Home</a> </div>
+              </div>
             </div>
+          </div>
         </div>
         <div class="seperator">
         </div>
         <section>
-            <div class="container p5">
-                <div class="row">
-                    <div class="col offset-xl-2 col-xl-8 col12">
-                        <h1 class="display-4 font-weight-bold aj-home-title">
-                            We are a 6 year old Goa (India) based
-                            <a class="text-black text-link" href="https://ajency.in/software-development-engineering/">
-                                <div class="clutch">
-                                    Software development
-                                    <div class="clutch-open">
-                                        <h3 class="text-center">
-                                            <i class="fas fa-stopwatch">
-                                            </i>
-                                            Loads under 4 seconds
-                                            <i class="fas fa-angle-right float-right">
-                                            </i>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </a>
-                            and
-                            <a class="text-black text-link" href="https://ajency.in/product-user-interface-design/">
-                                <div class="clutch">
-                                    Interface design
-                                    <div class="clutch-open">
-                                        <h3 class="text-center">
-                                            <i class="fas fa-stopwatch">
-                                            </i>
-                                            Loads under 4 seconds
-                                            <i class="fas fa-angle-right float-right">
-                                            </i>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </a>
-                            company. We also offer
-                            <a class="text-black text-link" href="https://ajency.in/website-design/">
-                                <div class="clutch">
-                                    Web Design
-                                    <div class="clutch-open">
-                                        <h3 class="text-center">
-                                            <i class="fas fa-stopwatch">
-                                            </i>
-                                            Loads under 4
-                                            <i class="fas fa-angle-right float-right">
-                                            </i>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </a>
-                            services.
-                        </h1>
-                    </div>
-                </div>
-            </div>
-            <div>
-            </div>
-        </section>
         <div class="container p5">
-            <div class="row">
-                <div class="col-12">
-                    <hr>
-                </div>
+          <div class="row">
+            <div class="col  offset-xl-2 col-xl-8 col12">
+             <h1 class="display-4 font-weight-bold aj-home-title">
+
+              We are a 6 year old Goa (India) based <a href="https://ajency.in/software-development-engineering/" class="text-black text-link"><div class="clutch">Software development<div class="clutch-open"><h3 class="text-center"><i class="fas fa-user-friends"></i> Dedicated teams or One off projects <i class="fas fa-angle-right float-right"></i></h3></div></div></a> and <a href="https://ajency.in/product-user-interface-design/" class="text-black text-link"><div class="clutch">Interface design<div class="clutch-open"><h3 class="text-center"><i class="far fa-object-group"></i> UX research & UI Design <i class="fas fa-angle-right float-right"></i></h3></div></div></a> company. We also offer <a href="https://ajency.in/website-design/" class="text-black text-link"><div class="clutch">Web Design<div class="clutch-open"><h3 class="text-center"><i class="fab fa-wordpress"></i> Wordpress & More<i class="fas fa-angle-right float-right"></i></h3></div></div></a> services.
+
+         </h1>
             </div>
+          </div>
+        </div>
+        <div>
+          </div>
+        </section>
+
+
+         <div class="container p5">
+          <div class="row">
+            <div class="col-12">
+               <hr>
+            </div>
+          </div>
         </div>
         <footer>
-            <section class="footer-section">
-                <div class="container p5">
-                    <div class="row">
-                        <div class="col-xl-2 contact-us">
-                        </div>
-                        <div class="col-xl-8">
-                            <div class="row no-gutters">
-                                <div class="col-md-4 contact-details">
-                                    <h4 class="font-weight-light">
-                                        <a class=" d-block h4 font-weight-light" href="tel:09975931402">
-                                            +91 99759 31402
-                                        </a>
-                                    </h4>
-                                    <h4 class="font-weight-light">
-                                        <a class="d-block h4 font-weight-light" href="mailto:talktous@ajency.in">
-                                            talktous@ajency.in
-                                        </a>
-                                        <br>
-                                          <span class="h5">
-                                              Career Opportunities mail us on
-                                          </span>
-                                          <a class=" d-block h4 font-weight-light" href="mailto:workwithus@ajency.in">
-                                              workwithus@ajency.in
-                                          </a>
-                                    </h4>
-                                </div>
-                                <div class="col-md-5 mt-5 mt-md-0 contact-details">
-                                    <h4 class="font-weight-light w-75">
-                                        Panjim Convention Center, Panjim. Goa, India.
-                                        <a class=" font-weight-light h5 " href="https://goo.gl/maps/qmCNWotzNhC2" target="_blank">
-                                            (Get Directions)
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div class="col-md-3 mt-5 mt-md-0 contact-details-1">
-                                    <h4 class="font-weight-light">
-                                        <a class="d-block h4 font-weight-light" href="https://www.facebook.com/Ajency.in/">
-                                            Facebook
-                                        </a>
-                                    </h4>
-                                    <h4 class="font-weight-light">
-                                        <a class="d-block h4 font-weight-light" href="https://www.linkedin.com/company/ajency-in">
-                                            Linkedin
-                                        </a>
-                                    </h4>
-                                </div>
-                            </div>
-                            <div class="mt-5">
-                                (C) 2018 Digital Dwarves Pvt Ltd. All Right Reserved
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <section class="footer-section">
+        <div class="container p5">
+          <div class="row">
+            <div class="col-xl-2 contact-us">
+
+            </div>
+            <div class="col-xl-8">
+            	<div class="row no-gutters">
+            		<div class="col-md-4 contact-details">
+         	 <h4 class="font-weight-light">
+              <a href="tel:09975931402" class=" d-block h4 font-weight-light">+91 99759 31402</a>
+              </h4>
+              <h4 class="font-weight-light">
+              <a href="mailto:talktous@ajency.in" class="d-block h4 font-weight-light">talktous@ajency.in</a>
+              <br>
+              <span class="h5">Career Opportunities:</span> <a href="mailto:workwithus@ajency.in" class=" d-block h4 font-weight-light"> workwithus@ajency.in</a>
+
+            </h4>
+
+            </div>
+            <div class="col-md-5 mt-5 mt-md-0 contact-details">
+         	<h4 class="font-weight-light w-75">
+              Panjim Convention Center, Panjim. Goa, India.
+            <a href="https://goo.gl/maps/qmCNWotzNhC2"  target="_blank" class="  font-weight-light h5 ">(Map)</a>
+            </h4>
+
+            </div>
+            <div class="col-md-3 mt-5 mt-md-0 contact-details-1">
+         	<h4 class="font-weight-light">
+         		<a href="https://www.facebook.com/Ajency.in/" class="d-block h4 font-weight-light">Facebook</a>
+         	</h4>
+         	<h4 class="font-weight-light">
+              <a href="https://www.linkedin.com/company/ajency-in" class="d-block h4 font-weight-light">Linkedin</a>
+            </h4>
+            </div>
+            	</div>
+              <div class="mt-5">
+              (C) 2018 Digital Dwarves Pvt Ltd. All Right Reserved
+            </div>
+            </div>
+          </div>
+        </div>
+        </section>
         </footer>
         <noscript id="deferred-styles">
             <link href="https://ajency.in/css/combine.css" rel="stylesheet" type="text/css">

@@ -4,27 +4,67 @@
 
     <meta charset="utf-8">
 
- 		<title>Ajency.in | Goa based UI/UX Website Designing, Mobile Application Development, Software Development Company, Website development</title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 
-		<meta name="description" content="We work with startups in Goa, London, Mumbai, Bangalore &amp; rest of the world. We combine both UI/UX &amp; web + mobile development skills to create winning digital products."/>
-		<meta name="keywords" content="Software company in Goa,Software Development Company Goa,Mobile Application Development, Mobile Application Development Goa, Web design Panjim,Ajency.in Goa"/>
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Ajency.in | Goa based UI/UX &amp; Web, Mobile Application Development, Software Development Company" />
-		<meta property="og:description" content="We work with startups in Goa, London, Mumbai, Bangalore &amp; rest of the world. We combine both UI/UX &amp; web + mobile development skills to create winning digital products." />
-		<meta property="og:url" content="https://ajency.in/" />
-		<meta property="og:site_name" content="Ajency.in - Goa based UI/UX &amp; web + mobile application development company" />
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:description" content="We work with startups in Goa, London, Mumbai, Bangalore &amp; rest of the world. We combine both UI/UX &amp; web + mobile development skills to create winning digital products." />
-		<meta name="twitter:title" content="Ajency.in | Goa based UI/UX &amp; Web, Mobile Application Development, Software Development Company" />
+    <?php  if ( is_page_template('website-design/axisrooms.php') ) { ?>
+ 			<title>Website design and development of Axisrooms.com | Ajency.in Goa</title>
+    	<meta name="description" content="AxisRooms: award-winning hospitality technology solution company that is used in over 6000+ hotels across the world."/>
 
-		<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/ajency.in\/","name":"Ajency.in - Goa based UI\/UX &amp; web + mobile application development company","potentialAction":{"@type":"SearchAction","target":"https:\/\/ajency.in\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+    <?php } elseif ( is_page_template('website-design/indigowine.php') ) { ?>
+ 			<title>Website design and development of indigowineco.com | Ajency.in Goa</title>
+	    <meta name="description" content="Wine club in Singapore of artisanal wines from boutique producers across Australia. Members can read about wines &subscribe to wine box via site."/>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <meta name="theme-color" content="#707279" />
+    <?php } elseif ( is_page_template('website-design/designdesk.php') ) { ?>
+ 			<title>Website design and development of Designdesk.in | Ajency.in Goa</title>
+	    <meta name="description" content="Designdesk: based out of Mumbai, India, designs & builds exhibition stands. The website is a showcase of their work of 1200+ exhibitions in India & abroad."/>
+
+    <?php } elseif ( is_page_template('website-design/marvelrealtors.php') ) { ?>
+ 			<title>Website design and development of marvelrealtors.com | Ajency.in Goa</title>
+	    <meta name="description" content="Marvel Realtors Pune India, known for their premium residences. Website is their brochure for past &ongoing projects, highlighting amenities & unit configuration in each project."/>
+
+    <?php } elseif ( is_page_template('engineering.php') ) { ?>
+ 			<title>Ajency.in | Goa based UI/UX Website Development, Mobile Application Development, Software Development Company</title>
+	    <meta name="description" content="We research and design digital products that people love to use. Led by HFI certified UX analyst we have worked on diverse projects. From mobile wallets for India's largest business group to an online marketplace for a soloprenuer."/>
+
+    <?php } elseif ( is_page_template('user-interface-design.php') ) { ?>
+ 			<title>Ajency.in | Goa based UI/UX Website Development, Mobile Application Development, Software Development Company</title>
+	    <meta name="description" content="We research and design digital products that people love to use. Led by an HFI certified UX analyst, we have worked on diverse projects, from mobile wallets for India's largest business group to an online marketplace for a soloprenuer."/>
+
+    <?php } elseif ( is_page_template('product-user-interface-design/fnbcircle.php') ) { ?>
+ 			<title>FnB Circle | Ajency.in</title>
+	    <meta name="description" content="Large directory sites are making way for newer industry-focused vertical directories and marketplaces. We worked with a family business with strong roots in the traditional F&B industry. Our brief was to help them be part of the online disruption taking place in discovery of vendors in their niche."/>
+
+    <?php } elseif ( is_page_template('product-user-interface-design/goomoextranet.php') ) { ?>
+ 			<title>Goomo CBT | Ajency.in</title>
+	    <meta name="description" content="Armed with $50 million in fund raise Goomo has set out to disrupt the business travel market. We worked with them on numerous projects including their corporate booking tool and the extranet product for use by their hotel partners. "/>
+
+    <?php } elseif ( is_page_template('product-user-interface-design/goomotrain.php') ) { ?>
+ 			<title>Goomo Train Booking App | Ajency.in</title>
+	    <meta name="description" content="Armed with $50 million in fund raise Goomo has set out to disrupt the online travel booking market in India. We worked with them on numerous projects including the interface design for train bookings product. "/>
+
+    <?php } elseif ( is_page_template('product-user-interface-design/mrupee.php') ) { ?>
+ 			<title>Mobile Wallet App | Ajency.in</title>
+	    <meta name="description" content="Mobile wallets and seamless payments at retail and online merchants have revolutionized the Indian market. We made a small contribution to trend while designing the mobile wallet for India’s largest business house (TATA)."/>
+
+    <?php } else { ?>
+
+    	<title>Ajency.in | Goa based UI/UX Website, Mobile Application Development, Software Development Company</title>
+
+			<meta name="description" content="We work with startups in Goa, London, Mumbai, Bangalore &amp; rest of the world. We combine both UI/UX &amp; web + mobile development skills to create winning digital products."/>
+			<meta name="keywords" content="Software company in Goa,Software Development Company Goa,Mobile Application Development, Mobile Application Development Goa, Web design Panjim,Ajency.in Goa"/>
+			<meta property="og:type" content="website" />
+			<meta property="og:title" content="Ajency.in | Goa based UI/UX &amp; Web, Mobile Application Development, Software Development Company" />
+			<meta property="og:description" content="We work with startups in Goa, London, Mumbai, Bangalore &amp; rest of the world. We combine both UI/UX &amp; web + mobile development skills to create winning digital products." />
+			<meta property="og:url" content="https://ajency.in/" />
+			<meta property="og:site_name" content="Ajency.in - Goa based UI/UX &amp; web + mobile application development company" />
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:description" content="We work with startups in Goa, London, Mumbai, Bangalore &amp; rest of the world. We combine both UI/UX &amp; web + mobile development skills to create winning digital products." />
+			<meta name="twitter:title" content="Ajency.in | Goa based UI/UX &amp; Web, Mobile Application Development, Software Development Company" />
+
+			<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/ajency.in\/","name":"Ajency.in - Goa based UI\/UX &amp; web + mobile application development company","potentialAction":{"@type":"SearchAction","target":"https:\/\/ajency.in\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+
+		<?php } ?>
+
     <link  rel="icon" type="image/x-icon" href="https://ajency.in/img/favicon.png" />
 
     <style type="text/css">

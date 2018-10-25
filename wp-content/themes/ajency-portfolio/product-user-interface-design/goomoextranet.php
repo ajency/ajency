@@ -39,13 +39,56 @@
 <div class="container p5">
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
-      <img src="https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-hotel-list-view-10px.jpg"
-          data-srcset=" https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-hotel-list-view-large.jpg  1676w, https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-hotel-list-view-medium.jpg 1200w, https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-hotel-list-view-small.jpg  700w"
-          data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
+        <img src="https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-banner1-10px.jpg"
+             data-srcset=" https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-banner1-large.jpg  1676w, https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-banner1-medium.jpg 1200w, https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-banner1-small.jpg  700w"
+             data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
     </div>
   </div>
 </div>
 </section>
+
+<section class="p2">
+<div class="container p5">
+  <div class="row">
+    <div class="col  offset-xl-2 col-xl-8 col12">
+        <img src="https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-flight-list-view-10px.jpg"
+             data-srcset=" https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-flight-list-view-large.jpg  1676w, https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-flight-list-view-medium.jpg 1200w, https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-flight-list-view-small.jpg  700w"
+             data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="p2">
+<div class="container p5">
+  <div class="row">
+    <div class="col  offset-xl-2 col-xl-8 col12">
+        <img src="https://ajency.in/img/portfolio/goomo-cbt/goomo-extranet-hotel-listview-10px.jpg"
+             data-srcset=" https://ajency.in/img/portfolio/goomo-cbt/goomo-extranet-hotel-listview-large.jpg  1676w, https://ajency.in/img/portfolio/goomo-cbt/goomo-extranet-hotel-listview-medium.jpg 1200w, https://ajency.in/img/portfolio/goomo-cbt/goomo-extranet-hotel-listview-small.jpg  700w"
+             data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="p2">
+<div class="container p5">
+  <div class="row">
+    <div class="col  offset-xl-2 col-xl-8 col12">
+        <img src="https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-banner2-10px.jpg"
+             data-srcset=" https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-banner2-large.jpg  1676w, https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-banner2-medium.jpg 1200w, https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-banner2-small.jpg  700w"
+             data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
 <section class="p2">
 <div class="container p5">
   <div class="row">

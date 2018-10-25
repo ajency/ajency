@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
       <div class="headerfix ">
-         <div class="bread-crumb"><h1 class="ft6 pt-6"><span>/</span> <a href="https://ajency.in/product-user-interface-design//" class="text-link text-black">user interface design</a> <span>/</span>  fnb cricle</h1></div>
+         <div class="bread-crumb"><h1 class="ft6 pt-6"><span>/</span> <a href="https://ajency.in/product-user-interface-design//" class="text-link text-black">user interface design</a> <span>/</span>  fnb circle</h1></div>
       </div>
     </div>
   </div>
