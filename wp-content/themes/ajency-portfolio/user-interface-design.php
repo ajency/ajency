@@ -223,13 +223,30 @@ A contemporary directory site for the food and beverage industry (India).
               <img src="https://ajency.in/img/team/amit-10px.jpg"
                   class="lazyload blur-up img-fluid"
                   data-srcset="https://ajency.in/img/team/amit-desktop.jpg 700w, https://ajency.in/img/team/amit-tablet.jpg 476w, https://ajency.in/img/team/amit-mobile.jpg 276w"
-                  data-sizes="(min-width: 768px) 42vw, 100vw" alt="Avanti Hiremath" class="img-fluid">
+                  data-sizes="(min-width: 768px) 42vw, 100vw" alt="Amit" class="img-fluid">
             </div>
             <div class="col-md-5 offset-md-1">
               <div class="w-75 team-desc">
                 <h5>Chief Designer</h5>
                 <h1 class="display-3">Amit Adav</h1>
                 <div class="black f-paragraph-small no-spacing"><h5 class="font-weight-light">7+ years in New Media Design.</h5></div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div >
+          <div class="row">
+            <div class="col-md-6">
+              <img src="https://ajency.in/img/team/jeromie-10px.jpg"
+                  class="lazyload blur-up img-fluid"
+                  data-srcset="https://ajency.in/img/team/jeromie-desktop.jpg 700w, https://ajency.in/img/team/jeromie-tablet.jpg 476w, https://ajency.in/img/team/jeromie-mobile.jpg 276w"
+                  data-sizes="(min-width: 768px) 42vw, 100vw" alt="Jeromie" class="img-fluid">
+            </div>
+            <div class="col-md-5 offset-md-1">
+              <div class="w-75 team-desc">
+                <h5>Frontend Lead</h5>
+                <h1 class="display-3">Jeromie Fernandes</h1>
+                <div class="black f-paragraph-small no-spacing"><h5 class="font-weight-light">7+ years in frontend development.</h5></div>
               </div>
             </div>
           </div>

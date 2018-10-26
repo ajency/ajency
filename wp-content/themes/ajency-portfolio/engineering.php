@@ -93,8 +93,8 @@ Bekumo, London ">
             <div class="row">
                 <div class="num col-sm-2 ">01</div>
                 <div class="term  col-sm-10 ">
-                    <span class="term-title">We build &amp; extend development teams</span>
-                    <p class="term-desc">Work with our outstanding engineers and integrate them into your processes.</p>
+                  <h3 class="h1 ft6"> We build &amp; extend development teams</h3>
+                    <h4 class="font-weight-light mt-4">Work with our outstanding engineers and integrate them into your processes.</h4>
                 </div>
             </div>
         </div>
@@ -102,8 +102,8 @@ Bekumo, London ">
             <div class="row">
                 <div class="num col-sm-2 ">02</div>
                 <div class="term col-sm-10">
-                    <span class="term-title">We develop great applications &emsp;&emsp;&emsp;&ensp;</span>
-                    <p class="term-desc">Let us transform your concepts into business-ready software solutions.</p>
+                    <h3 class="h1 ft6">We develop great applications </h3>
+                    <h4 class="font-weight-light mt-4">Let us transform your concepts into business-ready software solutions.</h4>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@ Bekumo, London ">
 
   <div class="row mt-5">
     <div class="col  offset-xl-2 col-xl-8 col12">
-    <div class="alert alert-light">
+    <div class="alert alert-light alert-mb">
 
   <p class="mt-2 body-text text-black">One of our leadership team/co-founders is hands on with each project. This personal ownership is a key reason why clients choose to work with a boutique development studio like our’s.
 </p>
@@ -386,7 +386,7 @@ Bekumo, London ">
               <div class="w-75 team-desc">
                 <h5>Engineering Manager</h5>
                 <h1 class="display-3">Nutan Kamat</h1>
-                <div class="black f-paragraph-small no-spacing"><h5 class="font-weight-light">6+ years in Project Handling.</h5></div>
+                <div class="black f-paragraph-small no-spacing"><h5 class="font-weight-light">6+ years.</h5></div>
               </div>
             </div>
           </div>
@@ -405,7 +405,7 @@ Bekumo, London ">
                 <h5>Engineering Manager
 </h5>
                 <h1 class="display-3">Robiul Hoque</h1>
-                <div class="black f-paragraph-small no-spacing"><h5 class="font-weight-light">8+ years in Project Handling.</h5></div>
+                <div class="black f-paragraph-small no-spacing"><h5 class="font-weight-light">8+ years.</h5></div>
               </div>
             </div>
           </div>
