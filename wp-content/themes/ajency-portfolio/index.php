@@ -53,8 +53,8 @@
               <div class="container mt5  p5">
                 <div class="row ">
                     <div class="col-6 col-xl-2 col-sm-3">
-                      <a href="https://ajency.in/">
-                      <img src="https://ajency.in/img/ajency-logo.png" width="157px" class="float-right logo"/>
+                      <a href="<?php echo get_site_url(); ?>">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/ajency-logo.png" width="157px" class="float-right logo"/>
                     </a>
                     </div>
                     <div class="  offset-sm-5 col-sm-4 offset-xl-8 col-xl-2 col-6">
@@ -81,7 +81,7 @@
             <div class="col  offset-xl-2 col-xl-8 col12">
              <h1 class="display-4 font-weight-bold aj-home-title">
 
-              We are a 6 year old Goa (India) based <a href="https://ajency.in/software-development-engineering/" class="text-black text-link"><div class="clutch">Software development<div class="clutch-open"><h3 class="text-center"><i class="fas fa-user-friends"></i> Dedicated teams or One off projects <i class="fas fa-angle-right float-right"></i></h3></div></div></a> and <a href="https://ajency.in/product-user-interface-design/" class="text-black text-link"><div class="clutch">Interface design<div class="clutch-open"><h3 class="text-center"><i class="far fa-object-group"></i> UX research & UI Design <i class="fas fa-angle-right float-right"></i></h3></div></div></a> company. We also offer <a href="https://ajency.in/website-design/" class="text-black text-link"><div class="clutch">Web Design<div class="clutch-open"><h3 class="text-center"><i class="fab fa-wordpress"></i> Wordpress & More<i class="fas fa-angle-right float-right"></i></h3></div></div></a> services.
+              We are a 6 year old Goa (India) based <a href="<?php echo get_site_url(); ?>/software-development-engineering/" class="text-black text-link"><div class="clutch">Software development<div class="clutch-open"><h3 class="text-center"><i class="fas fa-user-friends"></i> Dedicated teams or One off projects <i class="fas fa-angle-right float-right"></i></h3></div></div></a> and <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="text-black text-link"><div class="clutch">Interface design<div class="clutch-open"><h3 class="text-center"><i class="far fa-object-group"></i> UX research & UI Design <i class="fas fa-angle-right float-right"></i></h3></div></div></a> company. We also offer <a href="<?php echo get_site_url(); ?>/website-design/" class="text-black text-link"><div class="clutch">Web Design<div class="clutch-open"><h3 class="text-center"><i class="fab fa-wordpress"></i> Wordpress & More<i class="fas fa-angle-right float-right"></i></h3></div></div></a> services.
 
          </h1>
             </div>
@@ -145,7 +145,7 @@
         </section>
         </footer>
         <noscript id="deferred-styles">
-            <link href="https://ajency.in/css/combine.css" rel="stylesheet" type="text/css">
+            <link href="<?php echo get_template_directory_uri(); ?>/css/combine.css" rel="stylesheet" type="text/css">
         </noscript>
         <script>
             var loadDeferredStyles = function() {

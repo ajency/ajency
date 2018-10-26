@@ -32,11 +32,11 @@
   <div class="slider variable-width d-flex align-items-center">
     <div >
      <picture>
-             <source media="(orientation: landscape)" data-srcset='https://ajency.in/img/testimonials/testimonial-1-large.jpg  1676w, https://ajency.in/img/testimonials/testimonial-1-medium.jpg 1200w, https://ajency.in/img/testimonials/testimonial-1-small.jpg  700w,' sizes="52vw">
+             <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-small.jpg  700w,' sizes="52vw">
 
-             <source media="(orientation: portrait)" data-srcset='https://ajency.in/img/testimonials/testimonial-1-resize-2x.jpg  700w, https://ajency.in/img/testimonials/testimonial-1-resize-1x.jpg 400w' sizes="70vw">
+             <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-resize-2x.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-resize-1x.jpg 400w' sizes="70vw">
 
-             <img src="https://ajency.in/img/testimonials/testimonial-1-10px.jpg"
+             <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-10px.jpg"
                  data-sizes="100vw"
                  class="img-fluid lazyload blur-up" alt="David Lovell (Operations Director
 ) GrowthInvest.com">
@@ -46,11 +46,11 @@
 
 
            <picture>
-             <source media="(orientation: landscape)" data-srcset='https://ajency.in/img/testimonials/testimonial-2-large.jpg  1676w, https://ajency.in/img/testimonials/testimonial-2-medium.jpg 1200w, https://ajency.in/img/testimonials/testimonial-2-small.jpg  700w,' sizes="52vw">
+             <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-small.jpg  700w,' sizes="52vw">
 
-             <source media="(orientation: portrait)" data-srcset='https://ajency.in/img/testimonials/testimonial-2-resize-2x.jpg  700w, https://ajency.in/img/testimonials/testimonial-2-resize-1x.jpg 400w' sizes="70vw">
+             <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-resize-2x.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-resize-1x.jpg 400w' sizes="70vw">
 
-             <img src="https://ajency.in/img/testimonials/testimonial-2-10px.jpg"
+             <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-10px.jpg"
                  data-sizes="100vw"
                  class="img-fluid lazyload blur-up" alt="Akhil Gupta (Chief Technology Officer)
 HealthKart.com">
@@ -60,22 +60,22 @@ HealthKart.com">
     </div>
     <div>
          <picture>
-             <source media="(orientation: landscape)" data-srcset='https://ajency.in/img/testimonials/testimonial-3-large.jpg  1676w, https://ajency.in/img/testimonials/testimonial-3-medium.jpg 1200w, https://ajency.in/img/testimonials/testimonial-3-small.jpg  700w,' sizes="52vw">
+             <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-small.jpg  700w,' sizes="52vw">
 
-             <source media="(orientation: portrait)" data-srcset='https://ajency.in/img/testimonials/testimonial-3-resize-2x.jpg  700w, https://ajency.in/img/testimonials/testimonial-3-resize-1x.jpg 400w' sizes="70vw">
+             <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-resize-2x.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-resize-1x.jpg 400w' sizes="70vw">
 
-             <img src="https://ajency.in/img/testimonials/testimonial-3-10px.jpg"
+             <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-10px.jpg"
                  data-sizes="100vw"
                  class="img-fluid lazyload blur-up" alt="Gurpreet Singh (Co-founder) Browntape.com">
            </picture>
     </div>
      <div>
      <picture>
-             <source media="(orientation: landscape)" data-srcset='https://ajency.in/img/testimonials/testimonial-4-large.jpg  1676w, https://ajency.in/img/testimonials/testimonial-4-medium.jpg 1200w, https://ajency.in/img/testimonials/testimonial-4-small.jpg  700w,' sizes="52vw">
+             <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-small.jpg  700w,' sizes="52vw">
 
-             <source media="(orientation: portrait)" data-srcset='https://ajency.in/img/testimonials/testimonial-4-resize-2x.jpg  700w, https://ajency.in/img/testimonials/testimonial-4-resize-1x.jpg 400w' sizes="70vw">
+             <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-resize-2x.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-resize-1x.jpg 400w' sizes="70vw">
 
-             <img src="https://ajency.in/img/testimonials/testimonial-4-10px.jpg"
+             <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-10px.jpg"
                  data-sizes="100vw"
                  class="img-fluid lazyload blur-up" alt="Andrew Nicolson (Head of Product)
 Bekumo, London ">
@@ -152,8 +152,8 @@ Bekumo, London ">
        <div id="div1" style="display:block;">
        <span aria-hidden="true" class="close">&times; Close</span>
           <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
-              data-delaysrc="https://ajency.in/img/portfolio/healthkart/Healthkart-Homepage-480px.jpg"
-              data-delaysrcset="https://ajency.in/img/portfolio/healthkart/Healthkart-Homepage-1536px.jpg 1536w, https://ajency.in/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg 768w, https://ajency.in/img/portfolio/healthkart/Healthkart-Homepage-480px.jpg 480w"
+              data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-480px.jpg"
+              data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-480px.jpg 480w"
               data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid "
               alt=" Sequoia backed omnichannel marketplace for health products.">
 
@@ -170,8 +170,8 @@ Bekumo, London ">
            <span aria-hidden="true" class="close">&times; Close</span>
 
           <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
-              data-delaysrc="https://ajency.in/img/portfolio/commonfloor/Commonfloor-Homepage-480px.jpg"
-              data-delaysrcset="https://ajency.in/img/portfolio/commonfloor/Commonfloor-Homepage-1536px.jpg 1536w, https://ajency.in/img/portfolio/commonfloor/Commonfloor-Homepage-768px.jpg 768w, https://ajency.in/img/portfolio/commonfloor/Commonfloor-Homepage-480px.jpg 480w"
+              data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-480px.jpg"
+              data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-480px.jpg 480w"
               data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid">
        </div>
       </div>
@@ -186,8 +186,8 @@ Bekumo, London ">
         <span aria-hidden="true" class="close">&times; Close</span>
 
           <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
-              data-delaysrc="https://ajency.in/img/portfolio/growthinvest/GrowthInvest-Homepage-480px.jpg"
-              data-delaysrcset="https://ajency.in/img/portfolio/growthinvest/GrowthInvest-Homepage-1536px.jpg 1536w, https://ajency.in/img/portfolio/growthinvest/GrowthInvest-Homepage-768px.jpg 768w, https://ajency.in/img/portfolio/growthinvest/GrowthInvest-Homepage-480px.jpg 480w"
+              data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-480px.jpg"
+              data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-480px.jpg 480w"
               data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid">
        </div>
       </div>
@@ -202,8 +202,8 @@ Bekumo, London ">
           <span aria-hidden="true" class="close">&times; Close</span>
 
           <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
-              data-delaysrc="https://ajency.in/img/portfolio/weddingz/Weddingz-Homepage-480w.jpg"
-              data-delaysrcset="https://ajency.in/img/portfolio/weddingz/Weddingz-Homepage-1536px.jpg 1536w, https://ajency.in/img/portfolio/weddingz/Weddingz-Homepage-768px.jpg 768w, https://ajency.in/img/portfolio/weddingz/Weddingz-Homepage-480w.jpg 480w"
+              data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-480w.jpg"
+              data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-480w.jpg 480w"
               data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid">
        </div>
       </div>
@@ -218,8 +218,8 @@ Bekumo, London ">
         <div id="div5">
             <span aria-hidden="true" class="close">&times; Close</span>
           <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
-              data-delaysrc="https://ajency.in/img/portfolio/mylan/mylan-homepage-480w.jpg"
-              data-delaysrcset="https://ajency.in/img/portfolio/mylan/mylan-homepage-1536px.jpg 1536w, https://ajency.in/img/portfolio/mylan/mylan-homepage-768px.jpg 768w, https://ajency.in/img/portfolio/mylan/mylan-homepage-480w.jpg 480w"
+              data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-480w.jpg"
+              data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-480w.jpg 480w"
               data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid ">
        </div>
       </div>
@@ -230,7 +230,7 @@ Bekumo, London ">
           <div class="row no-gutter fixed-header shadow" >
             <div class="col-1">
               <h3  class="m-0 font-weight-bold back" >
-                <img class="btn-back mt-1 " src="https://ajency.in/img/left-arrow.png" style="width:20px;"/>
+                <img class="btn-back mt-1 " src="<?php echo get_template_directory_uri(); ?>/img/left-arrow.png" style="width:20px;"/>
               </h3>
             </div>
             <div class="col-7">
@@ -248,8 +248,8 @@ Bekumo, London ">
                   </h5>
                 </div>
                 <div>
-                  <img src="https://ajency.in/img/portfolio/healthkart/healthkart-homepage-mo-10px.jpg"
-                      data-srcset="https://ajency.in/img/portfolio/healthkart/Healthkart-Homepage-1600px.jpg 1600w, https://ajency.in/img/portfolio/healthkart/Healthkart-Homepage-800px.jpg 800w, https://ajency.in/img/portfolio/healthkart/Healthkart-Homepage-400px.jpg 400w"
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/healthkart-homepage-mo-10px.jpg"
+                      data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-1600px.jpg 1600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-800px.jpg 800w, <?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-400px.jpg 400w"
                       data-sizes="100w" class="img-fluid lazyload blur-up">
                 </div>
               </div>
@@ -263,8 +263,8 @@ Bekumo, London ">
                 </div>
                 <div>
 
-                  <img src="https://ajency.in/img/portfolio/commonfloor/commonfloor-homepage-mo-10px.jpg"
-                      data-srcset="https://ajency.in/img/portfolio/commonfloor/Commonfloor-Homepage-1600px.jpg 1600w, https://ajency.in/img/portfolio/commonfloor/Commonfloor-Homepage-800px.jpg 800w, https://ajency.in/img/portfolio/commonfloor/Commonfloor-Homepage-400px.jpg 400w"
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/commonfloor-homepage-mo-10px.jpg"
+                      data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-1600px.jpg 1600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-800px.jpg 800w, <?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-400px.jpg 400w"
                       data-sizes="100w" class="img-fluid lazyload blur-up">
                 </div>
               </div>
@@ -278,8 +278,8 @@ Bekumo, London ">
                 </div>
                 <div>
 
-                  <img src="https://ajency.in/img/portfolio/growthinvest/growthInvest-homepage-mo-10px.jpg"
-                      data-srcset="https://ajency.in/img/portfolio/growthinvest/GrowthInvest-Homepage-1600px.jpg 1600w, https://ajency.in/img/portfolio/growthinvest/GrowthInvest-Homepage-800px.jpg 800w, https://ajency.in/img/portfolio/growthinvest/GrowthInvest-Homepage-400px.jpg 400w"
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/growthInvest-homepage-mo-10px.jpg"
+                      data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-1600px.jpg 1600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-800px.jpg 800w, <?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-400px.jpg 400w"
                       data-sizes="100w" class="img-fluid lazyload blur-up">
                 </div>
               </div>
@@ -293,8 +293,8 @@ Bekumo, London ">
                 </div>
                 <div>
 
-                  <img src="https://ajency.in/img/portfolio/weddingz/Weddingz-Homepage-1600px.jpg"
-                      data-srcset="https://ajency.in/img/portfolio/weddingz/Weddingz-Homepage-1600px.jpg 1600w, https://ajency.in/img/portfolio/weddingz/Weddingz-Homepage-800px.jpg 800w, https://ajency.in/img/portfolio/weddingz/Weddingz-Homepage-400px.jpg 400w"
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-1600px.jpg"
+                      data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-1600px.jpg 1600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-800px.jpg 800w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-400px.jpg 400w"
                       data-sizes="100w" class="img-fluid lazyload blur-up">
                 </div>
               </div>
@@ -307,8 +307,8 @@ Bekumo, London ">
                   </h5>
                 </div>
                 <div>
-                  <img src="https://ajency.in/img/portfolio/mylan/mylan-homepage-mo-10px.jpg"
-                       data-srcset="https://ajency.in/img/portfolio/mylan/mylan-homepage-1600px.jpg 1600w, https://ajency.in/img/portfolio/mylan/mylan-homepage-800px.jpg 800w, https://ajency.in/img/portfolio/mylan/mylan-homepage-400px.jpg 400w"
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-mo-10px.jpg"
+                       data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-1600px.jpg 1600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-800px.jpg 800w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-400px.jpg 400w"
                        data-sizes="100w" class="img-fluid lazyload blur-up">
                 </div>
               </div>
@@ -357,9 +357,9 @@ Bekumo, London ">
             <div class="col-md-6">
 
 
-                  <img src="https://ajency.in/img/team/anuj-10px.jpg"
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/team/anuj-10px.jpg"
                   class="lazyload blur-up img-fluid"
-                  data-srcset="https://ajency.in/img/team/anuj-desktop.jpg 700w, https://ajency.in/img/team/anuj-tablet.jpg 476w, https://ajency.in/img/team/anuj-mobile.jpg 276w"
+                  data-srcset="<?php echo get_template_directory_uri(); ?>/img/team/anuj-desktop.jpg 700w, <?php echo get_template_directory_uri(); ?>/img/team/anuj-tablet.jpg 476w, <?php echo get_template_directory_uri(); ?>/img/team/anuj-mobile.jpg 276w"
                   data-sizes="(min-width: 768px) 42vw, 100vw" alt="Anuj Khurana" class="img-fluid">
             </div>
              <div class="col-md-5 offset-md-1">
@@ -377,9 +377,9 @@ Bekumo, London ">
             <div class="col-md-6">
 
 
-                  <img src="https://ajency.in/img/team/nutan-10px.jpg"
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/team/nutan-10px.jpg"
                   class="lazyload blur-up img-fluid"
-                  data-srcset="https://ajency.in/img/team/nutan-desktop.jpg 700w, https://ajency.in/img/team/nutan-tablet.jpg 476w, https://ajency.in/img/team/nutan-mobile.jpg 276w"
+                  data-srcset="<?php echo get_template_directory_uri(); ?>/img/team/nutan-desktop.jpg 700w, <?php echo get_template_directory_uri(); ?>/img/team/nutan-tablet.jpg 476w, <?php echo get_template_directory_uri(); ?>/img/team/nutan-mobile.jpg 276w"
                   data-sizes="(min-width: 768px) 42vw, 100vw" alt="Avanti Hiremath" class="img-fluid">
             </div>
             <div class="col-md-5 offset-md-1">
@@ -395,9 +395,9 @@ Bekumo, London ">
         <div >
           <div class="row">
             <div class="col-md-6">
-              <img src="https://ajency.in/img/team/robiul-10px.jpg"
+              <img src="<?php echo get_template_directory_uri(); ?>/img/team/robiul-10px.jpg"
                   class="lazyload blur-up img-fluid"
-                  data-srcset="https://ajency.in/img/team/robiul-desktop.jpg 700w, https://ajency.in/img/team/robiul-tablet.jpg 476w, https://ajency.in/img/team/robiul-mobile.jpg 276w"
+                  data-srcset="<?php echo get_template_directory_uri(); ?>/img/team/robiul-desktop.jpg 700w, <?php echo get_template_directory_uri(); ?>/img/team/robiul-tablet.jpg 476w, <?php echo get_template_directory_uri(); ?>/img/team/robiul-mobile.jpg 276w"
                   data-sizes="(min-width: 768px) 42vw, 100vw" alt="Avanti Hiremath" class="img-fluid">
             </div>
             <div class="col-md-5 offset-md-1">

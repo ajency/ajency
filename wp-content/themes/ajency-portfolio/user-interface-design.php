@@ -27,21 +27,21 @@ analyst, we have worked on diverse projects, from mobile wallets for India's lar
 </section><section class="mt-5 mt-md-0">
   <div class="slider variable-width d-flex align-items-center">
     <div >
-      <img src="https://ajency.in/img/gallery-img/ajency-office-10px.jpg"
+      <img src="<?php echo get_template_directory_uri(); ?>/img/gallery-img/ajency-office-10px.jpg"
           alt="Ajency Office Workplace"
-          data-srcset=" https://ajency.in/img/gallery-img/ajency-office-mobile.jpg 296w, https://ajency.in/img/gallery-img/ajency-office-tablet.jpg 592w, https://ajency.in/img/gallery-img/ajency-office-desktop.jpg 888w"
+          data-srcset=" <?php echo get_template_directory_uri(); ?>/img/gallery-img/ajency-office-mobile.jpg 296w, <?php echo get_template_directory_uri(); ?>/img/gallery-img/ajency-office-tablet.jpg 592w, <?php echo get_template_directory_uri(); ?>/img/gallery-img/ajency-office-desktop.jpg 888w"
           data-sizes="(min-width: 1400px) 890px,(min-width: 992px) 690px, (min-width: 768px) 490px,  296px" class="lazyload blur-up">
     </div>
     <div class="align-items-center">
-      <img src="https://ajency.in/img/gallery-img/ajency-team-squad-10px.jpg"
+      <img src="<?php echo get_template_directory_uri(); ?>/img/gallery-img/ajency-team-squad-10px.jpg"
           alt="Ajency Team squad "
-          data-srcset=" https://ajency.in/img/gallery-img/ajency-team-squad-mobile.jpg 296w, https://ajency.in/img/gallery-img/ajency-team-squad-tablet.jpg 592w, https://ajency.in/img/gallery-img/ajency-team-squad-desktop.jpg 888w"
+          data-srcset=" <?php echo get_template_directory_uri(); ?>/img/gallery-img/ajency-team-squad-mobile.jpg 296w, <?php echo get_template_directory_uri(); ?>/img/gallery-img/ajency-team-squad-tablet.jpg 592w, <?php echo get_template_directory_uri(); ?>/img/gallery-img/ajency-team-squad-desktop.jpg 888w"
           data-sizes="(min-width: 1400px) 890px,(min-width: 992px) 690px, (min-width: 768px) 490px,  296px" class="lazyload blur-up">
     </div>
     <div>
-      <img src="https://ajency.in/img/gallery-img/ajency-located-at-panjim-10px.jpg"
+      <img src="<?php echo get_template_directory_uri(); ?>/img/gallery-img/ajency-located-at-panjim-10px.jpg"
           alt="Ajency located at Panjim"
-          data-srcset=" https://ajency.in/img/gallery-img/ajency-located-at-panjim-desktop.jpg 296w, https://ajency.in/img/gallery-img/ajency-located-at-panjim-desktop-tablet.jpg 592w, https://ajency.in/img/gallery-img/ajency-located-at-panjim-desktop-mobile.jpg 888w"
+          data-srcset=" <?php echo get_template_directory_uri(); ?>/img/gallery-img/ajency-located-at-panjim-desktop.jpg 296w, <?php echo get_template_directory_uri(); ?>/img/gallery-img/ajency-located-at-panjim-desktop-tablet.jpg 592w, <?php echo get_template_directory_uri(); ?>/img/gallery-img/ajency-located-at-panjim-desktop-mobile.jpg 888w"
           data-sizes="(min-width: 1400px) 890px,(min-width: 992px) 690px, (min-width: 768px) 490px,  296px" class="lazyload blur-up">
     </div>
   </div>
@@ -84,8 +84,8 @@ analyst, we have worked on diverse projects, from mobile wallets for India's lar
     </a>
 
    <div class="ajency-portfolio portfolio-1">
-        <img src="https://ajency.in/img/portfolio/goomotrain/goomorail-homepage-10px.jpg"
-          data-srcset="https://ajency.in/img/portfolio/goomotrain/GoomoRail-Homepage-480px.jpg 480w, https://ajency.in/img/portfolio/goomotrain/GoomoRail-Homepage-768px.jpg 768w, https://ajency.in/img/portfolio/goomotrain/GoomoRail-Homepage-1536px.jpg 1440w"
+        <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/goomorail-homepage-10px.jpg"
+          data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/GoomoRail-Homepage-480px.jpg 480w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/GoomoRail-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/GoomoRail-Homepage-1536px.jpg 1440w"
           data-sizes="(min-width: 768px) 768px,  100vw"
           class="lazyload blur-up"
           alt="Goomo Train" />
@@ -101,8 +101,8 @@ analyst, we have worked on diverse projects, from mobile wallets for India's lar
    </h5>
    </a>
     <div class="ajency-portfolio portfolio-2">
-    <img src="https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-homepage-10px.jpg"
-          data-srcset="https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-homepage-480px.jpg 480w, https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-homepage-768px.jpg 768w, https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-homepage-1536px.jpg 1440w"
+    <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-homepage-10px.jpg"
+          data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-homepage-480px.jpg 480w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-homepage-1536px.jpg 1440w"
           data-sizes="(min-width: 768px) 768px,  100vw"
           class="lazyload blur-up"
           alt="Goomo Extranet" />
@@ -118,8 +118,8 @@ A mobile wallet for seamless payments from the house of TATA.
      </h5>
     </a>
     <div class="ajency-portfolio portfolio-3">
-       <img src="https://ajency.in/img/portfolio/mrupee/mrupee-homepage-10px.jpg"
-          data-srcset="https://ajency.in/img/portfolio/mrupee/mrupee-Homepage-480px.jpg 480w, https://ajency.in/img/portfolio/mrupee/mrupee-Homepage-768px.jpg 768w, https://ajency.in/img/portfolio/mrupee/mrupee-Homepage-1536px.jpg 1440w"
+       <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/mrupee/mrupee-homepage-10px.jpg"
+          data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/mrupee/mrupee-Homepage-480px.jpg 480w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mrupee/mrupee-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mrupee/mrupee-Homepage-1536px.jpg 1440w"
           data-sizes="(min-width: 768px) 768px,  100vw"
           class="lazyload blur-up"
           alt="mrupee" />
@@ -135,8 +135,8 @@ A contemporary directory site for the food and beverage industry (India).
      </h5>
     </a>
     <div class="ajency-portfolio portfolio-4">
-      <img src="https://ajency.in/img/portfolio/fnb/fnb-homepage-10px.jpg"
-          data-srcset="https://ajency.in/img/portfolio/fnb/fnb-homepage-480px.jpg 480w, https://ajency.in/img/portfolio/fnb/fnb-homepage-768px.jpg 768w, https://ajency.in/img/portfolio/fnb/fnb-homepage-1536px.jpg 1440w"
+      <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-homepage-10px.jpg"
+          data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-homepage-480px.jpg 480w, <?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-homepage-1536px.jpg 1440w"
           data-sizes="(min-width: 768px) 768px,  100vw"
           class="lazyload blur-up"
           alt="fnb Circle" />
@@ -182,9 +182,9 @@ A contemporary directory site for the food and beverage industry (India).
             <div class="col-md-6">
 
 
-                  <img src="https://ajency.in/img/team/anuj-10px.jpg"
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/team/anuj-10px.jpg"
                   class="lazyload blur-up img-fluid"
-                  data-srcset="https://ajency.in/img/team/anuj-desktop.jpg 700w, https://ajency.in/img/team/anuj-tablet.jpg 476w, https://ajency.in/img/team/anuj-mobile.jpg 276w"
+                  data-srcset="<?php echo get_template_directory_uri(); ?>/img/team/anuj-desktop.jpg 700w, <?php echo get_template_directory_uri(); ?>/img/team/anuj-tablet.jpg 476w, <?php echo get_template_directory_uri(); ?>/img/team/anuj-mobile.jpg 276w"
                   data-sizes="(min-width: 768px) 42vw, 100vw" alt="Anuj Khurana" class="img-fluid">
             </div>
              <div class="col-md-5 offset-md-1">
@@ -202,9 +202,9 @@ A contemporary directory site for the food and beverage industry (India).
             <div class="col-md-6">
 
 
-                  <img src="https://ajency.in/img/team/avanti-10px.jpg"
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/team/avanti-10px.jpg"
                   class="lazyload blur-up img-fluid"
-                  data-srcset="https://ajency.in/img/team/avanti-desktop.jpg 700w, https://ajency.in/img/team/avanti-tablet.jpg 476w, https://ajency.in/img/team/avanti-mobile.jpg 276w"
+                  data-srcset="<?php echo get_template_directory_uri(); ?>/img/team/avanti-desktop.jpg 700w, <?php echo get_template_directory_uri(); ?>/img/team/avanti-tablet.jpg 476w, <?php echo get_template_directory_uri(); ?>/img/team/avanti-mobile.jpg 276w"
                   data-sizes="(min-width: 768px) 42vw, 100vw" alt="Avanti Hiremath" class="img-fluid">
             </div>
             <div class="col-md-5 offset-md-1">
@@ -220,9 +220,9 @@ A contemporary directory site for the food and beverage industry (India).
         <div >
           <div class="row">
             <div class="col-md-6">
-              <img src="https://ajency.in/img/team/amit-10px.jpg"
+              <img src="<?php echo get_template_directory_uri(); ?>/img/team/amit-10px.jpg"
                   class="lazyload blur-up img-fluid"
-                  data-srcset="https://ajency.in/img/team/amit-desktop.jpg 700w, https://ajency.in/img/team/amit-tablet.jpg 476w, https://ajency.in/img/team/amit-mobile.jpg 276w"
+                  data-srcset="<?php echo get_template_directory_uri(); ?>/img/team/amit-desktop.jpg 700w, <?php echo get_template_directory_uri(); ?>/img/team/amit-tablet.jpg 476w, <?php echo get_template_directory_uri(); ?>/img/team/amit-mobile.jpg 276w"
                   data-sizes="(min-width: 768px) 42vw, 100vw" alt="Avanti Hiremath" class="img-fluid">
             </div>
             <div class="col-md-5 offset-md-1">

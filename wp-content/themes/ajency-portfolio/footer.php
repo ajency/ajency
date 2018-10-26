@@ -55,7 +55,7 @@
     </section>
 </footer>
 <noscript id="deferred-styles">
-    <link href="https://ajency.in/css/combine.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo get_template_directory_uri(); ?>/css/combine.css" rel="stylesheet" type="text/css"/>
 </noscript>
 <script>
     var loadDeferredStyles = function() {
@@ -77,7 +77,7 @@
     window.lazySizesConfig = window.lazySizesConfig || {};
       lazySizesConfig.loadMode = 3;
 </script>
-<script src="https://ajency.in/js/combine.js" type="text/javascript">
+<script src="<?php echo get_template_directory_uri(); ?>/js/combine.js" type="text/javascript">
 </script>
-<script src="https://ajency.in/js/custom.min.js" type="text/javascript">
+<script src="<?php echo get_template_directory_uri(); ?>/js/custom.min.js" type="text/javascript">
 </script>

@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
       <div class="headerfix ">
-         <div class="bread-crumb"><h1 class="ft6 pt-6"><span>/</span> <a href="https://ajency.in/product-user-interface-design//" class="text-link text-black">user interface design</a> <span>/</span>  fnb circle</h1></div>
+         <div class="bread-crumb"><h1 class="ft6 pt-6"><span>/</span> <a href="<?php echo get_site_url(); ?>/product-user-interface-design//" class="text-link text-black">user interface design</a> <span>/</span>  fnb circle</h1></div>
       </div>
     </div>
   </div>
@@ -26,8 +26,8 @@
 <div class="container p5">
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
-        <img src="https://ajency.in/img/portfolio/fnb/fnb-homepage-10px2.jpg"
-             data-srcset=" https://ajency.in/img/portfolio/fnb/fnb-homepage-large.jpg  1676w, https://ajency.in/img/portfolio/fnb/fnb-homepage-medium.jpg 1200w, https://ajency.in/img/portfolio/fnb/fnb-homepage-small.jpg  700w"
+        <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-homepage-10px2.jpg"
+             data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-homepage-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-homepage-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-homepage-small.jpg  700w"
              data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
     </div>
   </div>
@@ -40,11 +40,11 @@
 
 
         <picture>
-          <source media="(orientation: landscape)" data-srcset='https://ajency.in/img/portfolio/fnb/fnb-listview-large.jpg  1676w, https://ajency.in/img/portfolio/fnb/fnb-listview-medium.jpg 1200w', sizes="100vw">
+          <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-listview-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-listview-medium.jpg 1200w', sizes="100vw">
 
-          <source media="(orientation: portrait)" data-srcset='https://ajency.in/img/portfolio/fnb/fnb-listview-small.jpg  700w', sizes="100vw">
+          <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-listview-small.jpg  700w', sizes="100vw">
 
-          <img src="https://ajency.in/img/portfolio/fnb/fnb-listview-10px.jpg"
+          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-listview-10px.jpg"
 
               data-sizes="100vw"
               class="img-fluid lazyload blur-up" alt="">
@@ -57,8 +57,8 @@
 <div class="container p5">
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
-       <img src="https://ajency.in/img/portfolio/fnb/fnb-post-10px.jpg"
-           data-srcset="https://ajency.in/img/portfolio/fnb/fnb-post-large.jpg  1676w, https://ajency.in/img/portfolio/fnb/fnb-post-medium.jpg 1200w, https://ajency.in/img/portfolio/fnb/fnb-post-small.jpg  700w"
+       <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-post-10px.jpg"
+           data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-post-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-post-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-post-small.jpg  700w"
            data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
     </div>
   </div>
@@ -83,7 +83,7 @@
   <h1 class="font-weight-bold d-block d-md-none mobile-header mb-4 text-muted">Our Work</h1>
   <div class="items mb-5">
     <div class="site-name">
-    <a href="https://ajency.in/product-user-interface-design/goomo-train-booking-app/" class="text-black text-link">
+    <a href="<?php echo get_site_url(); ?>/product-user-interface-design/goomo-train-booking-app/" class="text-black text-link">
       <h1 class="ft6"> Goomo Train</h1>
       <h5 class="font-weight-light">
       Travel startup with $50 million fund raise.
@@ -91,8 +91,8 @@
     </a>
 
    <div class="ajency-portfolio portfolio-1">
-        <img src="https://ajency.in/img/portfolio/goomotrain/goomorail-homepage-10px.jpg"
-          data-srcset="https://ajency.in/img/portfolio/goomotrain/GoomoRail-Homepage-480px.jpg 480w, https://ajency.in/img/portfolio/goomotrain/GoomoRail-Homepage-768px.jpg 768w, https://ajency.in/img/portfolio/goomotrain/GoomoRail-Homepage-1536px.jpg 1440w"
+        <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/goomorail-homepage-10px.jpg"
+          data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/GoomoRail-Homepage-480px.jpg 480w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/GoomoRail-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/GoomoRail-Homepage-1536px.jpg 1440w"
           data-sizes="(min-width: 768px) 768px,  100vw"
           class="lazyload blur-up"
           alt="Goomo Train" />
@@ -101,15 +101,15 @@
  </div>
   <div class="items mb-5">
     <div class="site-name">
-    <a href="https://ajency.in/product-user-interface-design/goomo-hotel-extranet-booking-tool/" class="text-black text-link">
+    <a href="<?php echo get_site_url(); ?>/product-user-interface-design/goomo-hotel-extranet-booking-tool/" class="text-black text-link">
     <h1 class="ft6"> Goomo Extranet & CBT </h1>
     <h5 class="font-weight-light">
     Travel products for the Enterprise market
    </h5>
    </a>
     <div class="ajency-portfolio portfolio-2">
-    <img src="https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-homepage-10px.jpg"
-          data-srcset="https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-homepage-480px.jpg 480w, https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-homepage-768px.jpg 768w, https://ajency.in/img/portfolio/goomo-cbt/goomo-cbt-homepage-1536px.jpg 1440w"
+    <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-homepage-10px.jpg"
+          data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-homepage-480px.jpg 480w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-homepage-1536px.jpg 1440w"
           data-sizes="(min-width: 768px) 768px,  100vw"
           class="lazyload blur-up"
           alt="Goomo Extranet" />
@@ -118,15 +118,15 @@
 </div>
   <div class="items mb-5">
       <div class="site-name">
-    <a href="https://ajency.in/product-user-interface-design/tata-group-mobile-wallet-mrupee/" class="text-black text-link">
+    <a href="<?php echo get_site_url(); ?>/product-user-interface-design/tata-group-mobile-wallet-mrupee/" class="text-black text-link">
       <h1 class="ft6"> mRupee</h1>
       <h5 class="font-weight-light">
       A mobile wallet for seamless payments. From the house of TATA
      </h5>
     </a>
     <div class="ajency-portfolio portfolio-3">
-       <img src="https://ajency.in/img/portfolio/mrupee/mrupee-homepage-10px.jpg"
-          data-srcset="https://ajency.in/img/portfolio/mrupee/mrupee-Homepage-480px.jpg 480w, https://ajency.in/img/portfolio/mrupee/mrupee-Homepage-768px.jpg 768w, https://ajency.in/img/portfolio/mrupee/mrupee-Homepage-1536px.jpg 1440w"
+       <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/mrupee/mrupee-homepage-10px.jpg"
+          data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/mrupee/mrupee-Homepage-480px.jpg 480w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mrupee/mrupee-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mrupee/mrupee-Homepage-1536px.jpg 1440w"
           data-sizes="(min-width: 768px) 768px,  100vw"
           class="lazyload blur-up"
           alt="mrupee" />
@@ -135,15 +135,15 @@
    </div>
   <div class="items">
      <div class="site-name">
-    <a href="https://ajency.in/product-user-interface-design/fnbcircle-directory-marketplace/" class="text-black text-link">
+    <a href="<?php echo get_site_url(); ?>/product-user-interface-design/fnbcircle-directory-marketplace/" class="text-black text-link">
       <h1 class="ft6"> FNB Circle</h1>
       <h5 class="font-weight-light">
       Contemporary directory site for food & beverage industry.
      </h5>
     </a>
     <div class="ajency-portfolio portfolio-4">
-      <img src="https://ajency.in/img/portfolio/fnb/fnb-homepage-10px.jpg"
-          data-srcset="https://ajency.in/img/portfolio/fnb/fnb-homepage-480px.jpg 480w, https://ajency.in/img/portfolio/fnb/fnb-homepage-768px.jpg 768w, https://ajency.in/img/portfolio/fnb/fnb-homepage-1536px.jpg 1440w"
+      <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-homepage-10px.jpg"
+          data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-homepage-480px.jpg 480w, <?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/fnb/fnb-homepage-1536px.jpg 1440w"
           data-sizes="(min-width: 768px) 768px,  100vw"
           class="lazyload blur-up"
           alt="fnb Circle" />
