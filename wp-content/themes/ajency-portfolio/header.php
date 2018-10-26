@@ -23,11 +23,11 @@
 	    <meta name="description" content="Marvel Realtors Pune India, known for their premium residences. Website is their brochure for past &ongoing projects, highlighting amenities & unit configuration in each project."/>
 
     <?php } elseif ( is_page_template('engineering.php') ) { ?>
- 			<title>Ajency.in | Goa based UI/UX Website Development, Mobile Application Development, Software Development Company</title>
+ 			<title>Software Development company with focus on JAVA, PHP, Angular, Mobile Applications and Ecommerce. Goa, India.</title>
 	    <meta name="description" content="We research and design digital products that people love to use. Led by HFI certified UX analyst we have worked on diverse projects. From mobile wallets for India's largest business group to an online marketplace for a soloprenuer."/>
 
     <?php } elseif ( is_page_template('user-interface-design.php') ) { ?>
- 			<title>Ajency.in | Goa based UI/UX Website Development, Mobile Application Development, Software Development Company</title>
+ 			<title>User interface Design, UI & UX research, Product design. Goa, India.</title>
 	    <meta name="description" content="We research and design digital products that people love to use. Led by an HFI certified UX analyst, we have worked on diverse projects, from mobile wallets for India's largest business group to an online marketplace for a soloprenuer."/>
 
     <?php } elseif ( is_page_template('product-user-interface-design/fnbcircle.php') ) { ?>
@@ -46,20 +46,24 @@
  			<title>Mobile Wallet App | Ajency.in</title>
 	    <meta name="description" content="Mobile wallets and seamless payments at retail and online merchants have revolutionized the Indian market. We made a small contribution to trend while designing the mobile wallet for India’s largest business house (TATA)."/>
 
+    <?php } elseif ( is_page_template('website-design.php') ) { ?>
+      <title>Web design for online stores, real estate projects, hotels, company blog. Wordpress, Shopify. Goa, India.</title>
+      <meta name="description" content="We design and code websites for online stores, real estate projects, hotels, company or product websites, blog and others. Sites we build are buzzword and SEO compliant, and load under 4 seconds."/>
+
     <?php } else { ?>
 
-    	<title>Ajency.in | Goa based UI/UX Website, Mobile Application Development, Software Development Company</title>
+    	<title>Software Development and User Interface Design company that also offers Web Design services. Goa, India. </title>
 
 			<meta name="description" content="We work with startups in Goa, London, Mumbai, Bangalore &amp; rest of the world. We combine both UI/UX &amp; web + mobile development skills to create winning digital products."/>
 			<meta name="keywords" content="Software company in Goa,Software Development Company Goa,Mobile Application Development, Mobile Application Development Goa, Web design Panjim,Ajency.in Goa"/>
 			<meta property="og:type" content="website" />
-			<meta property="og:title" content="Ajency.in | Goa based UI/UX &amp; Web, Mobile Application Development, Software Development Company" />
+			<meta property="og:title" content="Software Development and User Interface Design company that also offers Web Design services. Goa, India." />
 			<meta property="og:description" content="We work with startups in Goa, London, Mumbai, Bangalore &amp; rest of the world. We combine both UI/UX &amp; web + mobile development skills to create winning digital products." />
 			<meta property="og:url" content="https://ajency.in/" />
 			<meta property="og:site_name" content="Ajency.in - Goa based UI/UX &amp; web + mobile application development company" />
 			<meta name="twitter:card" content="summary_large_image" />
 			<meta name="twitter:description" content="We work with startups in Goa, London, Mumbai, Bangalore &amp; rest of the world. We combine both UI/UX &amp; web + mobile development skills to create winning digital products." />
-			<meta name="twitter:title" content="Ajency.in | Goa based UI/UX &amp; Web, Mobile Application Development, Software Development Company" />
+			<meta name="twitter:title" content="Software Development and User Interface Design company that also offers Web Design services. Goa, India." />
 
 			<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/ajency.in\/","name":"Ajency.in - Goa based UI\/UX &amp; web + mobile application development company","potentialAction":{"@type":"SearchAction","target":"https:\/\/ajency.in\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
 

@@ -76,7 +76,7 @@ analyst, we have worked on diverse projects, from mobile wallets for India's lar
   <h1 class="font-weight-bold d-block d-md-none mobile-header mb-4 text-muted">Our Work</h1>
   <div class="items mb-5">
     <div class="site-name">
-    <a href="https://ajency.in/product-user-interface-design/goomo-train-booking-app/" class="text-black text-link">
+    <a href="<?php echo get_site_url(); ?>/product-user-interface-design/goomo-train-booking-app/" class="text-black text-link">
       <h1 class="ft6"> Goomo Train</h1>
       <h5 class="font-weight-light">
       Travel startup with $50 million fund raise.
@@ -94,7 +94,7 @@ analyst, we have worked on diverse projects, from mobile wallets for India's lar
  </div>
   <div class="items mb-5">
     <div class="site-name">
-    <a href="https://ajency.in/product-user-interface-design/goomo-hotel-extranet-booking-tool/" class="text-black text-link">
+    <a href="<?php echo get_site_url(); ?>/product-user-interface-design/goomo-hotel-extranet-booking-tool/" class="text-black text-link">
     <h1 class="ft6"> Goomo Extranet & CBT </h1>
     <h5 class="font-weight-light">
     Travel products for the enterprise market.
@@ -111,7 +111,7 @@ analyst, we have worked on diverse projects, from mobile wallets for India's lar
 </div>
   <div class="items mb-5">
       <div class="site-name">
-    <a href="https://ajency.in/product-user-interface-design/tata-group-mobile-wallet-mrupee/" class="text-black text-link">
+    <a href="<?php echo get_site_url(); ?>/product-user-interface-design/tata-group-mobile-wallet-mrupee/" class="text-black text-link">
       <h1 class="ft6"> mRUPEE</h1>
       <h5 class="font-weight-light">
 A mobile wallet for seamless payments from the house of TATA.
@@ -128,7 +128,7 @@ A mobile wallet for seamless payments from the house of TATA.
    </div>
   <div class="items">
      <div class="site-name">
-    <a href="https://ajency.in/product-user-interface-design/fnbcircle-directory-marketplace/" class="text-black text-link">
+    <a href="<?php echo get_site_url(); ?>/product-user-interface-design/fnbcircle-directory-marketplace/" class="text-black text-link">
       <h1 class="ft6"> FNB Circle</h1>
       <h5 class="font-weight-light">
 A contemporary directory site for the food and beverage industry (India).
@@ -223,13 +223,30 @@ A contemporary directory site for the food and beverage industry (India).
               <img src="<?php echo get_template_directory_uri(); ?>/img/team/amit-10px.jpg"
                   class="lazyload blur-up img-fluid"
                   data-srcset="<?php echo get_template_directory_uri(); ?>/img/team/amit-desktop.jpg 700w, <?php echo get_template_directory_uri(); ?>/img/team/amit-tablet.jpg 476w, <?php echo get_template_directory_uri(); ?>/img/team/amit-mobile.jpg 276w"
-                  data-sizes="(min-width: 768px) 42vw, 100vw" alt="Avanti Hiremath" class="img-fluid">
+                  data-sizes="(min-width: 768px) 42vw, 100vw" alt="Amit" class="img-fluid">
             </div>
             <div class="col-md-5 offset-md-1">
               <div class="w-75 team-desc">
                 <h5>Chief Designer</h5>
                 <h1 class="display-3">Amit Adav</h1>
                 <div class="black f-paragraph-small no-spacing"><h5 class="font-weight-light">7+ years in New Media Design.</h5></div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div >
+          <div class="row">
+            <div class="col-md-6">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/team/jeromie-10px.jpg"
+                  class="lazyload blur-up img-fluid"
+                  data-srcset="<?php echo get_template_directory_uri(); ?>/img/team/jeromie-desktop.jpg 700w, <?php echo get_template_directory_uri(); ?>/img/team/jeromie-tablet.jpg 476w, <?php echo get_template_directory_uri(); ?>/img/team/jeromie-mobile.jpg 276w"
+                  data-sizes="(min-width: 768px) 42vw, 100vw" alt="Jeromie" class="img-fluid">
+            </div>
+            <div class="col-md-5 offset-md-1">
+              <div class="w-75 team-desc">
+                <h5>Frontend Lead</h5>
+                <h1 class="display-3">Jeromie Fernandes</h1>
+                <div class="black f-paragraph-small no-spacing"><h5 class="font-weight-light">7+ years in frontend development.</h5></div>
               </div>
             </div>
           </div>
