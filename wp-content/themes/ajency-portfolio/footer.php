@@ -55,12 +55,8 @@
     </section>
 </footer>
 <noscript id="deferred-styles">
-<<<<<<< HEAD
     <link href="<?php echo get_template_directory_uri(); ?>/css/combine.css" rel="stylesheet" type="text/css"/>
-=======
-    <link href="https://ajency.in/css/combine.css" rel="stylesheet" type="text/css"/>
-     <link href="<?php echo get_bloginfo('url');  ?>/wp-content/themes/ajency-portfolio/style.css" rel="stylesheet" type="text/css"/>
->>>>>>> master
+    <link href="<?php echo get_bloginfo('url');  ?>/wp-content/themes/ajency-portfolio/style.css" rel="stylesheet" type="text/css"/>
 </noscript>
 <script>
     var loadDeferredStyles = function() {
