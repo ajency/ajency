@@ -3,19 +3,19 @@
     <head>
         <meta charset="utf-8"/>
         <title>
-            Ajency.in | Goa based UI/UX Website, Mobile Application Development, Software Development Company
+            Software Development and User Interface Design company that also offers Web Design services. Goa, India.
         </title>
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
         <meta content="We work with startups in Goa, London, Mumbai, Bangalore & rest of the world. We combine both UI/UX & web + mobile development skills to create winning digital products." name="description"/>
         <meta content="Software company in Goa,Software Development Company Goa,Mobile Application Development, Mobile Application Development Goa, Web design Panjim,Ajency.in Goa" name="keywords"/>
         <meta content="website" property="og:type"/>
-        <meta content="Ajency.in | Goa based UI/UX & Web, Mobile Application Development, Software Development Company" property="og:title"/>
+        <meta content="Software Development and User Interface Design company that also offers Web Design services. Goa, India." property="og:title"/>
         <meta content="We work with startups in Goa, London, Mumbai, Bangalore & rest of the world. We combine both UI/UX & web + mobile development skills to create winning digital products." property="og:description"/>
         <meta content="https://ajency.in/" property="og:url"/>
         <meta content="Ajency.in - Goa based UI/UX & web + mobile application development company" property="og:site_name"/>
         <meta content="summary_large_image" name="twitter:card"/>
         <meta content="We work with startups in Goa, London, Mumbai, Bangalore & rest of the world. We combine both UI/UX & web + mobile development skills to create winning digital products." name="twitter:description"/>
-        <meta content="Ajency.in | Goa based UI/UX & Web, Mobile Application Development, Software Development Company" name="twitter:title"/>
+        <meta content="Software Development and User Interface Design company that also offers Web Design services. Goa, India." name="twitter:title"/>
         <script type="application/ld+json">
             {"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/ajency.in\/","name":"Ajency.in - Goa based UI\/UX &amp; web + mobile application development company","potentialAction":{"@type":"SearchAction","target":"https:\/\/ajency.in\/?s={search_term_string}","query-input":"required name=search_term_string"}}
         </script>
