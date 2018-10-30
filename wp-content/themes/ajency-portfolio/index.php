@@ -46,6 +46,22 @@
 
 					  gtag('config', 'UA-121565233-1');
         </script> -->
+        <!-- This site is running CAOS: Complete Analytics Optimization Suite for Wordpress -->
+        <script>
+
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','https://ajency.in/wp-content/cache/caos-analytics/analytics.js','ga');
+                window[ 'ga-disable-UA-121565233-1' ] = false;
+            ga('create', 'UA-121565233-1',
+            {
+                'cookieName':   'caosLocalGa',
+                'cookieDomain': 'ajency.in',
+                'cookieExpires':'0',
+            });
+                ga('send', 'pageview');
+        </script>
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500|Libre+Baskerville:400,400i" rel="stylesheet">
     </head>
     <body>
