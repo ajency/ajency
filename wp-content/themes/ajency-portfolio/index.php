@@ -37,7 +37,7 @@
               }
             }
         </style>
-        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-121565233-1">
+        <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-121565233-1">
         </script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -45,7 +45,7 @@
 					  gtag('js', new Date());
 
 					  gtag('config', 'UA-121565233-1');
-        </script>
+        </script> -->
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500|Libre+Baskerville:400,400i" rel="stylesheet">
     </head>
     <body>
