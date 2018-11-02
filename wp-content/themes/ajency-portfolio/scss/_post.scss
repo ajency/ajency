@@ -60,7 +60,7 @@
 		color: darken($gray-800, 20%);
 	}
 	.highlight{
-		&:after{
+		&:before{
 			display: none;
 		}
 	}
