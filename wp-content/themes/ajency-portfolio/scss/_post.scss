@@ -14,17 +14,17 @@
 	}
 	h2{
 		font-weight: 600;
-		font-size: 1.7rem;
+		font-size: 1.8rem;
 		margin-bottom: 30px;
 	}
 	h3{
 		font-weight: 400;
-		font-size: 1.8rem;
+		font-size: 1.9rem;
 		line-height: 1.4;
 		margin-bottom: 50px;
 	}
 	p{
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		line-height: 1.4;
 		margin: 0 0 50px;
 		@media (min-width: 320px) and (max-width: 767.98px) {
@@ -36,6 +36,14 @@
 	}
 	img{
 		max-width: 100%;
+		display: block;
+		margin: auto;
+	}
+	.bg-gray{
+		background-color: #f1f1f1;
+		img{
+			max-width: 80%;
+		}
 	}
 	.next-title{
 		font-family: "Libre Baskerville", Baskerville, georgia, serif;
@@ -50,5 +58,10 @@
 		font-size: 1.6rem;
 		font-weight: 500;
 		color: darken($gray-800, 20%);
+	}
+	.highlight{
+		&:after{
+			display: none;
+		}
 	}
 }

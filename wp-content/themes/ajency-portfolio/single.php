@@ -51,5 +51,12 @@
 	</div>
 </section>
 
+<div class="container p5">
+  <div class="row">
+    <div class="col-12">
+       <hr>
+    </div>
+  </div>
+</div>
 
 <?php get_footer(); ?>
