@@ -17,9 +17,9 @@
 .mt5{
     margin-top:4rem;
     @media (min-width: 320px) and (max-width: 767.98px) {
-           margin-top:2rem;
-          }
+       margin-top:2rem;
     }
+}
 
 .mb5{
     margin-bottom:4rem;
@@ -30,17 +30,17 @@
 .p5{
     padding-left:4rem;
     padding-right:4rem;
-      @media (min-width: 320px) and (max-width: 767.98px) {
+    @media (min-width: 320px) and (max-width: 767.98px) {
         padding-left:1rem;
         padding-right:1rem;
-      }
+    }
     @media (min-width: 768px) and (max-width: 991.98px) {
-            padding-left:2rem;
-            padding-right:2rem;
+        padding-left:2rem;
+        padding-right:2rem;
     }
     @media (min-width: 768px) and (max-width: 1199.98px) {
-            padding-left:2rem !important;
-            padding-right:2rem !important;
+        padding-left:2rem !important;
+        padding-right:2rem !important;
     }
     @media (min-width: 992px) and (max-width: 1399.98px) {
         padding-left:0rem;
@@ -51,16 +51,16 @@
 .seperator{
     padding-top:6rem;
     @media (min-width: 320px) and (max-width: 767.98px) {
-    font-size: 4rem;
-    padding-top: 4rem;
+        font-size: 4rem;
+        padding-top: 4rem;
     }
 }
 section{
     padding-top: 6rem;
     padding-bottom: 6rem;
     @media (min-width: 320px) and (max-width: 767.98px) {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
 }
 
@@ -84,18 +84,18 @@ section{
 }
 footer{
    @media (min-width: 320px) and (max-width: 767.98px) {
-    .w-75{
-        width:100% !important;
-    }
+        .w-75{
+            width:100% !important;
+        }
     }
 }
 
- @media (min-width: 320px) and (max-width: 767.98px) {
+@media (min-width: 320px) and (max-width: 767.98px) {
     .section-2rem{
         padding-top:2rem !important;
         padding-bottom:2rem !important;
     }
-    }
+}
 
 .blur-up {
     -webkit-filter: blur(5px);
@@ -109,10 +109,17 @@ footer{
 }
  @media (min-width: 320px) and (max-width: 767.98px) {
     .footer-section{
-         padding-top: 2rem;
-         padding-bottom: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
          .mt-5{
-                margin-top: 1.5rem!important;
+            margin-top: 1.5rem!important;
          }
     }
 }
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .alert-mb{
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+ }
