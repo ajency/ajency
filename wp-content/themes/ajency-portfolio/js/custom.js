@@ -189,3 +189,10 @@ $(window).on("load", function() {
       }
     });
 })
+
+
+  $(window).on('hashchange', function (event) {
+
+            $('.scroll-left').removeClass('active');
+ 
+    });
