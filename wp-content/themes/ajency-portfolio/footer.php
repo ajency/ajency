@@ -55,7 +55,7 @@
     </section>
 </footer>
 <noscript id="deferred-styles">
-    <link href="<?php echo get_template_directory_uri(); ?>/css/combine.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo get_template_directory_uri(); ?>/css/custom.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo get_bloginfo('url');  ?>/wp-content/themes/ajency-portfolio/style.css" rel="stylesheet" type="text/css"/>
 </noscript>
 <script>
@@ -82,3 +82,7 @@
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/custom.min.js" type="text/javascript">
 </script>
+
+<!-- wordpress footer functions -->
+    <?php wp_footer(); ?>
+<!-- end of wordpress footer -->

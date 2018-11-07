@@ -228,12 +228,12 @@ Bekumo, London ">
 
         <div class="scroll-left d-block d-xl-none">
           <div class="row no-gutter fixed-header shadow" >
-            <div class="col-1">
+            <div class="col-1 ml-3 p-0">
               <h3  class="m-0 font-weight-bold back" >
                 <img class="btn-back mt-1 " src="<?php echo get_template_directory_uri(); ?>/img/left-arrow.png" style="width:20px;"/>
               </h3>
             </div>
-            <div class="col-7">
+            <div class="col-7 pl-0">
               <h3 class="modal-title font-weight-bold back" id="exampleModalLabel">Back</h3>
             </div>
           </div>
