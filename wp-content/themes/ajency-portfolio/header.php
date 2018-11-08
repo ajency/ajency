@@ -70,10 +70,6 @@
 
 		<?php } ?>
 
-    <!-- wordpress head functions -->
-      <?php wp_head(); ?>
-    <!-- end of wordpress head -->
-
     <link  rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.png" />
 
     <style type="text/css">
