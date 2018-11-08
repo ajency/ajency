@@ -452,3 +452,25 @@ nav {
         }
     }
 }
+#imagemodal{
+.modal-content{
+background-color: transparent;
+border:0px;
+    .modal-body{
+        height:100%;
+        padding:0px;
+    }
+    }
+}
+.imagepreview{
+    transform: scale(2);
+    margin-top: 340px;
+}
+.modal-backdrop.show {
+       opacity: 1;
+        background-color: #f1f1f1 !important;
+}
+.modal-backdrop{
+       opacity: 1;
+        background-color: #f1f1f1 !important;
+}

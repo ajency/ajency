@@ -54,10 +54,19 @@
         </div>
     </section>
 </footer>
+<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">              
+      <div class="modal-body">
+        <img src="" class="imagepreview" style="width: 100%;" >
+      </div>
+    </div>
+  </div>
+</div>
 <noscript id="deferred-styles">
     <link href="<?php echo get_template_directory_uri(); ?>/css/custom.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo get_bloginfo('url');  ?>/wp-content/themes/ajency-portfolio/style.css" rel="stylesheet" type="text/css"/>
-     <link href="<?php echo get_template_directory_uri(); ?>/css/zoom.css" rel="stylesheet" type="text/css"/>
+     <!--<link href="<?php echo get_template_directory_uri(); ?>/css/zoom.css" rel="stylesheet" type="text/css"/>-->
 </noscript>
 <script>
     var loadDeferredStyles = function() {
@@ -85,8 +94,8 @@
 </script>
 
 
-<script src="<?php echo get_template_directory_uri(); ?>/js/zoom.js" type="text/javascript">
-</script>
+<!--<script src="<?php echo get_template_directory_uri(); ?>/js/zoom.js" type="text/javascript">
+</script>-->
 <!-- wordpress footer functions -->
     <?php wp_footer(); ?>
 <!-- end of wordpress footer -->
