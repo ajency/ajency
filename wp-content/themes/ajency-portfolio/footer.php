@@ -85,9 +85,8 @@
 </script>
 
 
-<script src="<?php echo get_template_directory_uri(); ?>/js/zoom-vanilla.js" type="text/javascript">
+<script src="<?php echo get_template_directory_uri(); ?>/js/zoom.js" type="text/javascript">
 </script>
-
 <!-- wordpress footer functions -->
     <?php wp_footer(); ?>
 <!-- end of wordpress footer -->
