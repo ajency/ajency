@@ -31,7 +31,7 @@
       return window.open((e.target.getAttribute('data-original') || e.target.src), '_blank')
     }
 
-    if (target.width >= ($(window).width() - Zoom.OFFSET)) return
+    // if (target.width >= ($(window).width() - Zoom.OFFSET)) return
 
     this._activeZoomClose(true)
 
@@ -140,6 +140,11 @@
       this._fullWidth = Number(img.width)
       this._zoomOriginal()
     }, this)
+     //  var metaList = document.getElementsByTagName('meta');
+     // metaList[0].setAttribute("content","");
+     jQuery('meta[name=viewport]').attr('content','');
+
+
      event.target.removeAttribute('srcset');
         event.target.setAttribute('src', event.target.getAttribute('data-original'));
     img.src = src
@@ -232,6 +237,8 @@
   }
 
   Zoom.prototype.close = function () {
+              jQuery('meta[name=viewport]').attr('content','width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0');
+
       this._targetImage.removeAttribute('src');
      this._targetImage.setAttribute('srcset',   this._targetImage.getAttribute('data-srcset'))
     this._$body

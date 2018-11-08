@@ -22,7 +22,7 @@
 		var activeZoom = null
 		var initialScrollPosition = null
 		var initialTouchPosition = null
-
+		
 
 
 		function listen() {
@@ -72,14 +72,14 @@
 			// todo(fat): probably worth throttling this
 			window.addEventListener('scroll', handleScroll)
 			document.addEventListener('click', handleClick)
-			
+			document.addEventListener('keyup', handleEscPressed)
 			document.addEventListener('touchstart', handleTouchStart)
 			document.addEventListener('touchend', handleClick)
 		}
 
 		function removeCloseActiveZoomListeners() {
 			window.removeEventListener('scroll', handleScroll)
-			
+			document.removeEventListener('keyup', handleEscPressed)
 			document.removeEventListener('click', handleClick)
 			document.removeEventListener('touchstart', handleTouchStart)
 			document.removeEventListener('touchend', handleClick)
