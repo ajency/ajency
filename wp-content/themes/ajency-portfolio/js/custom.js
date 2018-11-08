@@ -179,10 +179,10 @@ $(function() {
         $('.pop').on('click', function() {
             $('.imagepreview').attr('src', $(this).find('img').attr('data-original'));
             $('#imagemodal').modal('show');   
-              jQuery('meta[name=viewport]').attr('content','');
+              jQuery('meta[name=viewport]').attr('content','initial-scale=1.0');
         });     
 });
-$('.imagepreview').on('click', function() {
+$('.modal').on('click', function() {
         $('#imagemodal').modal('hide');
               jQuery('meta[name=viewport]').attr('content','width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0');
       });

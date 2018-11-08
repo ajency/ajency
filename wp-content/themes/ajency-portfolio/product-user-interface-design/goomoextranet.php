@@ -50,7 +50,7 @@
 <section class="p2">
 <div class="container p5">
   <div class="row">
-    <div class="col  offset-xl-2 col-xl-8 col12">
+    <div class="col  offset-xl-2 col-xl-8 col12 pop">
         <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-flight-list-view-10px.jpg"
              data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-flight-list-view-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-flight-list-view-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-flight-list-view-small.jpg  700w"
              data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up" data-action="zoom" data-original="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-flight-list-view-large.jpg   ">
@@ -62,7 +62,7 @@
 <section class="p2">
 <div class="container p5">
   <div class="row">
-    <div class="col  offset-xl-2 col-xl-8 col12">
+    <div class="col  offset-xl-2 col-xl-8 col12 pop">
         <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-hotel-listview-10px.jpg"
              data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-hotel-listview-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-hotel-listview-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-hotel-listview-small.jpg  700w"
              data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up" data-action="zoom" data-original="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-hotel-listview-large.jpg ">
@@ -74,7 +74,7 @@
 <section class="p2">
 <div class="container p5">
   <div class="row">
-    <div class="col  offset-xl-2 col-xl-8 col12">
+    <div class="col  offset-xl-2 col-xl-8 col12 pop">
         <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-banner2-10px.jpg"
              data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-banner2-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-banner2-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-banner2-small.jpg  700w"
              data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up" data-action="zoom" data-original="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-cbt-banner2-large.jpg">
@@ -92,7 +92,7 @@
 <section class="p2">
 <div class="container p5">
   <div class="row">
-    <div class="col  offset-xl-2 col-xl-8 col12 " >
+    <div class="col  offset-xl-2 col-xl-8 col12 pop " >
        <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-calendar-10px.jpg"
            data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-calendar-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-calendar-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-calendar-small.jpg  700w"
            data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up" data-action="zoom" data-original="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-calendar-large.jpg ">
@@ -103,7 +103,7 @@
 <section class="p2">
 <div class="container p5">
   <div class="row">
-    <div class="col  offset-xl-2 col-xl-8 col12">
+    <div class="col  offset-xl-2 col-xl-8 col12 pop">
        <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-dashboard-10px.jpg"
            data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-dashboard-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-dashboard-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-dashboard-small.jpg  700w"
            data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up" data-action="zoom" data-original="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-cbt/goomo-extranet-dashboard-large.jpg">
