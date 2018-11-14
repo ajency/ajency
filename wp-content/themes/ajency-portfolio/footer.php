@@ -67,8 +67,8 @@
     <link href="<?php echo get_template_directory_uri(); ?>/css/custom.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo get_bloginfo('url');  ?>/wp-content/themes/ajency-portfolio/style.css" rel="stylesheet" type="text/css"/>
      <!--<link href="<?php echo get_template_directory_uri(); ?>/css/zoom.css" rel="stylesheet" type="text/css"/>-->
-     <link rel="stylesheet" type="text/css" href="http://filamentgroup.github.io/enlarge/src/enlarge.css">
-</noscript>
+    <!--  <link rel="stylesheet" type="text/css" href="http://filamentgroup.github.io/enlarge/src/enlarge.css">
+</noscript>-->
 <script>
     var loadDeferredStyles = function() {
         var addStylesNode = document.getElementById("deferred-styles");
@@ -95,11 +95,11 @@
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/custom.min.js" type="text/javascript">
 </script>
-<script type="text/javascript" src="http://filamentgroup.github.io/enlarge/src/enlarge.js"> </script>
+<!--<script type="text/javascript" src="http://filamentgroup.github.io/enlarge/src/enlarge.js"> </script>
 <script type="text/javascript" src="http://filamentgroup.github.io/enlarge/src/enlarge.init.js"> </script>
 
 <script type="text/javascript" src="http://filamentgroup.github.io/enlarge/docs/init.js"> </script>
-
+-->
 <!--<script src="<?php echo get_template_directory_uri(); ?>/js/zoom.js" type="text/javascript">
 </script>-->
 <!-- wordpress footer functions -->
