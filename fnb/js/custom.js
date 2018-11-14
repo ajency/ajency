@@ -1445,6 +1445,7 @@ $(function(){
 
 $('.events-list').slick({
   slidesToShow: 4,
+  infinite: false,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
