@@ -1447,8 +1447,8 @@ $('.events-list').slick({
   slidesToShow: 4,
   infinite: false,
   slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
+  autoplay: false,
+  autoplaySpeed: 4000,
 responsive: [
     {
       breakpoint: 1024,
@@ -1482,7 +1482,7 @@ $('.fnb-card-slider').slick({
   slidesToScroll: 1,
    dots: true,
   autoplay: true,
-  autoplaySpeed: 2000,
+  autoplaySpeed: 5000,
 });
 });
 	
