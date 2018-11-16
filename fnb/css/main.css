@@ -682,24 +682,43 @@ span {
   width: 100px;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 }
 .icon-theme.food-beverages {
   background-position: 4px -6px;
 }
+.icon-theme.food-beverages:hover {
+  background-image: url('../img/theme-icon-orange.png');
+}
 .icon-theme.smallware {
   background-position: -117px -11px;
+}
+.icon-theme.smallware:hover {
+  background-image: url('../img/theme-icon-orange.png');
 }
 .icon-theme.machinery {
   background-position: -232px -8px;
 }
+.icon-theme.machinery:hover {
+  background-image: url('../img/theme-icon-orange.png');
+}
 .icon-theme.additives {
   background-position: -352px -8px;
+}
+.icon-theme.additives:hover {
+  background-image: url('../img/theme-icon-orange.png');
 }
 .icon-theme.hospitality {
   background-position: -461px -8px;
 }
+.icon-theme.hospitality:hover {
+  background-image: url('../img/theme-icon-orange.png');
+}
 .icon-theme.otherservices {
   background-position: -564px -7px;
+}
+.icon-theme.otherservices:hover {
+  background-image: url('../img/theme-icon-orange.png');
 }
 input[type=checkbox] {
   margin-right: 10px;
@@ -7662,6 +7681,7 @@ h4 {
 }
 .listed-cat .cat-types li a:hover {
   text-decoration: none;
+  color: orange;
 }
 .listed-cat .cat-types__text {
   margin-top: 0.8em;
