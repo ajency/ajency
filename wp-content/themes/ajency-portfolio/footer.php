@@ -56,7 +56,7 @@
 </footer>
 <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="..." aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">              
+    <div class="modal-content">
       <div class="modal-body">
         <img src="" class="imagepreview" style="width: 100%;" >
       </div>
@@ -67,8 +67,8 @@
     <link href="<?php echo get_template_directory_uri(); ?>/css/custom.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo get_bloginfo('url');  ?>/wp-content/themes/ajency-portfolio/style.css" rel="stylesheet" type="text/css"/>
      <!--<link href="<?php echo get_template_directory_uri(); ?>/css/zoom.css" rel="stylesheet" type="text/css"/>-->
-    <!--  <link rel="stylesheet" type="text/css" href="http://filamentgroup.github.io/enlarge/src/enlarge.css">
-</noscript>-->
+    <!--  <link rel="stylesheet" type="text/css" href="http://filamentgroup.github.io/enlarge/src/enlarge.css">-->
+</noscript>
 <script>
     var loadDeferredStyles = function() {
         var addStylesNode = document.getElementById("deferred-styles");
@@ -90,8 +90,6 @@
       lazySizesConfig.loadMode = 3;
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/combine.js" type="text/javascript">
-</script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/custom.min.js" type="text/javascript">
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/custom.min.js" type="text/javascript">
 </script>

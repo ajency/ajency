@@ -1,0 +1,110 @@
+.list-post{
+	font-size: 1.3rem;
+	line-height: 1.4;
+	display: block;
+	margin-bottom: 40px;
+	transition: transform 0.5s ease, background-color 0.5s ease;
+	padding: 20px;
+	transform: translateX(-20px);
+	&:hover{
+		text-decoration: none;
+		transform: translateX(0);
+		background-color: lighten($gray-400, 12%);
+	}
+	&>*{
+		color: #000;
+	}
+	h3{
+		font-weight: 600;
+		font-size: 1.9rem;
+		line-height: 1.4;
+		margin: 15px 0;
+		span{
+			color: #000 !important;
+		}
+	}
+	.list-tag{
+		color: darken($gray-400, 20%);
+	}
+	.list-date{
+		color: darken($gray-400, 20%);
+	}
+
+	&--featured{
+		padding: 60px 40px;
+		background-size: cover;
+		background-position: center;
+		position: relative;
+		transform: translateX(0);
+		margin-bottom: 60px;
+		&>*{
+			position: relative;
+			color: white;
+		}
+		&:before{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			background-color: rgba(0,0,0,0.40);
+			transition: all 0.5s ease;
+		}
+		&:hover{
+			&:before{
+				background-color: rgba(0,0,0,0.60);
+			}
+		}
+		h3{
+			color: white;
+			font-size: 2.3rem;
+			span{
+				color: white !important;
+			}
+		}
+		.list-tag{
+			color: theme-color('primary');
+		}
+		.list-date{
+			color: white;
+		}
+	}
+}
+
+.list-tag{
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+.list-meta{
+	border-left: 4px solid theme-color('primary');
+	padding-left: 15px;
+	margin-top: 30px;
+	font-size: 1rem;
+	.list-author{
+		font-size: 1.1rem;
+		font-weight: 500;
+	}
+}
+.list-text-block{
+	background-color: lighten($gray-400, 12%);
+	font-size: 1.6rem;
+	line-height: 1.4;
+	padding: 25px 40px;
+	order: 2;
+	margin-bottom: 60px;
+}
+
+.list-featured-col{
+	display: flex;
+	flex-direction: column;
+	a{
+		&:first-child{
+			order: 1;
+		}
+		&:nth-child(2){
+			order: 3;
+		}
+	}
+}
