@@ -38,6 +38,7 @@
               }
             }
         </style>
+
         <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-121565233-1">
         </script>
         <script>
@@ -54,8 +55,8 @@
                     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
                     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
                     })(window,document,'script','https://ajency.in/wp-content/cache/caos-analytics/analytics.js','ga');
-                window[ 'ga-disable-UA-121565233-1' ] = false;
-            ga('create', 'UA-121565233-1',
+                window[ 'ga-disable-UA-121565233-2' ] = false;
+            ga('create', 'UA-121565233-2',
             {
                 'cookieName':   'caosLocalGa',
                 'cookieDomain': 'ajency.in',
