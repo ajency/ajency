@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
+        <meta name="google-site-verification" content="qd-1GG94afoWdGykydD88dvERzYFG9UYaLs9cT3t1fk" />
+
         <title>
             Software Development and User Interface Design company that also offers Web Design services. Goa, India.
         </title>
