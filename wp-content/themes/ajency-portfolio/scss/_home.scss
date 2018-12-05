@@ -38,7 +38,6 @@
     height: 120%;
     background: #fff;
     padding: 100px 200px;
-
     @media (min-width: 768px) and (max-width: 1199.98px) {
         display:none;
     }
@@ -65,7 +64,6 @@
         width: 125px !important;
         float: left !important;
     }
-
     @media (min-width: 768px) and (max-width: 991.98px) {
         width: 110px;
     }
@@ -342,10 +340,10 @@ nav {
         flex: none;
     }
 }
- @media (min-width: 992px) and (max-width: 1399.98px) {
-      .contact-details {
-        .w-75{
-             max-width: 100%;
+@media (min-width: 992px) and (max-width: 1399.98px) {
+    .contact-details {
+        .w-75 {
+            max-width: 100%;
             flex: none;
             width: 100% !important;
         }
@@ -372,45 +370,42 @@ nav {
 }
 .highlight {
     position: relative;
-        h5 {
+    h5 {
         border-bottom: 2px solid #f2cd05 !important;
-         @media (min-width: 320px) and (max-width: 1199.98px) {
-               border: 0px !important;
+        @media (min-width: 320px) and (max-width: 1199.98px) {
+            border: 0px !important;
         }
     }
-
 }
- .highlight:before{
-         font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        content: "\f078";
-        position: absolute;
-        right: 0px;
-        top: 4%;
-        font-size: 20px;
-        color: #f0c70f;
-        transition: all .3s ease;
-        transform: rotate(-90deg);
-          @media (min-width: 320px) and (max-width: 1199.98px) {
-          display:none;
-        }
+.highlight:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
+    position: absolute;
+    right: 0px;
+    top: 4%;
+    font-size: 20px;
+    color: #f0c70f;
+    transition: all .3s ease;
+    transform: rotate(-90deg);
+    @media (min-width: 320px) and (max-width: 1199.98px) {
+        display:none;
     }
+}
 .aj-home-title {
     line-height: 5rem;
     @media (min-width: 320px) and (max-width: 767.98px) {
         font-size:1.6rem;
         line-height: 2.7rem;
     }
-     @media (min-width: 992px) and (max-width: 1399.98px) {
+    @media (min-width: 992px) and (max-width: 1399.98px) {
         line-height: 4rem;
         font-size: 2.9rem;
-        h3{
+        h3 {
             font-size: 1.1rem;
             line-height: 1.5rem;
-
         }
     }
-    
     .clutch {
         display: inline-block;
         position: relative;
@@ -452,26 +447,26 @@ nav {
         }
     }
 }
-#imagemodal{
-.modal-content{
-background-color: transparent;
-border:0px;
-    .modal-body{
-        height:100%;
-        padding:0px;
-    }
+#imagemodal {
+    .modal-content {
+        background-color: transparent;
+        border: 0px;
+        .modal-body {
+            height: 100%;
+            padding: 0px;
+        }
     }
 }
 #imagemodal .modal-dialog {
-    transform: translate(0,0) !important;
+    transform: translate(0, 0) !important;
 }
 .modal-backdrop.show {
-       opacity: 1;
-        background-color: #f1f1f1 !important;
+    opacity: 1;
+    background-color: #f1f1f1 !important;
 }
-.modal-backdrop{
-       opacity: 1;
-        background-color: #f1f1f1 !important;
+.modal-backdrop {
+    opacity: 1;
+    background-color: #f1f1f1 !important;
 }
 .enlarge_btn {
     visibility: hidden;
