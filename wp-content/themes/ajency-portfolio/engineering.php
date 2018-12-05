@@ -25,8 +25,71 @@
   </div>
 </section>
 
-
-
+<div class="container">
+  <div class="card-main-wrap">
+    <div class="row card-front">
+      <div class="col-4">
+        <div class="card-wrapper" data-target="card1">
+          <div class="logocard">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-small.jpg"
+             data-sizes="100vw"
+             class="d-block m-auto lazyload blur-up">
+          </div>
+          <!-- <div class="expanded">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-resize-1x.jpg"
+             data-sizes="100vw"
+             class="d-block m-auto lazyload blur-up">
+          </div> -->
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card-wrapper" data-target="card2">
+          <div class="logocard">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-small.jpg"
+             data-sizes="100vw"
+             class="d-block m-auto lazyload blur-up">
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card-wrapper" data-target="card3">
+          <div class="logocard">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-small.jpg"
+             data-sizes="100vw"
+             class="d-block m-auto lazyload blur-up">
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card-wrapper" data-target="card4">
+          <div class="logocard">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-small.jpg"
+               data-sizes="100vw"
+               class="d-block m-auto lazyload blur-up">
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card-wrapper" data-target="card5">
+          <div class="logocard">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-small.jpg"
+                 data-sizes="100vw"
+                 class="d-block m-auto lazyload blur-up">
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card-wrapper" data-target="card6">
+          <div class="logocard">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-small.jpg"
+                 data-sizes="100vw"
+                 class="d-block m-auto lazyload blur-up">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <section class="p2">
   <div class="slider variable-width d-flex align-items-center">

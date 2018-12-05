@@ -178,9 +178,9 @@ $(window).on("load", function() {
 $(function() {
         $('.pop').on('click', function() {
             $('.imagepreview').attr('src', $(this).find('img').attr('data-original'));
-            $('#imagemodal').modal('show');   
+            $('#imagemodal').modal('show');
               jQuery('meta[name=viewport]').attr('content','initial-scale=1.0');
-        });     
+        });
 });
 $('.modal').on('click', function() {
         $('#imagemodal').modal('hide');
@@ -189,5 +189,10 @@ $('.modal').on('click', function() {
   $(window).on('hashchange', function (event) {
 
             $('.scroll-left').removeClass('active');
- 
+
     });
+
+$(document).on('click', '.card-front .col-4', function(){
+    $(this).toggleClass('active');
+    $(this).siblings().toggleClass('not-active');
+})
