@@ -194,5 +194,6 @@ $('.modal').on('click', function() {
 
 $(document).on('click', '.card-front .col-4', function(){
     $(this).toggleClass('active');
+    $('.card-front').toggleClass('active');
     $(this).siblings().toggleClass('not-active');
 })

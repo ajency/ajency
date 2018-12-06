@@ -234,8 +234,12 @@
 }
 .card-front{
     position: relative;
-    height: 350px;
+    height: 530px;
     display: block;
+    transition: all 0.3s;
+    &.active{
+        height: 800px;
+    }
     .col-4{
         max-width: 100%;
         transform: scale(0.33);
@@ -244,23 +248,31 @@
         left: 0;
         transition: all 0.3s;
         cursor: pointer;
+        height: 800px;
         img{
             max-width: 100%;
         }
-        // .expanded{
-        //     transition: all 0.3s;
-        //     // transform: scale(0);
-        //     opacity: 0;
-        //     max-height: 0;
-        //     overflow: hidden;
-        // }
-        // .logocard{
-        //     transition: all 0.3s;
-        //     // transform: scale(1);
-        //     opacity: 1;
-        //     max-height: 800px;
-        //     overflow: hidden;
-        // }
+        .logocard{
+            transition: all 0.3s;
+            transform: translateY(0);
+            opacity: 1;
+            // max-height: 800px;
+            // overflow: hidden;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                transform: scale(2);
+            }
+        }
+        .expanded{
+            transition: all 0.3s;
+            transform: translateY(-800px);
+            opacity: 0;
+            // max-height: 0;
+            // overflow: hidden;
+        }
         &:nth-child(1){
             transform-origin: 0 0;
         }
@@ -282,17 +294,17 @@
 
         &.active{
             z-index: 1;
-            transform: scale(1);
-            // .expanded{
-            //     // transform: scale(1);
-            //     opacity: 1;
-            //     max-height: 800px;
-            // }
-            // .logocard{
-            //     // transform: scale(0);
-            //     opacity: 0;
-            //     max-height: 0;
-            // }
+            transform: scale(1) translateY(0);
+            .logocard{
+                transform: translateY(460px);
+                opacity: 0;
+                // max-height: 0;
+            }
+            .expanded{
+                // transform: translateY(-260px);
+                opacity: 1;
+                // max-height: 800px;
+            }
         }
         &.not-active{
             transform: scale(0);
@@ -300,7 +312,9 @@
     }
 }
 
-// .card-wrapper{
+.card-wrapper{
+    background-color: #f8f8f8;
+    height: 100%;
 //     position: relative;
 //     .logocard, .expanded{
 //         position: absolute;
@@ -309,4 +323,4 @@
 //         height: 100%;
 //         width: 100%;
 //     }
-// }
+}
