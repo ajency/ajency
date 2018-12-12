@@ -188,7 +188,7 @@ $('.modal').on('click', function() {
 $(window).on('hashchange', function(event) {
     $('.scroll-left').removeClass('active');
 });
-$(document).on('click', '.card-front .col-4', function() {
+$(document).on('click', '.card-front .card-trigger', function() {
     $(this).toggleClass('active');
     $('.card-front').toggleClass('active');
     $(this).siblings().toggleClass('not-active');
