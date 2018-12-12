@@ -25,90 +25,100 @@
   </div>
 </section>
 
-<div class="container">
-  <div class="card-main-wrap">
-    <div class="row card-front">
-      <div class="col-4">
-        <div class="card-wrapper" data-target="card1">
-          <div class="logocard">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-hk.png"
-             data-sizes="100vw"
-             class="d-block m-auto lazyload blur-up">
-          </div>
-          <div class="expanded">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
-             data-sizes="100vw"
-             class="d-block m-auto lazyload blur-up">
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card-wrapper" data-target="card2">
-          <div class="logocard">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-bt.png"
-             data-sizes="100vw"
-             class="d-block m-auto lazyload blur-up">
-          </div>
-          <div class="expanded">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
-             data-sizes="100vw"
-             class="d-block m-auto lazyload blur-up">
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card-wrapper" data-target="card3">
-          <div class="logocard">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-gi.png"
-             data-sizes="100vw"
-             class="d-block m-auto lazyload blur-up">
-          </div>
-          <div class="expanded">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-768px.jpg"
-             data-sizes="100vw"
-             class="d-block m-auto lazyload blur-up">
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card-wrapper" data-target="card4">
-          <div class="logocard">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-wed.png"
-               data-sizes="100vw"
-               class="d-block m-auto lazyload blur-up">
-          </div>
-          <div class="expanded">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-768px.jpg"
-             data-sizes="100vw"
-             class="d-block m-auto lazyload blur-up">
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card-wrapper" data-target="card5">
-          <div class="logocard">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-mylan.png"
+<div class="container p5">
+  <div class="row">
+    <div class="col  offset-xl-2 col-xl-8 col12">
+      <div class="card-main-wrap">
+        <div class="row card-front">
+          <div class="col-4">
+            <div class="card-wrapper" data-target="card1">
+              <div class="logocard pf-healthkart">
+                <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-hk.png"
+                 data-sizes="100vw"
+                 class="d-block m-auto lazyload blur-up"> -->
+                 <img src="https://via.placeholder.com/350" alt="">
+              </div>
+              <div class="expanded">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
                  data-sizes="100vw"
                  class="d-block m-auto lazyload blur-up">
+              </div>
+            </div>
           </div>
-          <div class="expanded">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-768px.jpg"
-             data-sizes="100vw"
-             class="d-block m-auto lazyload blur-up">
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="card-wrapper" data-target="card6">
-          <div class="logocard">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-bek.png"
+          <div class="col-4">
+            <div class="card-wrapper" data-target="card2">
+              <div class="logocard pf-commonfloor">
+                  <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-bt.png"
+                 data-sizes="100vw"
+                 class="d-block m-auto lazyload blur-up"> -->
+                 <img src="https://via.placeholder.com/350" alt="">
+              </div>
+              <div class="expanded">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
                  data-sizes="100vw"
                  class="d-block m-auto lazyload blur-up">
+              </div>
+            </div>
           </div>
-          <div class="expanded">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
-             data-sizes="100vw"
-             class="d-block m-auto lazyload blur-up">
+          <div class="col-4">
+            <div class="card-wrapper" data-target="card3">
+              <div class="logocard pf-growthinvest">
+                  <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-gi.png"
+                 data-sizes="100vw"
+                 class="d-block m-auto lazyload blur-up"> -->
+                 <img src="https://via.placeholder.com/350" alt="">
+              </div>
+              <div class="expanded">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-768px.jpg"
+                 data-sizes="100vw"
+                 class="d-block m-auto lazyload blur-up">
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card-wrapper" data-target="card4">
+              <div class="logocard pf-weddingz">
+                  <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-wed.png"
+                   data-sizes="100vw"
+                   class="d-block m-auto lazyload blur-up"> -->
+                   <img src="https://via.placeholder.com/350" alt="">
+              </div>
+              <div class="expanded">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-768px.jpg"
+                 data-sizes="100vw"
+                 class="d-block m-auto lazyload blur-up">
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card-wrapper" data-target="card5">
+              <div class="logocard pf-mylan">
+                  <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-mylan.png"
+                     data-sizes="100vw"
+                     class="d-block m-auto lazyload blur-up"> -->
+                     <img src="https://via.placeholder.com/350" alt="">
+              </div>
+              <div class="expanded">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-768px.jpg"
+                 data-sizes="100vw"
+                 class="d-block m-auto lazyload blur-up">
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card-wrapper" data-target="card6">
+              <div class="logocard pf-mylan">
+                  <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-bek.png"
+                     data-sizes="100vw"
+                     class="d-block m-auto lazyload blur-up"> -->
+                     <img src="https://via.placeholder.com/350" alt="">
+              </div>
+              <div class="expanded">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
+                 data-sizes="100vw"
+                 class="d-block m-auto lazyload blur-up">
+              </div>
+            </div>
           </div>
         </div>
       </div>

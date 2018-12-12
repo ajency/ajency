@@ -69,4 +69,8 @@ gulp.task('default', function() {
 
 gulp.task('watch', ['sass'], function() {
     gulp.watch(['./wp-content/themes/ajency-portfolio/scss/*.scss'], ['sass']);
+     return gulp.src(['./wp-content/themes/ajency-portfolio/css/custom.css'])
+      .pipe(csso())
+      .pipe(concat('combine.css'))
+    .pipe(gulp.dest('./wp-content/themes/ajency-portfolio/css'))
 });
