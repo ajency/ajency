@@ -59,15 +59,15 @@ $('.aj-team-member').slick({
     slidesToShow: 1,
     variableWidth: true
 });
-$(window).scroll(function() {
-    if ($(window).scrollTop() >= 20) {
-        $('nav').addClass('fixed-header');
-        $('nav').addClass('position-fixed');
-    } else {
-        $('nav').removeClass('fixed-header');
-        $('nav').removeClass('position-fixed');
-    }
-});
+// $(window).scroll(function() {
+//     if ($(window).scrollTop() >= 20) {
+//         $('nav').addClass('fixed-header');
+//         $('nav').addClass('position-fixed');
+//     } else {
+//         $('nav').removeClass('fixed-header');
+//         $('nav').removeClass('position-fixed');
+//     }
+// });
 if ($(window).width() < 1198) {
     $('.pf-healthkart').click(function() {
         $('.scroll-left').addClass('active');

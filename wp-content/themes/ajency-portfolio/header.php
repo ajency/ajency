@@ -108,7 +108,7 @@
 
   <body>
 
-  	<nav>
+  	<nav class="fixed-header position-fixed">
       <div class="container mt5  p5">
         <div class="row ">
             <div class="col-6 col-xl-2 col-sm-3">
