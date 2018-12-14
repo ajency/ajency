@@ -1,5 +1,5 @@
 .bread-crumb {
-    h1 {
+    h1, .h1 {
         @media (min-width: 768px) and (max-width: 1199.98px) {
             margin-top: 53px;
             font-size: 1.4rem;
@@ -19,6 +19,158 @@
             text-transform: lowercase;
             font-family: 'Libre Baskerville', Baskerville, georgia, serif!important;
         }
+    }
+    &__menu{
+        overflow: hidden;
+        height: 100px;
+        position: relative;
+        margin-top: 32px;
+        padding-top: 0;
+        perspective: 100px;
+        cursor: pointer;
+        a{
+            font-family: "Libre Baskerville",Baskerville,georgia,serif!important;
+            font-weight: 600;
+            font-style: italic;
+        }
+        &:before, &:after{
+            content: '';
+            position: absolute;
+            height: 2rem;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            background-image: linear-gradient(transparent, #fff);
+            transition: opacity 0.25s;
+        }
+        &:before{
+            top: 0;
+            background-image: linear-gradient(#fff, transparent);
+        }
+        .actionable{
+            margin: -22px 0 0;
+            transition: margin 0.25s ease, color 0.25s, transform 0.25s ease, opacity 0.25s ease;
+            pointer-events: none;
+            display: block;
+            line-height: 1.4;
+            text-transform: lowercase;
+            cursor: pointer;
+            &.is-active{
+                margin-top: 0;
+                position: relative;
+                display: inline-block;
+                animation: slideltr .5s linear forwards;
+                &:before, &:after{
+                    content: "\f077";
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    font-style: normal;
+                    position: absolute;
+                    top: -15px;
+                    left: 0;
+                    right: 0;
+                    font-size: 15px;
+                    width: 100%;
+                    text-align: center;
+                    transition: transform 0.25s;
+                    color: $gray-600;
+                    transform: translateY(-40px);
+                }
+                &:after{
+                    content: "\f078";
+                    top: auto;
+                    bottom: -15px;
+                    transform: translateY(40px);
+                }
+                & ~ .actionable{
+                    margin-top: 0;
+                    transform-style: preserve-3d;
+                    transform: rotateX(0) translateY(25px);
+                    color: $gray-600;
+                    // opacity: 0;
+                }
+            }
+            &.is-above{
+                transform-style: preserve-3d;
+                transform: rotateX(0) translateY(-25px);
+                color: $gray-600;
+            }
+        }
+
+        &:hover{
+            .actionable{
+                &.is-active{
+                    // transform: translateX(10px);
+                    &:before{
+                       transform: translateY(0);
+                    }
+                    &:after{
+                       transform: translateY(0);
+                    }
+                    & ~ .actionable{
+                        // transform: rotateX(-25deg) translateY(0px);
+                    }
+                }
+                &.is-above{
+                    // transform: rotateX(25deg) translateY(0px);
+                }
+            }
+        }
+
+        &.is-active{
+            height: auto;
+            margin-top: 56px;
+            &:before, &:after{
+                opacity: 0;
+                visibility: hidden;
+            }
+            .actionable{
+                margin-top: 0;
+                line-height: 1.5;
+                pointer-events: auto;
+                &.is-active{
+                    pointer-events: none;
+                    &:before, &:after{
+                        opacity: 0;
+                    }
+                    & ~ .actionable{
+                        transform: rotateX(0) translateY(0px);
+                        // opacity: 1;
+                    }
+                }
+                &.is-above{
+                    transform: rotateX(0) translateY(0px);
+                }
+            }
+        }
+    }
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(0, -1px, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(0, 2px, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(0, -4px, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(0, 4px, 0);
+    }
+}
+
+@keyframes slideltr{
+    0%{
+        transform: translateX(-20rem);
+    }
+    100%{
+        transform: translateX(0);
     }
 }
 .mobile-header {

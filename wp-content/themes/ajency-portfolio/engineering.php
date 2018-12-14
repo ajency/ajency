@@ -5,11 +5,13 @@
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
        <div class="headerfix ">
-          <div class="bread-crumb">
-            <h1 class="ft6 pt-6">
-              <span>/</span>
-              <a href="#" class="text-link text-black">Engineering</a>
-            </h1>
+          <div class="bread-crumb d-flex">
+            <span class="h1 font-weight-light pt-6 pr-2 pr-md-3">/</span>
+            <div class="bread-crumb__menu">
+              <a href="#" class="actionable is-above text-link h1">Website design</a>
+              <a href="#" class="actionable is-active text-link text-black h1">Engineering</a>
+              <a href="#" class="actionable text-link h1">User interface design</a>
+            </div>
           </div>
       </div>
     </div>

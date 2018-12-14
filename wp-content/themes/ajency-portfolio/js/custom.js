@@ -193,3 +193,8 @@ $(document).on('click', '.card-front .card-trigger', function() {
     $('.card-front').toggleClass('active');
     $(this).siblings().toggleClass('not-active');
 })
+
+$('.bread-crumb__menu').on('click', function(e) {
+    // e.preventDefault();
+    $(this).toggleClass('is-active');
+});
