@@ -186,6 +186,38 @@
                 }
             }
         }
+
+        @media (min-width: 320px) and (max-width: 767.98px) {
+            margin-top: 82px;
+            .actionable{
+                margin-top: -22px;
+                &:after, &:before{
+                    // display: none;
+                    font-size: 10px !important;
+                    right: -20px !important;
+                    opacity: 1 !important;
+                    visibility: visible !important;
+                }
+                &:before{
+                    transform: translateY(4px) !important;
+                }
+                &:after{
+                    transform: translateY(0px) !important;
+                }
+                &.is-active{
+                    & ~ .actionable{
+                        margin-top: 0;
+                    }
+                }
+            }
+            &.is-active{
+                .actionable{
+                    &:after, &:before{
+                        display: none;
+                    }
+                }
+            }
+        }
     }
 }
 
