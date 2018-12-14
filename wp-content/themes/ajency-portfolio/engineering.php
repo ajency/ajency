@@ -11,6 +11,8 @@
               <a href="#" class="actionable is-above text-link h1">Website design</a>
               <a href="#" class="actionable is-active text-link text-black h1">Engineering</a>
               <a href="#" class="actionable text-link h1">User interface design</a>
+              <a href="#" class="actionable text-link h1">Blog</a>
+              <a href="#" class="actionable text-link h1">Careers</a>
             </div>
           </div>
       </div>
