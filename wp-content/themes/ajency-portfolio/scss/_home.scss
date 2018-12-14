@@ -196,6 +196,7 @@
         visibility: hidden;
     }
     20%{
+        transform: translateY(8px);
         opacity: 1;
         visibility: visible;
     }
@@ -204,6 +205,8 @@
     }
     100%{
         transform: translateY(-40px);
+        opacity: 0;
+        visibility: hidden;
     }
 }
 @keyframes slidedown{
@@ -213,6 +216,7 @@
         visibility: hidden;
     }
     20%{
+        transform: translateY(-5px);
         opacity: 1;
         visibility: visible;
     }
@@ -221,15 +225,17 @@
     }
     100%{
         transform: translateY(40px);
+        opacity: 0;
+        visibility: hidden;
     }
 }
 
 @keyframes slideltr{
     0%{
-        transform: translate3d(-20rem, -46px, 0);
+        transform: translate3d(-20rem, 0, 0);
     }
     100%{
-        transform: translate3d(0, -46px, 0);
+        transform: translate3d(0, 0, 0);
     }
 }
 .mobile-header {
