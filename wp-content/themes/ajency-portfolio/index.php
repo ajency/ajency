@@ -5,11 +5,11 @@
         <meta name="google-site-verification" content="qd-1GG94afoWdGykydD88dvERzYFG9UYaLs9cT3t1fk" />
 
         <title>
-            Software Development and User Interface Design company that also offers Web Design services. Goa, India.
+            Ajency.in - Premium Software Development & UI Design company. We also offer Web Design.
         </title>
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
-        <meta content="We work with startups in Goa, London, Mumbai, Bangalore & rest of the world. We combine both UI/UX & web + mobile development skills to create winning digital products." name="description"/>
-        <meta content="Software company in Goa,Software Development Company Goa,Mobile Application Development, Mobile Application Development Goa, Web design Panjim,Ajency.in Goa" name="keywords"/>
+        <meta content="Ajency.in is a Goa, India based premium software development and UI design company. Founded in 2012 we have worked with startups backed by  Sequoia, Tiger Global, Google Capital among others." name="description"/>
+        <meta content="Ajency.in, Ajency, Ajency Goa, Panjim, India, Software development, UI design, application development, web design, webdesign" name="keywords"/>
         <meta content="website" property="og:type"/>
         <meta content="Software Development and User Interface Design company that also offers Web Design services. Goa, India." property="og:title"/>
         <meta content="We work with startups in Goa, London, Mumbai, Bangalore & rest of the world. We combine both UI/UX & web + mobile development skills to create winning digital products." property="og:description"/>
