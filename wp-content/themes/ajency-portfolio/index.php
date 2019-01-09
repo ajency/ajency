@@ -11,13 +11,13 @@
         <meta content="Ajency.in is a Goa, India based premium software development and UI design company. Founded in 2012 we have worked with startups backed by  Sequoia, Tiger Global, Google Capital among others." name="description"/>
         <meta content="Ajency.in, Ajency, Ajency Goa, Panjim, India, Software development, UI design, application development, web design, webdesign" name="keywords"/>
         <meta content="website" property="og:type"/>
-        <meta content="Software Development and User Interface Design company that also offers Web Design services. Goa, India." property="og:title"/>
-        <meta content="We work with startups in Goa, London, Mumbai, Bangalore & rest of the world. We combine both UI/UX & web + mobile development skills to create winning digital products." property="og:description"/>
+        <meta content="Ajency.in - Premium Software Development & UI Design company. We also offer Web Design." property="og:title"/>
+        <meta content="Ajency.in is a Goa, India based premium software development and UI design company. Founded in 2012 we have worked with startups backed by  Sequoia, Tiger Global, Google Capital among others." name="description." property="og:description"/>
         <meta content="https://ajency.in/" property="og:url"/>
-        <meta content="Ajency.in - Goa based UI/UX & web + mobile application development company" property="og:site_name"/>
+        <meta content="Ajency.in - Premium Software Development & UI Design company. We also offer Web Design." property="og:site_name"/>
         <meta content="summary_large_image" name="twitter:card"/>
-        <meta content="We work with startups in Goa, London, Mumbai, Bangalore & rest of the world. We combine both UI/UX & web + mobile development skills to create winning digital products." name="twitter:description"/>
-        <meta content="Software Development and User Interface Design company that also offers Web Design services. Goa, India." name="twitter:title"/>
+        <meta content="Ajency.in is a Goa, India based premium software development and UI design company. Founded in 2012 we have worked with startups backed by  Sequoia, Tiger Global, Google Capital among others." name="description" name="twitter:description"/>
+        <meta content="Ajency.in - Premium Software Development & UI Design company. We also offer Web Design." name="twitter:title"/>
         <script type="application/ld+json">
             {"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/ajency.in\/","name":"Ajency.in - Goa based UI\/UX &amp; web + mobile application development company","potentialAction":{"@type":"SearchAction","target":"https:\/\/ajency.in\/?s={search_term_string}","query-input":"required name=search_term_string"}}
         </script>
