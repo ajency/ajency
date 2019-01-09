@@ -8,12 +8,12 @@
                     <div class="row no-gutters">
                         <div class="col-md-4 contact-details">
                             <h4 class="font-weight-light">
-                                <a class=" d-block h4 font-weight-light" href="tel:09975931402">
+                                <a class=" d-block h4 font-weight-light" href="tel:09975931402" onclick=”ga(‘send’, ‘event’, ‘telephone', 'CallNow', 'tel:09975931402');">
                                     +91 99759 31402
                                 </a>
                             </h4>
                             <h4 class="font-weight-light">
-                                <a class="d-block h4 font-weight-light" href="mailto:talktous@ajency.in">
+                                <a class="d-block h4 font-weight-light" href="mailto:talktous@ajency.in" onclick=”ga(‘send’, ‘event’, ‘footerid', 'Contact', 'Footer - talktous@ajency.in');">
                                     talktous@ajency.in
                                 </a>
                                 <br/>
