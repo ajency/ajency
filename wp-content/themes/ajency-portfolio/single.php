@@ -43,12 +43,26 @@
 					<?php endwhile; ?>
 				<?php endif; ?>
 
-				<?php if (strlen(get_previous_post()->post_title) > 0) { ?>
-					<div class="next-post">
-						<div class="next-title">Next Blog <i class="fas fa-arrow-right"></i></div>
-		  				<?php previous_post_link('%link'); ?>
+				<div class="row justify-content-between">
+					<div class="col-6">
+						<?php if (strlen(get_next_post()->post_title) > 0) { ?>
+							<div class="next-post">
+								<div class="next-title"><i class="fas fa-arrow-left"></i> Previous Blog</div>
+				  				<?php next_post_link('%link'); ?>
+							</div>
+						<?php } ?>
 					</div>
-				<?php } ?>
+
+					<div class="col-6 text-right">
+						<?php if (strlen(get_previous_post()->post_title) > 0) { ?>
+							<div class="next-post">
+								<div class="next-title">Next Blog <i class="fas fa-arrow-right"></i></div>
+				  				<?php previous_post_link('%link'); ?>
+							</div>
+						<?php } ?>
+					</div>
+				</div>
+
 		    </div>
 	  	</div>
 
