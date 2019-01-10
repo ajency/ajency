@@ -185,6 +185,9 @@
                         transform: rotateX(0) translateY(0px);
                         opacity: 1;
                     }
+                    &.has-link{
+                        pointer-events: auto;
+                    }
                 }
                 &.is-above{
                     transform: rotateX(0) translateY(0px);
