@@ -59,15 +59,15 @@ $('.aj-team-member').slick({
     slidesToShow: 1,
     variableWidth: true
 });
-$(window).scroll(function() {
-    if ($(window).scrollTop() >= 20) {
-        $('nav').addClass('fixed-header');
-        $('nav').addClass('position-fixed');
-    } else {
-        $('nav').removeClass('fixed-header');
-        $('nav').removeClass('position-fixed');
-    }
-});
+// $(window).scroll(function() {
+//     if ($(window).scrollTop() >= 20) {
+//         $('nav').addClass('fixed-header');
+//         $('nav').addClass('position-fixed');
+//     } else {
+//         $('nav').removeClass('fixed-header');
+//         $('nav').removeClass('position-fixed');
+//     }
+// });
 if ($(window).width() < 1198) {
     $('.pf-healthkart').click(function() {
         $('.scroll-left').addClass('active');
@@ -174,20 +174,27 @@ $(window).on("load", function() {
         }
     });
 })
-
 $(function() {
-        $('.pop').on('click', function() {
-            $('.imagepreview').attr('src', $(this).find('img').attr('data-original'));
-            $('#imagemodal').modal('show');   
-              jQuery('meta[name=viewport]').attr('content','initial-scale=1.0');
-        });     
+    $('.pop').on('click', function() {
+        $('.imagepreview').attr('src', $(this).find('img').attr('data-original'));
+        $('#imagemodal').modal('show');
+        jQuery('meta[name=viewport]').attr('content', 'initial-scale=1.0');
+    });
 });
 $('.modal').on('click', function() {
-        $('#imagemodal').modal('hide');
-              jQuery('meta[name=viewport]').attr('content','width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0');
-      });
-  $(window).on('hashchange', function (event) {
+    $('#imagemodal').modal('hide');
+    jQuery('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0');
+});
+$(window).on('hashchange', function(event) {
+    $('.scroll-left').removeClass('active');
+});
+$(document).on('click', '.card-front .card-trigger', function() {
+    $(this).toggleClass('active');
+    $('.card-front').toggleClass('active');
+    $(this).siblings().toggleClass('not-active');
+})
 
-            $('.scroll-left').removeClass('active');
- 
-    });
+$('.bread-crumb__menu').on('click', function(e) {
+    // e.preventDefault();
+    $(this).toggleClass('is-active');
+});

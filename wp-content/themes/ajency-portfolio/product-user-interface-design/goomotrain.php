@@ -5,7 +5,21 @@
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
       <div class="headerfix ">
-         <div class="bread-crumb"><h1 class="ft6 pt-6"><span>/</span> <a href="<?php echo get_site_url(); ?>/product-user-interface-design//" class="text-link text-black">user interface design</a> <span>/</span>  Goomo Train</h1></div>
+        <div class="bread-crumb d-flex flex-wrap">
+          <span class="h1 font-weight-light pt-6 pr-2 pr-md-2">/</span>
+          <div class="bread-crumb pt-6 pr-2">
+            <div class="h1">
+              <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="text-link h2 font-weight-bold">User interface design</a>
+            </div>
+          </div>
+          <span class="h1 font-weight-light pt-6 pr-2 pr-md-2">/</span>
+          <div class="bread-crumb__menu levelTwo">
+            <h1><a href="<?php echo get_site_url(); ?>/product-user-interface-design/goomo-train-booking-app/" class="actionable text-link h1 is-active text-black normal-font">Goomo Train</a></h1>
+            <a href="<?php echo get_site_url(); ?>/product-user-interface-design/goomo-hotel-extranet-booking-tool/" class="actionable text-link h1 normal-font">Goomo Extranet & CBT</a>
+            <a href="<?php echo get_site_url(); ?>/product-user-interface-design/tata-group-mobile-wallet-mrupee/" class="actionable text-link h1 normal-font">mRupee</a>
+            <a href="<?php echo get_site_url(); ?>/product-user-interface-design/fnbcircle-directory-marketplace/" class="actionable text-link h1 normal-font">FnB Circle</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -28,7 +42,7 @@
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
         <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/goomo-train-homepage-10px.jpg"
-             data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/goomo-train-homepage-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/goomo-train-homepage-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomo-train-homepage-small.jpg  700w"
+             data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/goomo-train-homepage-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/goomo-train-homepage-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/goomotrain/goomo-train-homepage-small.jpg  700w"
              data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
     </div>
   </div>
