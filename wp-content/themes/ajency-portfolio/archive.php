@@ -52,7 +52,7 @@
 										}
 									?>
 									<h3><?php the_title(); ?></h3>
-									<div><?php the_excerpt();?></div>
+									<div><?php echo excerpt(60);?></div>
 									<div class="list-meta">
 										<div class="list-author"><?php the_author(); ?></div>
 										<div class="list-date"><?php the_date(); ?></div>
@@ -101,7 +101,7 @@
 										}
 									?>
 									<h3><?php the_title(); ?></h3>
-									<div><?php the_excerpt(); ?></div>
+									<div><?php echo excerpt(25); ?></div>
 									<div class="list-meta">
 										<div class="list-author"><?php the_author(); ?></div>
 										<div class="list-date"><?php the_date(); ?></div>
