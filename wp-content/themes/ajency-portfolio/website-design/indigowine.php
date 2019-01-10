@@ -5,7 +5,21 @@
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
       <div class="headerfix ">
-         <div class="bread-crumb"><h1 class="ft6 pt-6"><span>/</span> <a href="<?php echo get_site_url(); ?>/website-design/" class="text-link text-black">website design</a> <span>/</span>  IndigoWine</h1></div>
+        <div class="bread-crumb d-flex flex-wrap">
+          <span class="h1 font-weight-light pt-6 pr-2 pr-md-2">/</span>
+          <div class="bread-crumb pt-6 pr-2">
+            <div class="h1">
+              <a href="<?php echo get_site_url(); ?>/website-design/" class="text-link h2 font-weight-bold">Website design</a>
+            </div>
+          </div>
+          <span class="h1 font-weight-light pt-6 pr-2 pr-md-2">/</span>
+          <div class="bread-crumb__menu levelTwo">
+            <h1><a href="<?php echo get_site_url(); ?>/website-design/wine-site-website-design/" class="actionable text-link h1 is-active text-black normal-font">Indigo Wine Co</a></h1>
+            <a href="<?php echo get_site_url(); ?>/website-design/hotel-management-site-website-design/" class="actionable text-link h1 normal-font">AxisRooms</a>
+            <a href="<?php echo get_site_url(); ?>/website-design/exhibition-company-site-website-design/" class="actionable text-link h1 normal-font">DesignDesk</a>
+            <a href="<?php echo get_site_url(); ?>/website-design/real-estate-site-website-design/" class="actionable text-link h1 normal-font">Marvel Realtors</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>

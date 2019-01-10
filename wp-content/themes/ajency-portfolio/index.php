@@ -1,4 +1,4 @@
-<!DOCTYPE doctype html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
@@ -7,7 +7,7 @@
         <title>
             Ajency.in - Premium Software Development & UI Design company. We also offer Web Design.
         </title>
-        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" name="viewport"/>
         <meta content="Ajency.in is a Goa, India based premium software development and UI design company. Founded in 2012 we have worked with startups backed by  Sequoia, Tiger Global, Google Capital among others." name="description"/>
         <meta content="Ajency.in, Ajency, Ajency Goa, Panjim, India, Software development, UI design, application development, web design, webdesign" name="keywords"/>
         <meta content="website" property="og:type"/>
@@ -21,9 +21,6 @@
         <script type="application/ld+json">
             {"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/ajency.in\/","name":"Ajency.in - Goa based UI\/UX &amp; web + mobile application development company","potentialAction":{"@type":"SearchAction","target":"https:\/\/ajency.in\/?s={search_term_string}","query-input":"required name=search_term_string"}}
         </script>
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="initial-scale=1, maximum-scale=1" name="viewport"/>
-        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
         <meta content="#707279" name="theme-color"/>
         <link href="<?php echo get_template_directory_uri(); ?>/img/favicon.png" rel="icon" type="image/x-icon"/>
 

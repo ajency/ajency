@@ -5,7 +5,21 @@
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
       <div class="headerfix ">
-         <div class="bread-crumb"><h1 class="ft6 pt-6"><span>/</span> <a href="<?php echo get_site_url(); ?>/website-design/" class="text-link text-black">website design</a> <span>/</span>  Marvel Realtors</h1></div>
+        <div class="bread-crumb d-flex flex-wrap">
+          <span class="h1 font-weight-light pt-6 pr-2 pr-md-2">/</span>
+          <div class="bread-crumb pt-6 pr-2">
+            <div class="h1">
+              <a href="<?php echo get_site_url(); ?>/website-design/" class="text-link h2 font-weight-bold">Website design</a>
+            </div>
+          </div>
+          <span class="h1 font-weight-light pt-6 pr-2 pr-md-2">/</span>
+          <div class="bread-crumb__menu levelTwo">
+            <a href="<?php echo get_site_url(); ?>/website-design/wine-site-website-design/" class="actionable text-link h1 normal-font">Indigo Wine Co</a>
+            <a href="<?php echo get_site_url(); ?>/website-design/hotel-management-site-website-design/" class="actionable text-link h1 normal-font">AxisRooms</a>
+            <a href="<?php echo get_site_url(); ?>/website-design/exhibition-company-site-website-design/" class="actionable text-link h1 normal-font">DesignDesk</a>
+            <h1><a href="<?php echo get_site_url(); ?>/website-design/real-estate-site-website-design/" class="is-active text-black actionable text-link h1 normal-font">Marvel Realtors</a></h1>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -31,7 +45,7 @@
 
       <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/marvelrealtors-homepage-10px.jpg"
            alt="Real estate company with dozens of ongoing projects."
-          data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/MarvelRealtors-Home-Page-Design.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/MarvelRealtors-Home-Page-Design-MediumSize.jpg 1200, <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/MarvelRealtors-Home-Page-Design-SmallSize.jpg  700w"
+          data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/MarvelRealtors-Home-Page-Design.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/MarvelRealtors-Home-Page-Design-MediumSize.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/MarvelRealtors-Home-Page-Design-SmallSize.jpg  700w"
           data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
 
     </div>
