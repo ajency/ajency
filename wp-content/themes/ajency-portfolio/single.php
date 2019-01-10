@@ -1,4 +1,10 @@
-<?php get_header();  ?>
+<?php
+/*
+ * Template Name: Single Post
+ * Template Post Type: post
+ */
+
+ get_header();  ?>
 
 <div class="container p5">
   <div class="row">
