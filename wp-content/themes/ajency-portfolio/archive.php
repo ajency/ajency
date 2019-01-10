@@ -13,9 +13,9 @@
 				<div class="bread-crumb d-flex">
 				  <span class="h1 font-weight-light pt-6 pr-2 pr-md-3">/</span>
 				  <div class="bread-crumb__menu">
-				    <a href="<?php echo get_site_url(); ?>/website-design/" class="actionable text-link h1">Website design</a>
 				    <a href="<?php echo get_site_url(); ?>/software-development-engineering/" class="actionable text-link h1">Engineering</a>
 				    <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="actionable text-link h1">User interface design</a>
+				    <a href="<?php echo get_site_url(); ?>/website-design/" class="actionable text-link h1">Website design</a>
 				    <a href="<?php echo get_site_url(); ?>/blog/" class="actionable is-active text-link text-black h1">Blog</a>
 				    <!-- <a href="#" class="actionable text-link h1">Careers</a> -->
 				  </div>
@@ -42,7 +42,7 @@
 
 
 							if ($featured->have_posts()): while($featured->have_posts()): $featured->the_post(); ?>
-								<a href="<?php the_permalink(); ?>" class="list-post list-post--featured" style="background-image: url(<?php if (has_post_thumbnail()) : ?><?php the_post_thumbnail_url(); ?><?php endif;?>)">
+								<a href="<?php the_permalink(); ?>" class="list-post list-post--featured" style="background-image: url(<?php if (has_post_thumbnail()) : ?><?php the_post_thumbnail_url('medium_large'); ?><?php endif;?>)">
 									<?php
 										$posttags = get_the_tags();
 										if ($posttags) {
