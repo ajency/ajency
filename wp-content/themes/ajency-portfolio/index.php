@@ -75,7 +75,7 @@
                     </a>
                     </div>
                     <div class="  offset-sm-5 col-sm-4 offset-xl-8 col-xl-2 col-6">
-                      <a href="mailto:talktous@ajency.in" class="h4 menu float-left m-0">talktous@ajency.in </a>
+                      <a href="mailto:talktous@ajency.in" class="h4 menu float-left m-0" onclick="ga('send', 'event', 'headerid', 'Contact', 'Header - talktous@ajency.in');">talktous@ajency.in </a>
                     </div>
                 </div>
               </div>
@@ -98,7 +98,7 @@
             <div class="col  offset-xl-2 col-xl-8 col12">
              <h1 class="display-4 font-weight-bold aj-home-title">
 
-              We are a 6 year old Goa (India) based <a href="<?php echo get_site_url(); ?>/software-development-engineering/" class="text-black text-link"><div class="clutch">Software development<div class="clutch-open"><h3 class="text-center"><i class="fas fa-user-friends"></i> Dedicated teams or One off projects <i class="fas fa-angle-right float-right"></i></h3></div></div></a> and <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="text-black text-link"><div class="clutch">Interface design<div class="clutch-open"><h3 class="text-center"><i class="far fa-object-group"></i> UX research & UI Design <i class="fas fa-angle-right float-right"></i></h3></div></div></a> company. We also offer <a href="<?php echo get_site_url(); ?>/website-design/" class="text-black text-link"><div class="clutch">Web Design<div class="clutch-open"><h3 class="text-center"><i class="fab fa-wordpress"></i> Wordpress & More<i class="fas fa-angle-right float-right"></i></h3></div></div></a> services.
+              We are a 6 year old Goa (India) based <a href="<?php echo get_site_url(); ?>/software-development-engineering/" class="text-black text-link" onclick="ga('send', 'event', 'software', 'LinkClick', 'Software Development LinkClick');"><div class="clutch">Software development<div class="clutch-open"><h3 class="text-center"><i class="fas fa-user-friends"></i> Dedicated teams or One off projects <i class="fas fa-angle-right float-right"></i></h3></div></div></a> and <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="text-black text-link" onclick="ga('send', 'event', 'interface', 'LinkClick', 'Interface Design LinkClick');"><div class="clutch">Interface design<div class="clutch-open"><h3 class="text-center"><i class="far fa-object-group"></i> UX research & UI Design <i class="fas fa-angle-right float-right"></i></h3></div></div></a> company. We also offer <a href="<?php echo get_site_url(); ?>/website-design/" class="text-black text-link" onclick="ga('send', 'event', 'web', 'LinkClick', 'Web Design LinkClick');"><div class="clutch">Web Design<div class="clutch-open"><h3 class="text-center"><i class="fab fa-wordpress"></i> Wordpress & More<i class="fas fa-angle-right float-right"></i></h3></div></div></a> services.
 
          </h1>
             </div>
@@ -127,12 +127,12 @@
             	<div class="row no-gutters">
             		<div class="col-md-4 contact-details">
          	 <h4 class="font-weight-light">
-              <a href="tel:09975931402" class=" d-block h4 font-weight-light">+91 99759 31402</a>
+              <a href="tel:09975931402" class=" d-block h4 font-weight-light" onclick="ga('send', 'event', 'telephone', 'CallNow', 'tel:09975931402');">+91 99759 31402</a>
               </h4>
               <h4 class="font-weight-light">
-              <a href="mailto:talktous@ajency.in" class="d-block h4 font-weight-light">talktous@ajency.in</a>
+              <a href="mailto:talktous@ajency.in" class="d-block h4 font-weight-light" onclick="ga('send', 'event', 'footerid', 'Contact', 'Footer - talktous@ajency.in');">talktous@ajency.in</a>
               <br>
-              <span class="h5">Career Opportunities:</span> <a href="mailto:workwithus@ajency.in" class=" d-block h4 font-weight-light"> workwithus@ajency.in</a>
+              <span class="h5">Career Opportunities:</span> <a href="mailto:workwithus@ajency.in" class=" d-block h4 font-weight-light" onclick="ga('send', 'event', 'career', 'LinkClick', 'Career Opportunities');"> workwithus@ajency.in</a>
 
             </h4>
 
@@ -146,10 +146,10 @@
             </div>
             <div class="col-md-3 mt-5 mt-md-0 contact-details-1">
          	<h4 class="font-weight-light">
-         		<a href="https://www.facebook.com/Ajency.in/" class="d-block h4 font-weight-light">Facebook</a>
+         		<a href="https://www.facebook.com/Ajency.in/" class="d-block h4 font-weight-light" onclick="ga('send', 'event', 'facebook', 'ShareThis', 'Facebook');">Facebook</a>
          	</h4>
          	<h4 class="font-weight-light">
-              <a href="https://www.linkedin.com/company/ajency-in" class="d-block h4 font-weight-light">Linkedin</a>
+              <a href="https://www.linkedin.com/company/ajency-in" class="d-block h4 font-weight-light" onclick="ga('send', 'event', 'linkedin', 'ShareThis', 'Linkedin');">Linkedin</a>
             </h4>
             </div>
             	</div>
