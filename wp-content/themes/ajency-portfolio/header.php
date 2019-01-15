@@ -52,6 +52,28 @@
       <title>Web design for online stores, real estate projects, hotels, company blog. Wordpress, Shopify. Goa, India.</title>
       <meta name="description" content="We design and code websites for online stores, real estate projects, hotels, company or product websites, blog and others. Sites we build are buzzword and SEO compliant, and load under 4 seconds."/>
 
+    <?php } elseif ( is_singular() ) { ?>
+        <?php
+            $the_post_id = get_the_ID();
+            $meta_title = get_post_meta($the_post_id, "wpcf-meta-title", true);
+            $meta_desc = get_post_meta($the_post_id, "wpcf-meta-description", true);
+            $meta_keys = get_post_meta($the_post_id, "wpcf-meta-keywords", true);
+        ?>
+
+        <title><?php echo $meta_title; ?></title>
+        <meta name="description" content="<?php echo $meta_desc; ?>"/>
+        <meta name="keywords" content="<?php echo $meta_keys; ?>"/>
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="<?php echo $meta_title; ?>" />
+        <meta property="og:description" content="<?php echo $meta_desc; ?>" />
+        <meta property="og:url" content="<?php echo esc_url( get_permalink()); ?>" />
+        <meta property="og:site_name" content="Ajency.in - Goa based UI/UX &amp; web + mobile application development company" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="<?php echo $meta_title; ?>" />
+        <meta name="twitter:description" content="<?php echo $meta_desc; ?>" />
+
     <?php } else { ?>
 
     	<title>Software Development and User Interface Design company that also offers Web Design services. Goa, India. </title>
