@@ -52,7 +52,7 @@
       <title>Web design for online stores, real estate projects, hotels, company blog. Wordpress, Shopify. Goa, India.</title>
       <meta name="description" content="We design and code websites for online stores, real estate projects, hotels, company or product websites, blog and others. Sites we build are buzzword and SEO compliant, and load under 4 seconds."/>
 
-    <?php } elseif ( is_singular() ) { ?>
+    <?php } elseif ( is_singular('post') ) { ?>
         <?php
             $the_post_id = get_the_ID();
             $meta_title = get_post_meta($the_post_id, "wpcf-meta-title", true);
@@ -125,6 +125,10 @@
     </script>
 
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500|Libre+Baskerville:400,400i" rel="stylesheet">
+
+    <?php if (is_page_template('archive.php') || is_singular('post')) { ?>
+        <link href="<?php echo get_template_directory_uri(); ?>/css/custom.css" rel="stylesheet" type="text/css"/>
+    <?php } ?>
 
   </head>
 
