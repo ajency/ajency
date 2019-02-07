@@ -90,7 +90,7 @@
 </script>
 <script type="text/javascript">
     window.lazySizesConfig = window.lazySizesConfig || {};
-      lazySizesConfig.loadMode = 3;
+      lazySizesConfig.loadMode = 0;
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/combine.js" type="text/javascript">
 </script>
