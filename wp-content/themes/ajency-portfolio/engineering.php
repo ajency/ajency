@@ -422,8 +422,8 @@ Bekumo, London ">
           <span aria-hidden="true" class="close">&times; Close</span>
 
           <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
-              data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-480w.jpg"
-              data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-480w.jpg 480w"
+              data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-480px.jpg"
+              data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-480px.jpg 480w"
               data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid">
        </div>
       </div>
@@ -438,8 +438,8 @@ Bekumo, London ">
         <div id="div5">
             <span aria-hidden="true" class="close">&times; Close</span>
           <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
-              data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-480w.jpg"
-              data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-480w.jpg 480w"
+              data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-480px.jpg"
+              data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-480px.jpg 480w"
               data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid ">
        </div>
       </div>
@@ -513,7 +513,7 @@ Bekumo, London ">
                 </div>
                 <div>
 
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-1600px.jpg"
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/weddingz-homepage-mo-10px.jpg"
                       data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-1600px.jpg 1600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-800px.jpg 800w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-400px.jpg 400w"
                       data-sizes="100w" class="img-fluid lazyload blur-up">
                 </div>
