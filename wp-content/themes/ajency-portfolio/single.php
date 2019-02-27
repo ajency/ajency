@@ -22,7 +22,7 @@
 <section class="post-content">
 	<div class="container p5">
 	  	<div class="row">
-		    <div class="col  offset-xl-2 col-xl-8 col12">
+		    <div class="col  offset-xl-3 col-xl-6 col12">
 		    	<a href="<?php echo get_site_url(); ?>/blog/" class="blog-back">
 		    		<i class="fa fa-arrow-left"></i>
 		    	</a>
