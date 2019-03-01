@@ -64,11 +64,18 @@
         <meta name="description" content="<?php echo $meta_desc; ?>"/>
         <meta name="keywords" content="<?php echo $meta_keys; ?>"/>
 
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
         <meta property="og:title" content="<?php echo $meta_title; ?>" />
         <meta property="og:description" content="<?php echo $meta_desc; ?>" />
         <meta property="og:url" content="<?php echo esc_url( get_permalink()); ?>" />
         <meta property="og:site_name" content="Ajency.in - Goa based UI/UX &amp; web + mobile application development company" />
+        <?php if (has_post_thumbnail()) : ?>
+            <meta property="og:image" content="<?php the_post_thumbnail_url('medium_large'); ?>">
+            <meta property="twitter:image" content="<?php the_post_thumbnail_url('medium_large'); ?>">
+        <?php else : ?>
+            <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/ajency-logo.png">
+            <meta property="twitter:image" content="<?php echo get_template_directory_uri(); ?>/img/ajency-logo.png">
+        <?php endif;?>
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="<?php echo $meta_title; ?>" />
