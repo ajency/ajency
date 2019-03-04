@@ -64,6 +64,7 @@
         <meta name="description" content="<?php echo $meta_desc; ?>"/>
         <meta name="keywords" content="<?php echo $meta_keys; ?>"/>
 
+        <meta property="fb:app_id" content="313022923485" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="<?php echo $meta_title; ?>" />
         <meta property="og:description" content="<?php echo $meta_desc; ?>" />
