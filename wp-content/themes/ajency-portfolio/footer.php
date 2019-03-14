@@ -106,4 +106,5 @@
 <!-- wordpress footer functions -->
     <?php wp_footer(); ?>
 <!-- end of wordpress footer -->
-
+    </body>
+</html>
