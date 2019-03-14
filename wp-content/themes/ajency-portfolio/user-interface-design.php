@@ -8,6 +8,7 @@
         <div class="bread-crumb d-flex">
           <span class="h1 font-weight-light pt-6 pr-2 pr-md-3">/</span>
           <div class="bread-crumb__menu">
+             <a  href="<?php echo get_site_url(); ?>" class="actionable text-link h1">Home</a>
             <a href="<?php echo get_site_url(); ?>/software-development-engineering/" class="actionable is-above text-link h1">Engineering</a>
             <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="actionable is-active text-black text-link h1">User interface design</a>
             <a href="<?php echo get_site_url(); ?>/website-design/" class="actionable text-link h1">Website design</a>
