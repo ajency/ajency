@@ -1,4 +1,8 @@
- <?php get_header(); ?>
+ <?php 
+/**
+ * Template Name: All Blogs
+ */
+ get_header(); ?>
 
  <div class="container p5">
 	<div class="row">
@@ -18,18 +22,30 @@
 		</div>
 	</div>
 </div>
+<?php 
+	$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+	$args = array(
+		'post_type'=>'post',
+		'post_status'=>'publish',
+		'orderby' => 'date',
+		'posts_per_page'=> get_option('posts_per_page'),
+		'paged' => $paged,
+	);
 
+	$query = new WP_Query($args);
+
+?>
 <section>
 	<div class="container p5">
 		<div class="row">
 			<div class="col offset-xl-2 col-xl-8 col12">
 
-				<?php if ( have_posts() ) : ?>
+				<?php if ( $query->have_posts() ) : ?>
 
 					<div class="row">												
 							<?php 
-								while ( have_posts() ) :
-								the_post();
+								while ( $query->have_posts() ) :
+								$query->the_post();
 							?>
 								<div class="col-12 col-md-6">	
 									<a href="<?php the_permalink(); ?>" class="list-post">
@@ -53,21 +69,17 @@
 						</div>
 						<div class="archive-post-pagination">
 							<div class="row">
-								<div class="col-12 col-md-12">
-							 		<?php
-									 	the_posts_pagination(
-											array(
-												'screen_reader_text' => __( '' ),
-												'prev_text'          => '<div class="prev-posts"><i class="fas fa-arrow-left"></i>' . __( ' Previous', 'ajency' ) . '</div>',
-												'next_text'          => '<div class="next-posts">' . __( 'Next ', 'ajency' ) . '<i class="fas fa-arrow-right"></i></div>',
-											)
-										);
+								<div class="col-12 col-md-12 nav-links">
+							 		<?php										
+										previous_posts_link( '<div class="prev-posts"><i class="fas fa-arrow-left"></i>' . __( ' Previous', 'ajency' ) . '</div>' );
+										next_posts_link( '<div class="next-posts">' . __( 'Next ', 'ajency' ) . '<i class="fas fa-arrow-right"></i></div>', $query->max_num_pages );
 							 		?>
 							 	</div>
 							</div>
 						</div>
+						<?php wp_reset_query(); ?>
 					<?php else : ?>
-					<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+						<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 				<?php endif; ?>
 			</div>
 		</div>

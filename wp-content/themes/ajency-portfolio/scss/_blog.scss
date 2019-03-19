@@ -36,9 +36,16 @@
         position: relative;
         transform: translateX(0);
         margin-bottom: 60px;
+        min-height: 590px;
+        justify-content: flex-end;
+        display: flex;
+        flex-direction: column;
+
+
         &>* {
             position: relative;
             color: white;
+            width: 100%;
         }
         &:before {
             content: '';
@@ -63,10 +70,14 @@
             }
         }
         .list-tag {
-            color: theme-color('primary');
+            color: darken($gray-800, 20%);
         }
         .list-date {
             color: white;
+        }
+
+        @media (max-width: 767px){
+            min-height: 570px;
         }
     }
 }
@@ -133,5 +144,84 @@
     @media (max-width: 1199.98px) {
         top: -50px;
         left: 10px;
+    }
+}
+
+.archive-post-pagination {
+    .navigation.pagination {
+        position: static;
+
+        .screen-reader-text {
+            display: none !important;
+        }
+    }
+    .nav-links {
+        clear: both;
+        overflow: hidden;
+        width: 100%;
+
+        a,
+        .page-numbers {
+            font-size: 1.6rem;
+            font-weight: 500;
+            color: darken($gray-800, 20%);
+            text-decoration: none;
+            font-family: "Libre Baskerville", Baskerville, georgia, serif;
+            font-style: italic;
+            font-size: 1.4rem;
+            margin: 20px 0 10px;
+            i{
+                color: theme-color('primary');
+            }
+        }
+
+        > a{            
+            display: inline-block;
+
+            &:nth-child(2){
+                float: right;
+            }
+            
+            &:last-child {
+                display: inline;
+                .next-posts {
+                    float: right;
+                }
+                .prev-posts {
+                    float: left;
+                }
+            }
+        }
+
+        .page-numbers {
+            display: none;            
+
+            &.prev,
+            &.next {
+                display: block;
+            }
+
+            &.prev {
+                float: left;
+            }
+            &.next {
+                float: right;
+            }
+
+            .prev-posts,
+            .next-posts {
+                font-family: "Libre Baskerville", Baskerville, georgia, serif;
+                font-style: italic;
+                font-size: 1.4rem;
+                margin: 20px 0 10px;
+                i{
+                    color: theme-color('primary');
+                }
+            }
+
+            @media(max-width: 767px){
+                font-size: .9rem;
+            }
+        } 
     }
 }
