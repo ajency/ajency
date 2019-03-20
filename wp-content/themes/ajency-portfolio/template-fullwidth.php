@@ -28,12 +28,20 @@ get_header();  ?>
       <div class="row">
         <div class="col offset-xl-3 col-xl-6 col12">
           <h1><?php the_title(); ?></h1>
-          <p class="body-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+          <div class="page-content body-text">
+            <?php the_content(); ?>
+          </div>
         </div>
       </div>
-
-      <?php the_content(); ?>
-
+      <?php 
+        $shortcode = get_post_meta(get_the_id(), 'flow-flow-shortcode', true);
+        
+        if($shortcode){
+      ?>
+      <div class="shortcode-section">
+        <?php echo do_shortcode($shortcode); ?> 
+      </div>
+      <?php } ?>
       <?php endwhile; ?>
     <?php endif; ?>
   </div>
