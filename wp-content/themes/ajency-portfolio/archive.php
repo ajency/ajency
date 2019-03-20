@@ -18,9 +18,22 @@
 		</div>
 	</div>
 </div>
-
+<?php
+	if ( is_category() ) {
+		$title = single_cat_title( '', false );
+	} else if( is_tag() ){
+		$title = single_tag_title( '', false );
+	}	else {
+		$title = get_the_archive_title();
+	}
+?>
 <section>
 	<div class="container p5">
+		<div class="row">
+			<div class="col offset-xl-2 col-xl-8 col12">
+				<h1 class="page-title mb5"><?php echo $title; ?></h1>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col offset-xl-2 col-xl-8 col12">
 

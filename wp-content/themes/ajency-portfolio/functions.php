@@ -61,6 +61,22 @@
       return $excerpt;
     }
 
+    function get_page_id_by_tempplate($template){
+        $pageID = '';
+        
+        if(!$template){
+            return $pageID; 
+        }        
+        $pages = get_pages(array(
+            'meta_key' => '_wp_page_template',
+            'meta_value' => $template,
+        ));
+        foreach($pages as $page){
+            $pageID = $page->ID;
+        }
+        return $pageID;
+    }
+
 
 
 ?>

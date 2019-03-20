@@ -113,11 +113,17 @@
 							<!-- end of the loop -->
 					</div>
 				</div>
-
-
-
-					<?php wp_reset_postdata(); ?>
-
+				<?php wp_reset_postdata(); ?>
+				<?php 
+					$pageid = get_page_id_by_tempplate('template-all_blogs.php');					
+					if($pageid){
+				?>
+					<div class="row">
+						<div class="col col12 text-center mt5">
+							<a href="<?php echo get_the_permalink($pageid); ?>" class="btn-view" target="_self"><?php _e('View All ', 'ajency'); ?><i class="fas fa-arrow-right"></i></a>
+						</div>
+					</div>
+				<?php } ?>
 				<?php else : ?>
 					<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 				<?php endif; ?>

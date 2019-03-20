@@ -227,3 +227,26 @@
         } 
     }
 }
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.btn-view {
+    font-family: "Libre Baskerville",Baskerville,georgia,serif;
+    font-style: italic;
+    font-size: 1.4rem;
+    margin: 20px 0 10px;
+    color: #212529;
+    i{
+        color: theme-color('primary');
+    }
+    &:focus,&:hover {
+        color: #212529;
+        text-decoration: none;
+    }
+    @meida (max-width: 767px){
+        font-size: .9rem;
+    }
+}
