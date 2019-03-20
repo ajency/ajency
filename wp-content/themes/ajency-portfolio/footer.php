@@ -86,8 +86,9 @@
     </script>
 <?php } ?>
 <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" rel="stylesheet"/>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js">
-</script>
+<?php if (!is_page_template('template-fullwidth.php')) { ?>
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<?php } ?>
 <script type="text/javascript">
     window.lazySizesConfig = window.lazySizesConfig || {};
       lazySizesConfig.loadMode = 3;

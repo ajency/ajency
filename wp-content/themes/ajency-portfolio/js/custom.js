@@ -1,3 +1,4 @@
+var $ = jQuery.noConflict();
 $('.mobile-slick').slick({
     infinite: true,
     slidesToShow: 1,
@@ -160,7 +161,7 @@ $('.close').click(function() {
     $('div[id^=showdiv]').removeClass("highlight");
 });
 $(window).on("load", function() {
-    jQuery.ready.then(function() {
+   // jQuery.ready().then(function() {
         var imgDefer = document.getElementsByTagName('img');
         for (var i = 0; i < imgDefer.length; i++) {
             if (imgDefer[i].getAttribute('data-delaysrc')) {
@@ -172,7 +173,7 @@ $(window).on("load", function() {
                 imgDefer[i].removeAttribute('data-delaysizes');
             }
         }
-    });
+    //});
 })
 $(function() {
     $('.pop').on('click', function() {
