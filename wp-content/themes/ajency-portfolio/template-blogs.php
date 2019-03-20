@@ -43,6 +43,7 @@
 
 							if ($featured->have_posts()): while($featured->have_posts()): $featured->the_post(); ?>
 								<a href="<?php the_permalink(); ?>" class="list-post list-post--featured" style="background-image: url(<?php if (has_post_thumbnail()) : ?><?php the_post_thumbnail_url('medium_large'); ?><?php endif;?>)">
+									<div>
 									<?php
 										$posttags = get_the_tags();
 										if ($posttags) {
@@ -51,6 +52,7 @@
 										  }
 										}
 									?>
+									</div>
 									<h3><?php the_title(); ?></h3>
 									<div><?php echo excerpt(15);?></div>
 									<div class="list-meta">

@@ -70,9 +70,11 @@
             }
         }
         .list-tag {
-            color: darken($gray-800, 20%);
+            color: white;
+            display: inline-block;
+            width: auto;
         }
-        .list-date {
+        .list-date, {
             color: white;
         }
 
