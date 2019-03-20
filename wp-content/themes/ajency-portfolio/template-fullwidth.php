@@ -28,6 +28,7 @@ get_header();  ?>
       <div class="row">
         <div class="col offset-xl-3 col-xl-6 col12">
           <h1><?php the_title(); ?></h1>
+          <p class="body-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
         </div>
       </div>
 
