@@ -70,6 +70,7 @@
         $pages = get_pages(array(
             'meta_key' => '_wp_page_template',
             'meta_value' => $template,
+            'post_status' => array('draft', 'publish'),
         ));
         foreach($pages as $page){
             $pageID = $page->ID;
