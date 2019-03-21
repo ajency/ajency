@@ -67,7 +67,7 @@
 						?>
 
 						<div class="text-center list-text-block">
-							Lorem ipsum dolor sit amet, consectetur <strong>adipiscing</strong> elit, sed do eiusmod tempor incididunt ut <strong>labore</strong> et dolore magna.
+							Our <strong>thoughts</strong>, <strong>opinions</strong> and <strong>updates</strong> are shared here.
 						</div>
 
 					</div>
