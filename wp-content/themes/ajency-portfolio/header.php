@@ -52,6 +52,14 @@
       <title>Web design for online stores, real estate projects, hotels, company blog. Wordpress, Shopify. Goa, India.</title>
       <meta name="description" content="We design and code websites for online stores, real estate projects, hotels, company or product websites, blog and others. Sites we build are buzzword and SEO compliant, and load under 4 seconds."/>
 
+    <?php } elseif ( is_page_template('template-blogs.php') ) { ?>
+          <title>Ajency.in Blog | People & Processes and Technology Blog</title>
+          <meta name="description" content="Check out the Ajency.in blog. Read about our thoughts, opinions and updates on our workplace processes and activities as well as know more about our job vacancies."/>
+
+      <?php } elseif ( is_page_template('template-all_blogs.php') ) { ?>
+          <title>Blog by Ajency.in | IT Company in Goa, India</title>
+          <meta name="description" content="Check out blog posts by Ajency.in. to read about the activities and workplace processes we follow and also know more about our job vacancies."/>      
+
     <?php } elseif ( is_singular('post') ) { ?>
         <?php
             $the_post_id = get_the_ID();
