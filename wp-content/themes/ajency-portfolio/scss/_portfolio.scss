@@ -233,6 +233,7 @@
         .card-main-wrap{
             // max-width: 800px;
             margin: auto;
+            overflow: hidden;
         }
         .card-wrapper{
             height: 100%;
@@ -241,7 +242,7 @@
         .card-front{
             position: relative;
             // height: 790px;
-            height: 57vw;
+            height: 53vw;
             max-height: 986px;
             display: block;
             margin: 0;
@@ -263,7 +264,7 @@
                 left: 0;
                 transition: transform 0.3s;
                 cursor: pointer;
-                height: 38vw;
+                height: 34.5vw;
                 max-height: 1650px;
                 padding: 0;
                 // height: 1170px;
@@ -308,16 +309,16 @@
                     transform-origin: 100% 0;
                 }
                 &:nth-child(3){
-                    transform-origin: 0 100%;
+                    transform-origin: 0 102%;
                 }
                 &:nth-child(4){
-                    transform-origin: 100% 100%;
+                    transform-origin: 100% 102%;
                 }
                 &:nth-child(5){
-                    transform-origin: 0 200%;
+                    transform-origin: 0 204%;
                 }
                 &:nth-child(6){
-                    transform-origin: 100% 200%;
+                    transform-origin: 100% 204%;
                 }
 
                 &.active{
@@ -325,7 +326,7 @@
                     transform: scale(1) translateY(0);
                     padding: 0;
                     // height: 790px;
-                    height: 57vw;
+                    height: 58vw;
                     max-height: 806px;
                     .logocard{
                         // transform: translateY(460px);
@@ -382,12 +383,12 @@
 
     @media (min-width: 1800px){
         .card-front{
-            max-height: 806px;
+            max-height: 826px;
             .col-6{
                 height: 28vw;
                 &.active{
                     // height: 1056px;
-                    max-height: 806px;
+                    max-height: 826px;
                     .expanded{
                         // transform: translateY(-1055px);
                     }
@@ -397,11 +398,11 @@
     }
     @media (min-width: 1200px) and (max-width: 1400px){
         .card-front{
-            height: 66vw;
+            height: 67vw;
             .col-6{
                 height: 44vw;
                 &.active{
-                    height: 66vw;
+                    height: 67vw;
                     max-height: 1056px;
                     .expanded{
                         // transform: translateY(-1055px);
@@ -417,6 +418,7 @@
         .card-main-wrap{
             // max-width: 800px;
             margin: auto;
+            overflow: hidden;
         }
         .card-wrapper{
             height: 100%;

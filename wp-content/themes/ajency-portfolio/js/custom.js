@@ -1,3 +1,4 @@
+var $ = jQuery.noConflict();
 $('.mobile-slick').slick({
     infinite: true,
     slidesToShow: 1,
@@ -59,15 +60,15 @@ $('.aj-team-member').slick({
     slidesToShow: 1,
     variableWidth: true
 });
-$(window).scroll(function() {
-    if ($(window).scrollTop() >= 20) {
-        $('nav').addClass('fixed-header');
-        $('nav').addClass('position-fixed');
-    } else {
-        $('nav').removeClass('fixed-header');
-        $('nav').removeClass('position-fixed');
-    }
-});
+// $(window).scroll(function() {
+//     if ($(window).scrollTop() >= 20) {
+//         $('nav').addClass('fixed-header');
+//         $('nav').addClass('position-fixed');
+//     } else {
+//         $('nav').removeClass('fixed-header');
+//         $('nav').removeClass('position-fixed');
+//     }
+// });
 if ($(window).width() < 1198) {
     $('.pf-healthkart').click(function() {
         $('.scroll-left').addClass('active');
@@ -160,7 +161,7 @@ $('.close').click(function() {
     $('div[id^=showdiv]').removeClass("highlight");
 });
 $(window).on("load", function() {
-    jQuery.ready.then(function() {
+   // jQuery.ready().then(function() {
         var imgDefer = document.getElementsByTagName('img');
         for (var i = 0; i < imgDefer.length; i++) {
             if (imgDefer[i].getAttribute('data-delaysrc')) {
@@ -172,7 +173,7 @@ $(window).on("load", function() {
                 imgDefer[i].removeAttribute('data-delaysizes');
             }
         }
-    });
+    //});
 })
 $(function() {
     $('.pop').on('click', function() {
@@ -193,3 +194,8 @@ $(document).on('click', '.card-front .card-trigger', function() {
     $('.card-front').toggleClass('active');
     $(this).siblings().toggleClass('not-active');
 })
+
+$('.bread-crumb__menu').on('click', function(e) {
+    // e.preventDefault();
+    $(this).toggleClass('is-active');
+});

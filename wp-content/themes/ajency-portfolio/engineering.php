@@ -4,121 +4,16 @@
 <div class="container p5">
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
-       <div class="headerfix ">
-         <div class="bread-crumb"><h1 class="ft6 pt-6"><span>/</span> <a href="#" class="text-link text-black">Engineering</a> </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="seperator">
-</div>
-<section>
-<div class="container p5">
-  <div class="row">
-    <div class="col  offset-xl-2 col-xl-8 col12">
-     <p class="body-text">
-     We create quality <strong class="font-weight-bold h1">software solutions</strong> and great <strong class="font-weight-bold h1">development teams</strong>. Self-funded or venture backed (Sequoia,  Google Capital), idea stage or with legacy code of 7+ years - we have helped them all build and release usable solutions.</p>
-    </div>
-  </div>
-</div>
-<div>
-  </div>
-</section>
-
-<div class="container p5">
-  <div class="row">
-    <div class="col offset-xl-2 col-xl-8 col12 grid2">
-      <div class="card-main-wrap">
-        <div class="row card-front">
-          <div class="col-6 card-trigger">
-            <div class="card-wrapper" data-target="card1">
-              <div class="logocard pf-healthkart">
-                <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-hk.png"
-                 data-sizes="100vw"
-                 class="d-block m-auto lazyload blur-up"> -->
-                 <img src="https://via.placeholder.com/500x350" alt="">
-              </div>
-              <div class="expanded">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
-                 data-sizes="100vw"
-                 class="d-block m-auto lazyload blur-up">
-              </div>
-            </div>
-          </div>
-          <div class="col-6 card-trigger">
-            <div class="card-wrapper" data-target="card2">
-              <div class="logocard pf-commonfloor">
-                  <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-bt.png"
-                 data-sizes="100vw"
-                 class="d-block m-auto lazyload blur-up"> -->
-                 <img src="https://via.placeholder.com/500x350" alt="">
-              </div>
-              <div class="expanded">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
-                 data-sizes="100vw"
-                 class="d-block m-auto lazyload blur-up">
-              </div>
-            </div>
-          </div>
-          <div class="col-6 card-trigger">
-            <div class="card-wrapper" data-target="card3">
-              <div class="logocard pf-growthinvest">
-                  <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-gi.png"
-                 data-sizes="100vw"
-                 class="d-block m-auto lazyload blur-up"> -->
-                 <img src="https://via.placeholder.com/500x350" alt="">
-              </div>
-              <div class="expanded">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-768px.jpg"
-                 data-sizes="100vw"
-                 class="d-block m-auto lazyload blur-up">
-              </div>
-            </div>
-          </div>
-          <div class="col-6 card-trigger">
-            <div class="card-wrapper" data-target="card4">
-              <div class="logocard pf-weddingz">
-                  <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-wed.png"
-                   data-sizes="100vw"
-                   class="d-block m-auto lazyload blur-up"> -->
-                   <img src="https://via.placeholder.com/500x350" alt="">
-              </div>
-              <div class="expanded">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-768px.jpg"
-                 data-sizes="100vw"
-                 class="d-block m-auto lazyload blur-up">
-              </div>
-            </div>
-          </div>
-          <div class="col-6 card-trigger">
-            <div class="card-wrapper" data-target="card5">
-              <div class="logocard pf-mylan">
-                  <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-mylan.png"
-                     data-sizes="100vw"
-                     class="d-block m-auto lazyload blur-up"> -->
-                     <img src="https://via.placeholder.com/500x350" alt="">
-              </div>
-              <div class="expanded">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-768px.jpg"
-                 data-sizes="100vw"
-                 class="d-block m-auto lazyload blur-up">
-              </div>
-            </div>
-          </div>
-          <div class="col-6 card-trigger">
-            <div class="card-wrapper" data-target="card6">
-              <div class="logocard pf-mylan">
-                  <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-bek.png"
-                     data-sizes="100vw"
-                     class="d-block m-auto lazyload blur-up"> -->
-                     <img src="https://via.placeholder.com/500x350" alt="">
-              </div>
-              <div class="expanded">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
-                 data-sizes="100vw"
-                 class="d-block m-auto lazyload blur-up">
-              </div>
-            </div>
+      <div class="headerfix ">
+        <div class="bread-crumb d-flex">
+          <span class="h1 font-weight-light pt-6 pr-2 pr-md-3">/</span>
+          <div class="bread-crumb__menu">
+            <a  href="<?php echo get_site_url(); ?>" class="actionable text-link h1">Home</a>
+            <a  href="<?php echo get_site_url(); ?>/software-development-engineering/" class="actionable is-active text-link text-black h1">Engineering</a>
+            <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="actionable text-link h1">User interface design</a>
+            <a href="<?php echo get_site_url(); ?>/website-design/" class="actionable is-above text-link h1">Website design</a>
+            <!-- <a href="#" class="actionable text-link h1">Blog</a>
+            <a href="#" class="actionable text-link h1">Careers</a> -->
           </div>
         </div>
       </div>
@@ -126,6 +21,132 @@
   </div>
 </div>
 
+<div class="seperator"></div>
+
+<section>
+  <div class="container p5">
+    <div class="row">
+      <div class="col  offset-xl-2 col-xl-8 col12">
+       <p class="body-text">
+       We create quality <strong class="font-weight-bold h1">software solutions</strong> and great <strong class="font-weight-bold h1">development teams</strong>. Self-funded or venture backed (Sequoia,  Google Capital), idea stage or with legacy code of 7+ years - we have helped them all build and release usable solutions.</p>
+      </div>
+    </div>
+  </div>
+  <div></div>
+</section>
+<?php /*
+<div class="container p5">
+  <div class="row">
+    <div class="col-12">
+       <hr>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="container p5">
+    <div class="row">
+      <div class="col offset-xl-2 col-xl-8 col12 grid2">
+        <h1 class="font-weight-bold d-block mobile-header mb-4 pb-4">Our Work</h1>
+        <div class="card-main-wrap">
+          <div class="row card-front">
+            <div class="col-6 card-trigger">
+              <div class="card-wrapper" data-target="card1">
+                <div class="logocard pf-healthkart">
+                  <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-hk.png"
+                   data-sizes="100vw"
+                   class="d-block m-auto lazyload blur-up"> -->
+                   <img src="https://via.placeholder.com/500x350" alt="">
+                </div>
+                <div class="expanded">
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
+                   data-sizes="100vw"
+                   class="d-block m-auto lazyload blur-up">
+                </div>
+              </div>
+            </div>
+            <div class="col-6 card-trigger">
+              <div class="card-wrapper" data-target="card2">
+                <div class="logocard pf-commonfloor">
+                    <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-bt.png"
+                   data-sizes="100vw"
+                   class="d-block m-auto lazyload blur-up"> -->
+                   <img src="https://via.placeholder.com/500x350" alt="">
+                </div>
+                <div class="expanded">
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
+                   data-sizes="100vw"
+                   class="d-block m-auto lazyload blur-up">
+                </div>
+              </div>
+            </div>
+            <div class="col-6 card-trigger">
+              <div class="card-wrapper" data-target="card3">
+                <div class="logocard pf-growthinvest">
+                    <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-gi.png"
+                   data-sizes="100vw"
+                   class="d-block m-auto lazyload blur-up"> -->
+                   <img src="https://via.placeholder.com/500x350" alt="">
+                </div>
+                <div class="expanded">
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-768px.jpg"
+                   data-sizes="100vw"
+                   class="d-block m-auto lazyload blur-up">
+                </div>
+              </div>
+            </div>
+            <div class="col-6 card-trigger">
+              <div class="card-wrapper" data-target="card4">
+                <div class="logocard pf-weddingz">
+                    <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-wed.png"
+                     data-sizes="100vw"
+                     class="d-block m-auto lazyload blur-up"> -->
+                     <img src="https://via.placeholder.com/500x350" alt="">
+                </div>
+                <div class="expanded">
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-768px.jpg"
+                   data-sizes="100vw"
+                   class="d-block m-auto lazyload blur-up">
+                </div>
+              </div>
+            </div>
+            <div class="col-6 card-trigger">
+              <div class="card-wrapper" data-target="card5">
+                <div class="logocard pf-mylan">
+                    <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-mylan.png"
+                       data-sizes="100vw"
+                       class="d-block m-auto lazyload blur-up"> -->
+                       <img src="https://via.placeholder.com/500x350" alt="">
+                </div>
+                <div class="expanded">
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-768px.jpg"
+                   data-sizes="100vw"
+                   class="d-block m-auto lazyload blur-up">
+                </div>
+              </div>
+            </div>
+            <div class="col-6 card-trigger">
+              <div class="card-wrapper" data-target="card6">
+                <div class="logocard pf-mylan">
+                    <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-bek.png"
+                       data-sizes="100vw"
+                       class="d-block m-auto lazyload blur-up"> -->
+                       <img src="https://via.placeholder.com/500x350" alt="">
+                </div>
+                <div class="expanded">
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
+                   data-sizes="100vw"
+                   class="d-block m-auto lazyload blur-up">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+*/ ?>
 <section class="p2">
   <div class="slider variable-width d-flex align-items-center">
     <div >
@@ -182,7 +203,7 @@ Bekumo, London ">
   </div>
 </section>
 
-
+<?php /*
 <div class="container p5">
   <div class="row">
     <div class="col offset-xl-2 col-xl-8 col12 grid3">
@@ -283,7 +304,7 @@ Bekumo, London ">
     </div>
   </div>
 </div>
-
+*/ ?>
 <section>
 <div class="container p5">
    <div class="row " id="num-terms-holder ">
@@ -402,8 +423,8 @@ Bekumo, London ">
           <span aria-hidden="true" class="close">&times; Close</span>
 
           <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
-              data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-480w.jpg"
-              data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-480w.jpg 480w"
+              data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-480px.jpg"
+              data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-480px.jpg 480w"
               data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid">
        </div>
       </div>
@@ -418,8 +439,8 @@ Bekumo, London ">
         <div id="div5">
             <span aria-hidden="true" class="close">&times; Close</span>
           <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
-              data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-480w.jpg"
-              data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-480w.jpg 480w"
+              data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-480px.jpg"
+              data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-480px.jpg 480w"
               data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid ">
        </div>
       </div>
@@ -493,7 +514,7 @@ Bekumo, London ">
                 </div>
                 <div>
 
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-1600px.jpg"
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/weddingz-homepage-mo-10px.jpg"
                       data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-1600px.jpg 1600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-800px.jpg 800w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-400px.jpg 400w"
                       data-sizes="100w" class="img-fluid lazyload blur-up">
                 </div>

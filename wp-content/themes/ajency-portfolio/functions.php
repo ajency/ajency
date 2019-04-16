@@ -49,5 +49,35 @@
 
     add_theme_support( 'post-thumbnails' );
 
+    function excerpt($limit) {
+      $excerpt = explode(' ', get_the_excerpt(), $limit);
+      if (count($excerpt)>=$limit) {
+        array_pop($excerpt);
+        $excerpt = implode(" ",$excerpt).'...';
+      } else {
+        $excerpt = implode(" ",$excerpt);
+      }
+      $excerpt = preg_replace('`[[^]]*]`','',$excerpt);
+      return $excerpt;
+    }
+
+    function get_page_id_by_tempplate($template){
+        $pageID = '';
+        
+        if(!$template){
+            return $pageID; 
+        }        
+        $pages = get_pages(array(
+            'meta_key' => '_wp_page_template',
+            'meta_value' => $template,
+            'post_status' => array('draft', 'publish'),
+        ));
+        foreach($pages as $page){
+            $pageID = $page->ID;
+        }
+        return $pageID;
+    }
+
+
 
 ?>

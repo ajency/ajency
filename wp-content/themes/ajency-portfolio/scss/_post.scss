@@ -59,9 +59,27 @@
 		font-weight: 500;
 		color: darken($gray-800, 20%);
 	}
+
+	@media(max-width: 767px){
+		.next-title{
+			font-size: 0.9rem;
+		}
+		.next-post a{
+			font-size: 1rem;
+			line-height: 22px;
+		}
+	}
 	.highlight{
 		&:before{
 			display: none;
 		}
+	}
+}
+
+.single-post_cats_tags {
+  margin-bottom: 15px;
+	a {
+		font-size: 14px;
+	  color: darken($gray-400, 20%);    
 	}
 }

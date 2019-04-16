@@ -8,12 +8,12 @@
                     <div class="row no-gutters">
                         <div class="col-md-4 contact-details">
                             <h4 class="font-weight-light">
-                                <a class=" d-block h4 font-weight-light" href="tel:09975931402">
+                                <a class=" d-block h4 font-weight-light" href="tel:09975931402" onclick="ga('send', 'event', 'telephone', 'CallNow', 'tel:09975931402');">
                                     +91 99759 31402
                                 </a>
                             </h4>
                             <h4 class="font-weight-light">
-                                <a class="d-block h4 font-weight-light" href="mailto:talktous@ajency.in">
+                                <a class="d-block h4 font-weight-light" href="mailto:talktous@ajency.in" onclick="ga('send', 'event', 'footerid', 'Contact', 'Footer - talktous@ajency.in');">
                                     talktous@ajency.in
                                 </a>
                                 <br/>
@@ -63,28 +63,32 @@
     </div>
   </div>
 </div>
-<noscript id="deferred-styles">
-    <link href="<?php echo get_template_directory_uri(); ?>/css/custom.css" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo get_bloginfo('url');  ?>/wp-content/themes/ajency-portfolio/style.css" rel="stylesheet" type="text/css"/>
-     <!--<link href="<?php echo get_template_directory_uri(); ?>/css/zoom.css" rel="stylesheet" type="text/css"/>-->
-    <!--  <link rel="stylesheet" type="text/css" href="http://filamentgroup.github.io/enlarge/src/enlarge.css">-->
-</noscript>
-<script>
-    var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
-          window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-</script>
+
+<?php if (!is_page_template('archive.php') && !is_singular('post') && !is_page_template('template-blogs.php') && !is_page_template('template-fullwidth.php') ) { ?>
+    <noscript id="deferred-styles">
+        <link href="<?php echo get_template_directory_uri(); ?>/css/custom.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo get_bloginfo('url');  ?>/wp-content/themes/ajency-portfolio/style.css" rel="stylesheet" type="text/css"/>
+         <!--<link href="<?php echo get_template_directory_uri(); ?>/css/zoom.css" rel="stylesheet" type="text/css"/>-->
+        <!--  <link rel="stylesheet" type="text/css" href="http://filamentgroup.github.io/enlarge/src/enlarge.css">-->
+    </noscript>
+    <script>
+        var loadDeferredStyles = function() {
+            var addStylesNode = document.getElementById("deferred-styles");
+            var replacement = document.createElement("div");
+            replacement.innerHTML = addStylesNode.textContent;
+            document.body.appendChild(replacement)
+            addStylesNode.parentElement.removeChild(addStylesNode);
+          };
+          var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
+              window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+          if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+          else window.addEventListener('load', loadDeferredStyles);
+    </script>
+<?php } ?>
 <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" rel="stylesheet"/>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js">
-</script>
+<?php if (!is_page_template('template-fullwidth.php')) { ?>
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<?php } ?>
 <script type="text/javascript">
     window.lazySizesConfig = window.lazySizesConfig || {};
       lazySizesConfig.loadMode = 3;
@@ -103,4 +107,5 @@
 <!-- wordpress footer functions -->
     <?php wp_footer(); ?>
 <!-- end of wordpress footer -->
-
+    </body>
+</html>
