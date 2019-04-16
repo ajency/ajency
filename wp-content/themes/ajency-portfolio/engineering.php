@@ -34,7 +34,7 @@
   </div>
   <div></div>
 </section>
-<?php /*
+
 <div class="container p5">
   <div class="row">
     <div class="col-12">
@@ -59,9 +59,108 @@
                    <img src="https://via.placeholder.com/500x350" alt="">
                 </div>
                 <div class="expanded">
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
-                   data-sizes="100vw"
-                   class="d-block m-auto lazyload blur-up">
+                  <!-- Healthkart -->
+                    <div class="col-12">
+                      <div class="portfolio-section project-healthkart">
+                        <div class="header-top">      
+                          <picture>
+                            <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart-h-desktop.png">
+                            <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart-h-mobile.png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart-h-desktop.png" class="img-fluid" alt="header">
+                          </picture>
+                        </div>
+
+                        <div class="container-fluid xs-p-0">
+                          <div class="project-info">
+                            <div class="row">
+
+                              <div class="col-6 col-lg-4 info-col mb-3">
+                                <div class="info-box team-member">
+                                  <h3 class="info-value">8</h3>
+                                  <label class="info-label">Team Members</label>
+                                </div>
+                              </div>          
+                              <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
+                                <div class="info-box prj-progress">
+                                  <h3 class="info-value">Oct 2017</h3>
+                                  <label class="info-label">and ongoing</label>
+                                </div>
+                              </div>
+                              <div class="col-12 col-lg-4 info-col order-lg-1 mb-3">
+                                <div class="info-box lang-used">
+                                  <h3 class="info-value">Java</h3>
+                                  <label class="info-label">Spring MVC, Spring Boot, Hibernate</label>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                          <div class="project-insight">
+                            <div class="row rw-m">
+                              <div class="col-12 col-lg-3 order-lg-4 pl-2 pr-2 ins-col-lg">
+                                <div class="insight-info mt-3 xs-mt-0">
+                                  <h4 class="insight-title mb-2">HealthKart (Delhi)</h4>
+                                  <ul>
+                                    <li>Tech leadership</li>
+                                    <li>Project Management</li>
+                                    <li>System Design</li>
+                                  </ul>
+                                </div>
+                              </div>
+                              
+                              <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                <div class="circle-badge bcolor--green">
+                                  <span>Online Marketplace</span>
+                                </div>
+                              </div>          
+                              <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                <div class="circle-badge bcolor--green">
+                                  <span>Catalogue Management</span>
+                                </div>
+                              </div>
+                              <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                <div class="circle-badge bcolor--green">
+                                  <span>Order Fulfilment</span>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="line--dotted mt-3 mb-3"></div>
+
+                            <div class="row rw-m">
+                              <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                <div class="circle-badge bcolor--yellow">
+                                  <span>Retail Point of Sale</span>
+                                </div>
+                              </div>          
+                              <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                <div class="circle-badge bcolor--yellow">
+                                  <span>Warehouse Management</span>
+                                </div>
+                              </div>
+                              <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                <div class="circle-badge bcolor--yellow">
+                                  <span>Inventory Planing</span>
+                                </div>
+                              </div>
+                              <div class="col-12 col-lg-3 pl-2 pr-2 ins-col-lg">
+                                <div class="insight-info mt-3">
+                                  <h4 class="insight-title mb-2">Ajency.in (Goa)</h4>
+                                  <ul>
+                                    <li>Remote Team</li>
+                                    <li>Module Ownership</li>
+                                    <li>Day to Day Support</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>                          
+                        </div>
+                      </div>
+                    </div>
+                  <!-- End of Healthkart -->
                 </div>
               </div>
             </div>
@@ -146,7 +245,7 @@
     </div>
   </div>
 </section>
-*/ ?>
+
 <section class="p2">
   <div class="slider variable-width d-flex align-items-center">
     <div >
