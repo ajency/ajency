@@ -62,7 +62,7 @@
                   <!-- Healthkart -->
                     <div class="col-12">
                       <div class="portfolio-section project-healthkart">
-                        <div class="header-top">      
+                        <div class="header-top">
                           <picture>
                             <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart-h-desktop.png">
                             <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart-h-mobile.png">
@@ -79,7 +79,7 @@
                                   <h3 class="info-value">8</h3>
                                   <label class="info-label">Team Members</label>
                                 </div>
-                              </div>          
+                              </div>
                               <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
                                 <div class="info-box prj-progress">
                                   <h3 class="info-value">Oct 2017</h3>
@@ -108,12 +108,12 @@
                                   </ul>
                                 </div>
                               </div>
-                              
+
                               <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
                                 <div class="circle-badge bcolor--green">
                                   <span>Online Marketplace</span>
                                 </div>
-                              </div>          
+                              </div>
                               <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
                                 <div class="circle-badge bcolor--green">
                                   <span>Catalogue Management</span>
@@ -133,7 +133,7 @@
                                 <div class="circle-badge bcolor--yellow">
                                   <span>Retail Point of Sale</span>
                                 </div>
-                              </div>          
+                              </div>
                               <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
                                 <div class="circle-badge bcolor--yellow">
                                   <span>Warehouse Management</span>
@@ -156,7 +156,7 @@
                               </div>
                             </div>
 
-                          </div>                          
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -250,54 +250,81 @@
   <div class="slider variable-width d-flex align-items-center">
     <div >
      <picture>
-             <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-small.jpg  700w,' sizes="52vw">
+       <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-small.jpg  700w,' sizes="52vw">
 
-             <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-resize-2x.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-resize-1x.jpg 400w' sizes="70vw">
+       <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-resize-2x.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-resize-1x.jpg 400w' sizes="70vw">
 
-             <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-10px.jpg"
-                 data-sizes="100vw"
-                 class="img-fluid lazyload blur-up" alt="David Lovell (Operations Director
-) GrowthInvest.com">
-           </picture>
+       <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-1-10px.jpg"
+           data-sizes="100vw"
+           class="img-fluid lazyload blur-up" alt="David Lovell (Operations Director) GrowthInvest.com">
+      </picture>
     </div>
+
+    <div>
+      <div class="test-slide">
+        <div class="slide-top d-flex">
+          <div class="slide-image">
+            <img src="https://via.placeholder.com/200x250" alt="" class="d-inline" width="200">
+          </div>
+          <div class="slide-testimonial">
+            <div class="slide-quote">
+              ,,
+            </div>
+            <h3>Software at our scale</h3>
+            <p>(90+ stores) is not just about new features ans slick UI. We needed a team that can support our day to day operations and work through our 7+ years of legacy code with patience and care. I am glad Ajency.in was recommended to us by one of their clients, it has led to the start of a long partnership.</p>
+          </div>
+        </div>
+        <div class="slide-bottom d-flex justify-content-between align-items-end">
+          <div>
+            <div class="slide-name">
+              Akhil Gupta
+            </div>
+            <div class="slide-designation">
+              Chief Technology Officer
+            </div>
+            <div class="slide-company">
+              Healthkart.com
+            </div>
+          </div>
+          <div class="slide-logo">
+            logo
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="align-items-center">
+      <picture>
+         <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-small.jpg  700w,' sizes="52vw">
 
+         <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-resize-2x.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-resize-1x.jpg 400w' sizes="70vw">
 
-           <picture>
-             <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-small.jpg  700w,' sizes="52vw">
-
-             <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-resize-2x.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-resize-1x.jpg 400w' sizes="70vw">
-
-             <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-10px.jpg"
-                 data-sizes="100vw"
-                 class="img-fluid lazyload blur-up" alt="Akhil Gupta (Chief Technology Officer)
-HealthKart.com">
-           </picture>
-
-
+         <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-2-10px.jpg"
+             data-sizes="100vw"
+             class="img-fluid lazyload blur-up" alt="Akhil Gupta (Chief Technology Officer) HealthKart.com">
+      </picture>
     </div>
     <div>
-         <picture>
-             <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-small.jpg  700w,' sizes="52vw">
+      <picture>
+         <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-small.jpg  700w,' sizes="52vw">
 
-             <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-resize-2x.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-resize-1x.jpg 400w' sizes="70vw">
+         <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-resize-2x.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-resize-1x.jpg 400w' sizes="70vw">
 
-             <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-10px.jpg"
-                 data-sizes="100vw"
-                 class="img-fluid lazyload blur-up" alt="Gurpreet Singh (Co-founder) Browntape.com">
-           </picture>
+         <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-3-10px.jpg"
+             data-sizes="100vw"
+             class="img-fluid lazyload blur-up" alt="Gurpreet Singh (Co-founder) Browntape.com">
+      </picture>
     </div>
-     <div>
-     <picture>
-             <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-small.jpg  700w,' sizes="52vw">
+    <div>
+      <picture>
+         <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-large.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-medium.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-small.jpg  700w,' sizes="52vw">
 
-             <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-resize-2x.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-resize-1x.jpg 400w' sizes="70vw">
+         <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-resize-2x.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-resize-1x.jpg 400w' sizes="70vw">
 
-             <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-10px.jpg"
-                 data-sizes="100vw"
-                 class="img-fluid lazyload blur-up" alt="Andrew Nicolson (Head of Product)
-Bekumo, London ">
-           </picture>
+         <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/testimonial-4-10px.jpg"
+             data-sizes="100vw"
+             class="img-fluid lazyload blur-up" alt="Andrew Nicolson (Head of Product) Bekumo, London ">
+      </picture>
     </div>
   </div>
 </section>
