@@ -35,6 +35,63 @@
   <div></div>
 </section>
 
+<!-- Growthinvest -->
+<!-- div class="prj-container">
+  <div class="col-12">
+    <div class="portfolio-section project-growthinvest">
+      <div class="header-top">      
+        <picture>
+          <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-desktop.png">
+          <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-mobile.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-desktop.png" class="img-responsive" alt="header">
+        </picture>
+      </div>
+      <div class="container-fluid p-0">
+        <div class="project-insight">
+          <div class="content-top">
+            <picture>
+              <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-desktop.png">
+              <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-mobile.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-desktop.png" class="img-responsive" alt="header">
+            </picture>
+          </div>
+          <div class="line--dotted grey mt-3 mb-3 full-w"></div>
+          <div class="content-bottom">
+            <picture>
+              <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-desktop.png">
+              <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-mobile.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-desktop.png" class="img-responsive" alt="header">
+            </picture>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="row">
+            <div class="col-6 col-lg-4 info-col mb-3">
+              <div class="info-box team-member">
+                <h3 class="info-value">5</h3>
+                <label class="info-label">Team Members</label>
+              </div>
+            </div>                      
+            <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
+              <div class="info-box lang-used">
+                <h3 class="info-value">5 Years</h3>
+                <label class="info-label">Project duration and ongoing</label>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 info-col order-lg-1 mb-3">
+              <div class="info-box prj-progress">
+                <h3 class="info-value">Laravel + Wordpress</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    </div>
+  </div>
+</div -->
+<!-- End of Growthinvest -->
+
 <div class="container p5">
   <div class="row">
     <div class="col-12">
@@ -56,107 +113,109 @@
                   <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-hk.png"
                    data-sizes="100vw"
                    class="d-block m-auto lazyload blur-up"> -->
-                   <img src="https://via.placeholder.com/500x350" alt="">
+                   <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart/healthkart_logo.png" alt="">
                 </div>
                 <div class="expanded">
                   <!-- Healthkart -->
-                    <div class="col-12">
-                      <div class="portfolio-section project-healthkart">
-                        <div class="header-top">      
-                          <picture>
-                            <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart-h-desktop.png">
-                            <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart-h-mobile.png">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart-h-desktop.png" class="img-fluid" alt="header">
-                          </picture>
-                        </div>
-
-                        <div class="container-fluid xs-p-0">
-                          <div class="project-info">
-                            <div class="row">
-
-                              <div class="col-6 col-lg-4 info-col mb-3">
-                                <div class="info-box team-member">
-                                  <h3 class="info-value">8</h3>
-                                  <label class="info-label">Team Members</label>
-                                </div>
-                              </div>          
-                              <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
-                                <div class="info-box prj-progress">
-                                  <h3 class="info-value">Oct 2017</h3>
-                                  <label class="info-label">and ongoing</label>
-                                </div>
-                              </div>
-                              <div class="col-12 col-lg-4 info-col order-lg-1 mb-3">
-                                <div class="info-box lang-used">
-                                  <h3 class="info-value">Java</h3>
-                                  <label class="info-label">Spring MVC, Spring Boot, Hibernate</label>
-                                </div>
-                              </div>
-
-                            </div>
+                    <div class="prj-container">
+                      <div class="col-12">
+                        <div class="portfolio-section project-healthkart">
+                          <div class="header-top">      
+                            <picture>
+                              <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart/healthkart-h-desktop.png">
+                              <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart/healthkart-h-mobile.png">
+                              <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart/healthkart-h-desktop.png" class="img-responsive" alt="header">
+                            </picture>
                           </div>
 
-                          <div class="project-insight">
-                            <div class="row rw-m">
-                              <div class="col-12 col-lg-3 order-lg-4 pl-2 pr-2 ins-col-lg">
-                                <div class="insight-info mt-3 xs-mt-0">
-                                  <h4 class="insight-title mb-2">HealthKart (Delhi)</h4>
-                                  <ul>
-                                    <li>Tech leadership</li>
-                                    <li>Project Management</li>
-                                    <li>System Design</li>
-                                  </ul>
+                          <div class="container-fluid p-0">
+                            <div class="project-info">
+                              <div class="row">
+
+                                <div class="col-6 col-lg-4 info-col mb-3">
+                                  <div class="info-box team-member">
+                                    <h3 class="info-value">8</h3>
+                                    <label class="info-label">Team Members</label>
+                                  </div>
+                                </div>          
+                                <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
+                                  <div class="info-box prj-progress">
+                                    <h3 class="info-value">Oct 2017</h3>
+                                    <label class="info-label">and ongoing</label>
+                                  </div>
                                 </div>
-                              </div>
-                              
-                              <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
-                                <div class="circle-badge bcolor--green">
-                                  <span>Online Marketplace</span>
+                                <div class="col-12 col-lg-4 info-col order-lg-1 mb-3">
+                                  <div class="info-box lang-used">
+                                    <h3 class="info-value">Java</h3>
+                                    <label class="info-label">Spring MVC, Spring Boot, Hibernate</label>
+                                  </div>
                                 </div>
-                              </div>          
-                              <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
-                                <div class="circle-badge bcolor--green">
-                                  <span>Catalogue Management</span>
-                                </div>
-                              </div>
-                              <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
-                                <div class="circle-badge bcolor--green">
-                                  <span>Order Fulfilment</span>
-                                </div>
+
                               </div>
                             </div>
 
-                            <div class="line--dotted mt-3 mb-3"></div>
+                            <div class="project-insight">
+                              <div class="row rw-m">
+                                <div class="col-12 col-lg-3 order-lg-4 pl-2 pr-2 ins-col-lg">
+                                  <div class="insight-info mt-3 xs-mt-0">
+                                    <h4 class="insight-title mb-2">HealthKart (Delhi)</h4>
+                                    <ul>
+                                      <li>Tech leadership</li>
+                                      <li>Project Management</li>
+                                      <li>System Design</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                
+                                <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                  <div class="circle-badge bcolor--green">
+                                    <span>Online Marketplace</span>
+                                  </div>
+                                </div>          
+                                <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                  <div class="circle-badge bcolor--green">
+                                    <span>Catalogue Management</span>
+                                  </div>
+                                </div>
+                                <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                  <div class="circle-badge bcolor--green">
+                                    <span>Order Fulfilment</span>
+                                  </div>
+                                </div>
+                              </div>
 
-                            <div class="row rw-m">
-                              <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
-                                <div class="circle-badge bcolor--yellow">
-                                  <span>Retail Point of Sale</span>
-                                </div>
-                              </div>          
-                              <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
-                                <div class="circle-badge bcolor--yellow">
-                                  <span>Warehouse Management</span>
-                                </div>
-                              </div>
-                              <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
-                                <div class="circle-badge bcolor--yellow">
-                                  <span>Inventory Planing</span>
-                                </div>
-                              </div>
-                              <div class="col-12 col-lg-3 pl-2 pr-2 ins-col-lg">
-                                <div class="insight-info mt-3">
-                                  <h4 class="insight-title mb-2">Ajency.in (Goa)</h4>
-                                  <ul>
-                                    <li>Remote Team</li>
-                                    <li>Module Ownership</li>
-                                    <li>Day to Day Support</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
+                              <div class="line--dotted mt-3 mb-3"></div>
 
-                          </div>                          
+                              <div class="row rw-m">
+                                <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                  <div class="circle-badge bcolor--yellow">
+                                    <span>Retail Point of Sale</span>
+                                  </div>
+                                </div>          
+                                <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                  <div class="circle-badge bcolor--yellow">
+                                    <span>Warehouse Management</span>
+                                  </div>
+                                </div>
+                                <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                  <div class="circle-badge bcolor--yellow">
+                                    <span>Inventory Planing</span>
+                                  </div>
+                                </div>
+                                <div class="col-12 col-lg-3 pl-2 pr-2 ins-col-lg">
+                                  <div class="insight-info mt-3">
+                                    <h4 class="insight-title mb-2">Ajency.in (Goa)</h4>
+                                    <ul>
+                                      <li>Remote Team</li>
+                                      <li>Module Ownership</li>
+                                      <li>Day to Day Support</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>                          
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -173,24 +232,74 @@
                    <img src="https://via.placeholder.com/500x350" alt="">
                 </div>
                 <div class="expanded">
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-768px.jpg"
-                   data-sizes="100vw"
-                   class="d-block m-auto lazyload blur-up">
+                  
                 </div>
               </div>
             </div>
             <div class="col-6 card-trigger">
-              <div class="card-wrapper" data-target="card3">
+              <div class="card-wrapper bg-blue" data-target="card3">
                 <div class="logocard pf-growthinvest">
                     <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-gi.png"
                    data-sizes="100vw"
                    class="d-block m-auto lazyload blur-up"> -->
-                   <img src="https://via.placeholder.com/500x350" alt="">
+                   <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-logo.png" alt="">
                 </div>
                 <div class="expanded">
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-768px.jpg"
-                   data-sizes="100vw"
-                   class="d-block m-auto lazyload blur-up">
+                  <!-- Growthinvest -->
+                  <div class="prj-container">
+                    <div class="col-12">
+                      <div class="portfolio-section project-growthinvest">
+                        <div class="header-top">      
+                          <picture>
+                            <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-desktop.png">
+                            <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-mobile.png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-desktop.png" class="img-responsive" alt="header">
+                          </picture>
+                        </div>
+                        <div class="container-fluid p-0">
+                          <div class="project-insight">
+                            <div class="content-top">
+                              <picture>
+                                <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-desktop.png">
+                                <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-mobile.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-desktop.png" class="img-responsive" alt="header">
+                              </picture>
+                            </div>
+                            <div class="line--dotted grey mt-3 mb-3 full-w"></div>
+                            <div class="content-bottom">
+                              <picture>
+                                <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-desktop.png">
+                                <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-mobile.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-desktop.png" class="img-responsive" alt="header">
+                              </picture>
+                            </div>
+                          </div>
+                          <div class="project-info">
+                            <div class="row">
+                              <div class="col-6 col-lg-4 info-col mb-3">
+                                <div class="info-box team-member">
+                                  <h3 class="info-value">5</h3>
+                                  <label class="info-label">Team Members</label>
+                                </div>
+                              </div>                      
+                              <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
+                                <div class="info-box lang-used">
+                                  <h3 class="info-value">5 Years</h3>
+                                  <label class="info-label">Project duration and ongoing</label>
+                                </div>
+                              </div>
+                              <div class="col-12 col-lg-4 info-col order-lg-1 mb-3">
+                                <div class="info-box prj-progress">
+                                  <h3 class="info-value">Laravel + Wordpress</h3>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Growthinvest -->
                 </div>
               </div>
             </div>
@@ -210,17 +319,68 @@
               </div>
             </div>
             <div class="col-6 card-trigger">
-              <div class="card-wrapper" data-target="card5">
+              <div class="card-wrapper bg-lightwhite" data-target="card5">
                 <div class="logocard pf-mylan">
                     <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-mylan.png"
                        data-sizes="100vw"
                        class="d-block m-auto lazyload blur-up"> -->
-                       <img src="https://via.placeholder.com/500x350" alt="">
+                       <img width="280" height="70" src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/mylan-logo.svg" alt="">
                 </div>
                 <div class="expanded">
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-768px.jpg"
-                   data-sizes="100vw"
-                   class="d-block m-auto lazyload blur-up">
+                  <!-- Mylan -->
+                  <div class="prj-container">
+                    <div class="portfolio-section project-mylan">
+                      <div class="header-top">      
+                        <picture>
+                          <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/mylan-desktop.png">
+                          <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/mylan-mobile.png">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/mylan-desktop.png" class="img-responsive" alt="header">
+                        </picture>
+                      </div>
+
+                      <div class="container-fluid p-0">
+                        <div class="project-info">
+                          <div class="row">
+                            <div class="col-6 col-lg-3 info-col mb-3">
+                              <div class="info-box team-member">
+                                <h3 class="info-value">Multi-Tenant Architecture</h2>
+                              </div>
+                            </div>          
+                            <div class="col-6 col-lg-3 info-col order-lg-2 mb-3">
+                              <div class="info-box team-member">
+                                <h3 class="info-value">NHS monitored pilot</h3>
+                              </div>
+                            </div>   
+                            <div class="col-6 col-lg-3 info-col order-lg-1 mb-3">
+                              <div class="info-box lang-used">
+                                <h3 class="info-value">Compliant with patient privacy laws</h3>
+                              </div>
+                            </div>       
+                            <div class="col-6 col-lg-3 info-col mb-3 order-lg-3">
+                              <div class="info-box prj-progress">
+                                <h3 class="info-value date">2015-2017</h3>
+                                <label class="info-label">Project duration</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="omniplatform">
+                        <div class="section-header">
+                          <h2 class="section-title">Omniplatform</h2>
+                          <p>A tele-medicine solution that helps hospitals reduce cost of patient visits</p>
+                        </div>
+                        <picture>
+                          <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/omniplatform-desktop.png">
+                          <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/omniplatform-mobile.png">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/omniplatform-desktop.png" class="img-responsive" alt="header">
+                        </picture>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- End of Mylan -->
                 </div>
               </div>
             </div>
@@ -568,9 +728,110 @@ Bekumo, London ">
                   </h5>
                 </div>
                 <div>
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/healthkart-homepage-mo-10px.jpg"
-                      data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-1600px.jpg 1600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-800px.jpg 800w, <?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-400px.jpg 400w"
-                      data-sizes="100w" class="img-fluid lazyload blur-up">
+                  <!-- Healthkart -->
+                  <div class="prj-container">
+                    <div class="col-12">
+                        <div class="portfolio-section project-healthkart">
+                          <div class="header-top">      
+                            <picture>
+                              <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart/healthkart-h-desktop.png">
+                              <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart/healthkart-h-mobile.png">
+                              <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart/healthkart-h-desktop.png" class="img-responsive" alt="header">
+                            </picture>
+                          </div>
+
+                          <div class="container-fluid p-0">
+                            <div class="project-info">
+                              <div class="row">
+
+                                <div class="col-6 col-lg-4 info-col mb-3">
+                                  <div class="info-box team-member">
+                                    <h3 class="info-value">8</h3>
+                                    <label class="info-label">Team Members</label>
+                                  </div>
+                                </div>          
+                                <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
+                                  <div class="info-box prj-progress">
+                                    <h3 class="info-value">Oct 2017</h3>
+                                    <label class="info-label">and ongoing</label>
+                                  </div>
+                                </div>
+                                <div class="col-12 col-lg-4 info-col order-lg-1 mb-3">
+                                  <div class="info-box lang-used">
+                                    <h3 class="info-value">Java</h3>
+                                    <label class="info-label">Spring MVC, Spring Boot, Hibernate</label>
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+
+                            <div class="project-insight">
+                              <div class="row rw-m">
+                                <div class="col-12 col-lg-3 order-lg-4 pl-2 pr-2 ins-col-lg">
+                                  <div class="insight-info mt-3 xs-mt-0">
+                                    <h4 class="insight-title mb-2">HealthKart (Delhi)</h4>
+                                    <ul>
+                                      <li>Tech leadership</li>
+                                      <li>Project Management</li>
+                                      <li>System Design</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                
+                                <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                  <div class="circle-badge bcolor--green">
+                                    <span>Online Marketplace</span>
+                                  </div>
+                                </div>          
+                                <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                  <div class="circle-badge bcolor--green">
+                                    <span>Catalogue Management</span>
+                                  </div>
+                                </div>
+                                <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                  <div class="circle-badge bcolor--green">
+                                    <span>Order Fulfilment</span>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="line--dotted mt-3 mb-3"></div>
+
+                              <div class="row rw-m">
+                                <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                  <div class="circle-badge bcolor--yellow">
+                                    <span>Retail Point of Sale</span>
+                                  </div>
+                                </div>          
+                                <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                  <div class="circle-badge bcolor--yellow">
+                                    <span>Warehouse Management</span>
+                                  </div>
+                                </div>
+                                <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                                  <div class="circle-badge bcolor--yellow">
+                                    <span>Inventory Planing</span>
+                                  </div>
+                                </div>
+                                <div class="col-12 col-lg-3 pl-2 pr-2 ins-col-lg">
+                                  <div class="insight-info mt-3">
+                                    <h4 class="insight-title mb-2">Ajency.in (Goa)</h4>
+                                    <ul>
+                                      <li>Remote Team</li>
+                                      <li>Module Ownership</li>
+                                      <li>Day to Day Support</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <!-- End of Healthkart -->
                 </div>
               </div>
 
@@ -598,9 +859,61 @@ Bekumo, London ">
                 </div>
                 <div>
 
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/growthInvest-homepage-mo-10px.jpg"
-                      data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-1600px.jpg 1600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-800px.jpg 800w, <?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-400px.jpg 400w"
-                      data-sizes="100w" class="img-fluid lazyload blur-up">
+                <!-- Growthinvest -->
+                <div class="prj-container">
+                  <div class="col-12">
+                    <div class="portfolio-section project-growthinvest">
+                      <div class="header-top">      
+                        <picture>
+                          <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-desktop.png">
+                          <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-mobile.png">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-desktop.png" class="img-responsive" alt="header">
+                        </picture>
+                      </div>
+                      <div class="container-fluid p-0">
+                        <div class="project-insight">
+                          <div class="content-top">
+                            <picture>
+                              <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-desktop.png">
+                              <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-mobile.png">
+                              <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-desktop.png" class="img-responsive" alt="header">
+                            </picture>
+                          </div>
+                          <div class="line--dotted grey mt-3 mb-3 full-w"></div>
+                          <div class="content-bottom">
+                            <picture>
+                              <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-desktop.png">
+                              <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-mobile.png">
+                              <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-desktop.png" class="img-responsive" alt="header">
+                            </picture>
+                          </div>
+                        </div>
+                        <div class="project-info">
+                          <div class="row">
+                            <div class="col-6 col-lg-4 info-col mb-3">
+                              <div class="info-box team-member">
+                                <h3 class="info-value">5</h3>
+                                <label class="info-label">Team Members</label>
+                              </div>
+                            </div>                      
+                            <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
+                              <div class="info-box lang-used">
+                                <h3 class="info-value">5 Years</h3>
+                                <label class="info-label">Project duration and ongoing</label>
+                              </div>
+                            </div>
+                            <div class="col-12 col-lg-4 info-col order-lg-1 mb-3">
+                              <div class="info-box prj-progress">
+                                <h3 class="info-value">Laravel + Wordpress</h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Growthinvest -->
                 </div>
               </div>
 
@@ -623,13 +936,64 @@ Bekumo, London ">
                 <div class="mb-3 p-4">
                   <h1 class="ft6">Mylan</h1>
                   <h5 class="font-weight-light">
-                   A tele-medicine solution that helps hospitals reduce costs of patient visits.
+                    A tele-medicine solution that helps hospitals reduce costs of patient visits.
                   </h5>
                 </div>
                 <div>
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-mo-10px.jpg"
-                       data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-1600px.jpg 1600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-800px.jpg 800w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-400px.jpg 400w"
-                       data-sizes="100w" class="img-fluid lazyload blur-up">
+                <!-- Mylan -->
+                  <div class="prj-container">
+                    <div class="portfolio-section project-mylan">
+                      <div class="header-top">      
+                        <picture>
+                          <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/mylan-desktop.png">
+                          <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/mylan-mobile.png">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/mylan-desktop.png" class="img-responsive" alt="header">
+                        </picture>
+                      </div>
+
+                      <div class="container-fluid p-0">
+                        <div class="project-info">
+                          <div class="row">
+                            <div class="col-6 col-lg-3 info-col mb-3">
+                              <div class="info-box team-member">
+                                <h3 class="info-value">Multi-Tenant Architecture</h2>
+                              </div>
+                            </div>          
+                            <div class="col-6 col-lg-3 info-col order-lg-2 mb-3">
+                              <div class="info-box team-member">
+                                <h3 class="info-value">NHS monitored pilot</h3>
+                              </div>
+                            </div>   
+                            <div class="col-6 col-lg-3 info-col order-lg-1 mb-3">
+                              <div class="info-box lang-used">
+                                <h3 class="info-value">Compliant with patient privacy laws</h3>
+                              </div>
+                            </div>       
+                            <div class="col-6 col-lg-3 info-col mb-3 order-lg-3">
+                              <div class="info-box prj-progress">
+                                <h3 class="info-value date">2015-2017</h3>
+                                <label class="info-label">Project duration</label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="omniplatform">
+                        <div class="section-header">
+                          <h2 class="section-title">Omniplatform</h2>
+                          <p>A tele-medicine solution that helps hospitals reduce cost of patient visits</p>
+                        </div>
+                        <picture>
+                          <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/omniplatform-desktop.png">
+                          <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/omniplatform-mobile.png">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/omniplatform-desktop.png" class="img-responsive" alt="header">
+                        </picture>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- End of Mylan -->
                 </div>
               </div>
             </div>
