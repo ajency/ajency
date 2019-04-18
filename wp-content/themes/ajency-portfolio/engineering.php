@@ -35,63 +35,6 @@
   <div></div>
 </section>
 
-<!-- Growthinvest -->
-<!-- div class="prj-container">
-  <div class="col-12">
-    <div class="portfolio-section project-growthinvest">
-      <div class="header-top">      
-        <picture>
-          <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-desktop.png">
-          <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-mobile.png">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-desktop.png" class="img-responsive" alt="header">
-        </picture>
-      </div>
-      <div class="container-fluid p-0">
-        <div class="project-insight">
-          <div class="content-top">
-            <picture>
-              <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-desktop.png">
-              <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-mobile.png">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-desktop.png" class="img-responsive" alt="header">
-            </picture>
-          </div>
-          <div class="line--dotted grey mt-3 mb-3 full-w"></div>
-          <div class="content-bottom">
-            <picture>
-              <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-desktop.png">
-              <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-mobile.png">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-desktop.png" class="img-responsive" alt="header">
-            </picture>
-          </div>
-        </div>
-        <div class="project-info">
-          <div class="row">
-            <div class="col-6 col-lg-4 info-col mb-3">
-              <div class="info-box team-member">
-                <h3 class="info-value">5</h3>
-                <label class="info-label">Team Members</label>
-              </div>
-            </div>                      
-            <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
-              <div class="info-box lang-used">
-                <h3 class="info-value">5 Years</h3>
-                <label class="info-label">Project duration and ongoing</label>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 info-col order-lg-1 mb-3">
-              <div class="info-box prj-progress">
-                <h3 class="info-value">Laravel + Wordpress</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-
-    </div>
-    </div>
-  </div>
-</div -->
-<!-- End of Growthinvest -->
-
 <div class="container p5">
   <div class="row">
     <div class="col-12">
@@ -224,15 +167,66 @@
               </div>
             </div>
             <div class="col-6 card-trigger">
-              <div class="card-wrapper" data-target="card2">
+              <div class="card-wrapper bg-orange" data-target="card2">
                 <div class="logocard pf-commonfloor">
                     <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-bt.png"
                    data-sizes="100vw"
                    class="d-block m-auto lazyload blur-up"> -->
-                   <img src="https://via.placeholder.com/500x350" alt="">
+                   <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-logo.png" alt="">
                 </div>
                 <div class="expanded">
-                  
+                  <!-- Commonfloor -->
+                  <div class="prj-container">
+                    <div class="col-12">
+                      <div class="portfolio-section project-commonfloor">
+
+                        <div class="header-top">      
+                          <picture>
+                            <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-h-desktop.png">
+                            <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-h-mobile.png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-h-desktop.png" class="img-responsive ml-0" alt="header">
+                          </picture>
+                        </div>
+                        <div class="container-fluid p-0">
+
+                          <div class="project-info">
+                            <div class="row">
+                              <div class="col-6 col-lg-4 info-col mb-3">
+                                <div class="info-box team-member">
+                                  <h3 class="info-value">5</h3>
+                                  <label class="info-label">Team Members</label>
+                                </div>
+                              </div>  
+                              <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
+                                <div class="info-box lang-used">
+                                  <h3 class="info-value">5 months</h3>
+                                  <label class="info-label">Project duration</label>
+                                </div>
+                              </div>
+                              <div class="col-12 col-lg-4 info-col order-lg-1 mb-3">
+                                <div class="info-box prj-progress">
+                                  <h3 class="info-value">PHP + React</h3>
+                                  <label class="info-label">Adaptive & not just reponsive</label>
+                                </div>
+                              </div>            
+                            </div>
+                          </div>
+
+                          <div class="project-insight">
+                            <div class="content-top">
+                              <picture>
+                                <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-banner-desktop.png">
+                                <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-banner-mobile.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-banner-desktop.png" class="img-responsive" alt="header">
+                              </picture>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Commonfloor -->
                 </div>
               </div>
             </div>
@@ -304,17 +298,42 @@
               </div>
             </div>
             <div class="col-6 card-trigger">
-              <div class="card-wrapper" data-target="card4">
+              <div class="card-wrapper bg-cream bg-cream-mob" data-target="card4">
                 <div class="logocard pf-weddingz">
-                    <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/temp/logo-wed.png"
-                     data-sizes="100vw"
-                     class="d-block m-auto lazyload blur-up"> -->
-                     <img src="https://via.placeholder.com/500x350" alt="">
+                     <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-logo.png" alt="">
                 </div>
                 <div class="expanded">
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-768px.jpg"
-                   data-sizes="100vw"
-                   class="d-block m-auto lazyload blur-up">
+                  <!-- Weddingz -->
+                  <div class="prj-container">
+                    <div class="col-12">
+                      <div class="portfolio-section project-weddingz">
+
+                        <div class="header-top">      
+                          <picture>
+                            <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-h-desktop.png">
+                            <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-h-mobile.png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-h-desktop.png" class="img-responsive ml-0" alt="header">
+                          </picture>
+                        </div>
+                        <div class="container-fluid p-0">
+                          <div class="prj-intro">
+                            <p>We designed, built and scaled the entire product, playing a key role in making it the <strong>#1 wedding platform</strong> in India, and its subsequent acquisition by Softbank-backed <strong>OyoRooms.</strong></p>
+                          </div>
+                          <div class="project-insight">
+                            <div class="content">
+                              <picture>
+                                <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-banner-desktop.png">
+                                <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-banner-mobile.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-desktop.png" class="img-responsive" alt="content">
+                              </picture>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Weddingz -->
                 </div>
               </div>
             </div>
@@ -844,9 +863,58 @@ Bekumo, London ">
                 </div>
                 <div>
 
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/commonfloor-homepage-mo-10px.jpg"
-                      data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-1600px.jpg 1600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-800px.jpg 800w, <?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-400px.jpg 400w"
-                      data-sizes="100w" class="img-fluid lazyload blur-up">
+                  <!-- Commonfloor -->
+                  <div class="prj-container">
+                    <div class="col-12">
+                      <div class="portfolio-section project-commonfloor">
+
+                        <div class="header-top">      
+                          <picture>
+                            <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-h-desktop.png">
+                            <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-h-mobile.png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-h-desktop.png" class="img-responsive ml-0" alt="header">
+                          </picture>
+                        </div>
+                        <div class="container-fluid p-0">
+
+                          <div class="project-info">
+                            <div class="row">
+                              <div class="col-6 col-lg-4 info-col mb-3">
+                                <div class="info-box team-member">
+                                  <h3 class="info-value">5</h3>
+                                  <label class="info-label">Team Members</label>
+                                </div>
+                              </div>  
+                              <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
+                                <div class="info-box lang-used">
+                                  <h3 class="info-value">5 months</h3>
+                                  <label class="info-label">Project duration</label>
+                                </div>
+                              </div>
+                              <div class="col-12 col-lg-4 info-col order-lg-1 mb-3">
+                                <div class="info-box prj-progress">
+                                  <h3 class="info-value">PHP + React</h3>
+                                  <label class="info-label">Adaptive & not just reponsive</label>
+                                </div>
+                              </div>            
+                            </div>
+                          </div>
+
+                          <div class="project-insight">
+                            <div class="content-top">
+                              <picture>
+                                <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-banner-desktop.png">
+                                <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-banner-mobile.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-banner-desktop.png" class="img-responsive" alt="header">
+                              </picture>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Commonfloor -->
                 </div>
               </div>
 
@@ -926,9 +994,37 @@ Bekumo, London ">
                 </div>
                 <div>
 
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/weddingz-homepage-mo-10px.jpg"
-                      data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-1600px.jpg 1600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-800px.jpg 800w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-400px.jpg 400w"
-                      data-sizes="100w" class="img-fluid lazyload blur-up">
+                   <!-- Weddingz -->
+                   <div class="prj-container">
+                    <div class="col-12">
+                      <div class="portfolio-section project-weddingz">
+
+                        <div class="header-top">      
+                          <picture>
+                            <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-h-desktop.png">
+                            <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-h-mobile.png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-h-desktop.png" class="img-responsive ml-0" alt="header">
+                          </picture>
+                        </div>
+                        <div class="container-fluid p-0">
+                          <div class="prj-intro">
+                            <p>We designed, built and scaled the entire product, playing a key role in making it the <strong>#1 wedding platform</strong> in India, and its subsequent acquisition by Softbank-backed <strong>OyoRooms.</strong></p>
+                          </div>
+                          <div class="project-insight">
+                            <div class="content">
+                              <picture>
+                                <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-banner-desktop.png">
+                                <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-banner-mobile.png">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-desktop.png" class="img-responsive" alt="content">
+                              </picture>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Weddingz -->
                 </div>
               </div>
 
