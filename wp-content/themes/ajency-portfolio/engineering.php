@@ -459,7 +459,7 @@
             </div>
           </div>
           <div class="slide-logo">
-            logo
+            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/browntape/Browntape-logo.png" class="site-logo">
           </div>
         </div>
       </div>

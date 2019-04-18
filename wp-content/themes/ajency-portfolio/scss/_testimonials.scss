@@ -1,11 +1,12 @@
 .test-slide{
-    width: 64vw;
+    width: 100vw;
     .slide-image{
         position: relative;
         display: flex;
         align-items: flex-end;
         padding-right: 50px;
         margin-bottom: 30px;
+        padding-top: 130px;
         img{
             width: auto;
             z-index: 1;
@@ -21,9 +22,19 @@
             height: 100%;
             z-index: 0;
         }
+        @media (max-width: 1360px){
+            padding-top: 100px;
+        }
+        @media (max-width: 1199px){
+            img {
+                max-width: 160px;
+            }
+        }
     }
     .slide-testimonial{
         z-index: 1;
+        //max-width: 620px;
+
         .slide-quote{
             font-family: serif;
             font-weight: 600;
@@ -36,26 +47,96 @@
             font-family: "Libre Baskerville", Baskerville, georgia, serif;
             font-style: italic;
             font-size: 45px;
+            margin-top: -75px;
         }
         p{
             font-size: 20px;
+        }
+
+        @media (max-width: 1360px){
+            .slide-quote{
+                font-size: 90px;
+            }
+            h3 {
+                font-size: 36px;
+                margin-top: -60px;
+            }
+            p {
+                font-size: 17px;
+            } 
+        }
+        @media (max-width: 1199px){
+            .slide-quote{
+                font-size: 80px;
+            }
+            h3 {
+                font-size: 30px;
+                margin-top: -60px;
+            }
+            p {
+                font-size: 16px;
+            }
         }
     }
     .slide{
         &-name{
             font-weight: 600;
-            font-size: 24px;
+            font-size: 28px;
+            font-family: 'Times New Roman', Times, serif;
         }
         &-designation{
             font-family: "Libre Baskerville", Baskerville, georgia, serif;
             font-style: italic;
             font-weight: 500;
-            font-size: 21px;
-            color: gray;
+            font-size: 24px;
+            color: #676767;
         }
         &-company{
             font-weight: 500;
-            font-size: 20px;
+            font-size: 22px; 
+            margin-top: 5px;
         }
+        &-logo {
+            .site-logo {
+                margin: 0 0 0 auto;
+                width: auto;                
+                max-width: 160px;                
+                display: block;                
+            }
+        }
+        @media (max-width: 1360px){
+            &-name{
+                font-size: 24px; 
+            }
+            &-designation{
+                font-size: 20px;
+            }
+            &-company{
+                font-size: 18px; 
+            }
+        }
+        @media (max-width: 1199px){
+            &-name{
+                font-size: 22px; 
+            }
+            &-designation{
+                font-size: 18px;
+            }
+            &-company{
+                font-size: 16px; 
+            }
+        }
+    }
+    @media (min-width: 768px){
+        width: 64vw;
+    }
+    @media (min-width: 992px){
+        width: 60vw;
+    }
+    @media (min-width: 992px){
+        width: 60vw;
+    }
+    @media (min-width: 1360px){
+        width: 55vw;
     }
 }
