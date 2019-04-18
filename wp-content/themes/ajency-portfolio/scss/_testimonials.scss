@@ -1,0 +1,61 @@
+.test-slide{
+    width: 64vw;
+    .slide-image{
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        padding-right: 50px;
+        margin-bottom: 30px;
+        img{
+            width: auto;
+            z-index: 1;
+            position: relative;
+        }
+        &:before{
+            content: '';
+            background-color: #ccf8ec;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 120%;
+            height: 100%;
+            z-index: 0;
+        }
+    }
+    .slide-testimonial{
+        z-index: 1;
+        .slide-quote{
+            font-family: serif;
+            font-weight: 600;
+            font-size: 120px;
+            line-height: 150px;
+            transform: rotate(180deg);
+            text-align: right;
+        }
+        h3{
+            font-family: "Libre Baskerville", Baskerville, georgia, serif;
+            font-style: italic;
+            font-size: 45px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .slide{
+        &-name{
+            font-weight: 600;
+            font-size: 24px;
+        }
+        &-designation{
+            font-family: "Libre Baskerville", Baskerville, georgia, serif;
+            font-style: italic;
+            font-weight: 500;
+            font-size: 21px;
+            color: gray;
+        }
+        &-company{
+            font-weight: 500;
+            font-size: 20px;
+        }
+    }
+}
