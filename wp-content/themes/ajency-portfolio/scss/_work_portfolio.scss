@@ -440,3 +440,14 @@
 .bg-orange {
     background: #fffbf2 !important;
 }
+
+.hidden-desktop {
+    @media(min-width: 768px){
+        display: none !important;
+    }
+}
+.hidden-mobile {
+    @media(max-width: 767px){
+        display: none !important;
+    }
+}
