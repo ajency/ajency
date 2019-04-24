@@ -795,177 +795,7 @@
   </div>
 </div>
 
-<section class="p2">
-  <div class="slider variable-width d-flex align-items-center">
-    <div >
-      <div class="slide-container">
-        <div class="slide-top d-flex">
-          <div class="slide-image bg--blue">
-            <div class="slide-testimonial hidden-desktop">
-              <div class="slide-quote">
-                ,,
-              </div>
-              <h3>Experience of the Team,</h3>
-              <p>and their ability to grow the team as our requirements grow and develop, has been invaluable in enabling us to build a market-leading solution without the expense of a large in-house team.</p>
-            </div>
-            <div class="writer-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/growthinvest/david_lovell.png" alt="" class="d-inline" width="200">
-            </div>
-          </div>
-          <div class="slide-testimonial hidden-mobile">
-            <div class="slide-quote">
-              ,,
-            </div>
-            <h3>Experience of the Team,</h3>
-            <p>and their ability to grow the team as our requirements grow and develop, has been invaluable in enabling us to build a market-leading solution without the expense of a large in-house team.</p>
-          </div>
-        </div>
-        <div class="slide-bottom d-flex justify-content-between align-items-end">
-          <div class="written-by">
-            <div class="slide-name">
-              David Lovell
-            </div>
-            <div class="slide-designation">
-              Operations Director
-            </div>
-            <div class="slide-company">
-              Growthinvest.com
-            </div>
-          </div>
-          <div class="slide-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/growthinvest/growthinvest-square-logo.png" class="site-logo max-w">
-          </div>
-        </div>
-      </div>
 
-    </div>
-
-    <div>
-      <div class="slide-container">
-        <div class="slide-top d-flex">
-          <div class="slide-image bg--green">
-            <div class="slide-testimonial hidden-desktop">
-              <div class="slide-quote">
-                ,,
-              </div>
-              <h3>Software at our scale</h3>
-              <p>(90+ stores) is not just about new features ans slick UI. We needed a team that can support our day to day operations and work through our 7+ years of legacy code with patience and care. I am glad Ajency.in was recommended to us by one of their clients, it has led to the start of a long partnership.</p>
-            </div>
-            <div class="writer-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/healthkart/akhil_gupta.png" alt="" class="d-inline" width="200">
-            </div>
-          </div>
-          <div class="slide-testimonial hidden-mobile">
-            <div class="slide-quote">
-              ,,
-            </div>
-            <h3>Software at our scale</h3>
-            <p>(90+ stores) is not just about new features ans slick UI. We needed a team that can support our day to day operations and work through our 7+ years of legacy code with patience and care. I am glad Ajency.in was recommended to us by one of their clients, it has led to the start of a long partnership.</p>
-          </div>
-        </div>
-        <div class="slide-bottom d-flex justify-content-between align-items-end">
-          <div class="written-by">
-            <div class="slide-name">
-              Akhil Gupta
-            </div>
-            <div class="slide-designation">
-              Chief Technology Officer
-            </div>
-            <div class="slide-company">
-              Healthkart.com
-            </div>
-          </div>
-          <div class="slide-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/healthkart/healthkart.png" class="site-logo">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div>
-      <div class="slide-container">
-        <div class="slide-top d-flex">
-          <div class="slide-image bg--red">
-            <div class="slide-testimonial hidden-desktop">
-              <div class="slide-quote">
-                ,,
-              </div>
-              <h3>We worked closely with</h3>
-              <p>Ajency.in over 2 years on various modules that were core to our product. Their engineering team provided us the much needed impetus and we were able to go live and get traction on these modules very quickly. Speed and quality were the need of the hour, and Ajency.in delivered exceedingly well on both fronts. </p>
-            </div>
-            <div class="writer-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/browntape/gurpreet_singh.png" alt="" class="d-inline" width="200">
-            </div>
-          </div>
-          <div class="slide-testimonial hidden-mobile">
-            <div class="slide-quote">
-              ,,
-            </div>
-            <h3>We worked closely with</h3>
-            <p>Ajency.in over 2 years on various modules that were core to our product. Their engineering team provided us the much needed impetus and we were able to go live and get traction on these modules very quickly. Speed and quality were the need of the hour, and Ajency.in delivered exceedingly well on both fronts.</p>
-          </div>
-        </div>
-        <div class="slide-bottom d-flex justify-content-between align-items-end">
-          <div class="written-by">
-            <div class="slide-name">
-              Gurpreet Singh
-            </div>
-            <div class="slide-designation">
-              Co-founder
-            </div>
-            <div class="slide-company">
-              Browntape.com
-            </div>
-          </div>
-          <div class="slide-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/browntape/browntape.png" class="site-logo">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="slide-container">
-        <div class="slide-top d-flex">
-          <div class="slide-image bg--purple">
-            <div class="slide-testimonial hidden-desktop">
-              <div class="slide-quote">
-                ,,
-              </div>
-              <h3>I have been working with</h3>
-              <p>technology teams for the last 10 years and Ajency.in is definitely one of the better ones I have come across. The design skills are excellent - as good and sometimes better as most European design agencies. I would happily recommend them </p>
-            </div>
-            <div class="writer-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/bekumo/andrew_nicolson.png" alt="" class="d-inline" width="200">
-            </div>
-          </div>
-          <div class="slide-testimonial hidden-mobile">
-            <div class="slide-quote">
-              ,,
-            </div>
-            <h3>I have been working with</h3>
-            <p>technology teams for the last 10 years and Ajency.in is definitely one of the better ones I have come across. The design skills are excellent - as good and sometimes better as most European design agencies. I would happily recommend them</p>
-          </div>
-        </div>
-        <div class="slide-bottom d-flex justify-content-between align-items-end">
-          <div class="written-by">
-            <div class="slide-name">
-              Andrew Nicolson
-            </div>
-            <div class="slide-designation">
-              Head of Product
-            </div>
-            <div class="slide-company">
-              Bekumo, London
-            </div>
-          </div>
-          <div class="slide-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/bekumo/bekumo.png" class="site-logo max-w">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <?php /*
 <div class="container p5">
@@ -1267,6 +1097,178 @@
     </div>
   </div>
 </div>
+</section>
+
+<section class="p2">
+  <div class="slider testimonial-slider variable-width d-flex align-items-center">
+    <div>
+      <div class="slide-container">
+        <div class="slide-top d-flex">
+          <div class="slide-image bg--blue">
+            <div class="slide-testimonial hidden-desktop">
+              <div class="slide-quote">
+                ,,
+              </div>
+              <h3>Experience of the Team,</h3>
+              <p>and their ability to grow the team as our requirements grow and develop, has been invaluable in enabling us to build a market-leading solution without the expense of a large in-house team.</p>
+            </div>
+            <div class="writer-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/growthinvest/david_lovell.png" alt="" class="d-inline" width="200">
+            </div>
+          </div>
+          <div class="slide-testimonial hidden-mobile">
+            <div class="slide-quote">
+              ,,
+            </div>
+            <h3>Experience of the Team,</h3>
+            <p>and their ability to grow the team as our requirements grow and develop, has been invaluable in enabling us to build a market-leading solution without the expense of a large in-house team.</p>
+          </div>
+        </div>
+        <div class="slide-bottom d-flex justify-content-between align-items-end">
+          <div class="written-by">
+            <div class="slide-name">
+              David Lovell
+            </div>
+            <div class="slide-designation">
+              Operations Director
+            </div>
+            <div class="slide-company">
+              Growthinvest.com
+            </div>
+          </div>
+          <div class="slide-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/growthinvest/growthinvest-square-logo.png" class="site-logo max-w">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div>
+      <div class="slide-container">
+        <div class="slide-top d-flex">
+          <div class="slide-image bg--green">
+            <div class="slide-testimonial hidden-desktop">
+              <div class="slide-quote">
+                ,,
+              </div>
+              <h3>Software at our scale</h3>
+              <p>(90+ stores) is not just about new features ans slick UI. We needed a team that can support our day to day operations and work through our 7+ years of legacy code with patience and care. I am glad Ajency.in was recommended to us by one of their clients, it has led to the start of a long partnership.</p>
+            </div>
+            <div class="writer-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/healthkart/akhil_gupta.png" alt="" class="d-inline" width="200">
+            </div>
+          </div>
+          <div class="slide-testimonial hidden-mobile">
+            <div class="slide-quote">
+              ,,
+            </div>
+            <h3>Software at our scale</h3>
+            <p>(90+ stores) is not just about new features ans slick UI. We needed a team that can support our day to day operations and work through our 7+ years of legacy code with patience and care. I am glad Ajency.in was recommended to us by one of their clients, it has led to the start of a long partnership.</p>
+          </div>
+        </div>
+        <div class="slide-bottom d-flex justify-content-between align-items-end">
+          <div class="written-by">
+            <div class="slide-name">
+              Akhil Gupta
+            </div>
+            <div class="slide-designation">
+              Chief Technology Officer
+            </div>
+            <div class="slide-company">
+              Healthkart.com
+            </div>
+          </div>
+          <div class="slide-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/healthkart/healthkart.png" class="site-logo">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="slide-container">
+        <div class="slide-top d-flex">
+          <div class="slide-image bg--red">
+            <div class="slide-testimonial hidden-desktop">
+              <div class="slide-quote">
+                ,,
+              </div>
+              <h3>We worked closely with</h3>
+              <p>Ajency.in over 2 years on various modules that were core to our product. Their engineering team provided us the much needed impetus and we were able to go live and get traction on these modules very quickly. Speed and quality were the need of the hour, and Ajency.in delivered exceedingly well on both fronts. </p>
+            </div>
+            <div class="writer-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/browntape/gurpreet_singh.png" alt="" class="d-inline" width="200">
+            </div>
+          </div>
+          <div class="slide-testimonial hidden-mobile">
+            <div class="slide-quote">
+              ,,
+            </div>
+            <h3>We worked closely with</h3>
+            <p>Ajency.in over 2 years on various modules that were core to our product. Their engineering team provided us the much needed impetus and we were able to go live and get traction on these modules very quickly. Speed and quality were the need of the hour, and Ajency.in delivered exceedingly well on both fronts.</p>
+          </div>
+        </div>
+        <div class="slide-bottom d-flex justify-content-between align-items-end">
+          <div class="written-by">
+            <div class="slide-name">
+              Gurpreet Singh
+            </div>
+            <div class="slide-designation">
+              Co-founder
+            </div>
+            <div class="slide-company">
+              Browntape.com
+            </div>
+          </div>
+          <div class="slide-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/browntape/browntape.png" class="site-logo">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="slide-container">
+        <div class="slide-top d-flex">
+          <div class="slide-image bg--purple">
+            <div class="slide-testimonial hidden-desktop">
+              <div class="slide-quote">
+                ,,
+              </div>
+              <h3>I have been working with</h3>
+              <p>technology teams for the last 10 years and Ajency.in is definitely one of the better ones I have come across. The design skills are excellent - as good and sometimes better as most European design agencies. I would happily recommend them </p>
+            </div>
+            <div class="writer-img">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/bekumo/andrew_nicolson.png" alt="" class="d-inline" width="200">
+            </div>
+          </div>
+          <div class="slide-testimonial hidden-mobile">
+            <div class="slide-quote">
+              ,,
+            </div>
+            <h3>I have been working with</h3>
+            <p>technology teams for the last 10 years and Ajency.in is definitely one of the better ones I have come across. The design skills are excellent - as good and sometimes better as most European design agencies. I would happily recommend them</p>
+          </div>
+        </div>
+        <div class="slide-bottom d-flex justify-content-between align-items-end">
+          <div class="written-by">
+            <div class="slide-name">
+              Andrew Nicolson
+            </div>
+            <div class="slide-designation">
+              Head of Product
+            </div>
+            <div class="slide-company">
+              Bekumo, London
+            </div>
+          </div>
+          <div class="slide-logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/testimonials/bekumo/bekumo.png" class="site-logo max-w">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
  <div class="container p5">

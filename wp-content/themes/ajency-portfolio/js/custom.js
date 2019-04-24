@@ -37,6 +37,7 @@ jQuery('.variable-width').slick({
             arrows: false,
             centerMode: true,
             slidesToShow: 2,
+            dots: true,
         }
     }, {
         breakpoint: 480,
@@ -44,6 +45,7 @@ jQuery('.variable-width').slick({
             arrows: false,
             slidesToShow: 1,
             centerPadding: '35px',
+            dots: true,
         }
     }]
 });
