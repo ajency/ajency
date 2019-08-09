@@ -46,8 +46,8 @@
 
 <section class="overflow-h aj-engineering">
   <div class="container p5">
-    <div class="row">
-      <div class="offset-lg-1 col-lg-10 our-work aj-engineering-work">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 our-work aj-engineering-work">
 
           <h1 class="font-weight-bold d-block d-md-none mobile-header mb-4 text-muted">Our Work</h1>
 
@@ -59,7 +59,7 @@
         </h5>
         </div>
 
-        <div id="div1" style="display:block;">
+        <!-- <div id="div1" style="display:block;">
         <span aria-hidden="true" class="close">&times; Close</span>
             <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
                 data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/healthkart/Healthkart-Homepage-480px.jpg"
@@ -67,6 +67,113 @@
                 data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid "
                 alt=" Sequoia backed omnichannel marketplace for health products.">
 
+        </div> -->
+        <div id="div1" style="display:block;">
+          <span aria-hidden="true" class="close">&times; Close</span>
+          <!-- Healthkart -->
+          <div class="prj-container">
+              <div class="col-12">
+                  <div class="portfolio-section project-healthkart">
+                    <div class="header-top">      
+                      <picture>
+                        <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart/healthkart-h-desktop.png">
+                        <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart/healthkart-h-mobile.png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/healthkart/healthkart-h-desktop.png" class="img-responsive" alt="header">
+                      </picture>
+                    </div>
+
+                    <div class="container-fluid p-0">
+                      <div class="project-info">
+                        <div class="row">
+
+                          <div class="col-6 col-lg-4 info-col mb-3">
+                            <div class="info-box team-member">
+                              <h3 class="info-value">8</h3>
+                              <label class="info-label">Team Members</label>
+                            </div>
+                          </div>          
+                          <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
+                            <div class="info-box prj-progress">
+                              <h3 class="info-value">Oct 2017</h3>
+                              <label class="info-label">and ongoing</label>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-4 info-col order-lg-1 mb-3">
+                            <div class="info-box lang-used">
+                              <h3 class="info-value">Java</h3>
+                              <label class="info-label">Spring MVC, Spring Boot, Hibernate</label>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+
+                      <div class="project-insight">
+                        <div class="row rw-m">
+                          <div class="col-12 col-lg-3 order-lg-4 pl-2 pr-2 ins-col-lg">
+                            <div class="insight-info mt-3 xs-mt-0">
+                              <h4 class="insight-title mb-2">HealthKart (Delhi)</h4>
+                              <ul>
+                                <li>Tech leadership</li>
+                                <li>Project Management</li>
+                                <li>System Design</li>
+                              </ul>
+                            </div>
+                          </div>
+                          
+                          <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                            <div class="circle-badge bcolor--green">
+                              <span>Online Marketplace</span>
+                            </div>
+                          </div>          
+                          <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                            <div class="circle-badge bcolor--green">
+                              <span>Catalogue Management</span>
+                            </div>
+                          </div>
+                          <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                            <div class="circle-badge bcolor--green">
+                              <span>Order Fulfilment</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="line--dotted mt-3 mb-3"></div>
+
+                        <div class="row rw-m">
+                          <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                            <div class="circle-badge bcolor--yellow">
+                              <span>Retail Point of Sale</span>
+                            </div>
+                          </div>          
+                          <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                            <div class="circle-badge bcolor--yellow">
+                              <span>Warehouse Management</span>
+                            </div>
+                          </div>
+                          <div class="col-4 col-lg-3 pl-2 pr-2 ins-col-sm">
+                            <div class="circle-badge bcolor--yellow">
+                              <span>Inventory Planing</span>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-3 pl-2 pr-2 ins-col-lg">
+                            <div class="insight-info mt-3">
+                              <h4 class="insight-title mb-2">Ajency.in (Goa)</h4>
+                              <ul>
+                                <li>Remote Team</li>
+                                <li>Module Ownership</li>
+                                <li>Day to Day Support</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>                          
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- End of Healthkart -->
         </div>
         </div>
         <div class="items mb-5">
@@ -79,10 +186,59 @@
           <div id="div2">
             <span aria-hidden="true" class="close">&times; Close</span>
 
-            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
-                data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-480px.jpg"
-                data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/commonfloor/Commonfloor-Homepage-480px.jpg 480w"
-                data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid">
+            <!-- Commonfloor -->
+            <div class="prj-container">
+              <div class="col-12">
+                <div class="portfolio-section project-commonfloor">
+
+                  <div class="header-top">      
+                    <picture>
+                      <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-h-desktop.png">
+                      <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-h-mobile.png">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-h-desktop.png" class="img-responsive ml-0" alt="header">
+                    </picture>
+                  </div>
+                  <div class="container-fluid p-0">
+
+                    <div class="project-info">
+                      <div class="row">
+                        <div class="col-6 col-lg-4 info-col mb-3">
+                          <div class="info-box team-member">
+                            <h3 class="info-value">5</h3>
+                            <label class="info-label">Team Members</label>
+                          </div>
+                        </div>  
+                        <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
+                          <div class="info-box lang-used">
+                            <h3 class="info-value">5 months</h3>
+                            <label class="info-label">Project duration</label>
+                          </div>
+                        </div>
+                        <div class="col-12 col-lg-4 info-col order-lg-1 mb-3">
+                          <div class="info-box prj-progress">
+                            <h3 class="info-value">PHP + React</h3>
+                            <label class="info-label">Adaptive & not just reponsive</label>
+                          </div>
+                        </div>            
+                      </div>
+                    </div>
+
+                    <div class="project-insight">
+                      <div class="content-top">
+                        <picture>
+                          <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-banner-desktop.png">
+                          <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-banner-mobile.png">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/commonfloor/commonfloor-banner-desktop.png" class="img-responsive" alt="header">
+                        </picture>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of Commonfloor -->
+
         </div>
         </div>
         <div class="items mb-5">
@@ -95,10 +251,62 @@
           <div id="div3">
           <span aria-hidden="true" class="close">&times; Close</span>
 
-            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
-                data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-480px.jpg"
-                data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/growthinvest/GrowthInvest-Homepage-480px.jpg 480w"
-                data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid">
+          <!-- Growthinvest -->
+          <div class="prj-container">
+            <div class="col-12">
+              <div class="portfolio-section project-growthinvest">
+                <div class="header-top">      
+                  <picture>
+                    <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-desktop.png">
+                    <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-mobile.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/growthinvest-h-desktop.png" class="img-responsive" alt="header">
+                  </picture>
+                </div>
+                <div class="container-fluid p-0">
+                  <div class="project-insight">
+                    <div class="content-top">
+                      <picture>
+                        <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-desktop.png">
+                        <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-mobile.png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/gi-desktop.png" class="img-responsive" alt="header">
+                      </picture>
+                    </div>
+                    <div class="line--dotted grey mt-3 mb-3 full-w"></div>
+                    <div class="content-bottom">
+                      <picture>
+                        <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-desktop.png">
+                        <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-mobile.png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/growthinvest/ajency-desktop.png" class="img-responsive" alt="header">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="project-info">
+                    <div class="row">
+                      <div class="col-6 col-lg-4 info-col mb-3">
+                        <div class="info-box team-member">
+                          <h3 class="info-value">5</h3>
+                          <label class="info-label">Team Members</label>
+                        </div>
+                      </div>                      
+                      <div class="col-6 col-lg-4 info-col order-lg-2 mb-3">
+                        <div class="info-box lang-used">
+                          <h3 class="info-value">5 Years</h3>
+                          <label class="info-label">Project duration and ongoing</label>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-4 info-col order-lg-1 mb-3">
+                        <div class="info-box prj-progress">
+                          <h3 class="info-value">Laravel + Wordpress</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Growthinvest -->
+
         </div>
         </div>
         <div class="items mb-5">
@@ -111,10 +319,38 @@
           <div id="div4">
             <span aria-hidden="true" class="close">&times; Close</span>
 
-            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
-                data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-480px.jpg"
-                data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/weddingz/Weddingz-Homepage-480px.jpg 480w"
-                data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid">
+              <!-- Weddingz -->
+            <div class="prj-container">
+              <div class="col-12">
+                <div class="portfolio-section project-weddingz">
+
+                  <div class="header-top">      
+                    <picture>
+                      <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-h-desktop.png">
+                      <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-h-mobile.png">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-h-desktop.png" class="img-responsive ml-0" alt="header">
+                    </picture>
+                  </div>
+                  <div class="container-fluid p-0">
+                    <div class="prj-intro">
+                      <p>We designed, built and scaled the entire product, playing a key role in making it the <strong>#1 wedding platform</strong> in India, and its subsequent acquisition by Softbank-backed <strong>OyoRooms.</strong></p>
+                    </div>
+                    <div class="project-insight">
+                      <div class="content">
+                        <picture>
+                          <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-banner-desktop.png">
+                          <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-banner-mobile.png">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/weddingz/weddingz-desktop.png" class="img-responsive" alt="content">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- End of Weddingz -->
+
         </div>
         </div>
 
@@ -127,10 +363,62 @@
           </div>
           <div id="div5">
               <span aria-hidden="true" class="close">&times; Close</span>
-            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 200 150'%2F%3E"
-                data-delaysrc="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-480px.jpg"
-                data-delaysrcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-1536px.jpg 1536w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/mylan/mylan-homepage-480px.jpg 480w"
-                data-delaysizes="(min-width: 768px) 40vw, 100vw" class="img-fluid ">
+
+              <!-- Mylan -->
+              <div class="prj-container">
+                <div class="portfolio-section project-mylan">
+                  <div class="header-top">      
+                    <picture>
+                      <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/mylan-desktop.png">
+                      <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/mylan-mobile.png">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/mylan-desktop.png" class="img-responsive" alt="header">
+                    </picture>
+                  </div>
+
+                  <div class="container-fluid p-0">
+                    <div class="project-info">
+                      <div class="row">
+                        <div class="col-6 col-lg-3 info-col mb-3">
+                          <div class="info-box team-member">
+                            <h3 class="info-value">Multi-Tenant Architecture</h2>
+                          </div>
+                        </div>          
+                        <div class="col-6 col-lg-3 info-col order-lg-2 mb-3">
+                          <div class="info-box team-member">
+                            <h3 class="info-value">NHS monitored pilot</h3>
+                          </div>
+                        </div>   
+                        <div class="col-6 col-lg-3 info-col order-lg-1 mb-3">
+                          <div class="info-box lang-used">
+                            <h3 class="info-value">Compliant with patient privacy laws</h3>
+                          </div>
+                        </div>       
+                        <div class="col-6 col-lg-3 info-col mb-3 order-lg-3">
+                          <div class="info-box prj-progress">
+                            <h3 class="info-value date">2015-2017</h3>
+                            <label class="info-label">Project duration</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="omniplatform">
+                    <div class="section-header">
+                      <h2 class="section-title">Omniplatform</h2>
+                      <p>A tele-medicine solution that helps hospitals reduce cost of patient visits</p>
+                    </div>
+                    <picture>
+                      <source media="(min-width: 992px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/omniplatform-desktop.png">
+                      <source media="(max-width: 991px)" srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/omniplatform-mobile.png">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio_assets/mylan/omniplatform-desktop.png" class="img-responsive" alt="header">
+                    </picture>
+                  </div>
+
+                </div>
+              </div>
+              <!-- End of Mylan -->
+
         </div>
         </div>
 

@@ -72,6 +72,8 @@ $('.aj-team-member').slick({
 //     }
 // });
 if ($(window).width() < 1198) {
+    console.log('eeeee');
+    console.log($(window).width());
     $('.pf-healthkart').click(function() {
         $('.scroll-left').addClass('active');
         $('.mobile-slick').slick('slickGoTo', 0);
@@ -159,8 +161,10 @@ $('#showdiv5').click(function() {
     $('#showdiv5').addClass("highlight");
 });
 $('.close').click(function() {
+    $('body').css('overflow', 'visible');
     $('div[id^=div]').hide();
     $('div[id^=showdiv]').removeClass("highlight");
+
 });
 $(window).on("load", function() {
    // jQuery.ready().then(function() {

@@ -452,12 +452,17 @@
     }
 }
 
-.header {
-    z-index: 99;
-}
 
 .aj-engineering {
     .aj-engineering-work {
+        flex: 0 0 88%;
+        max-width: inherit;
+
+        @media (max-width: 1570px){
+            flex: 0 0 93%;
+            max-width: 93%;
+        }
+
         .items {
             overflow: hidden;
             h5 {                                     
@@ -490,6 +495,10 @@
             }
         }
     }
+}
+
+.aj-our-work {
+    width: calc(100% - (27vw + 20px));
 }
 
 @-moz-keyframes marquee-effect {
