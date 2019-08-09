@@ -316,7 +316,7 @@
 .aj-our-work {
     position: absolute;
     right: 0%;
-    z-index: 99999;
+    z-index: 9;
     transition: all .5s ease;
     width: 46vw;
     top: 0%;
@@ -639,7 +639,7 @@ nav {
     display: none;
     position: absolute;
     right: 0px;
-    z-index: 999999;
+    z-index: 10;
     top: 0px;
     .close {
         position: absolute;
@@ -760,3 +760,4 @@ nav {
 body{
     overflow-x: hidden;
 }
+

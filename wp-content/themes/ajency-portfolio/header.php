@@ -154,7 +154,7 @@
 
   <body>
 
-  	<nav class="fixed-header position-fixed">
+  	<nav class="fixed-header position-fixed header">
       <div class="container mt5  p5">
         <div class="row ">
             <div class="col-6 col-xl-2 col-sm-3">
