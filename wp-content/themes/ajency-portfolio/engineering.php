@@ -52,7 +52,7 @@
           <h1 class="font-weight-bold d-block d-md-none mobile-header mb-4 text-muted">Our Work</h1>
 
         <div class="items mb-5 ">
-          <div id="showdiv1" class="text-black text-link pf-healthkart highlight">
+          <div id="showdiv1" class="text-black text-link pf-healthkart">
           <h1 class="ft6">HealthKart.com</h1>
           <h5 class="font-weight-light">
           A Sequoia-backed omnichannel marketplace for health products.
@@ -68,7 +68,7 @@
                 alt=" Sequoia backed omnichannel marketplace for health products.">
 
         </div> -->
-        <div id="div1" style="display:block;">
+        <div id="div1">
           <span aria-hidden="true" class="close">&times; Close</span>
           <!-- Healthkart -->
           <div class="prj-container">

@@ -6,6 +6,10 @@
         align-items: flex-end;
         padding-right: 50px;
         padding-top: 130px;
+        @media (min-width: 768px){
+            max-width: 240px;
+            width: 100%;
+        }
         img{
             width: auto;
             z-index: 1;
