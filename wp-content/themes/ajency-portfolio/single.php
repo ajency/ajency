@@ -30,6 +30,9 @@
 			?>
 	  	<div class="row">
 	  		<div class="col offset-xl-3 col-xl-6 col12">
+			  	<a href="<?php echo get_site_url(); ?>/blog/" class="blog-back d-md-none">
+		    		<i class="fa fa-arrow-left"></i>
+		    	</a>
 	  			<?php if($posttags){ ?>
 		  		<div class="single-post_cats_tags">
 						<?php
@@ -53,7 +56,7 @@
 	  	</div>
 	  	<div class="row">	  	
 		    <div class="col  offset-xl-3 col-xl-6 col12">
-		    	<a href="<?php echo get_site_url(); ?>/blog/" class="blog-back">
+		    	<a href="<?php echo get_site_url(); ?>/blog/" class="blog-back d-none d-md-flex">
 		    		<i class="fa fa-arrow-left"></i>
 		    	</a>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -78,18 +81,16 @@
 				<div class="row justify-content-between">
 					<div class="col-6">
 						<?php if (strlen(get_next_post()->post_title) > 0) { ?>
-							<div class="next-post">
-								<div class="next-title"><i class="fas fa-arrow-left"></i> Previous Blog</div>
-				  				<?php next_post_link('%link'); ?>
+							<div class="next-post">								
+				  				<?php next_post_link('%link', '<div class="next-title"><i class="fas fa-arrow-left"></i> Previous Blog</div> %title'); ?>
 							</div>
 						<?php } ?>
 					</div>
 
 					<div class="col-6 text-right">
 						<?php if (strlen(get_previous_post()->post_title) > 0) { ?>
-							<div class="next-post">
-								<div class="next-title">Next Blog <i class="fas fa-arrow-right"></i></div>
-				  				<?php previous_post_link('%link'); ?>
+							<div class="next-post">								
+				  				<?php previous_post_link('%link','<div class="next-title">Next Blog <i class="fas fa-arrow-right"></i></div> %title'); ?>
 							</div>
 						<?php } ?>
 					</div>
