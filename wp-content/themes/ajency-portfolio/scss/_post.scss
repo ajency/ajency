@@ -87,3 +87,14 @@
 	  color: darken($gray-400, 20%);    
 	}
 }
+
+.hide_mobile {
+	@media(max-width: 1199px){
+		display: none;
+	}
+}
+.hide_desktop {
+	@media(min-width: 1200px){
+		display: none;
+	}
+}

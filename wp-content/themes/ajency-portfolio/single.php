@@ -30,7 +30,7 @@
 			?>
 	  	<div class="row">
 	  		<div class="col offset-xl-3 col-xl-6 col12">
-			  	<a href="<?php echo get_site_url(); ?>/blog/" class="blog-back d-md-none">
+			  	<a href="<?php echo get_site_url(); ?>/blog/" class="blog-back hide_desktop">
 		    		<i class="fa fa-arrow-left"></i>
 		    	</a>
 	  			<?php if($posttags){ ?>
@@ -56,7 +56,7 @@
 	  	</div>
 	  	<div class="row">	  	
 		    <div class="col  offset-xl-3 col-xl-6 col12">
-		    	<a href="<?php echo get_site_url(); ?>/blog/" class="blog-back d-none d-md-flex">
+		    	<a href="<?php echo get_site_url(); ?>/blog/" class="blog-back hide_mobile">
 		    		<i class="fa fa-arrow-left"></i>
 		    	</a>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
