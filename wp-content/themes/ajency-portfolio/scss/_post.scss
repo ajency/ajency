@@ -88,13 +88,13 @@
 	}
 }
 
-.hide_mobile {
+.hide_mobile {	
 	@media(max-width: 1199px){
 		display: none;
 	}
 }
-.hide_desktop {
+.hide_desk {
 	@media(min-width: 1200px){
-		display: none;
+		display: none; 
 	}
 }

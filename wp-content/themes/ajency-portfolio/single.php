@@ -30,7 +30,7 @@
 			?>
 	  	<div class="row">
 	  		<div class="col offset-xl-3 col-xl-6 col12">
-			  	<a href="<?php echo get_site_url(); ?>/blog/" class="blog-back hide_desktop">
+			  	<a href="<?php echo get_site_url(); ?>/blog/" class="blog-back hide_desk">
 		    		<i class="fa fa-arrow-left"></i>
 		    	</a>
 	  			<?php if($posttags){ ?>
