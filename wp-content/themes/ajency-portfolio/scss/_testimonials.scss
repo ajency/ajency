@@ -9,6 +9,7 @@
         @media (min-width: 768px){
             max-width: 240px;
             width: 100%;
+            flex: 1 0 auto;
         }
         img{
             width: auto;
@@ -213,11 +214,20 @@
     .writer-img {
         background: #fff;
         padding-right: 20px;
+        position: relative;
+        width: 100%;
+        padding-top: 103%;
+        @media (max-width: 767px){
+            padding-top: 30%;          
+        }
         img {
             max-width: 170px;
-            height: auto;            
-            position: relative;
+            height: auto;                      
+            position: absolute;
+            left: 0;
+            right: 0;
             top: -20px;
+            bottom: 20px;          
         }
     }
     .slide-bottom  {
