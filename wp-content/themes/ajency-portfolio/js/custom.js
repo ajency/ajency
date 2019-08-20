@@ -131,38 +131,38 @@ if ($(window).width() < 1198) {
     }
 }
 $('#showdiv1').click(function() {
-    $('div[id^=div]').hide();
-    $('#div1').show();
+    $('div[id^=div]').css('opacity', 0);
+    $('#div1').css('opacity', 1);
     $('div[id^=showdiv]').removeClass("highlight");
     $('#showdiv1').addClass("highlight");
 });
 $('#showdiv2').click(function() {
-    $('div[id^=div]').hide();
-    $('#div2').show();
+    $('div[id^=div]').css('opacity', 0);
+    $('#div2').css('opacity', 1);
     $('div[id^=showdiv]').removeClass("highlight");
     $('#showdiv2').addClass("highlight");
 });
 $('#showdiv3').click(function() {
-    $('div[id^=div]').hide();
-    $('#div3').show();
+    $('div[id^=div]').css('opacity', 0);
+    $('#div3').css('opacity', 1);
     $('div[id^=showdiv]').removeClass("highlight");
     $('#showdiv3').addClass("highlight");
 });
 $('#showdiv4').click(function() {
-    $('div[id^=div]').hide();
-    $('#div4').show();
+    $('div[id^=div]').css('opacity', 0);
+    $('#div4').css('opacity', 1);
     $('div[id^=showdiv]').removeClass("highlight");
     $('#showdiv4').addClass("highlight");
 });
 $('#showdiv5').click(function() {
-    $('div[id^=div]').hide();
-    $('#div5').show();
+    $('div[id^=div]').css('opacity', 0);
+    $('#div5').css('opacity', 1);
     $('div[id^=showdiv]').removeClass("highlight");
     $('#showdiv5').addClass("highlight");
 });
 $('.close').click(function() {
     $('body').css('overflow', 'visible');
-    $('div[id^=div]').hide();
+    $('div[id^=div]').css('opacity', 0);
     $('div[id^=showdiv]').removeClass("highlight");
 
 });

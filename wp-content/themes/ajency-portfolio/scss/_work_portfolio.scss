@@ -473,13 +473,28 @@
                 // animation:marquee-effect 10s linear infinite;                
             }            
             > div {
-                padding-bottom: 5px;                
+                padding-bottom: 5px;
+                position: relative;
             }
             @media (min-width: 1200px){
                 > div {
-                    border-bottom: 2px solid transparent !important;
+                    //border-bottom: 2px solid transparent !important;
+                    &:after {
+                        content: "";
+                        width: 0;
+                        height: 2px;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: #f2cd05;
+                        transition: all 0.5s ease-in-out;                        
+                    }
                     &.highlight {                                
-                        border-bottom: 2px solid #f2cd05 !important;  
+                        //border-bottom: 2px solid #f2cd05 !important;  
+                        &:after {
+                            width: 100%;
+                        }
                         h5 {
                             color: #f2cd05;
                         }                  
@@ -499,7 +514,7 @@
         justify-content: center;
         max-width: 768px;
         padding-left: 50px;
-        padding-right: 50px;
+        padding-right: 45px;
                 
         h1 {
             margin: -32% 0 0;
@@ -526,4 +541,4 @@
         -webkit-transform: translateX(-100%); /* Firefox bug fix */
         transform: translateX(-100%); 
     }
-}
+} 

@@ -636,11 +636,14 @@ nav {
     }
 }
 #div1, #div2, #div3, #div4, #div5 {
-    display: none;
+    display: block;
+    opacity: 0;
     position: absolute;
     right: 0px;
     z-index: 10;
     top: 0px;
+    transition: all 0.6s ease;
+
     .close {
         position: absolute;
         right: 0px;
@@ -672,7 +675,7 @@ nav {
     top: 4%;
     font-size: 20px;
     color: #f0c70f;
-    transition: all .3s ease;
+    transition: all .12s ease;
     transform: rotate(-90deg);
     @media (min-width: 320px) and (max-width: 1199.98px) {
         display:none;
