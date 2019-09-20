@@ -143,9 +143,9 @@
             <div class="col-xl-8">
             	<div class="row no-gutters">
             		<div class="col-md-4 contact-details">
-         	 <h4 class="font-weight-light">
+         	 <!-- <h4 class="font-weight-light">
               <a href="tel:09975931402" class=" d-block h4 font-weight-light" onclick="ga('send', 'event', 'telephone', 'CallNow', 'tel:09975931402');">+91 99759 31402</a>
-              </h4>
+              </h4> -->
               <h4 class="font-weight-light">
               <a href="mailto:talktous@ajency.in" class="d-block h4 font-weight-light" onclick="ga('send', 'event', 'footerid', 'Contact', 'Footer - talktous@ajency.in');">talktous@ajency.in</a>
               <br>
