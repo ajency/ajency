@@ -100,7 +100,8 @@
                        <a  href="<?php echo get_site_url(); ?>" class="actionable text-link h1 is-active  text-black">Home</a>
                       <a href="<?php echo get_site_url(); ?>/software-development-engineering/" class="actionable text-link h1">Engineering</a>
                       <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="actionable text-link h1">User interface design</a>
-                      <a href="<?php echo get_site_url(); ?>/website-design/" class="actionable text-link h1">Website design</a>
+                      <a href="<?php echo get_site_url(); ?>/website-design/" class="actionable is-active text-link text-black h1">Website design</a>
+                      <a href="<?php echo get_site_url(); ?>/blog/" class="actionable is-active text-link text-black h1">Blog</a>
                     </div>
                 </div>
               </div>
@@ -148,7 +149,8 @@
               </h4> -->
               <h4 class="font-weight-light">
               <a href="mailto:talktous@ajency.in" class="d-block h4 font-weight-light" onclick="ga('send', 'event', 'footerid', 'Contact', 'Footer - talktous@ajency.in');">talktous@ajency.in</a>
-              <br>
+              <a class=" d-block h4 font-weight-light" href="tel:+91 9075112096">+91 90751 12096</a>
+              <br>              
               <span class="h5">Career Opportunities:</span> <a href="mailto:workwithus@ajency.in" class=" d-block h4 font-weight-light" onclick="ga('send', 'event', 'career', 'LinkClick', 'Career Opportunities');"> workwithus@ajency.in</a>
 
             </h4>
