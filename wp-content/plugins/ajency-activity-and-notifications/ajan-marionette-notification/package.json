@@ -21,7 +21,7 @@
     "backbone.marionette": "^2.2.2",
     "di-lite": "^0.3.3",
     "handlebars": "^2.0.0",
-    "jquery": "^2.1.1",
+    "jquery": "^3.5.0",
     "jquery-browserify": "^1.8.1",
     "lodash": "^2.4.1",
     "mustache": "^0.8.2",
