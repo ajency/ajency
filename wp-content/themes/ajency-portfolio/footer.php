@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div class="mt-5">
-                        (C) 2018 Digital Dwarves Pvt Ltd. All Right Reserved
+                        (C) 2020 Digital Dwarves Pvt Ltd. All Right Reserved
                     </div>
                 </div>
             </div>
