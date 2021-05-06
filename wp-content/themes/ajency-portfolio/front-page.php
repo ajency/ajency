@@ -101,6 +101,7 @@
                       <a href="<?php echo get_site_url(); ?>/software-development-engineering/" class="actionable text-link h1">Engineering</a>
                       <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="actionable text-link h1">User interface design</a>
                       <a href="<?php echo get_site_url(); ?>/website-design/" class="actionable text-link h1">Website design</a>
+                      <a href="<?php echo get_site_url(); ?>/ecommerce-website-development/" class="actionable text-link h1">Ecommerce</a>
                       <a href="<?php echo get_site_url(); ?>/blog/" class="actionable text-link  h1">Blog</a>
                     </div>
                 </div>
@@ -116,7 +117,7 @@
             <div class="col  offset-xl-2 col-xl-8 col12">
              <h1 class="display-4 font-weight-bold aj-home-title">
 
-              We are a <?php echo date_diff(date_create('2012-03-5'), date_create('today'))->y; ?> year old Goa (India) based <a href="<?php echo get_site_url(); ?>/software-development-engineering/" class="text-black text-link" onclick="ga('send', 'event', 'software', 'LinkClick', 'Software Development LinkClick');"><div class="clutch">Software development<div class="clutch-open"><h3 class="text-center"><i class="fas fa-user-friends"></i> Dedicated teams or One off projects <i class="fas fa-angle-right float-right"></i></h3></div></div></a> and <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="text-black text-link" onclick="ga('send', 'event', 'interface', 'LinkClick', 'Interface Design LinkClick');"><div class="clutch">Interface design<div class="clutch-open"><h3 class="text-center"><i class="far fa-object-group"></i> UX research & UI Design <i class="fas fa-angle-right float-right"></i></h3></div></div></a> company. We also offer <a href="<?php echo get_site_url(); ?>/website-design/" class="text-black text-link" onclick="ga('send', 'event', 'web', 'LinkClick', 'Web Design LinkClick');"><div class="clutch">Web design<div class="clutch-open"><h3 class="text-center"><i class="fab fa-wordpress"></i> Wordpress & More<i class="fas fa-angle-right float-right"></i></h3></div></div></a> services.
+              We are a <?php echo date_diff(date_create('2012-03-5'), date_create('today'))->y; ?> year old Goa (India) based <a href="<?php echo get_site_url(); ?>/software-development-engineering/" class="text-black text-link" onclick="ga('send', 'event', 'software', 'LinkClick', 'Software Development LinkClick');"><div class="clutch">Software development<div class="clutch-open"><h3 class="text-center"><i class="fas fa-user-friends"></i> Dedicated teams or One off projects <i class="fas fa-angle-right float-right"></i></h3></div></div></a> and <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="text-black text-link" onclick="ga('send', 'event', 'interface', 'LinkClick', 'Interface Design LinkClick');"><div class="clutch">Interface design<div class="clutch-open"><h3 class="text-center"><i class="far fa-object-group"></i> UX research & UI Design <i class="fas fa-angle-right float-right"></i></h3></div></div></a> company. We also offer <a href="<?php echo get_site_url(); ?>/ecommerce-website-development/" class="text-black text-link" onclick="ga('send', 'event', 'web', 'LinkClick', 'Ecommerce Website Development LinkClick');"><div class="clutch">Ecommerce website<div class="clutch-open"><h3 class="text-center"><i class="fas fa-shopping-cart"></i> Shopify & More<i class="fas fa-angle-right float-right"></i></h3></div></div></a> and <a href="<?php echo get_site_url(); ?>/website-design/" class="text-black text-link" onclick="ga('send', 'event', 'web', 'LinkClick', 'Web Design LinkClick');"><div class="clutch">Web design<div class="clutch-open"><h3 class="text-center"><i class="fab fa-wordpress"></i> Wordpress & More<i class="fas fa-angle-right float-right"></i></h3></div></div></a> services.
 
          </h1>
             </div>
@@ -173,7 +174,7 @@
             </div>
             	</div>
               <div class="mt-5">
-              (C) 2018 Digital Dwarves Pvt Ltd. All Right Reserved
+              (C) 2021 Digital Dwarves Pvt Ltd. All Right Reserved
             </div>
             </div>
           </div>

@@ -12,6 +12,7 @@
             <a  href="<?php echo get_site_url(); ?>/software-development-engineering/" class="actionable is-active text-link text-black h1">Engineering</a>
             <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="actionable text-link h1">User interface design</a>
             <a href="<?php echo get_site_url(); ?>/website-design/" class="actionable is-above text-link h1">Website design</a>
+            <a href="<?php echo get_site_url(); ?>/ecommerce-website-development/" class="actionable text-link h1">Ecommerce</a>
             <a href="<?php echo get_site_url(); ?>/blog/" class="actionable text-link h1">Blog</a>
             <!-- <a href="#" class="actionable text-link h1">Blog</a>
             <a href="#" class="actionable text-link h1">Careers</a> -->
@@ -593,27 +594,6 @@ Bekumo, London ">
             </div>
           </div>
         </div>
-
-        <div class="align-items-center">
-          <div class="row flex ">
-            <div class="col-md-6">
-
-
-                  <img src="<?php echo get_template_directory_uri(); ?>/img/team/nutan-10px.jpg"
-                  class="lazyload blur-up img-fluid"
-                  data-srcset="<?php echo get_template_directory_uri(); ?>/img/team/nutan-desktop.jpg 700w, <?php echo get_template_directory_uri(); ?>/img/team/nutan-tablet.jpg 476w, <?php echo get_template_directory_uri(); ?>/img/team/nutan-mobile.jpg 276w"
-                  data-sizes="(min-width: 768px) 42vw, 100vw" alt="Avanti Hiremath" class="img-fluid">
-            </div>
-            <div class="col-md-5 offset-md-1">
-              <div class="w-75 team-desc">
-                <h5>Engineering Manager</h5>
-                <h1 class="display-3">Nutan Kamat</h1>
-                <div class="black f-paragraph-small no-spacing"><h5 class="font-weight-light">6+ years.</h5></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div >
           <div class="row">
             <div class="col-md-6">

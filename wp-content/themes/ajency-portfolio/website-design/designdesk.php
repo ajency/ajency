@@ -14,7 +14,6 @@
           </div>
           <span class="h1 font-weight-light pt-6 pr-2 pr-md-2">/</span>
           <div class="bread-crumb__menu levelTwo">
-            <a href="<?php echo get_site_url(); ?>/website-design/wine-site-website-design/" class="actionable text-link h1 normal-font">Indigo Wine Co</a>
             <a href="<?php echo get_site_url(); ?>/website-design/hotel-management-site-website-design/" class="actionable text-link h1 normal-font">AxisRooms</a>
             <h1><a href="<?php echo get_site_url(); ?>/website-design/exhibition-company-site-website-design/" class="is-active text-black actionable text-link h1 normal-font">DesignDesk</a></h1>
             <a href="<?php echo get_site_url(); ?>/website-design/real-estate-site-website-design/" class="actionable text-link h1 normal-font">Marvel Realtors</a>
@@ -142,24 +141,6 @@
   <h1 class="font-weight-bold d-block d-md-none mobile-header mb-4 text-muted">Our Work</h1>
   <div class="items mb-5">
     <div class="site-name">
-    <a href="<?php echo get_site_url(); ?>/website-design/wine-site-website-design/" class="text-black text-link">
-      <h1 class="ft6"> Indigo Wine Co</h1>
-      <h5 class="font-weight-light">
-      A wine subscription service for Singapore and Australia.
-     </h5>
-    </a>
-
-   <div class="ajency-portfolio portfolio-1">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/indigowine-homepage-10px.jpg"
-          data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/IndigoWineCo-Homepage-480px.jpg 480w, <?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/IndigoWineCo-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/IndigoWineCo-Homepage-1536px.jpg 1440w"
-          data-sizes="(min-width: 768px) 768px,  100vw"
-          class="lazyload blur-up"
-          alt="Indigo Wine A Wine subscription service for Singapore and Australia." />
-   </div>
-  </div>
-</div>
-  <div class="items mb-5">
-    <div class="site-name">
     <a href="<?php echo get_site_url(); ?>/website-design/hotel-management-site-website-design/" class="text-black text-link">
     <h1 class="ft6"> Axisrooms</h1>
     <h5 class="font-weight-light">
@@ -205,7 +186,7 @@
           data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/MarvelRealtors-Homepage-480px.jpg 480w, <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/MarvelRealtors-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/MarvelRealtors-Homepage-1536px.jpg 1440w"
           data-sizes="(min-width: 768px) 768px,  100vw"
           class="lazyload blur-up"
-          alt="Indigo Wine Real estate company with dozens of ongoing projects." />
+          alt="Real estate company with dozens of ongoing projects." />
    </div>
   </div>
   </div>
