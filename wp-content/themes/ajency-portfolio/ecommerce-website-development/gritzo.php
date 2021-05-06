@@ -46,7 +46,7 @@
 
 
       <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/marvelrealtors-homepage-10px.jpg"
-           alt="Gritzo creates the best nutrition products for kids."
+           alt="Gritzo homepage"
           data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/home-page.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/home-page.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/home-page.jpg 700w"
           data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
 
@@ -74,7 +74,7 @@
 
       <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/marvelrealtors-clarostory-10px.jpg"
           data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/collection-page.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/collection-page.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/collection-page.jpg  700w"
-          data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up" alt="Gritzo creates the best nutrition products for kids.">
+          data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up" alt="Collection page">
       </div>
   </div>
 </div>
@@ -101,14 +101,14 @@
 
 
        <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/marvelrealtors-dragdrop-feature-10px.jpg"
-          alt="Gritzo creates the best nutrition products for kids."
+          alt="Product features"
           data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/product-features.jpg  600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/gritzo/product-features.jpg 600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/product-features.jpg  600w"
           data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
 
     </div>
      <div class="col-xl-4">
       <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/marvelrealtors-dragdrop-feature-10px.jpg"
-          alt="Gritzo creates the best nutrition products for kids."
+          alt="HTML editor gif"
           data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/html-editor.gif  600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/gritzo/html-editor.gif 600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/html-editor.gif  600w"
           data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
     </div>
@@ -122,7 +122,7 @@
 
 
        <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/marvelrealtors-dragdrop-colage-10px.jpg"
-          alt="Gritzo creates the best nutrition products for kids."
+          alt="Gritzo collage"
           data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/gritzo-collage.jpg  1182w, <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/gritzo/gritzo-collage.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/gritzo/gritzo-collage.jpg  700w"
           data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
     </div>
@@ -136,7 +136,7 @@
 
 
        <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/marvelrealtors-dragdrop-feature-10px.jpg"
-          alt="Gritzo creates the best nutrition products for kids."
+          alt="Sticky button and form for lead capture"
           data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/ask-nutritionist.gif  600w, <?php echo get_template_directory_uri(); ?>/img/portfoliogritzo/ask-nutritionist.gif 600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/ask-nutritionist.gif  600w"
           data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
 
@@ -166,7 +166,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/marvelrealtors-project-10px.jpg"
 
                 data-sizes="100vw"
-                class="img-fluid lazyload blur-up" alt="Gritzo creates the best nutrition products for kids.">
+                class="img-fluid lazyload blur-up" alt="Blogs & cart UI">
           </picture>
     </div>
   </div>

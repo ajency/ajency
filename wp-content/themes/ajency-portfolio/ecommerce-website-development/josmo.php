@@ -44,7 +44,7 @@
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
       <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/Home-page-10.jpg"
-          alt="Josmo offers a rare combination of a design studio and an expansive furniture foundry."
+          alt="Josmo homepage"
           data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_homepage.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_homepage.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_homepage.jpg  700w"
           data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
     </div>
@@ -58,7 +58,7 @@
 
 
        <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/marvelrealtors-dragdrop-feature-10px.jpg"
-          alt="Josmo offers a rare combination of a design studio and an expansive furniture foundry."
+          alt="Catalog form"
           data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/catalog-form.gif  600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/catalog-form.gif 600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/catalog-form.gif  600w"
           data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
 
@@ -77,7 +77,7 @@
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
       <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/indigowine-winesubscription-10px.jpg"
-          alt="Josmo offers a rare combination of a design studio and an expansive furniture foundry."
+          alt="Josmo banner"
           data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_banner.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_banner.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_banner.jpg  700w"
           data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up" />
     </div>
@@ -89,7 +89,7 @@
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
       <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/indigowine-singleproduct-10px.jpg"
-          alt="Josmo offers a rare combination of a design studio and an expansive furniture foundry."
+          alt="Collection page"
           data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_collection_&_single_product.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_collection_&_single_product.jpg  700w,  <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_collection_&_single_product.jpg 700w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_collection_&_single_product.jpg  400w"
           data-sizes="(min-width: 768px) 60vw, 100vw" class="img-fluid lazyload blur-up">
     </div>
@@ -110,7 +110,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/indigowine-cartpage-10px.jpg"
           data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/cart-ui-&-spaces.jpg 700w"
           data-sizes="100vw"
-          class="img-fluid lazyload blur-up" alt="Josmo offers a rare combination of a design studio and an expansive furniture foundry.">
+          class="img-fluid lazyload blur-up" alt="Cart UI">
     </picture>
 
   </div>
@@ -128,7 +128,7 @@
      <div class="col col-xl-5 col-12 my-auto">
       
       <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/marvelrealtors-dragdrop-feature-10px.jpg"
-          alt="Josmo offers a rare combination of a design studio and an expansive furniture foundry."
+          alt="Stock inquiry form"
           data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/stock-inquiry-form.gif  600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/stock-inquiry-form.gif 600w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/stock-inquiry-form.gif  600w"
           data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
     </div>
@@ -140,7 +140,7 @@
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
       <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/indigowine-colage-10px.jpg"
-          alt="Josmo offers a rare combination of a design studio and an expansive furniture foundry."
+          alt="Josmo gallery"
           data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_gallery.jpg  1120w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_gallery.jpg 720w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_gallery.jpg  400w"
           data-sizes="(min-width: 768px) 60vw,  100vw" class="img-fluid lazyload blur-up">
     </div>
