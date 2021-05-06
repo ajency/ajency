@@ -159,11 +159,11 @@
 
 
           <picture>
-            <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-&-cart.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-&-cart.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-&-cart.jpg  700w,' sizes="100vw">
+            <source media="(orientation: landscape)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-and-cart.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-and-cart.jpg 1200w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-and-cart.jpg  700w,' sizes="100vw">
 
-            <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-&-cart-vertical.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-&-cart-vertical.jpg 400w' sizes="100vw">
+            <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-and-cart-vertical.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-and-cart-vertical.jpg 400w' sizes="100vw">
 
-            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-&-cart.jpg"
+            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-and-cart.jpg"
 
                 data-sizes="100vw"
                 class="img-fluid lazyload blur-up" alt="Blogs & cart UI">
