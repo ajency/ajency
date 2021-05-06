@@ -163,7 +163,7 @@
 
             <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-&-cart-vertical.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-&-cart-vertical.jpg 400w' sizes="100vw">
 
-            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/marvelrealtors-project-10px.jpg"
+            <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/gritzo/blog-&-cart.jpg"
 
                 data-sizes="100vw"
                 class="img-fluid lazyload blur-up" alt="Blogs & cart UI">

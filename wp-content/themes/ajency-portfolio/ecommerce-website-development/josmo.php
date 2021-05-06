@@ -88,7 +88,7 @@
 <div class="container p5 ">
   <div class="row">
     <div class="col  offset-xl-2 col-xl-8 col12">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/indigowine-singleproduct-10px.jpg"
+      <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_collection_&_single_product.jpg"
           alt="Collection page"
           data-srcset=" <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_collection_&_single_product.jpg  1676w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_collection_&_single_product.jpg  700w,  <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_collection_&_single_product.jpg 700w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/josmo_collection_&_single_product.jpg  400w"
           data-sizes="(min-width: 768px) 60vw, 100vw" class="img-fluid lazyload blur-up">
@@ -107,7 +107,7 @@
 
       <source media="(orientation: portrait)" data-srcset='<?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/cart-ui-&-spaces-vertical.jpg  700w, <?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/cart-ui-&-spaces-vertical.jpg 400w' sizes="100vw">
 
-      <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/indigowine-cartpage-10px.jpg"
+      <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/cart-ui-&-spaces.jpg"
           data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/josmo/cart-ui-&-spaces.jpg 700w"
           data-sizes="100vw"
           class="img-fluid lazyload blur-up" alt="Cart UI">
