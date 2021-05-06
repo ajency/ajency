@@ -12,6 +12,7 @@
             <a href="<?php echo get_site_url(); ?>/software-development-engineering/" class="actionable text-link h1">Engineering</a>
             <a href="<?php echo get_site_url(); ?>/product-user-interface-design/" class="actionable text-link h1">User interface design</a>
             <a href="<?php echo get_site_url(); ?>/website-design/" class="actionable is-active text-link text-black h1">Website design</a>
+            <a href="<?php echo get_site_url(); ?>/ecommerce-website-development/" class="actionable text-link h1">Ecommerce</a>
             <a href="<?php echo get_site_url(); ?>/blog/" class="actionable text-link h1">Blog</a>
             <!-- <a href="#" class="actionable text-link h1">Blog</a>
             <a href="#" class="actionable text-link h1">Careers</a> -->
@@ -84,24 +85,6 @@
   <h1 class="font-weight-bold d-block d-md-none mobile-header mb-4 text-muted">Our Work</h1>
   <div class="items mb-5">
     <div class="site-name">
-    <a href="<?php echo get_site_url(); ?>/website-design/wine-site-website-design/" class="text-black text-link">
-      <h1 class="ft6"> Indigo Wine Co</h1>
-      <h5 class="font-weight-light">
-      A wine subscription service for Singapore and Australia.
-     </h5>
-    </a>
-
-   <div class="ajency-portfolio portfolio-1">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/indigowine-homepage-10px.jpg"
-          data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/IndigoWineCo-Homepage-480px.jpg 480w, <?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/IndigoWineCo-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/indigowine/IndigoWineCo-Homepage-1536px.jpg 1440w"
-          data-sizes="(min-width: 768px) 768px,  100vw"
-          class="lazyload blur-up"
-          alt="Indigo Wine A Wine subscription service for Singapore and Australia." />
-   </div>
-  </div>
-</div>
-  <div class="items mb-5">
-    <div class="site-name">
     <a href="<?php echo get_site_url(); ?>/website-design/hotel-management-site-website-design/" class="text-black text-link">
     <h1 class="ft6"> Axisrooms</h1>
     <h5 class="font-weight-light">
@@ -147,7 +130,7 @@
           data-srcset="<?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/MarvelRealtors-Homepage-480px.jpg 480w, <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/MarvelRealtors-Homepage-768px.jpg 768w, <?php echo get_template_directory_uri(); ?>/img/portfolio/marvel/MarvelRealtors-Homepage-1536px.jpg 1440w"
           data-sizes="(min-width: 768px) 768px,  100vw"
           class="lazyload blur-up"
-          alt="Indigo Wine Real estate company with dozens of ongoing projects." />
+          alt="Real estate company with dozens of ongoing projects." />
    </div>
   </div>
   </div>
@@ -228,14 +211,14 @@
             <div class="col-md-6">
               <img src="<?php echo get_template_directory_uri(); ?>/img/team/amit-10px.jpg"
                   class="lazyload blur-up img-fluid"
-                  data-srcset="<?php echo get_template_directory_uri(); ?>/img/team/amit-desktop.jpg 700w, <?php echo get_template_directory_uri(); ?>/img/team/amit-tablet.jpg 476w, <?php echo get_template_directory_uri(); ?>/img/team/amit-mobile.jpg 276w"
-                  data-sizes="(min-width: 768px) 42vw, 100vw" alt="Avanti Hiremath" class="img-fluid">
+                  data-srcset="<?php echo get_template_directory_uri(); ?>/img/team/ekta.jpg 700w, <?php echo get_template_directory_uri(); ?>/img/team/ekta.jpg 476w, <?php echo get_template_directory_uri(); ?>/img/team/ekta.jpg 276w"
+                  data-sizes="(min-width: 768px) 42vw, 100vw" alt="ekta-naik" class="img-fluid">
             </div>
             <div class="col-md-5 offset-md-1">
               <div class="w-75 team-desc">
-                <h5>Chief Designer</h5>
-                <h1 class="display-3">Amit Adav</h1>
-                <div class="black f-paragraph-small no-spacing"><h5 class="font-weight-light">7+ years in New Media Design.</h5></div>
+                <h5>Ecommerce & Web Design Lead</h5>
+                <h1 class="display-3">Ekta Naik</h1>
+                <div class="black f-paragraph-small no-spacing"><h5 class="font-weight-light">6+ years in Ecommerce and Website Design</h5></div>
               </div>
             </div>
           </div>

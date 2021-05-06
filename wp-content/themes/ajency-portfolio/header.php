@@ -53,6 +53,26 @@
       <title>Web design for online stores, real estate projects, hotels, company blog. Wordpress, Shopify. Goa, India.</title>
       <meta name="description" content="We design and code websites for online stores, real estate projects, hotels, company or product websites, blog and others. Sites we build are buzzword and SEO compliant, and load under 4 seconds."/>
 
+      <?php } elseif ( is_page_template('ecommerce-website-development.php') ) { ?>
+      <title>Design and develop ecommerce websites for online stores or product websites using technologies like Shopify and Woocommerce. Goa, India.</title>
+      <meta name="description" content="We design and develop ecommerce websites for online stores or product websites using technologies like Shopify and Woocommerce. Sites we build are buzzword and SEO compliant, and load under 4 seconds."/>
+
+      <?php } elseif ( is_page_template('ecommerce-website-development/josmo.php') ) { ?>
+      <title>Website development of josmostudio.com | Ajency.in Goa</title>
+      <meta name="description" content="Josmo offers a rare combination of a design studio and an expansive furniture foundry working in tandem under the same roof."/>
+
+      <?php } elseif ( is_page_template('ecommerce-website-development/bGreen.php') ) { ?>
+      <title>Website development of bgreen.in | Ajency.in Goa</title>
+      <meta name="description" content="bGREEN creates the most authentic plant based nutrition products that are natural, gluten free, dairy free, free from artificial flavors & preservatives."/>
+
+      <?php } elseif ( is_page_template('ecommerce-website-development/gritzo.php') ) { ?>
+      <title>Website development of gritzo.com | Ajency.in Goa</title>
+      <meta name="description" content="Gritzo create only the best nutrition products for kids, without compromising on quality, safety, integrity and quantity of ingredients, or taste."/>
+
+      <?php } elseif ( is_page_template('ecommerce-website-development/hkvitals.php') ) { ?>
+      <title>Website development of hkvitals.com | Ajency.in Goa</title>
+      <meta name="description" content="HK Vitals provides a wide range of trusted health supplements for healthier living. All products are made at GMP-certified facilities under stringent quality control procedures that guarantee the best in class supplements."/>
+
     <?php } elseif ( is_page_template('template-blogs.php') ) { ?>
           <title>Ajency.in Blog | People & Processes and Technology Blog</title>
           <meta name="description" content="Check out the Ajency.in blog. Read about our thoughts, opinions and updates on our workplace processes and activities as well as know more about our job vacancies."/>
