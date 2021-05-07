@@ -23,6 +23,7 @@
 		</div>
 	</div>
 </div>
+<div class="seperator"></div>
 <?php 
 	$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 	$args = array(

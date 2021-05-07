@@ -25,7 +25,7 @@
 		</div>
 	</div>
 </div>
-
+<div class="seperator"></div>
 <section class="">
 	<div class="container p5">
 		<div class="row">
